@@ -1,0 +1,8 @@
+title: ielab
+description: Landing page for ielab.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-minimal
+
+gems:
+  - jekyll-mentions
