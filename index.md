@@ -1,14 +1,26 @@
-### ielab
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here [using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), select a template crafted by a designer, and publish. After your page is generated, you can check out the new `gh-pages` branch locally. If you're using GitHub for Mac or GitHub for Windows, simply sync your repository and you'll see the new branch.
+### About ielab
+ielab is a collaborative group of researchers working on broadly in the the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval); i.e., search.
 
-### Designer Templates
-We've crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.
+### Who is ielab
+ielab was started as a group if information retrieval researchers at [Queensland Univeristy of Technology (QUT)](http://www.qut.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more.
 
-### Creating pages manually
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
+### Current projects
+ielab works on a diversity of projects. Some examples include:
+* Health Search
+* Formal IR models
 
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
+### People
+Some ielab member include:
 
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/pages) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Researchers
+* [Guido Zuccon](http:zuccon.net), PhD. Lecturer, QUT
+* [Bevan Koopman](http://koopman.id.au), PhD. Research Scientist, CSIRO
+* [Peter Bruza](http://staff.qut.edu.au/staff/bruza/), PhD. Professor, QUT
+* [Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/), PhD. Senior Lecturer, University of Strathclyde
+* [Joao Palotti](http://joaopalotti.com/), PhD. Researcher, Qatar Computing Research Institute
+
+PhD students
+* Anton van de Vegt, QUT
+* Harry Scells, QUT
+* Jimmy, QUT
+* Liam Cripwell, QUT
