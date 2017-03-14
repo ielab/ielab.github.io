@@ -16,10 +16,12 @@ Researchers
 * [Bevan Koopman](http://koopman.id.au), PhD. Research Scientist, CSIRO
 * [Peter Bruza](http://staff.qut.edu.au/staff/bruza/), PhD. Professor, QUT
 * [Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/), PhD. Senior Lecturer, University of Strathclyde
-* [Joao Palotti](http://joaopalotti.com/), PhD. Researcher, Qatar Computing Research Institute
+
 
 Students
 * Anton van de Vegt. PhD student, QUT
 * Harry Scells. PhD student, QUT
 * Jimmy. PhD student, QUT
+* Daniel Locke. PhD student, QUT
 * Liam Cripwell. Honours student, QUT
+* [Joao Palotti](http://joaopalotti.com/). PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute
