@@ -1,4 +1,4 @@
-### About ielab
+### About ielab &mdash; the information engineering lab
 ielab is a collaborative group of researchers working on broadly in the the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval); i.e., search.
 
 ### Who is ielab
