@@ -18,8 +18,8 @@ Researchers
 * [Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/), PhD. Senior Lecturer, University of Strathclyde
 * [Joao Palotti](http://joaopalotti.com/), PhD. Researcher, Qatar Computing Research Institute
 
-PhD students
-* Anton van de Vegt, QUT
-* Harry Scells, QUT
-* Jimmy, QUT
-* Liam Cripwell, QUT
+Students
+* Anton van de Vegt. PhD student, QUT
+* Harry Scells. PhD student, QUT
+* Jimmy. PhD student, QUT
+* Liam Cripwell. Honours student, QUT
