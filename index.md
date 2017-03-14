@@ -10,7 +10,6 @@ ielab works on a diversity of projects. Some examples include:
 * Formal IR models
 
 ### People
-Some ielab member include:
 
 Researchers
 * [Guido Zuccon](http:zuccon.net), PhD. Lecturer, QUT
