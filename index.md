@@ -12,16 +12,16 @@ ielab works on a diversity of projects. Some examples include:
 ### People
 
 Researchers
-* [Guido Zuccon](http://zuccon.net), PhD. Lecturer, QUT
+* [Guido Zuccon](http://zuccon.net), PhD. Senior Lecturer, QUT
 * [Bevan Koopman](http://koopman.id.au), PhD. Research Scientist, CSIRO
 * [Peter Bruza](http://staff.qut.edu.au/staff/bruza/), PhD. Professor, QUT
 * [Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/), PhD. Senior Lecturer, University of Strathclyde
 
 
 Students
-* Anton van de Vegt. PhD student, QUT
-* [Harry Scells](http://scells.me). PhD student, QUT
-* Jimmy. PhD student, QUT
+* Anton van de Vegt. PhD student, QUT & CSIRO
+* [Harry Scells](http://scells.me). PhD student, QUT & CSIRO
+* Jimmy. PhD student, QUT & UBAYA
 * Daniel Locke. PhD student, QUT
 * Liam Cripwell. Honours student, QUT
 * [Joao Palotti](http://joaopalotti.com/). PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute
