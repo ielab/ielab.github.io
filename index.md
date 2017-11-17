@@ -49,3 +49,7 @@ ielab works on a diversity of projects. Some examples include:
 * [INST eval](https://github.com/ielab/inst_eval): Python implementation of the INST evaluation measure from Moffat et al.
 * [Relevation](https://github.com/ielab/relevation): Information Retrieval Relevance Judging System
 
+
+### Student Projects for Honours and Masters
+If you are interested in joining the ielab for a student project or internship, have a look at [the projects we have available](./student-projects.md).
+
