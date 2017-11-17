@@ -11,25 +11,26 @@ ielab works on a diversity of projects. Some examples include:
 
 ### People
 
-Researcher Staff
+**Researcher Staff**
 * [Guido Zuccon](http://zuccon.net), PhD. Senior Lecturer, QUT
 * [Bevan Koopman](http://koopman.id.au), PhD. Research Scientist, CSIRO
 * [Peter Bruza](http://staff.qut.edu.au/staff/bruza/), PhD. Professor, QUT
 * [Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/), PhD. Senior Lecturer, University of Strathclyde
 
 
-Doctoral Students (PhD)
+**Doctoral Students (PhD)**
 * Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search
 * [Harrisen Scells](http://scells.me). PhD student, QUT & CSIRO: Semi-automated generation of systematic reviews with text mining
 * Jimmy. PhD student, QUT & UBAYA: Search Engines that allow the General Public to Make Well-Informed Health Decisions
 * Daniel Locke. PhD student, QUT: Exploring methods for improving the effective information retrieval of legal documents
 * [Joao Palotti](http://joaopalotti.com/). PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute
 
-Honours Students
+**Honours Students**
 * [completed 2017] Liam Cripwell. Honours student, QUT: Generating Clinical Queries from Patient Narratives
 * [completed 2016] Harrisen Scells. Honours student, QUT: Investigating Methods Of Annotating Lifelogs For Use In Search
 
-Masters Students
+**Masters Students**
+
 [completed 2017]:
 * Doyoo Baek: A predictive analysis of heavy machinery deterioration [Industrial CEED collaboration with Hastings Deering Pty Ltd]
 * Xiaoran Chu: OMG! The Amazing Result of Using Machine Learning to Build Classifiers for Clickbait Detection
