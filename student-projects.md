@@ -32,9 +32,9 @@ In this project, you will go through the relevant literature regarding SEO, incl
 
 Tasks:
 
-1) survey the literature and write a short summary of the techniques that have been proposed
-2) implement selected techniques
-3) setup a test collection to test the effectiveness of the techniques
+1. survey the literature and write a short summary of the techniques that have been proposed
+2. implement selected techniques
+3. setup a test collection to test the effectiveness of the techniques
 
 This project is unlikely to produce a publication within the scope of the project or within short time from its conclusion.
 
@@ -47,10 +47,10 @@ When searching for health information online, Google at times displays so called
 
 This project will explore:
 
-1) what triggers an health card: given a wide range of health search queries, you will record whether an health card is triggered. At this stage, you will also record the health card
-2) what information is in an health card? 
-3) are health cards tackling the right conditions? You will use the data collected above, to study whether the health card is relevant to the symptom, condition or disease. You may required help from a medical expert for this (we provide you with this), but you still will have to facilitate the medical expert in his analysis (may need to develop a small interface for the expert to evaluate the correctness). 
-4) how are health cards helping users taking decisions, and are they improving the decision? In this part you will devise a user study for evaluating the effectiveness of the health cards. You will not run the user study (if not for testing the protocol), but you will have to setup an appropriate system and protocol. (This may require the development of appropriate web interfaces). 
+1. what triggers an health card: given a wide range of health search queries, you will record whether an health card is triggered. At this stage, you will also record the health card
+2. what information is in an health card? 
+3. are health cards tackling the right conditions? You will use the data collected above, to study whether the health card is relevant to the symptom, condition or disease. You may required help from a medical expert for this (we provide you with this), but you still will have to facilitate the medical expert in his analysis (may need to develop a small interface for the expert to evaluate the correctness). 
+4. how are health cards helping users taking decisions, and are they improving the decision? In this part you will devise a user study for evaluating the effectiveness of the health cards. You will not run the user study (if not for testing the protocol), but you will have to setup an appropriate system and protocol. (This may require the development of appropriate web interfaces). 
 
 This project requires the development of data acquisition methods, in Python, along with data analysis methods, both in Python and R.
 
@@ -66,10 +66,10 @@ In this project, we take a different view and are interested to explore the use 
 
 The tasks in this project are:
 
-1) implement user simulation models. Some of these models have been already implemented by a third party (Java or Python)
-2) implement and deploy learning to rank and deep learning models. Some of these models (learning to rank) are available in tools such as Terrier, but others are not and require implementation. (Java and Python)
-3) devise experiments to train models with simulated data and evaluate them on real data, available in existing test collections
-4) evaluate the models under different conditions and write up the results in a professional manner
+1. implement user simulation models. Some of these models have been already implemented by a third party (Java or Python)
+2. implement and deploy learning to rank and deep learning models. Some of these models (learning to rank) are available in tools such as Terrier, but others are not and require implementation. (Java and Python)
+3. devise experiments to train models with simulated data and evaluate them on real data, available in existing test collections
+4. evaluate the models under different conditions and write up the results in a professional manner
 
 This project may produce a publication at the end of the project, or in the immediate period after the project is concluded; however the implementation and empirical work is quite large, thus there may be not enough time to work on a publication within the scope of the internship
 
@@ -81,9 +81,9 @@ Word Embeddings are a technique to represent words and phrases by mapping them t
 
 The tasks in this project are:
 
-1) familiarise with existing Java code that implements NTLM
-2) implement the complex operations with word embeddings and integrate them into retrieval methods. These include: negation, aggregation, analogy.
-3) Devise and execute a set of IR experiments to formally evaluate the models
-4) write up the results in a professional manner
+1. familiarise with existing Java code that implements NTLM
+2. implement the complex operations with word embeddings and integrate them into retrieval methods. These include: negation, aggregation, analogy.
+3. Devise and execute a set of IR experiments to formally evaluate the models
+4. write up the results in a professional manner
 
 This project may produce a publication at the end of the project, or in the immediate period after the project is concluded.
