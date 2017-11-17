@@ -19,7 +19,9 @@ The tasks to be performed in this project include:
 2. Use CLEF 2016, HARD 2003, HARD 2005, TREC WebTrack 2014-2015 to compare performance of BM25F implementations: Terrier, Elasticsearch BM25F and Original BM25F.
 3. Summarise the results professionally in a written form, by extending a current research article draft
 
-This project is likely to result in a co-authored journal publication at the end of the internship.
+This project is likely to result in a co-authored journal publication at the end of the project.
+
+------------------------------------------------------------
 
 
 ### Survey and implementation of SEO techniques
@@ -34,7 +36,9 @@ Tasks:
 2) implement selected techniques
 3) setup a test collection to test the effectiveness of the techniques
 
-This project is unlikely to produce a publication within the scope of the internship or within short time from its conclusion.
+This project is unlikely to produce a publication within the scope of the project or within short time from its conclusion.
+
+------------------------------------------------------------
 
 
 ### A study of Health Cards
@@ -50,7 +54,7 @@ This project will explore:
 
 This project requires the development of data acquisition methods, in Python, along with data analysis methods, both in Python and R.
 
-This project may produce a small publication at the end of the internship, or in the immediate period after the internship is concluded. 
+This project may produce a small publication at the end of the project, or in the immediate period after the project is concluded. 
 
 ------------------------------------------------------------
 
@@ -65,12 +69,21 @@ The tasks in this project are:
 1) implement user simulation models. Some of these models have been already implemented by a third party (Java or Python)
 2) implement and deploy learning to rank and deep learning models. Some of these models (learning to rank) are available in tools such as Terrier, but others are not and require implementation. (Java and Python)
 3) devise experiments to train models with simulated data and evaluate them on real data, available in existing test collections
-4) evaluate the models under different conditions and write up results in a professional manner
+4) evaluate the models under different conditions and write up the results in a professional manner
 
-This project may produce a publication at the end of the internship, or in the immediate period after the internship is concluded; however the implementation and empirical work is quite large, thus there may be not enough time to work on a publication within the scope of the internship
+This project may produce a publication at the end of the project, or in the immediate period after the project is concluded; however the implementation and empirical work is quite large, thus there may be not enough time to work on a publication within the scope of the internship
 
 ------------------------------------------------------------
 
 ### Integrating Complex Operations with Word Embeddings into Retrieval Models
 
-Word Embeddings
+Word Embeddings are a technique to represent words and phrases by mapping them to vectors of real numbers. Popular examples of these techniques are *skipgrams* and *Glove*. We have devised a technique to exploit word embeddings to improve retrieval, calledn NTLM ([ADCS 2015 paper](https://github.com/ielab/adcs2015-NTLM)). This project will expand that work by considering complex operations with word embeddings (e.g. sums and subtractions to represent negations, aggregations to encode the meaning of entities, etc).
+
+The tasks in this project are:
+
+1) familiarise with existing Java code that implements NTLM
+2) implement the complex operations with word embeddings and integrate them into retrieval methods. These include: negation, aggregation, analogy.
+3) Devise and execute a set of IR experiments to formally evaluate the models
+4) write up the results in a professional manner
+
+This project may produce a publication at the end of the project, or in the immediate period after the project is concluded.
