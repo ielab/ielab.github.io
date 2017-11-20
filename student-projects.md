@@ -87,3 +87,43 @@ The tasks in this project are:
 4. write up the results in a professional manner
 
 This project may produce a publication at the end of the project, or in the immediate period after the project is concluded.
+
+------------------------------------------------------------
+
+### Using Word Embeddings for Stemming
+
+This project will consider the use of word embedding representations to perform stemming of text in documents. Stemming refers to the practice of conflating multiple variations of a root word to its stem: for example applying stemming to `play`, `plays`, `playing` returns the stem `play`. Popular stemming algorithms include Portern and Krovetz stemming; these are rule-based stemming methods. Statistical stemmers do exist.
+
+Word Embeddings are a technique to represent words and phrases by mapping them to vectors of real numbers. Popular examples of these techniques are *Skipgrams* and *Glove*. Word embeddings methods allow to perform operations with these vector representations. One such operation is analogy. For example, the expression `man : woman = king : ?x` can be evaluated as `?x = argmax(woman - man + king)`. Our idea is to use the same concept beyond the analogy operation to learn representations of words that share similar stems. 
+The project will thoroughly study how this novel approach to stemming influences retrieval effectiveness. 
+
+
+The tasks in this project are:
+
+1. Formally define the word embedding stemming technique
+2. Implement this novel technique and integrate it within a search engine toolkit like Terrier or Lucene/Elastic
+3. Review existing stemming techniques
+4. Identify implementations of these techniques in the selected search engine toolkit; implement missing techniques
+5. Formally evaluate the stemming techniques and analysis the effect of the word embeddings stemming method
+
+
+This project may produce a publication at the end of the project, or in the immediate period after the project is concluded.
+
+------------------------------------------------------------
+
+### Literature Review on Table Search (with possible extension)
+
+Table search refers to the retrieval of tables in answer to natural languege queries. This project will produce a thorough, formal literature review and summay of table search techniques, and related methods (e.g., table mining, table extension, and table completion). 
+
+This project is highly likely to produce a publication at the end of the project, or in the immediate period after the project is concluded. Because of the nature of this project, the ideal candidate will have strong English writing skills (please demonstrate this at the moment of applying). 
+
+This project may be further extended in a subsequent project that implements identified methods and formally evaluates and compares them.
+
+------------------------------------------------------------
+
+### Systematic Evaluation of Open Source Search Engines
+
+This project will perform a thorough, systematic evaluation of open source search engines, including (but not limited to) Terrier, Lucene/Sorl, Indri, Elasticsearch.
+Prior work has been published in this area. The project will first review this prior work, identifying common trends among them, along with limitations. Then, an evaluation protocol will be defined, including the selection of test collections, evaluation measures (both for effectiveness and efficiency), etc.
+
+This project is highly likely to produce a publication at the end of the project, or in the immediate period after the project is concluded. Because of the nature of this project, the ideal candidate will have good English writing skills (please demonstrate this at the moment of applying). 
