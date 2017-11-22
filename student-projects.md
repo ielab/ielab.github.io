@@ -23,6 +23,12 @@ This project is likely to result in a co-authored journal publication at the end
 
 ------------------------------------------------------------
 
+### Clickbait detection on Twitter [assigned]
+
+Clickbait refers to social media posts that are, at the expense of being informative and objective, designed to entice its readers into clicking an accompanying link.
+This project aims to devise computational approaches for the identification of clickbaits. The outcome will be a machine learning classifier that rates how click baiting a social media post is. For each social media post, the content of the post itself as well as the main content of the linked target web page are provided.
+
+------------------------------------------------------------
 
 ### Survey and implementation of SEO techniques
 
