@@ -149,3 +149,19 @@ This project will perform a thorough, systematic evaluation of open source searc
 Prior work has been published in this area. The project will first review this prior work, identifying common trends among them, along with limitations. Then, an evaluation protocol will be defined, including the selection of test collections, evaluation measures (both for effectiveness and efficiency), etc.
 
 This project is highly likely to produce a publication at the end of the project, or in the immediate period after the project is concluded. Because of the nature of this project, the ideal candidate will have good English writing skills (please demonstrate this at the moment of applying). 
+
+------------------------------------------------------------
+
+### A software package for information retrieval evaluation
+
+Evaluation is paramount for IR research. Many evaluation measures exist, each modelling users in a different way and exploring different properties of tasks and interactions. Evaluation measures have been coded up in a number of software packages that are used by the IR community: [trec_eval](http://trec.nist.gov/trec_eval/), [ndeval](http://trec.nist.gov/data/web/10/ndeval.c), [gdeval](trec.nist.gov/data/web/10/gdeval.pl), [inst_eval](https://github.com/ielab/inst_eval), [UBIRE](https://github.com/ielab/ubire). Each of these tools implement only a limited subset of measures, requires different inputs, use different syntax, etc. Direct programmatic integration is often not possible.
+
+This project will develop a new tool for IR evaluation, aiming to:
+
+* provide a reference, complete implementation of IR measures
+* support different formats of runs, qrels
+* provide APIs endpoints so that the tool could be used programmatically
+* include statistical significance testing methods
+* include parameter tuning methods like cross validation and loocv
+
+This software should be implemented in Python.
