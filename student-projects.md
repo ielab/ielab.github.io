@@ -4,7 +4,7 @@ These project suit Masters students for IFN701/702 or IFN665 and Honours student
 
 
 
-### An exploration of BM25F [assigned]
+### An exploration of BM25F
 
 BM25F extends the BM25 weighting model to the case of fielded retrieval (e.g. in the presence of documents that have fields, like a web page).
 
@@ -17,20 +17,21 @@ The tasks to be performed in this project include:
 
 1. implementing the original BM25F model in Elasticsearch and Terrier. This requires a good understanding of Java as we will need to hack the Elasticsearch and Terrier source code.
 2. Use CLEF 2016, HARD 2003, HARD 2005, TREC WebTrack 2014-2015 to compare performance of BM25F implementations: Terrier, Elasticsearch BM25F and Original BM25F.
-3. Summarise the results professionally in a written form, by extending a current research article draft
+3. Extend current experiments we have performed to the use of anchor text data
+4. Summarise the results professionally in a written form, by extending a current research article draft
 
 This project is likely to result in a co-authored journal publication at the end of the project.
 
 ------------------------------------------------------------
 
-### Clickbait detection on Twitter [assigned]
+### Clickbait detection on Twitter [assigned @ Xioran Chu]
 
 Clickbait refers to social media posts that are, at the expense of being informative and objective, designed to entice its readers into clicking an accompanying link.
 This project aims to devise computational approaches for the identification of clickbaits. The outcome will be a machine learning classifier that rates how click baiting a social media post is. For each social media post, the content of the post itself as well as the main content of the linked target web page are provided.
 
 ------------------------------------------------------------
 
-### Survey and implementation of SEO techniques
+### Survey and implementation of SEO techniques [assigned @ Hayden Mills; one more place available]
 
 Search Engine Optimisation (SEO) aims to tweak web pages to increase their ranking on a target search engine, e.g. Google. SEO is a large market and is based on “black-magic”; SEO experts have suggested a number of techniques to guarantee to be ranked on top positions, some of these are trivial, others are no-where near what a search engine like Google would care about, others do make sense. All techniques have in common that their effectiveness has not been empirically demonstrated nor scientifically investigated. 
 
@@ -81,7 +82,7 @@ This project may produce a publication at the end of the project, or in the imme
 
 ------------------------------------------------------------
 
-### Integrating Complex Operations with Word Embeddings into Retrieval Models
+### Integrating Complex Operations with Word Embeddings into Retrieval Models [assigned @ Nathan O'Sullivan]
 
 Word Embeddings are a technique to represent words and phrases by mapping them to vectors of real numbers. Popular examples of these techniques are *skipgrams* and *Glove*. We have devised a technique to exploit word embeddings to improve retrieval, calledn NTLM ([ADCS 2015 paper](https://github.com/ielab/adcs2015-NTLM)). This project will expand that work by considering complex operations with word embeddings (e.g. sums and subtractions to represent negations, aggregations to encode the meaning of entities, etc).
 
@@ -124,6 +125,21 @@ Table search refers to the retrieval of tables in answer to natural languege que
 This project is highly likely to produce a publication at the end of the project, or in the immediate period after the project is concluded. Because of the nature of this project, the ideal candidate will have strong English writing skills (please demonstrate this at the moment of applying). 
 
 This project may be further extended in a subsequent project that implements identified methods and formally evaluates and compares them.
+
+------------------------------------------------------------
+
+### Literature Reviews on Selected topics in Information Retrieval
+
+This project is specifically designed for IFN701 students that intend to undertake an academic literature review.
+In this project you will choose from one of the IR topics/problems listed below (or propose a topic of your own) and perform a rigourous literature review which includes: define the protocol for the review, analyse research publications, compile an annotated bibliography, write up a review of the selected literature.
+
+Topics/problems include:
+
+* Consumer Health Search [(read here for detials)](https://dl.acm.org/citation.cfm?id=3082061)
+* Medical Information Retrieval [(read here for detials)](https://dl.acm.org/citation.cfm?id=3082061)
+* Automatic creation of systematic reviews using IR, NLP and text mining
+* Stemming techniques, including statistical stemming
+
 
 ------------------------------------------------------------
 
