@@ -139,6 +139,7 @@ Topics/problems include:
 * Medical Information Retrieval [(read here for detials)](https://dl.acm.org/citation.cfm?id=3082061)
 * Automatic creation of systematic reviews using IR, NLP and text mining
 * Stemming techniques, including statistical stemming
+* Methods for the computation of semantic similarity
 
 
 ------------------------------------------------------------
