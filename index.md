@@ -20,7 +20,7 @@ ielab works on a diversity of projects. Some examples include:
 
 **Doctoral Students (PhD)**
 * Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search
-* [Harrisen Scells](http://scells.me). PhD student, QUT & CSIRO: Semi-automated generation of systematic reviews with text mining
+* [Harrisen Scells](https://scells.me). PhD student, QUT & CSIRO: Semi-automated generation of systematic reviews with text mining
 * Jimmy. PhD student, QUT & UBAYA: Search Engines that allow the General Public to Make Well-Informed Health Decisions
 * Daniel Locke. PhD student, QUT: Exploring methods for improving the effective information retrieval of legal documents
 * [Joao Palotti](http://joaopalotti.com/). PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute
@@ -51,5 +51,5 @@ ielab works on a diversity of projects. Some examples include:
 
 
 ### Student Projects for Honours and Masters
-If you are interested in joining the ielab for a student project or internship, have a look at [the projects we have available](./student-projects.md).
+If you are interested in joining the ielab for a student project or internship, have a look at [the projects we have available](./student-projects).
 
