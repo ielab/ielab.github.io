@@ -1,5 +1,5 @@
 ### About ielab &mdash; the information engineering lab
-ielab is a collaborative group of researchers working on broadly in the the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval); i.e., search.
+ielab is a collaborative group of researchers working in the the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval); i.e., search.
 
 ### Who is ielab
 ielab was started as a group of information retrieval researchers at [Queensland Univeristy of Technology (QUT)](http://www.qut.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more.
