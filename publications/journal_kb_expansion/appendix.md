@@ -1,1 +1,1 @@
-this is SIGIR 2018 Search Engine Volatility Appendix
+The Appendix of Payoffs and Pitfalls in using Knowledge-Bases for Consumer Health Search
