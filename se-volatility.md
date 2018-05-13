@@ -169,5 +169,21 @@
 
 #### B. Volatility of Search Results: New URLs Retrieved
 
-* [WEB2013-2014 Top 50](./publications/sigir2018_volatility/HeatMapPlus_Web2013-2014_NewDocs_Top50.pdf)
-* [WEB2013-2014 Top 10](./publications/sigir2018_volatility/HeatMapPlus_Web2013-2014_NewDocs_Top10.pdf)
+* [Average New Documents from Start Date: WEB2013-2014](./publications/sigir2018_volatility/AverageNewDocumentsFromFirstDate_WEB2013-2014.zip)
+* [Average New Documents from Start Date: CLEF2016](./publications/sigir2018_volatility/AverageNewDocumentsFromFirstDate_CLEF2016.zip)
+* [Average New Documents from Previous Date: WEB2013-2014](./publications/sigir2018_volatility/AverageNewDocumentsFromPreviousDate_WEB2013-2014.zip)
+* [Average New Documents from Previous Date: CLEF2016](./publications/sigir2018_volatility/AverageNewDocumentsFromPreviousDate_CLEF2016.zip)
+* [Average New Documents All Date Pairs: WEB2013-2014](./publications/sigir2018_volatility/mapAverageNewDocs_WEB2013-2014.zip)
+* [Average New Documents All Date Pairs: CLEF2016](./publications/sigir2018_volatility/mapAverageNewDocs_CLEF2016.zip)
+
+
+
+#### C. Volatility of Search Results: Rank Movement
+
+* [Average Rank Distance from Start Date: WEB2013-2014](./publications/sigir2018_volatility/AverageRankDistanceFromFirstDate_WEB2013-2014.zip)
+* [Average Rank Distance from Start Date: CLEF2016](./publications/sigir2018_volatility/AverageRankDistanceFromFirstDate_CLEF2016.zip)
+* [Average Rank Distance from Previous Date: WEB2013-2014](./publications/sigir2018_volatility/AverageRankDistanceFromPreviousDate_WEB2013-2014.zip)
+* [Average Rank Distance from Previous Date: CLEF2016](./publications/sigir2018_volatility/AverageRankDistanceFromPreviousDate_CLEF2016.zip)
+* [Average Rank Distance All Date Pairs: WEB2013-2014](./publications/sigir2018_volatility/mapAverageRankDistance_WEB2013-2014.zip)
+* [Average Rank Distance All Date Pairs: CLEF2016](./publications/sigir2018_volatility/mapAverageRankDistance_CLEF2016.zip)
+
