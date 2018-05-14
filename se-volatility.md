@@ -187,3 +187,16 @@
 * [Average Rank Distance All Date Pairs: WEB2013-2014](./publications/sigir2018_volatility/mapAverageRankDistance_WEB2013-2014.zip)
 * [Average Rank Distance All Date Pairs: CLEF2016](./publications/sigir2018_volatility/mapAverageRankDistance_CLEF2016.zip)
 
+
+
+
+#### D. Impact of Result Volatility on Search Effectiveness
+
+###### WEB2013-2014: P@10
+![WEB2013-2014: P@10 Box Plot](./publications/sigir2018_volatility/boxPlot_byQuery_P@10_web2013-2014.jpeg)
+P@10 for WEB2013-2014 queries over time. Each box plot refers to a query; queries are ordered in decreasing effectiveness as returned on day 1. The red shaded area indicates the effectiveness gap between results for day 1 and those for the day with the biggest average effectiveness gap over the query set.
+
+
+###### WEB2013-2014: ERR@10
+![WEB2013-2014: ERR@10 Box Plot](./publications/sigir2018_volatility/boxPlot_byQuery_err@10_web2013-2014.jpeg)
+ERR@10 for WEB2013-2014 queries over time. Each box plot refers to a query; queries are ordered in decreasing effectiveness as returned on day 1. The red shaded area indicates the effectiveness gap between results for day 1 and those for the day with the biggest average effectiveness gap over the query set.
