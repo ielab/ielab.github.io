@@ -180,10 +180,10 @@
 
 #### C. Volatility of Search Results: Rank Movement
 
-* [Average Rank Distance from Start Date: WEB2013-2014](./publications/sigir2018_volatility/AverageRankDistanceFromFirstDate_WEB2013-2014.zip)
-* [Average Rank Distance from Start Date: CLEF2016](./publications/sigir2018_volatility/AverageRankDistanceFromFirstDate_CLEF2016.zip)
-* [Average Rank Distance from Previous Date: WEB2013-2014](./publications/sigir2018_volatility/AverageRankDistanceFromPreviousDate_WEB2013-2014.zip)
-* [Average Rank Distance from Previous Date: CLEF2016](./publications/sigir2018_volatility/AverageRankDistanceFromPreviousDate_CLEF2016.zip)
+* [Average Rank Distance from Start Date: WEB2013-2014](./publications/sigir2018_volatility/averageRankDistanceFromFirstDate_WEB2013-2014.zip)
+* [Average Rank Distance from Start Date: CLEF2016](./publications/sigir2018_volatility/averageRankDistanceFromFirstDate_CLEF2016.zip)
+* [Average Rank Distance from Previous Date: WEB2013-2014](./publications/sigir2018_volatility/averageRankDistanceFromPreviousDate_WEB2013-2014.zip)
+* [Average Rank Distance from Previous Date: CLEF2016](./publications/sigir2018_volatility/averageRankDistanceFromPreviousDate_CLEF2016.zip)
 * [Average Rank Distance All Date Pairs: WEB2013-2014](./publications/sigir2018_volatility/mapAverageRankDistance_WEB2013-2014.zip)
 * [Average Rank Distance All Date Pairs: CLEF2016](./publications/sigir2018_volatility/mapAverageRankDistance_CLEF2016.zip)
 
