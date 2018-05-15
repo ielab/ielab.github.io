@@ -19,6 +19,7 @@ This repository will contain the landing page for the project, along with any ad
 You should not store in this repository the latex code that you used to create the paper, paper submissions that were not accepted/published, or any other material that you do not want to make public.
 
 When naming a project (and creating the corresponding github repo):
+
       * use all lowercase letters, including for the first word, or for acronyms;
       * separate words by dashes i.e. `-`; not by underscores or similar;
       * use meaningful names; avoid naming a project after a conference or journal; avoid putting years in the project name
@@ -28,6 +29,7 @@ Note that a project may refer to multiple publications. The project page (the la
 * summary of idea/context
 * key findings
 * section for each publication and appendices, etc. this should contain:
+
       * abstract/summary
       * list of people involved (`ielab members involved in this project`; `external collaborators`)
       * link to pdf of publication/s
@@ -48,7 +50,8 @@ Each of these sections may provide a brief summary of the publication (the abstr
 
 * ielab should be written all lowercase, i.e. `ielab`. ielab stands for Information Engineering Lab; so no need to say `ielab Lab`.
 * when naming a project (and creating the corresponding github repo):
-      * usie all lowercase letters, including for the first word, or for acronyms;
+      
+      * use all lowercase letters, including for the first word, or for acronyms;
       * separate words by dashes i.e. `-`; not by underscores or similar;
       * use meaningful names; avoid naming a project after a conference or journal; avoid putting years in the project name
       
