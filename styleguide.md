@@ -36,15 +36,24 @@ Note that a project may refer to multiple publications. The project page (the la
       * additional resources, if any: code, data, appendices, etc. These need to be stored in this public repository
 
 
-Let's work through an example scenario to visualise some of the guidelines. Assume we have a project about semantic similarity; the project resulted in a number of publications (CIKM 2015, ADCS 2015,  
+#### Example
+
+Let's work through an example scenario to visualise some of the guidelines. Assume we have a project about semantic similarity; the project resulted in a number of publications (CIKM 2015, ADCS 2015, a journal, etc). 
+
 In this case, we would have a project repository under ielab.github.io, called `semantic-similarity`. In the landing page, we would have a short description of what this research is about: the investigation of semantic similarity measures within health.
+
 The description should also highlight the key findings, with pointers of which publications reported these.
 At the end of the description, we would have the list of key people involved in the project over time, e.g. `ielab members involved in this project: Bevan Koopman, Guido Zuccon`; `external collaborators: Lance De Vine`
+
 Then the page should contain a section for each publication that stems for the project. So, for example, we would have a section about the CIKM 2015 paper, one about the ADCS 2015 paper and so on. Make sure the sections are temporaly ordered (in descending order, less recents on top).
+
 Each of these sections may provide a brief summary of the publication (the abstract for example), link to resources and additional material (to be stored in the project repository), link to the pdf/preprint version of the publication, and so on.
 
 ### Personal pages
 
+Once a new team member joins, a project repository is created for the ielab Github page to host the member's personal page. A personal page may be hosted within the actual GitHub space, or may redirect to a personal repository for another GitHub account, or a personal website hosted on a different solution. 
+
+The project repository for the personal page should preferentially be the first name of the person. Shortening of names are fine (e.g. `harry` for `harrisen`), nicknames or usernames are fine too, although less preferred (e.g. `djlocke` vs `daniel`).
 
 ### Naming conventions
 
