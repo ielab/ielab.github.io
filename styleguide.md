@@ -63,7 +63,18 @@ The project repository for the personal page should preferentially be the first 
       * use all lowercase letters, including for the first word, or for acronyms;
       * separate words by dashes i.e. `-`; not by underscores or similar;
       * use meaningful names; avoid naming a project after a conference or journal; avoid putting years in the project name
-      
+
+### Branding
+
+Use the following as you implement the logo into any ielab communications.
+
+![purple](images/ielab-page001.png)
+![green](images/ielab-page002.png)
+![maroon](images/ielab-page003.png)
+![black](images/ielab-page004.png)
+
+ - [Download png/svg assets](ielab_logos.zip)
+ - [Download source (scribus)](ielab.sla)
 
 ### Publications page
 
