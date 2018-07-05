@@ -7,6 +7,7 @@ theme: jekyll-theme-minimal
 gems:
   - jekyll-mentions
   - jekyll-scholar
+  - jekyll-redirect-from
 
 scholar:
   style: assets/bibliography/acm-sig-proceedings.csl
