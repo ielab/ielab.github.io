@@ -3,6 +3,7 @@
 Test collection based evaluation represents the standard of evaluation for information retrieval systems. Legal IR, more specifically case law retrieval, has no such standard test collection for evaluation. In this paper, we present a test collection for use in evaluating case law search, being the retrieval of judicial decisions relevant to a particular legal question. The collection is made available at [ielab.io/caselaw](ielab.io/caselaw).
 
 [Download paper](https://dl.acm.org/citation.cfm?id=3210161)
+[Download poster](sigir-poster.pdf)
 
 ## Citing This Work
 
