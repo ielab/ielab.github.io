@@ -6,6 +6,12 @@ Our findings show the IDF based QPPs exhibits the strongest correlations with pe
 
 [Download paper](https://scells.me/publications/sigir2018_qvpp.pdf)
 
+## Poster 
+
+![QVPP Poster](sigir2018_qvpp.png)
+
+[Download poster](sigir2018_qvpp.pdf)
+
 ## Citing This Work
 
 Please cite this work as
