@@ -26,3 +26,9 @@ Please email [harrisen.scells@hdr.qut.edu.au](mailto:harrisen.scells@hdr.qut.edu
 
 Follow [@ielabgroup](https://twitter.com/ielabgroup) on twitter.
 
+## Related Work
+
+ - [Query Variation Performance Prediction for Systematic Reviews](https://ielab.io/publications/sigir2018_qvpp/)
+ - [A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic Reviews](https://scells.me/research/pico/)
+ - [An Information Retrieval Experiment Framework for Domain Specific Applications](https://ielab.io/querylab/)
+
