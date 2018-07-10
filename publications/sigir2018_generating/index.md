@@ -11,7 +11,7 @@ In this paper we investigate whether a better Boolean query than that defined in
 Please cite this work as
 
 ```
-@inproceedings{scells2018qvpp,
+@inproceedings{scells2018generating,
 Author = {Scells, Harrisen and Zuccon, Guido},
 Booktitle = {Proceedings of the 41st international ACM SIGIR conference on Research and development in Information Retrieval},
 Organization = {ACM},
