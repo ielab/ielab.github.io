@@ -4,6 +4,10 @@ Test collection based evaluation represents the standard of evaluation for infor
 
 [Download paper](https://dl.acm.org/citation.cfm?id=3210161)
 
+## Poster 
+
+![QVPP Poster](sigir-poster.png)
+
 [Download poster](sigir-poster.pdf)
 
 ## Citing This Work
