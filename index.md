@@ -48,6 +48,7 @@ ielab works on a diversity of projects. Some examples include:
 * [SIGIR2017 Systematic Reviews Collection](https://github.com/ielab/SIGIR2017-PICO-Collection): a collection for evaluating IR systems for Systematic Reviews, with PICO annotations
 * [INST eval](https://github.com/ielab/inst_eval): Python implementation of the INST evaluation measure from Moffat et al.
 * [Relevation](https://github.com/ielab/relevation): Information Retrieval Relevance Judging System
+* [searchrefiner](https://github.com/ielab/searchrefiner): A Query Visualisation and Understanding tool for Systematic Reviews.
 
 
 ### Student Projects for Honours and Masters
