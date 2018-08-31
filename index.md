@@ -38,9 +38,9 @@ ielab was started as a group of Information Retrieval researchers at the [Queens
 
 ### Researcher Staff
 
-* [Dr Guido Zuccon](http://zuccon.net). Senior Lecturer, QUT
-* [Dr Bevan Koopman](http://koopman.id.au). Research Scientist, CSIRO
-* [Dr Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/). Senior Lecturer, University of Strathclyde (UK)
+* [Dr Guido Zuccon](http://zuccon.net). Senior Lecturer, QUT. [Google Scholar](https://scholar.google.com.au/citations?user=aEVHhC8AAAAJ&hl=en), [@guidozuc](https://twitter.com/guidozuc)
+* [Dr Bevan Koopman](http://koopman.id.au). Research Scientist, CSIRO. [Google Scholar](https://scholar.google.com.au/citations?user=twCn-tYAAAAJ&hl=en), [@bevan_koopman](https://twitter.com/bevan_koopman)
+* [Dr Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/). Senior Lecturer, University of Strathclyde (UK). [Google Scholar](https://scholar.google.com.au/citations?user=TmvrscMAAAAJ&hl=en) , [@leifos](https://twitter.com/leifos)
 
 ### Doctoral Students (PhD)
 * Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search
