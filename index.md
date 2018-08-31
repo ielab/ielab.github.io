@@ -1,15 +1,20 @@
 # The Information Engineering Lab
 
-We a collaborative group of researchers working in the the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval); i.e., search.
+The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval), i.e. search, and health informatics.
 
 ## Projects
 
-ielab works on a diversity of projects. Some examples include:
+ielab works on a diversity of projects. Research strenghts include:
 
-* Health Search
-* Formal IR models
+* **Formal models of Information Retrieval:** retrieval models, learning to rank, user models, evaluation of information retrieval systems. 
+* **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
+* **Domain-specific search:** case law retrieval.
 
-The current projects that ielab is working on including links to code repositories, live demos, and publications can be found on the [projects page](/projects). For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). To view a list of the groups publications, please visit the [publications page](/publications).
+The **current projects** that ielab is working on including links to code repositories, live demos, and publications can be found on the [projects page](/projects). 
+
+For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). 
+
+To view a list of the group **publications**, please visit the [publications page](/publications).
 
 ---
 
@@ -29,14 +34,13 @@ The current projects that ielab is working on including links to code repositori
 
 ## People
 
-ielab was started as a group of information retrieval researchers at [Queensland Univeristy of Technology (QUT)](http://www.qut.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more.
+ielab was started as a group of Information Retrieval researchers at the [Queensland Univeristy of Technology (QUT)](http://www.qut.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more. From October 1, 2018, the core of the ielab research group will be hosted at the [University of Queensland (UQ)](http://www.uq.edu.au), among the world's top-50 universities.
 
 ### Researcher Staff
 
-* [Guido Zuccon](http://zuccon.net), PhD. Senior Lecturer, QUT
-* [Bevan Koopman](http://koopman.id.au), PhD. Research Scientist, CSIRO
-* [Peter Bruza](http://staff.qut.edu.au/staff/bruza/), PhD. Professor, QUT
-* [Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/), PhD. Senior Lecturer, University of Strathclyde
+* [Dr Guido Zuccon](http://zuccon.net). Senior Lecturer, QUT
+* [Dr Bevan Koopman](http://koopman.id.au). Research Scientist, CSIRO
+* [Dr Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/). Senior Lecturer, University of Strathclyde (UK)
 
 ### Doctoral Students (PhD)
 * Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search
