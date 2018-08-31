@@ -1,9 +1,10 @@
 # Projects
 
-ielab works on a diversity of projects. Some examples include:
+ielab works on a diversity of projects. Research strenghts include:
 
-* Health Search
-* Formal IR models
+* **Formal models of Information Retrieval:** retrieval models, learning to rank, user models, evaluation of information retrieval systems. 
+* **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
+* **Domain-specific search:** case law retrieval.
 
 ## Current projects
 
