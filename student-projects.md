@@ -1,6 +1,16 @@
 # Available Student Projects
 
-These project suit Masters students for IFN701/702 or IFN665 and Honours students. Some projects could be the basis for extension for a PhD project. 
+---
+
+## PhD Projects
+
+We are currently recruiting PhD students wishing to start in 2019 at the University of Queensland, Brisbane.
+
+
+
+---
+
+The following projects are available for undergraduates, honours and masters students; some projects could be the basis for extension for a PhD project. 
 
 ## An exploration of BM25F
 
