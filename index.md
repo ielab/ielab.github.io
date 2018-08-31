@@ -9,7 +9,7 @@ ielab works on a diversity of projects. Some examples include:
 * Health Search
 * Formal IR models
 
-The current projects that ielab is working on including links to code repositories, live demos, and publications can be found on the [projects page](/projects). For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects).
+The current projects that ielab is working on including links to code repositories, live demos, and publications can be found on the [projects page](/projects). For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). To view a list of the groups publications, please visit the [publications page](/publications).
 
 ---
 
