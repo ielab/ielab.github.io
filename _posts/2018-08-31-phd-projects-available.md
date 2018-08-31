@@ -11,8 +11,9 @@ We are recruiting PhD students!
 
 PhD projects are available in the areas of interests in ielab:
 
- * **Formal models of IR** (search methods, user models, evaluation)
- * **Health Search** and domain specific search
+ * **Formal models of Information Retrieval:** retrieval models, learning to rank, user models, evaluation of information retrieval systems.
+ * **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
+ * **Domain-specific search:** case law retrieval, legal search, consumer law search, investigation of SEO techniques on modern search engines.
  
 Funding:
 
@@ -26,4 +27,4 @@ Funding:
  * 3.5 years of PhD funding
  * **Great lifestyle** in Brisbane!  
  
-Interested? contact Dr. Guido Zuccon: g.zuccon \_at\_ uq.edu.au
+Interested? contact Dr. Guido Zuccon: zucconguido \_at\_ gmail.com
