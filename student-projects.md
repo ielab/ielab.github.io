@@ -15,6 +15,9 @@ Funding covering tuition fees and scholarship is available, through a competitiv
 * One full scholarship available for Consumer Health Search, for start in 2019
 * One full scholarship available for any topic of interest for ielab, for start in 2019
 
+
+To express interest in joining ielab as a PhD student, contact Dr Guido Zuccon at zucconguido@gmail.com
+
 ---
 
 ## Undergraduates, Honours and Masters Projects
