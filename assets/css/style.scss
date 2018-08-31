@@ -10,3 +10,82 @@ a:focus, a:hover {
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a {
   font-weight: normal;
 }
+
+.wrapper {
+    width: 100%;
+}
+
+section {
+    padding-left: 178px;
+    float: left;
+    width: auto;
+    padding-right: 25px;
+}
+
+header {
+    width: 128px;
+}
+
+.twitter-timeline {
+    width: 40% !important;
+    height: 512px !important;
+    border: 1px solid #e5e5e5 !important;
+    margin: 32px;
+    float: right;
+}
+
+.news {
+    min-height:512px;
+    width: 50%;
+}
+
+@media print, screen and (max-width: 960px) {
+    header, section, footer {
+        float: none;
+        position: static;
+        width: 100%;
+    }
+
+    header img {
+        width: 64px;
+        padding: 8px;
+        vertical-align: bottom;
+    }
+
+    header {
+        padding: 0;
+        display: inline;
+        float: right;
+        width: auto;
+    }
+
+    .news {
+        width: auto;
+        min-height: 0;
+    }
+
+    section {
+        border: 0;
+        border-width: 0 0;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    header a small {
+        display: inline;
+    }
+
+    header ul {
+        position: absolute;
+        right: 50px;
+        top: 52px;
+    }
+
+    .view {
+        display: none;
+    }
+
+    .twitter-timeline {
+        display: none !important;
+    }
+}

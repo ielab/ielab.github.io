@@ -1,10 +1,8 @@
-## Available Student Projects
+# Available Student Projects
 
 These project suit Masters students for IFN701/702 or IFN665 and Honours students. Some projects could be the basis for extension for a PhD project. 
 
-
-
-### An exploration of BM25F
+## An exploration of BM25F
 
 BM25F extends the BM25 weighting model to the case of fielded retrieval (e.g. in the presence of documents that have fields, like a web page).
 
@@ -24,14 +22,14 @@ This project is likely to result in a co-authored journal publication at the end
 
 ------------------------------------------------------------
 
-### Clickbait detection on Twitter [assigned @ Xioran Chu]
+## Clickbait detection on Twitter [assigned @ Xioran Chu]
 
 Clickbait refers to social media posts that are, at the expense of being informative and objective, designed to entice its readers into clicking an accompanying link.
 This project aims to devise computational approaches for the identification of clickbaits. The outcome will be a machine learning classifier that rates how click baiting a social media post is. For each social media post, the content of the post itself as well as the main content of the linked target web page are provided.
 
 ------------------------------------------------------------
 
-### Survey and implementation of SEO techniques [assigned @ Hayden Mills; one more place available]
+## Survey and implementation of SEO techniques [assigned @ Hayden Mills; one more place available]
 
 Search Engine Optimisation (SEO) aims to tweak web pages to increase their ranking on a target search engine, e.g. Google. SEO is a large market and is based on “black-magic”; SEO experts have suggested a number of techniques to guarantee to be ranked on top positions, some of these are trivial, others are no-where near what a search engine like Google would care about, others do make sense. All techniques have in common that their effectiveness has not been empirically demonstrated nor scientifically investigated. 
 
@@ -48,7 +46,7 @@ This project is unlikely to produce a publication within the scope of the projec
 ------------------------------------------------------------
 
 
-### A study of Health Cards
+## A study of Health Cards
 
 When searching for health information online, Google at times displays so called Health Cards, i.e. a collection of summarised, highly curated information related to a symptom, condition or disease. 
 
@@ -65,7 +63,7 @@ This project may produce a small publication at the end of the project, or in th
 
 ------------------------------------------------------------
 
-### Simulating Users to Train Systems
+## Simulating Users to Train Systems
 
 Recent advances in user modelling have resulted in the creation of models that can be used to simulate user behaviour related to querying, clicking/assessing and stopping search. It has been argued that these models could be used to evaluate search effectiveness. 
 
@@ -82,7 +80,7 @@ This project may produce a publication at the end of the project, or in the imme
 
 ------------------------------------------------------------
 
-### Integrating Complex Operations with Word Embeddings into Retrieval Models [assigned @ Nathan O'Sullivan]
+## Integrating Complex Operations with Word Embeddings into Retrieval Models [assigned @ Nathan O'Sullivan]
 
 Word Embeddings are a technique to represent words and phrases by mapping them to vectors of real numbers. Popular examples of these techniques are *skipgrams* and *Glove*. We have devised a technique to exploit word embeddings to improve retrieval, calledn NTLM ([ADCS 2015 paper](https://github.com/ielab/adcs2015-NTLM)). This project will expand that work by considering complex operations with word embeddings (e.g. sums and subtractions to represent negations, aggregations to encode the meaning of entities, etc).
 
@@ -97,7 +95,7 @@ This project may produce a publication at the end of the project, or in the imme
 
 ------------------------------------------------------------
 
-### Using Word Embeddings for Stemming
+## Using Word Embeddings for Stemming
 
 This project will consider the use of word embedding representations to perform stemming of text in documents. Stemming refers to the practice of conflating multiple variations of a root word to its stem: for example applying stemming to `play`, `plays`, `playing` returns the stem `play`. Popular stemming algorithms include Portern and Krovetz stemming; these are rule-based stemming methods. Statistical stemmers do exist.
 
@@ -118,7 +116,7 @@ This project may produce a publication at the end of the project, or in the imme
 
 ------------------------------------------------------------
 
-### Literature Review on Table Search (with possible extension)
+## Literature Review on Table Search (with possible extension)
 
 Table search refers to the retrieval of tables in answer to natural languege queries. This project will produce a thorough, formal literature review and summay of table search techniques, and related methods (e.g., table mining, table extension, and table completion). 
 
@@ -128,7 +126,7 @@ This project may be further extended in a subsequent project that implements ide
 
 ------------------------------------------------------------
 
-### Literature Reviews on Selected topics in Information Retrieval
+## Literature Reviews on Selected topics in Information Retrieval
 
 This project is specifically designed for IFN701 students that intend to undertake an academic literature review.
 In this project you will choose from one of the IR topics/problems listed below (or propose a topic of your own) and perform a rigourous literature review which includes: define the protocol for the review, analyse research publications, compile an annotated bibliography, write up a review of the selected literature.
@@ -144,7 +142,7 @@ Topics/problems include:
 
 ------------------------------------------------------------
 
-### Systematic Evaluation of Open Source Search Engines
+## Systematic Evaluation of Open Source Search Engines
 
 This project will perform a thorough, systematic evaluation of open source search engines, including (but not limited to) Terrier, Lucene/Sorl, Indri, Elasticsearch.
 Prior work has been published in this area. The project will first review this prior work, identifying common trends among them, along with limitations. Then, an evaluation protocol will be defined, including the selection of test collections, evaluation measures (both for effectiveness and efficiency), etc.
@@ -153,7 +151,7 @@ This project is highly likely to produce a publication at the end of the project
 
 ------------------------------------------------------------
 
-### A software package for information retrieval evaluation
+## A software package for information retrieval evaluation
 
 Evaluation is paramount for IR research. Many evaluation measures exist, each modelling users in a different way and exploring different properties of tasks and interactions. Evaluation measures have been coded up in a number of software packages that are used by the IR community: [trec_eval](http://trec.nist.gov/trec_eval/), [ndeval](http://trec.nist.gov/data/web/10/ndeval.c), [gdeval](trec.nist.gov/data/web/10/gdeval.pl), [inst_eval](https://github.com/ielab/inst_eval), [UBIRE](https://github.com/ielab/ubire). Each of these tools implement only a limited subset of measures, requires different inputs, use different syntax, etc. Direct programmatic integration is often not possible.
 
