@@ -43,7 +43,7 @@ ielab was started as a group of Information Retrieval researchers at the [Queens
 * [Dr Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/). Senior Lecturer, University of Strathclyde (UK). [Google Scholar](https://scholar.google.com.au/citations?user=TmvrscMAAAAJ&hl=en) , [@leifos](https://twitter.com/leifos)
 
 ### Doctoral Students (PhD)
-* Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search
+* Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search.  [Google Scholar](https://scholar.google.com.au/citations?user=3aj36DkAAAAJ&hl=en)
 * [Harrisen Scells](https://scells.me). PhD student, QUT & CSIRO: Improving Systematic Review Creation with Information Retrieval
 * Jimmy. PhD student, QUT & UBAYA: Search Engines that allow the General Public to Make Well-Informed Health Decisions
 * [Daniel Locke](http://github.com/dan-locke). PhD student, QUT: Exploring methods for improving the effective information retrieval of legal documents
