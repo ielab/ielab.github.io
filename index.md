@@ -34,7 +34,7 @@ To view a list of the group **publications**, please visit the [publications pag
 
 ## People
 
-ielab was started as a group of Information Retrieval researchers at the [Queensland Univeristy of Technology (QUT)](http://www.qut.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more. From October 1, 2018, the core of the ielab research group will be hosted at the [University of Queensland (UQ)](http://www.uq.edu.au), among the world's top-50 universities.
+ielab was started as a group of Information Retrieval researchers at the [University of Queensland (UQ)](http://www.uq.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more. From October 1, 2018, the core of the ielab research group will be hosted at the [University of Queensland (UQ)](http://www.uq.edu.au), among the world's top-50 universities.
 
 ### Researcher Staff
 
