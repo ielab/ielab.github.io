@@ -7,7 +7,7 @@ The ielab is a collaborative group of researchers working in the area of informa
 ielab works on a diversity of projects. Research strenghts include:
 
 * **Formal models of Information Retrieval:** retrieval models, learning to rank, user models, evaluation of information retrieval systems. 
-* **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
+* **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials, medical chatbots.
 * **Domain-specific search:** case law retrieval.
 
 The **current projects** that ielab is working on including links to code repositories, live demos, and publications can be found on the [projects page](/projects). 
@@ -38,15 +38,16 @@ ielab was started as a group of Information Retrieval researchers at the [Univer
 
 ### Researcher Staff
 
-* [Dr Guido Zuccon](http://zuccon.net). Senior Lecturer, QUT. [Google Scholar](https://scholar.google.com.au/citations?user=aEVHhC8AAAAJ&hl=en), [@guidozuc](https://twitter.com/guidozuc)
+* [Dr Guido Zuccon](http://zuccon.net). Senior Lecturer, UQ. [Google Scholar](https://scholar.google.com.au/citations?user=aEVHhC8AAAAJ&hl=en), [@guidozuc](https://twitter.com/guidozuc)
 * [Dr Bevan Koopman](http://koopman.id.au). Research Scientist, CSIRO. [Google Scholar](https://scholar.google.com.au/citations?user=twCn-tYAAAAJ&hl=en), [@bevan_koopman](https://twitter.com/bevan_koopman)
 * [Dr Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/). Senior Lecturer, University of Strathclyde (UK). [Google Scholar](https://scholar.google.com.au/citations?user=TmvrscMAAAAJ&hl=en) , [@leifos](https://twitter.com/leifos)
 
 ### Doctoral Students (PhD)
-* Anton van de Vegt. PhD student, QUT & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search.  [Google Scholar](https://scholar.google.com.au/citations?user=3aj36DkAAAAJ&hl=en)
-* [Harrisen Scells](https://scells.me). PhD student, QUT & CSIRO: Improving Systematic Review Creation with Information Retrieval
-* Jimmy. PhD student, QUT & UBAYA: Search Engines that allow the General Public to Make Well-Informed Health Decisions
-* [Daniel Locke](http://github.com/dan-locke). PhD student, QUT: Exploring methods for improving the effective information retrieval of legal documents
+* Anton van de Vegt. PhD student, UQ & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search.  [Google Scholar](https://scholar.google.com.au/citations?user=3aj36DkAAAAJ&hl=en)
+* [Harrisen Scells](https://scells.me). PhD student, UQ & CSIRO: Improving Systematic Review Creation with Information Retrieval
+* Jimmy. PhD student, UQ & UBAYA: Search Engines that allow the General Public to Make Well-Informed Health Decisions
+* [Daniel Locke](http://github.com/dan-locke). PhD student, UQ: Exploring methods for improving the effective information retrieval of legal documents
+* Sebastian Cross. PhD student, UQ: Evaluation of Medical Chatbots
 * [Joao Palotti](http://joaopalotti.com/). PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute
 
 ### Honours Students
