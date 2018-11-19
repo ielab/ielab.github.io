@@ -13,7 +13,7 @@ Publications ordered by year.
     
 </li>
 <li>
-    <span>Jimmy and Zuccon, Guido and Koopman, Bevan</span>.
+    <span>Jimmy, - and Zuccon, Guido and Koopman, Bevan</span>.
     <span>2018</span>.
     <span>Payoffs and pitfalls in using knowledge-bases for consumer health search</span>.
     
