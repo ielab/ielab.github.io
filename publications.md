@@ -1,4 +1,3 @@
-[WARN] entry Jimmy2018QUT does not have a `Year` field (will render incorrectly)
 # Publications
 
 Publications ordered by year.
@@ -23,11 +22,9 @@ Publications ordered by year.
     
 </li>
 <li>
-    <span>Harrisen Scells and Leif Azzopardi and Guido Zuccon and Bevan Koopman</span>.
+    <span>&lt;nil&gt;</span>.
     <span>2018</span>.
-    <span>Query Variation Performance Prediction for Systematic Reviews</span>.
-    
-    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
+    <span>&lt;nil&gt;</span>.
     
     
 </li>
@@ -120,6 +117,15 @@ Publications ordered by year.
     
 </li>
 <li>
+    <span>Harrisen Scells and Leif Azzopardi and Guido Zuccon and Bevan Koopman</span>.
+    <span>2018</span>.
+    <span>Query Variation Performance Prediction for Systematic Reviews</span>.
+    
+    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
+    
+    
+</li>
+<li>
     <span>Harrisen Scells and Guido Zuccon and Bevan Koopman and Anthony Deacon and Shlomo Geva and Leif Azzopardi</span>.
     <span>2017</span>.
     <span>A Test Collection for Evaluating Retrieval of Studies for Inclusion in Systematic Reviews</span>.
@@ -143,13 +149,6 @@ Publications ordered by year.
     <span>QUT ielab at CLEF eHealth 2017 technology assisted reviews track: Initial experiments with learning to rank</span>.
     
     <span>In <em>Working Notes of CLEF 2017 - Conference and Labs of the Evaluation forum</em></span>.
-    
-    
-</li>
-<li>
-    <span>&lt;nil&gt;</span>.
-    <span>0000</span>.
-    <span>&lt;nil&gt;</span>.
     
     
 </li>
