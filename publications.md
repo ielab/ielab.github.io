@@ -31,6 +31,15 @@ Publications ordered by year.
     
 </li>
 <li>
+    <span>Jimmy, - and Guido Zuccon and Jo{\~a}o R. M. Palotti and Lorraine Goeuriot and Liadh Kelly</span>.
+    <span>2018</span>.
+    <span>Overview of the CLEF 2018 Consumer Health Search Task</span>.
+    
+    <span>In <em>CLEF</em></span>.
+    
+    
+</li>
+<li>
     <span>Goeuriot, Lorraine and Jones, Gareth JF and Kelly, Liadh and Leveling, Johannes and Lupu, Mihai and Palotti, Joao and Zuccon, Guido</span>.
     <span>2018</span>.
     <span>An analysis of evaluation campaigns in ad-hoc medical information retrieval: CLEF eHealth 2013 and 2014</span>.
