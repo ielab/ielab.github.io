@@ -4,11 +4,11 @@ Publications ordered by year.
 
 <ul>
 <li>
-    <span>Scells, Harrisen and Zuccon, Guido</span>.
+    <span>Harrisen Scells and Dan Locke and Guido Zuccon</span>.
     <span>2018</span>.
-    <span>searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews</span>.
+    <span>An Information Retrieval Experiment Framework for Domain Specific Applications</span>.
     
-    <span>In <em>Proceedings of the 27th ACM International Conference on Information and Knowledge Management</em></span>.
+    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
     
     
 </li>
@@ -74,6 +74,24 @@ Publications ordered by year.
     
 </li>
 <li>
+    <span>Harrisen Scells and Leif Azzopardi and Guido Zuccon and Bevan Koopman</span>.
+    <span>2018</span>.
+    <span>Query Variation Performance Prediction for Systematic Reviews</span>.
+    
+    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
+    
+    
+</li>
+<li>
+    <span>Harrisen Scells and Guido Zuccon</span>.
+    <span>2018</span>.
+    <span>Generating Better Queries for Systematic Reviews</span>.
+    
+    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
+    
+    
+</li>
+<li>
     <span>Koopman, Bevan and Zuccon, Guido and Nguyen, Anthony and Bergheim, Anton and Grayson, Narelle</span>.
     <span>2018</span>.
     <span>Extracting cancer mortality statistics from death certificates: A hybrid machine learning and rule-based approach for common and rare cancers</span>.
@@ -110,29 +128,20 @@ Publications ordered by year.
     
 </li>
 <li>
-    <span>Harrisen Scells and Dan Locke and Guido Zuccon</span>.
+    <span>Scells, Harrisen and Zuccon, Guido</span>.
     <span>2018</span>.
-    <span>An Information Retrieval Experiment Framework for Domain Specific Applications</span>.
+    <span>searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews</span>.
     
-    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
+    <span>In <em>Proceedings of the 27th ACM International Conference on Information and Knowledge Management</em></span>.
     
     
 </li>
 <li>
-    <span>Harrisen Scells and Guido Zuccon</span>.
-    <span>2018</span>.
-    <span>Generating Better Queries for Systematic Reviews</span>.
+    <span>Jimmy, - and Guido Zuccon and Bevan Koopman</span>.
+    <span>2017</span>.
+    <span>QUT ielab at CLEF 2017 e-Health IR Task: Knowledge Base Retrieval for Consumer Health Search</span>.
     
-    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
-    
-    
-</li>
-<li>
-    <span>Harrisen Scells and Leif Azzopardi and Guido Zuccon and Bevan Koopman</span>.
-    <span>2018</span>.
-    <span>Query Variation Performance Prediction for Systematic Reviews</span>.
-    
-    <span>In <em>The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval</em></span>.
+    <span>In <em>CLEF</em></span>.
     
     
 </li>
@@ -160,6 +169,15 @@ Publications ordered by year.
     <span>QUT ielab at CLEF eHealth 2017 technology assisted reviews track: Initial experiments with learning to rank</span>.
     
     <span>In <em>Working Notes of CLEF 2017 - Conference and Labs of the Evaluation forum</em></span>.
+    
+    
+</li>
+<li>
+    <span>Jimmy, - and Zuccon, Guido and Koopman, Bevan and others</span>.
+    <span>2016</span>.
+    <span>Boosting titles does not generally improve retrieval effectiveness</span>.
+    
+    <span>In <em>Proceedings of the 21st Australasian Document Computing Symposium</em></span>.
     
     
 </li>
