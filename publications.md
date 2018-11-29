@@ -22,9 +22,11 @@ Publications ordered by year.
     
 </li>
 <li>
-    <span>&lt;nil&gt;</span>.
+    <span>Jimmy, - and Guido Zuccon and Bevan Koopman</span>.
     <span>2018</span>.
-    <span>&lt;nil&gt;</span>.
+    <span>QUT IElab at CLEF 2018 Consumer Health Search Task: Knowledge Base Retrieval for Consumer Health Search</span>.
+    
+    <span>In <em>CLEF</em></span>.
     
     
 </li>
