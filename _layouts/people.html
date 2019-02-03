@@ -1,5 +1,25 @@
 ---
 layout: default
 ---
+{% if page.image == nil %}
+<img width="120px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%;">
+{% else %}
+<img width="120px" height="auto" src="{{ page.image }}" style="border-radius:50%;">
+{% endif %}
 <h1>{{ page.name }}</h1>
+<p>{{ page.description }}</p>
 {{ content }}
+<ul>
+    {% if page.website != nil %}
+    <li><a href="{{ page.website }}">Personal Website</a></li>
+    {% endif %}
+    {% if page.scholar != nil %}
+    <li><a href="{{ page.scholar }}">Google Scholar</a></li>
+    {% endif %}
+    {% if page.twitter != nil %}
+    <li><a href="{{ page.twitter }}">Twitter</a></li>
+    {% endif %}
+    {% if page.github != nil %}
+    <li><a href="{{ page.github }}">GitHub</a></li>
+    {% endif %}
+</ul>

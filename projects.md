@@ -1,12 +1,25 @@
 # Projects
 
-ielab works on a diversity of projects. Research strenghts include:
+ielab works on a diversity of projects. Research strengths include:
 
 * **Formal models of Information Retrieval:** retrieval models, learning to rank, user models, evaluation of information retrieval systems. 
 * **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
 * **Domain-specific search:** case law retrieval.
 
 ## Current projects
+
+<div class="flex four">
+{% for project in site.projects %}
+<div>
+    <article class="card">
+        <img src="{{ project.image }}">
+        <footer>
+            <a href="{{ project.url }}">{{ project.name }}</a>
+        </footer>
+    </article>
+</div>
+{% endfor %}
+</div>
 
 ### GitHub Repositories of projects:
 

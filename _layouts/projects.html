@@ -4,12 +4,14 @@ layout: default
 <h1>{{ page.name }}</h1>
 {{ content }}
 
+<hr/>
+<b>People involved:</b>
 {% assign people = site.people | where:'group', post.people %}
 <div class="flex four">
+    {% for involved in page.people %}
     {% for person in site.people %}
     {% assign path = person.id | split: "/" %}
     {% assign id = path[2] %}
-    {% for involved in page.people %}
     {% if id == involved %}
     <div>
         <article class="card">

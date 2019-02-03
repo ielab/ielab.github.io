@@ -2,9 +2,7 @@
 
 The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval), i.e. search, and health informatics.
 
-## Projects
-
-ielab works on a diversity of projects. Research strengths include:
+## Current Projects
 
 <div class="flex four">
 {% for project in site.projects %}
@@ -21,13 +19,14 @@ ielab works on a diversity of projects. Research strengths include:
 
 For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). 
 
+A full list of projects is available at the [projects page](/projects)
+
 To view a list of the group **publications**, please visit the [publications page](/publications).
 
 ---
 
 ## News
 
-<a class="twitter-timeline" data-height="512" href="https://twitter.com/IELabGroup?ref_src=twsrc%5Etfw">Tweets by IELabGroup</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="news">
 {% for post in site.posts limit:5 %}
@@ -45,19 +44,76 @@ ielab was started as a group of Information Retrieval researchers at the [Univer
 
 ### Researcher Staff
 
-* [Dr Guido Zuccon](http://zuccon.net). Senior Lecturer, UQ. [Google Scholar](https://scholar.google.com.au/citations?user=aEVHhC8AAAAJ&hl=en), [@guidozuc](https://twitter.com/guidozuc)
-* [Dr Bevan Koopman](http://koopman.id.au). Research Scientist, CSIRO. [Google Scholar](https://scholar.google.com.au/citations?user=twCn-tYAAAAJ&hl=en), [@bevan_koopman](https://twitter.com/bevan_koopman)
-* [Dr Leif Azzopardi](http://www.dcs.gla.ac.uk/~leif/). Senior Lecturer, University of Strathclyde (UK). [Google Scholar](https://scholar.google.com.au/citations?user=TmvrscMAAAAJ&hl=en) , [@leifos](https://twitter.com/leifos)
+<div class="flex">
+{% for person in site.people %}
+{% if person.role == "staff" %}
+<div class="flex four card" style="padding: 1em;">
+    <div>
+        {% if person.image == nil %}
+        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
+        {% else %}
+        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
+        {% endif %}
+        <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
+    </div>        
+    <div class="half">{{ person.description }}</div>
+    <div>
+        <ul>
+            {% if person.website != nil %}
+            <li><a href="{{ person.website }}">Personal Website</a></li>
+            {% endif %}
+            {% if person.scholar != nil %}
+            <li><a href="{{ person.scholar }}">Google Scholar</a></li>
+            {% endif %}
+            {% if person.twitter != nil %}
+            <li><a href="{{ person.twitter }}">Twitter</a></li>
+            {% endif %}                
+            {% if person.github != nil %}
+            <li><a href="{{ person.github }}">GitHub</a></li>
+            {% endif %}   
+        </ul>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
 
 ### Doctoral Students (PhD)
-* Anton van de Vegt. PhD student, UQ & CSIRO: Bridging the Human-Task Cognitive Gap. A Theoretical Framework Applied to Medical Search.  [Google Scholar](https://scholar.google.com.au/citations?user=3aj36DkAAAAJ&hl=en)
-* [Harrisen Scells](https://scells.me). PhD student, UQ & CSIRO: Improving Systematic Review Creation with Information Retrieval
-* Jimmy. PhD student, UQ & UBAYA: Search Engines that allow the General Public to Make Well-Informed Health Decisions
-* [Daniel Locke](http://github.com/dan-locke). PhD student, UQ: Exploring methods for improving the effective information retrieval of legal documents
-* Sebastian Cross. PhD student, UQ: Evaluation of Medical Chatbots
-* [Joao Palotti](http://joaopalotti.com/). PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute
-
+<div class="flex">
+{% for person in site.people %}
+{% if person.role == "phd" %}
+<div class="flex four card" style="padding: 1em;">
+    <div>
+        {% if person.image == nil %}
+        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
+        {% else %}
+        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
+        {% endif %}
+        <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
+    </div>        
+    <div class="half">{{ person.description }}</div>
+    <div>
+        <ul>
+            {% if person.website != nil %}
+            <li><a href="{{ person.website }}">Personal Website</a></li>
+            {% endif %}
+            {% if person.scholar != nil %}
+            <li><a href="{{ person.scholar }}">Google Scholar</a></li>
+            {% endif %}
+            {% if person.twitter != nil %}
+            <li><a href="{{ person.twitter }}">Twitter</a></li>
+            {% endif %}                
+            {% if person.github != nil %}
+            <li><a href="{{ person.github }}">GitHub</a></li>
+            {% endif %}                            
+        </ul>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
 ### Honours Students
+
 * [completed 2017] Liam Cripwell. Honours student, QUT: Generating Clinical Queries from Patient Narratives
 * [completed 2016] Harrisen Scells. Honours student, QUT: Investigating Methods Of Annotating Lifelogs For Use In Search
 
