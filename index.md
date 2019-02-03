@@ -4,13 +4,20 @@ The ielab is a collaborative group of researchers working in the area of informa
 
 ## Projects
 
-ielab works on a diversity of projects. Research strenghts include:
+ielab works on a diversity of projects. Research strengths include:
 
-* **Formal models of Information Retrieval:** retrieval models, learning to rank, user models, evaluation of information retrieval systems. 
-* **Health Search:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials, medical chatbots.
-* **Domain-specific search:** case law retrieval.
-
-The **current projects** that ielab is working on including links to code repositories, live demos, and publications can be found on the [projects page](/projects). 
+<div class="flex four">
+{% for project in site.projects %}
+<div>
+    <article class="card">
+        <img src="{{ project.image }}">
+        <footer>
+            <a href="{{ project.url }}">{{ project.name }}</a>
+        </footer>
+    </article>
+</div>
+{% endfor %}
+</div>
 
 For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). 
 

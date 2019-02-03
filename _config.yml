@@ -1,6 +1,25 @@
 title: ielab
 description: Information Engineering Lab
-google_analytics: 
+google_analytics:
 show_downloads: false
 logo: /images/ielab-page001.png
-theme: jekyll-theme-minimal
+
+collections:
+  projects:
+    output: true
+  people:
+    people: true
+    output: true
+
+
+defaults:
+- scope:
+    path: ""
+    type: "projects"
+  values:
+    layout: projects
+- scope:
+    path: ""
+    type: "people"
+  values:
+    layout: people

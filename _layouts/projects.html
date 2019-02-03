@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+{{ content }}
+
+{% assign people = site.people | where:'group', post.people %}
+<div class="flex four">
+    {% for person in site.people %}
+    {% assign path = person.id | split: "/" %}
+    {% assign id = path[2] %}
+    {% for involved in page.people %}
+    {% if id == involved %}
+    <div>
+        <article class="card">
+            <img src="{{ person.image }}">
+            <footer>
+                <a href="{{ person.url }}">{{ person.name }}</a>
+            </footer>
+        </article>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>
