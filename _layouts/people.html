@@ -1,25 +1,60 @@
 ---
 layout: default
 ---
+<!-- @formatter:off -->
 {% if page.image == nil %}
 <img width="120px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%;">
 {% else %}
 <img width="120px" height="auto" src="{{ page.image }}" style="border-radius:50%;">
 {% endif %}
 <h1>{{ page.name }}</h1>
+{% if page.website != nil %}
+<a class="button" href="{{ page.website }}">Personal Website</a>
+{% endif %}
+{% if page.scholar != nil %}
+<a class="button" href="{{ page.scholar }}">Google Scholar</a>
+{% endif %}
+{% if page.twitter != nil %}
+<a class="button" href="{{ page.twitter }}">Twitter</a>
+{% endif %}
+{% if page.github != nil %}
+<a class="button" href="{{ page.github }}">GitHub</a>
+{% endif %}
 <p>{{ page.description }}</p>
 {{ content }}
+<h2>Publications</h2>
+{% assign publications = site.publications | sort:"year" | reverse %}
 <ul>
-    {% if page.website != nil %}
-    <li><a href="{{ page.website }}">Personal Website</a></li>
+{% for publication in publications %}
+    {% assign author = site.people | where:'group', publication.authors %}
+    {% assign path = page.id | split: "/" %}
+    {% assign id = path[2] %}
+    {% if publication.authors contains id %}
+    <li>
+        {% assign i = 0 %}
+        {% for involved in publication.authors %}
+            {% assign found = false %}
+            {% for person in site.people %}
+                {% assign path = person.id | split: "/" %}
+                {% assign id = path[2] %}
+                {% if id == involved %}
+                    <a href="{{ person.id }}">{{ person.name }}</a>
+                    {% assign found = true %}
+                {% endif %}
+            {% endfor %}
+            {% if found == false %}
+                {{ involved }}
+            {% endif %}
+            {% assign i = i | plus: 1 %}
+            {% assign l = publication.authors | size %}
+            {% if i < l %}
+                and
+            {% endif %}
+        {%endfor %}.
+        {{ publication.year }}.
+        <a href="{{ publication.id }}">{{ publication.title }}</a>.
+        In <em>{{ publication.venue }}</em>.
+    </li>
     {% endif %}
-    {% if page.scholar != nil %}
-    <li><a href="{{ page.scholar }}">Google Scholar</a></li>
-    {% endif %}
-    {% if page.twitter != nil %}
-    <li><a href="{{ page.twitter }}">Twitter</a></li>
-    {% endif %}
-    {% if page.github != nil %}
-    <li><a href="{{ page.github }}">GitHub</a></li>
-    {% endif %}
+{% endfor %}
 </ul>

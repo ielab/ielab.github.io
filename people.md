@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+# People
+
 <div class="flex">
 {% for person in site.people %}
 <div class="flex four card" style="padding: 1em;">

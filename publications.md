@@ -4,10 +4,10 @@
 {% for year in publications %}
 <h2>{{ year.name }}</h2>
 <ul>
-{% assign i = 0 %}
 {% assign author = site.people | where:'group', publication.authors %}
 {% for publication in year.items %}
     <li>
+    {% assign i = 0 %}
     {% for involved in publication.authors %}
         {% assign found = false %}
         {% for person in site.people %}
