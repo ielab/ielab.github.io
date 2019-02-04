@@ -1,41 +1,84 @@
 <!DOCTYPE html>
-        <html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     {% seo %}
-        <link rel="stylesheet" href="{{ "/assets/css/picnic.min.css?v=" | append: site.github.build_revision | relative_url }}">
-        <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/picnic.min.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
     <link rel="icon" href="/images/ielab-page001.png">
+    <style>
+        #main {
+            max-width: 960px;
+            margin: 32px auto;
+        }
+
+        #menu-toggle-label {
+            display: none;
+        }
+
+        @media only screen and (max-width: 960px) {
+            #main {
+                margin: -12px;
+                padding: 32px;
+            }
+
+            aside > * {
+                display: inline;
+                vertical-align: top;
+            }
+
+            #menu-toggle-label {
+                display: block;
+                float: right;
+            }
+
+            #menu-toggle {
+                display: none;
+            }
+
+            #menu-toggle:checked + #menu {
+                max-height: 500px;
+            }
+
+            #menu {
+                overflow: hidden;
+                max-height: 0;
+                padding: 0;
+                margin: 0 auto;
+                -webkit-transition: all 0.3s ease;
+            }
+        }
+
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <main>
-<section class="flex five" style="max-width: 960px;margin: 32px auto">
-<aside class="full fifth-1000">
-    {% if site.logo %}
-        <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" style="width: 64px"/></a>
-    {% endif %}
+    <section id="main" class="flex one five-1000">
+        <aside class="full fifth-1000">
 
-
-    <p class="view"><a href="/">Home</a></p>
-    <p class="view"><a href="/publications">Publications</a></p>
-    <p class="view"><a href="/people">People</a></p>
-    <p class="view"><a href="/projects">Projects</a></p>
-    <p class="view"><a href="/posts">Posts</a></p>
-    <p class="view"><a href="https://github.com/ielab">ielab on GitHub
-        <small>github.com/ielab</small>
-    </a></p>
-    <p class="view"><a href="https://twitter.com/ielabgroup">ielab on Twitter
-        <small>twitter.com/ielabgroup</small>
-    </a></p>
-</aside>
-<article class="full four-fifth-1000">
-{{ content }}
-</article>
-</section>
+            {% if site.logo %}
+            <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" style="width: 64px"/></a>
+            {% endif %}
+            <label for="menu-toggle" id="menu-toggle-label" class="button">Menu</label>
+            <input type="checkbox" id="menu-toggle">
+            <div class="flex one-1000 two" id="menu">
+                <div><a class="pseudo button" href="/">Home</a></div>
+                <div><a class="pseudo button" href="/publications">Publications</a></div>
+                <div><a class="pseudo button" href="/people">People</a></div>
+                <div><a class="pseudo button" href="/projects">Projects</a></div>
+                <div><a class="pseudo button" href="/posts">Posts</a></div>
+                <div><a class="pseudo button" href="https://github.com/ielab">GitHub</a></div>
+                <div><a class="pseudo button" href="https://twitter.com/ielabgroup">Twitter</a></div>
+            </div>
+        </aside>
+        <article class="full four-fifth-1000">
+            {{ content }}
+        </article>
+    </section>
 </main>
 </body>
 </html>

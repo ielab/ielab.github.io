@@ -6,7 +6,7 @@ layout: default
 
 <div class="flex">
 {% for person in site.people %}
-<div class="flex four card" style="padding: 1em;">
+<div class="flex one four-600 card" style="padding: 1em;">
     <div>
         {% if person.image == nil %}
         <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
@@ -15,7 +15,7 @@ layout: default
         {% endif %}
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
-    <div class="half">{{ person.description }}</div>
+    <div class="full half-600">{{ person.description }}</div>
     <div>
         <ul>
             {% if person.website != nil %}

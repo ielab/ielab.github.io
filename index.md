@@ -4,7 +4,7 @@ The ielab is a collaborative group of researchers working in the area of informa
 
 ## Current Projects
 
-<div class="flex four">
+<div class="flex two four-600">
 {% for project in site.projects %}
 <div>
     <article class="card">
@@ -47,7 +47,7 @@ ielab was started as a group of Information Retrieval researchers at the [Univer
 <div class="flex">
 {% for person in site.people %}
 {% if person.role == "staff" %}
-<div class="flex four card" style="padding: 1em;">
+<div class="flex one four-600 card" style="padding: 1em;">
     <div>
         {% if person.image == nil %}
         <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
@@ -56,7 +56,7 @@ ielab was started as a group of Information Retrieval researchers at the [Univer
         {% endif %}
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
-    <div class="half">{{ person.description }}</div>
+    <div class="full half-600">{{ person.description }}</div>
     <div>
         <ul>
             {% if person.website != nil %}
@@ -82,7 +82,7 @@ ielab was started as a group of Information Retrieval researchers at the [Univer
 <div class="flex">
 {% for person in site.people %}
 {% if person.role == "phd" %}
-<div class="flex four card" style="padding: 1em;">
+<div class="flex one four-600 card" style="padding: 1em;">
     <div>
         {% if person.image == nil %}
         <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
@@ -91,7 +91,7 @@ ielab was started as a group of Information Retrieval researchers at the [Univer
         {% endif %}
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
-    <div class="half">{{ person.description }}</div>
+    <div class="full half-600">{{ person.description }}</div>
     <div>
         <ul>
             {% if person.website != nil %}

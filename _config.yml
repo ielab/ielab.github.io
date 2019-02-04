@@ -4,6 +4,9 @@ google_analytics:
 show_downloads: false
 logo: /images/ielab-page001.png
 
+plugins:
+  - jekyll-feed
+
 collections:
   projects:
     output: true
@@ -12,7 +15,6 @@ collections:
     output: true
   publications:
     output: true
-
 
 defaults:
 - scope:
