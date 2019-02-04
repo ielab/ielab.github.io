@@ -2,5 +2,13 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
+<div>
+    <a class="button" href="https://twitter.com/intent/tweet?source=https://ielab.io{{ page.url }}&text={{ page.title }} - https://ielab.io{{ page.url }}" target="_blank" title="Tweet">Share via twitter</a>
+    <a class="button" href="mailto:?subject={{ page.title }}&body=https://ielab.io{{ page.url }}" target="_blank" title="Send email">Share via email</a>
+    {% if page.pdf != nil %}
+    <a class="button" href="{{ page.pdf }}">Download PDF</a>
+    {% endif %}
+</div>
+<hr/>
 {{ content }}
-<p>Posted at {{ page.date }} by <em>{{ page.author }}</em></p>
+<p>Posted at {{ page.date | date: "%b %d, %y"  }} by <em>{{ page.author }}</em></p>

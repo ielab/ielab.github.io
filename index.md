@@ -30,8 +30,8 @@ To view a list of the group **publications**, please visit the [publications pag
 
 <div class="news">
 {% for post in site.posts limit:5 %}
-<small>{{ post.date | date_to_long_string }}</small>
 <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+<small>{{ post.date | date_to_long_string }}</small>
 <p>{{ post.excerpt }}</p>
 {% endfor %}
 </div>
