@@ -1,11 +1,17 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
-<b>People involved:</b>
-{% assign people = site.people | where:'group', post.people %}
+<h1>{{ page.title }}</h1>
+<a class="button" href="https://twitter.com/intent/tweet?source=https://ielab.io{{ page.url }}&text={{ page.title }} - https://ielab.io{{ page.url }}" target="_blank" title="Tweet">Twitter</a>
+<a class="button" href="mailto:?subject={{ page.title }}&body=https://ielab.io{{ page.url }}" target="_blank" title="Send email">Email</a>
+{% if page.pdf != nil %}
+<a class="button" href="{{ page.pdf }}">Download PDF</a>
+{% endif %}
+<hr/>
+<b>Authors:</b>
+{% assign author = site.people | where:'group', post.authors %}
 <div class="flex four">
-    {% for involved in page.people %}
+    {% for involved in page.authors %}
     {% for person in site.people %}
     {% assign path = person.id | split: "/" %}
     {% assign id = path[2] %}
@@ -26,5 +32,4 @@ layout: default
     {% endfor %}
     {% endfor %}
 </div>
-<hr/>
 {{ content }}

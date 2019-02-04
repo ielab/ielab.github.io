@@ -10,6 +10,8 @@ collections:
   people:
     people: true
     output: true
+  publications:
+    output: true
 
 
 defaults:
@@ -23,3 +25,8 @@ defaults:
     type: "people"
   values:
     layout: people
+- scope:
+    path: ""
+    type: "publications"
+  values:
+    layout: publications
