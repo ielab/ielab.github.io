@@ -1,8 +1,8 @@
 # The Information Engineering Lab
 
-The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval), i.e. search, and health informatics.
+The ielab is a collaborative group of researchers working in the area of information engineering. Much of this research is specifically on the areas of [information retrieval](https://en.wikipedia.org/wiki/Information_retrieval), i.e. search engine technology and information seeking, data science, and health informatics.
 
-## Current Projects
+## Highlighted Projects
 
 <div class="flex two four-600">
 {% for project in site.projects %}
@@ -17,11 +17,15 @@ The ielab is a collaborative group of researchers working in the area of informa
 {% endfor %}
 </div>
 
-For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). 
-
 A full list of projects is available at the [projects page](/projects)
 
-To view a list of the group **publications**, please visit the [publications page](/publications).
+To access a list of our **publications**, please visit the [publications page](/publications); this often includes a pre-print version of each publication.
+
+For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). 
+
+<!--- --->
+
+
 
 ---
 
@@ -40,7 +44,7 @@ To view a list of the group **publications**, please visit the [publications pag
 
 ## People
 
-ielab was started as a group of Information Retrieval researchers at the [University of Queensland (UQ)](http://www.uq.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Vienna University of Technology](https://www.tuwien.ac.at/en/), [Qatar Computing Research Institute](http://www.qcri.com) and more. From October 1, 2018, the core of the ielab research group will be hosted at the [University of Queensland (UQ)](http://www.uq.edu.au), among the world's top-50 universities.
+ielab's core group includes Information Retrieval researchers at the [University of Queensland (UQ)](http://www.uq.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from the [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Qatar Computing Research Institute](http://www.qcri.com) and more. 
 
 ### Researcher Staff
 
