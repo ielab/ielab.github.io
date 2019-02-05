@@ -17,7 +17,7 @@ The ielab is a collaborative group of researchers working in the area of informa
 {% endfor %}
 </div>
 
-A full list of projects is available at the [projects page](/projects)
+A full list of projects is available at the [projects page](/projects), including associated resources (software, data).
 
 To access a list of our **publications**, please visit the [publications page](/publications); this often includes a pre-print version of each publication.
 
@@ -116,6 +116,44 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% endif %}
 {% endfor %}
 </div>
+
+### External members
+
+<div class="flex">
+{% for person in site.people %}
+{% if person.role == "external" %}
+<div class="flex one four-600 card" style="padding: 1em;">
+    <div>
+        {% if person.image == nil %}
+        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
+        {% else %}
+        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
+        {% endif %}
+        <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
+    </div>        
+    <div class="full half-600">{{ person.description }}</div>
+    <div>
+        <ul>
+            {% if person.website != nil %}
+            <li><a href="{{ person.website }}">Personal Website</a></li>
+            {% endif %}
+            {% if person.scholar != nil %}
+            <li><a href="{{ person.scholar }}">Google Scholar</a></li>
+            {% endif %}
+            {% if person.twitter != nil %}
+            <li><a href="{{ person.twitter }}">Twitter</a></li>
+            {% endif %}                
+            {% if person.github != nil %}
+            <li><a href="{{ person.github }}">GitHub</a></li>
+            {% endif %}   
+        </ul>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+
+
 ### Honours Students
 
 * [completed 2017] Liam Cripwell. Honours student, QUT: Generating Clinical Queries from Patient Narratives

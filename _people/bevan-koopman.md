@@ -5,6 +5,6 @@ github:
 website: //koopman.id.au/
 image: 
 scholar: //scholar.google.com.au/citations?user=twCn-tYAAAAJ&hl=en
-role: staff
+role: external
 description: Research Scientist, CSIRO.
 ---
