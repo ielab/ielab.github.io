@@ -4,7 +4,6 @@
 {% for year in publications %}
 <h2>{{ year.name }}</h2>
 <ul>
-{% assign author = site.people | where:'group', publication.authors %}
 {% for publication in year.items %}
     <li>
     {% assign i = 0 %}

@@ -1,0 +1,18 @@
+categories:
+  - name: Tools for Improving Literature Search
+    publications:
+      - scells-2018-searchrefiner
+      - scells-2018-querylab
+
+  - name: Automatic Query Transformation
+    publications:
+      - scells-2018-generating
+      - scells-2019-refining
+
+  - name: Test Collections
+    publications:
+      - scells-2017-collection
+
+  - name: Retrieval Models
+    publications:
+      - scells-2017-integrating
