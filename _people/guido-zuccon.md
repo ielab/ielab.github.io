@@ -24,3 +24,6 @@ I am a senior lecturer at the University of Queensland Information Technology an
 	- health search evaluation
 
 If you are a UQ student, or a prospective one, and you are interested to work with me as part of your studies, you can find ideas for research projects for PhD and other research degrees [here](http://ielab.io/student-projects). I also welcome international higher education students wanting to do a research visit and collaborating on ideas within my research interests.
+
+
+See my publications below for more information, and [my Google Scholar profile](https://scholar.google.com.au/citations?user=aEVHhC8AAAAJ) for an up to date list of publications including citation metrics.
