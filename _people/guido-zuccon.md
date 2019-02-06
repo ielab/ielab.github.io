@@ -1,10 +1,10 @@
 ---
 name: Guido Zuccon
 twitter: //twitter.com/guidozuc
-github: 
-website: //zuccon.net/
+github: //github.com/guidozuc
+website: //ielab.io/people/guido-zuccon
 image: 
-scholar: //scholar.google.com.au/citations?user=aEVHhC8AAAAJ&hl=en
+scholar: //scholar.google.com.au/citations?user=aEVHhC8AAAAJ
 role: staff
 description: Senior Lecturer, UQ.
 ---
