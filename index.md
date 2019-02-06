@@ -32,13 +32,19 @@ For advertised **student projects** (including PhD, masters, and undergraduate) 
 ## News
 
 
-<div class="news">
+<div class="news flex one three-1000">
+<div class="two-third-1000">
 {% for post in site.posts limit:5 %}
 <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 <small>{{ post.date | date_to_long_string }}</small>
 <p>{{ post.excerpt }}</p>
 {% endfor %}
 </div>
+<div>
+<a class="twitter-timeline" href="https://twitter.com/IELabGroup?ref_src=twsrc%5Etfw">Tweets by IELabGroup</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
+</div>
+
 
 ---
 
@@ -83,6 +89,7 @@ ielab's core group includes Information Retrieval researchers at the [University
 </div>
 
 ### Doctoral Students (PhD)
+
 <div class="flex">
 {% for person in site.people %}
 {% if person.role == "phd" %}
