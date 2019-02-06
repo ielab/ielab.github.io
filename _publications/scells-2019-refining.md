@@ -1,6 +1,6 @@
 ---
 authors: [harry-scells, guido-zuccon, bevan-koopman]
-title: "Automatic Boolean Query Refinement for Systematic Review Literature Search "
+title: "Automatic Boolean Query Refinement for Systematic Review Literature Search"
 venue: Proceedings of The Web Conference 2019
 year: 2019
 pdf: /publications/pdfs/scells2019refining.pdf
