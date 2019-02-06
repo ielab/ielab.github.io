@@ -3,7 +3,7 @@ name: Guido Zuccon
 twitter: //twitter.com/guidozuc
 github: //github.com/guidozuc
 website: //ielab.io/people/guido-zuccon
-image: 
+image: //ielab.io/images/guido-zuccon-scaled.jpg
 scholar: //scholar.google.com.au/citations?user=aEVHhC8AAAAJ
 role: staff
 description: Senior Lecturer, UQ.
