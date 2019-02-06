@@ -13,6 +13,9 @@ layout: default
 {% if page.website != nil %}
 <a class="button" href="{{ page.website }}">Personal Website</a>
 {% endif %}
+{% if page.orcid != nil %}
+<a class="button" href="https://orcid.org/{{ page.orcid }}">ORCID</a>
+{% endif %}
 {% if page.scholar != nil %}
 <a class="button" href="{{ page.scholar }}">Google Scholar</a>
 {% endif %}
