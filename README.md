@@ -8,7 +8,6 @@ welcome to the README file of the ielab website. This file will get you set up a
  
  Rather than guessing to see if your changes look good on the website without testing them, you can render the website locally with jekyll. **please follow [this tutorial](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/) to set this up**. Building the site locally gives you "hot-reloading" so you just need to refresh your browser to see changes.
  
-  
 ## Organisation of Website 
 
 The organisation of the ielab website is currently broken down into the following collections:
@@ -106,6 +105,16 @@ tags: [publications]
 ```
 
 The `layout` variable must be `post`. The `title`, `date` and `author` are displayed when templating the page. Enter content of the post underneath the front matter. The first paragraph of a post is used as an except in templating.
+
+## Unrelated Pages
+
+If you have a requirement for a page at the top-level of the ielab website, e.g., supplemental content for a paper, project page for code, etc., **this should be a separate repository**. It is [very easy](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) to set up if you have an existing repository and removes clutter from this repository.
+
+Example:
+
+ - Project page: [https://ielab.io/searchrefiner/](https://ielab.io/searchrefiner/)
+ - GitHub repo: [https://github.com/ielab/searchrefiner](https://github.com/ielab/searchrefiner)
+
 
 ## Data Files
 
