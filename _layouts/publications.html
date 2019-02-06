@@ -14,29 +14,45 @@ layout: default
 </div>
 <hr/>
 <b>Authors:</b>
+<!-- @formatter:off -->
 {% assign author = site.people | where:'group', post.authors %}
 <div class="flex four">
     {% for involved in page.authors %}
+    {% assign found = false %}
     {% for person in site.people %}
-    {% assign path = person.id | split: "/" %}
-    {% assign id = path[2] %}
-    {% if id == involved %}
-    <div>
-        <article class="card">
-            <div style="height: 120px; margin:auto; display:block">
-                {% if person.image == nil %}
-                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% else %}
-                <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% endif %}
+        {% assign path = person.id | split: "/" %}
+        {% assign id = path[2] %}
+        {% if id == involved %}
+            {% assign found = true %}
+            <div>
+                <article class="card">
+                    <div style="height: 120px; margin:auto; display:block">
+                        {% if person.image == nil %}
+                        <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
+                        {% else %}
+                        <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
+                        {% endif %}
+                    </div>
+                    <footer>
+                        <a href="{{ person.url }}">{{ person.name }}</a>
+                    </footer>
+                </article>
             </div>
-            <footer>
-                <a href="{{ person.url }}">{{ person.name }}</a>
-            </footer>
-        </article>
-    </div>
-    {% endif %}
-    {% endfor %}
+        {% endif %}
+        {% endfor %}
+        {% if found == false %}
+            <div>
+                <article class="card">
+                    <div style="height: 120px; margin:auto; display:block">
+                        <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
+                    </div>
+                    <footer>
+                        {{ involved }}
+                    </footer>
+                </article>
+            </div>
+        {% endif %}
     {% endfor %}
 </div>
 {{ content }}
+<!-- @formatter:on -->
