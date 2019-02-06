@@ -59,11 +59,13 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% if person.role == "staff" %}
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
-        {% if person.image == nil %}
-        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
-        {% else %}
-        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
-        {% endif %}
+        <div style="width: 64px; height: 64px; margin:auto; display:block">
+            {% if person.image == nil %}
+            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% else %}
+            <img src="{{ person.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% endif %}
+        </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
     <div class="full half-600">{{ person.description }}</div>
@@ -95,11 +97,13 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% if person.role == "phd" %}
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
-        {% if person.image == nil %}
-        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
-        {% else %}
-        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
-        {% endif %}
+        <div style="width: 64px; height: 64px; margin:auto; display:block">
+            {% if person.image == nil %}
+            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% else %}
+            <img src="{{ person.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% endif %}
+        </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
     <div class="full half-600">{{ person.description }}</div>
@@ -131,11 +135,13 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% if person.role == "external" %}
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
-        {% if person.image == nil %}
-        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
-        {% else %}
-        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
-        {% endif %}
+        <div style="width: 64px; height: 64px; margin:auto; display:block">
+            {% if person.image == nil %}
+            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% else %}
+            <img src="{{ person.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% endif %}
+        </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
     <div class="full half-600">{{ person.description }}</div>

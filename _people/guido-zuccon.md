@@ -1,6 +1,7 @@
 ---
 name: Guido Zuccon
 twitter: //twitter.com/guidozuc
+twitter-timeline: true
 github: //github.com/guidozuc
 website: //ielab.io/people/guido-zuccon
 image: //ielab.io/images/guido-zuccon-scaled.jpg

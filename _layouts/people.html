@@ -2,11 +2,13 @@
 layout: default
 ---
 <!-- @formatter:off -->
-{% if page.image == nil %}
-<img width="120px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%;">
-{% else %}
-<img width="120px" height="auto" src="{{ page.image }}" style="border-radius:50%;">
-{% endif %}
+<div style="width: 120px; height: 120px;">
+    {% if page.image == nil %}
+    <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: contain">
+    {% else %}
+    <img src="{{ page.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+    {% endif %}
+</div>
 <h1>{{ page.name }}</h1>
 {% if page.website != nil %}
 <a class="button" href="{{ page.website }}">Personal Website</a>
@@ -21,7 +23,18 @@ layout: default
 <a class="button" href="{{ page.github }}">GitHub</a>
 {% endif %}
 <p>{{ page.description }}</p>
-{{ content }}
+
+{% if page.twitter-timeline == true %}
+<div class="flex one five-1000">
+    <div class="four-fifth-1000">{{ content }}</div>
+    <div>
+        <a class="twitter-timeline" href="{{ page.twitter }}"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+{% else %}
+{{ content}}
+{% endif %}
+
 <h2>Publications</h2>
 {% assign publications = site.publications | sort:"year" | reverse %}
 <ul>
