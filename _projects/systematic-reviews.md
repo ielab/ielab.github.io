@@ -12,7 +12,6 @@ See below for a list of relevant publications, description of the task, backgrou
 
 ### Relevant Publications 
 
-
 {% for category in site.data.projects.systematic-reviews.categories %}
 #### {{ category.name }}
 {% for pubid in category.publications %}

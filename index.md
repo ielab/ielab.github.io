@@ -32,13 +32,19 @@ For advertised **student projects** (including PhD, masters, and undergraduate) 
 ## News
 
 
-<div class="news">
+<div class="news flex one three-1000">
+<div class="two-third-1000">
 {% for post in site.posts limit:5 %}
 <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 <small>{{ post.date | date_to_long_string }}</small>
 <p>{{ post.excerpt }}</p>
 {% endfor %}
 </div>
+<div>
+<a class="twitter-timeline" href="https://twitter.com/IELabGroup?ref_src=twsrc%5Etfw">Tweets by IELabGroup</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
+</div>
+
 
 ---
 
@@ -53,11 +59,13 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% if person.role == "staff" %}
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
-        {% if person.image == nil %}
-        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
-        {% else %}
-        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
-        {% endif %}
+        <div style="width: 64px; height: 64px; margin:auto; display:block">
+            {% if person.image == nil %}
+            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% else %}
+            <img src="{{ person.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% endif %}
+        </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
     <div class="full half-600">{{ person.description }}</div>
@@ -83,16 +91,19 @@ ielab's core group includes Information Retrieval researchers at the [University
 </div>
 
 ### Doctoral Students (PhD)
+
 <div class="flex">
 {% for person in site.people %}
 {% if person.role == "phd" %}
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
-        {% if person.image == nil %}
-        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
-        {% else %}
-        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
-        {% endif %}
+        <div style="width: 64px; height: 64px; margin:auto; display:block">
+            {% if person.image == nil %}
+            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% else %}
+            <img src="{{ person.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% endif %}
+        </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
     <div class="full half-600">{{ person.description }}</div>
@@ -124,11 +135,13 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% if person.role == "external" %}
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
-        {% if person.image == nil %}
-        <img width="64px" height="auto" src="/images/blank-profile-picture.png" style="border-radius:50%; margin:auto; display:block">
-        {% else %}
-        <img width="64px" height="auto" src="{{ person.image }}" style="border-radius:50%; margin:auto; display:block">
-        {% endif %}
+        <div style="width: 64px; height: 64px; margin:auto; display:block">
+            {% if person.image == nil %}
+            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% else %}
+            <img src="{{ person.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
+            {% endif %}
+        </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
     <div class="full half-600">{{ person.description }}</div>

@@ -12,11 +12,13 @@ layout: default
     {% if id == involved %}
     <div>
         <article class="card">
-            {% if person.image == nil %}
-            <img height="auto" src="/images/blank-profile-picture.png">
-            {% else %}
-            <img height="auto" src="{{ person.image }}">
-            {% endif %}
+            <div style="height: 120px; margin:auto; display:block">
+                {% if person.image == nil %}
+                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
+                {% else %}
+                <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
+                {% endif %}
+            </div>
             <footer>
                 <a href="{{ person.url }}">{{ person.name }}</a>
             </footer>
