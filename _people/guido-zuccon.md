@@ -1,5 +1,6 @@
 ---
 name: Guido Zuccon
+redirect_from: /guido
 twitter: //twitter.com/guidozuc
 twitter-timeline: true
 orcid: 0000-0003-0271-5563

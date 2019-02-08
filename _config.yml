@@ -6,6 +6,7 @@ logo: /images/ielab-page001.png
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 collections:
   projects:
@@ -17,18 +18,18 @@ collections:
     output: true
 
 defaults:
-- scope:
-    path: ""
-    type: "projects"
-  values:
-    layout: projects
-- scope:
-    path: ""
-    type: "people"
-  values:
-    layout: people
-- scope:
-    path: ""
-    type: "publications"
-  values:
-    layout: publications
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: projects
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: people
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: publications
