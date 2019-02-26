@@ -1,4 +1,8 @@
 categories:
+  - name: Establishing a Reference System for CHS
+    publications:
+      - jimmy-2016-boosting
+      - jimmy-2018-volatility
   - name: Health Queries Formulation
     publications:
       - jimmy-2018-choices
