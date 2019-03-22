@@ -1,6 +1,6 @@
 ---
 name: Consumer Health Search
-image: //source.unsplash.com/n8o2pt46aEI/320x320
+image: /images/projects/chs.jpg
 people: [jimmy, guido-zuccon, bevan-koopman, joao-palotti]
 ---
 

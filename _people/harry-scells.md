@@ -1,6 +1,6 @@
 ---
 name: Harry Scells
-image: //scells.me/img/harry.jpeg
+image: /images/harry.jpeg
 twitter: //twitter.com/hscells
 github: //github.com/hscells
 website: //scells.me

@@ -1,6 +1,6 @@
 ---
 name: Clinical Decision Support
-image: //source.unsplash.com/w9YHKTK-wLo/320x320
+image: /images/projects/cds.jpg
 people: [anton-van-der-vegt, guido-zuccon]
 ---
 

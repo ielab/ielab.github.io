@@ -1,6 +1,6 @@
 ---
 name: Case Law Citation Search
-image: //source.unsplash.com/wHlaFa4H3DQ/320x320
+image: /images/projects/legal.jpg
 people: [daniel-locke, guido-zuccon, bevan-koopman]
 ---
 

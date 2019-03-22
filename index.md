@@ -23,10 +23,6 @@ To access a list of our **publications**, please visit the [publications page](/
 
 For advertised **student projects** (including PhD, masters, and undergraduate) please visit the [student projects page](/student-projects). 
 
-<!--- --->
-
-
-
 ---
 
 ## News
