@@ -16,6 +16,8 @@ collections:
     output: true
   publications:
     output: true
+  tutorials:
+    output: true
 
 defaults:
   - scope:
@@ -33,3 +35,8 @@ defaults:
       type: "publications"
     values:
       layout: publications
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: tutorials

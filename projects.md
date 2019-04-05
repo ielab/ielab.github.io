@@ -36,10 +36,3 @@ The ielab works on a diversity of research projects in the fields of information
 
 * [USSC Caselaw Collection](https://github.com/ielab/ussc-caselaw-collection): A collection for evaluating Case Law IR systems
 * [SIGIR2017 Systematic Reviews Collection](https://github.com/ielab/SIGIR2017-PICO-Collection): A collection for evaluating IR systems for Systematic Reviews, with PICO annotations
-
-
-#### Research tutorials and teaching material
-
-* [Elastic4IR](https://github.com/ielab/elastic4IR): Tutorial and resources for using Elastic for information retrieval experiments. The tutorial was designed for the [SIGIR 2017 Lucene for Information Access and Retrieval Research (LIARR)](https://liarr2017.github.io/).
-* [Health Search Tutorial](https://github.com/ielab/health-search-tutorial): Tutorials and resources on health information retrieval problems, methods and resources, covering aspects from clinicians to consumers. This tutorial has been given, in different formats, at SIGIR 2018, RUSSIR 2018, AFIRM 2018, WSDM 2019.
-* [AFIRM 2019 IR in Practice](https://github.com/ielab/afirm2019): Material about using Elasticsearch for information retrieval experiments, presented at the 2019 ACM SIGIR/SIGKDD Africa Summer School on Machine Learning for Data Mining and Search.

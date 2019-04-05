@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<h1>{{ page.name }}</h1>
+<b>Presented at:</b>
+{%- for venue in page.venues -%}
+<span class="label" style="background-color: #aaaaaa">{{- venue -}}</span>
+{%- endfor -%}
+<br/>
+{%- for link in page.links -%}
+<a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
+{%- endfor -%}
+<br/>
+<br/>
+{{- page.description -}}
+<br/>
+<br/>
+<b>People involved:</b>
+{% assign people = site.people | where:'group', post.people %}
+<div class="flex four">
+    {% for involved in page.people %}
+    {% for person in site.people %}
+    {% assign path = person.id | split: "/" %}
+    {% assign id = path[2] %}
+    {% if id == involved %}
+    <div>
+        <article class="card">
+            <div style="height: 120px; margin:auto; display:block">
+                {% if person.image == nil %}
+                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
+                {% else %}
+                <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
+                {% endif %}
+            </div>
+            <footer>
+                <a href="{{ person.url }}">{{ person.name }}</a>
+            </footer>
+        </article>
+    </div>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+</div>
+<hr/>
+{{ content }}
