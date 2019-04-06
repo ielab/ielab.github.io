@@ -2,9 +2,9 @@
 name: Leif Azzopardi
 twitter: //twitter.com/leifos
 github: 
-website: //www.dcs.gla.ac.uk/~leif/
+website: //www.leifazzopardi.com
 image: 
 scholar: //scholar.google.com.au/citations?user=TmvrscMAAAAJ&hl=en
 role: external
-description: Senior Lecturer, University of Strathclyde (UK).  
+description: Associate Professor and Chancellor's Fellow, University of Strathclyde (UK).  
 ---
