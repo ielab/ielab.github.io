@@ -3,19 +3,15 @@ name: Building Economic Models of HCI
 venues: [CHI2019]
 people: [guido-zuccon, leif-azzopardi]
 description: Tutorials and resources on building economic models of how people interact with interfaces and systems.
-links: 
- - url: https://github.com/ielab/economic-hci-tutorial
-   name: GitHub
 ---
 
 
 <h2>Course Overview</h2>
+<p>
 Economics provides an intuitive and natural way to formally represent the cost and benefits of interacting with applications, interfaces and devices. By using economics models it is possible to reason about interaction and make predictions about how changes to the system will affect performance and behavior. In this course, we provided an overview of relevant economic concepts and then showed how economics can be used to model human computer interaction to generated hypotheses about interaction which can be used to inform design and guide experimentation. As a case study, we demonstrate how various interactions with search and recommender applications can be modeled, before concluding the day with a hands-on modeling session using example and participant problems.
 
-
-
-
 The full day course included the following four sessions.
+</p>
 
 <h2>Session 1 – Building Economic Models</h2>
 The first session focused on providing a grounding in economic and optimization models [11, 12], how to build such models [12, 20], and how to use them to gain insights about the phenomena under examination. Starting with a simple example of modeling different interfaces to browse through items, we showed how the costs of different interactions can be described within a cost function to compare different interfaces and user interaction strategies where the goal is to minimize the task completion time [8]. Then we showed how more sophisticated models can be developed which investigate the trade-offs between different interactions due to the associated costs and benefits. For example, how much more benefit/satisfaction a user receives from the interactions which comes at a cost, such as the trade-off between the length of a query and the performance of the query, or the trade-off between the amount of novel information found and the time taken to find it [2]. We then discussed the limitations of such approaches due to the modeling assumption that people act rationally, and so we described alternatives to economic models based on expected utility (i.e. prospect theory [19], etc.).
