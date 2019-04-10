@@ -8,6 +8,7 @@
             <a href="{{ project.url }}">{{ project.name }}</a>
         </header>
         <footer>
+        <img src="{{ project.image }}">
             <div>{{ project.description }}</div>
         </footer>
     </article>
