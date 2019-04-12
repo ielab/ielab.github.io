@@ -19,10 +19,12 @@ layout: default
 {% assign people = site.people | where:'group', post.people %}
 <div class="flex four">
     {% for involved in page.people %}
+    {% assign found = false %}
     {% for person in site.people %}
     {% assign path = person.id | split: "/" %}
     {% assign id = path[2] %}
-    {% if id == involved %}
+    {% if id == involved.name %}
+    {% assign found = true %}
     <div>
         <article class="card">
             <div style="height: 120px; margin:auto; display:block">
@@ -39,6 +41,22 @@ layout: default
     </div>
     {% endif %}
     {% endfor %}
+    {% if found == false %}
+    <div>
+        <article class="card">
+            <div style="height: 120px; margin:auto; display:block">
+                {% if involved.image == nil %}
+                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
+                {% else %}
+                <img src="{{ involved.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
+                {% endif %}
+            </div>
+            <footer>
+            {{ involved.name }}
+            </footer>
+        </article>
+    </div>
+    {% endif %}
     {% endfor %}
 </div>
 <hr/>

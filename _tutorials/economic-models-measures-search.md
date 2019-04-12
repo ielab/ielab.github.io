@@ -1,7 +1,13 @@
 ---
 name: Building Economic Models and Measures of Search
 venues: [SIGIR2019]
-people: [leif-azzopardi, alistair-moffat, paul-thomas, guido-zuccon]
+people:
+ - name: leif-azzopardi
+ - name: "Alistair Moffat"
+   image: 
+ - name: "Paul Thomas"
+   image:
+ - name: guido-zuccon
 description: Material for the Building Economic Models and Measures of Search tutorial at SIGIR 2019
 links: 
  - url: https://github.com/ielab/bemms2019
