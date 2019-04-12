@@ -4,9 +4,9 @@ venues: [SIGIR2019]
 people:
  - name: leif-azzopardi
  - name: "Alistair Moffat"
-   image: 
+   image: /images/alistair-moffat.jpg
  - name: "Paul Thomas"
-   image:
+   image: /images/paul-thomas.jpg
  - name: guido-zuccon
 description: Material for the Building Economic Models and Measures of Search tutorial at SIGIR 2019
 links: 
