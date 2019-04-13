@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://ielab.io/</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/projects</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/posts</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/tutorials</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/projects/caselaw.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/projects/clinical-decision-support.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/projects/consumer-health-search.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/projects/systematic-reviews.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/student-projects</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/posts/2019/02/06/phd-positions-in-health-ds.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/posts/2019/01/30/journal-accepted-jmir.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/joao-palotti</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/guido-zuccon</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/posts/2019/01/21/papers-accepted-www.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/harry-scells</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/bevan-koopman</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/posts/2018/08/31/phd-projects-available.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/anton-van-der-vegt</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/daniel-locke</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/jimmy</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/sebastian-cross</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/suresh-pokharel</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/leif-azzopardi</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2019-refining</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/vegt-2018-task</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/suominen-2018-overview</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2018-searchrefiner</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2018-qvpp</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2018-querylab</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2018-generating</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pokharel-2018-similarity</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/locke-2018-test</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/koopman-2018-extracting</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2018-volatility</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2018-payoffs</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2018-overview</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2018-clef</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2018-choices</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/goeuriot-2018-analysis</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/azzopardi-2018-economics</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2017-ltr</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2017-integrating</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/scells-2017-collection</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2017-clef</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/jimmy-2016-boosting</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/sitthichoke-subpaiboonkit</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/subpaiboonkit-2013-safelevelgraph</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/subpaiboonkit-2013-RnaSecondaryStrcuture</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/subpaiboonkit-2012-Rnafam</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/subpaiboonkit-2011-BioNameEntity</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/tutorials/economic-hci.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/tutorials/economic-models-measures-search.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/tutorials/elastic4ir.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/tutorials/health-search-tutorial.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/tutorials/ir-in-practice.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/daniel-locke.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/guido-zuccon.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/bevan-koopman.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/anton-van-der-vegt.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/jimmy.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/joao-palotti.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/harry-scells.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2019refining.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/leif-azzopardi.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2018searchrefiner.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2018qvpp.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2018framework.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2018generating.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/pokharel2018similarity.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/suresh-pokharel.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2018volatility.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2018payoffs.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2018overview.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2018QUT.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2018choices.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2017integrating.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/scells2017collection.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2017QUT.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/publications/pdfs/jimmy2016boosting.pdf</loc>
+  <lastmod>2019-04-12T08:25:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://ielab.io/people/sitthichoke-subpaiboonkit.html</loc>
+  <lastmod>2019-04-12T08:25:05+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
