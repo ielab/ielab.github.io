@@ -50,46 +50,32 @@ To kick the session off, we will start by introducing a problem, and then collab
 
 ### References
 
-[1] KumaripabaAthukorala,AnttiOulasvirta,DorotaGlowacka,JillesVreeken,and Giulio Jacucci. 2014. Narrow or Broad?: Estimating Subjective Specificity in Exploratory Search. In Proc. of the 23rd ACM CIKM. 819–828.
-[2] Leif Azzopardi. 2011. The Economics in Interactive Information Retrieval. In Proc. SIGIR. 15–24.
-[3] Leif Azzopardi. 2014. Modelling Interaction with Economic Models of Search. In Proc. SIGIR. 3–12.
-[4] Leif Azzopardi, Paul Thomas, and Nick Craswell. 2018. Measuring the Utility of Search Engine Result Pages: An Information Foraging Based Measure. In The 41st International ACM SIGIR Conference on Research &#38; Development in Information Retrieval (SIGIR ’18). 605–614.
-[5] Leif Azzopardi and Guido Zuccon. 2015. An Analysis of Theories of Search and Search Behavior. In Proceedings of the 2015 International Conference on The Theory of Information Retrieval (ICTIR ’15). 81–90.
-[6] Leif Azzopardi and Guido Zuccon. 2016. An Analysis of the Cost and Benefit of Search Interactions. In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR ’16). 59–68.
-[7] Leif Azzopardi and Guido Zuccon. 2016. Two Scrolls or One Click: A Cost Model for Browsing Search Results.
-[8] Leif Azzopardi and Guido Zuccon. 2018. Computational Interaction. Oxford University Press, Chapter Economics models of interaction: a tutorial on modeling interaction using economics.
-[9] Eric L Charnov. 1976. Optimal Foraging, the Marginal Value Theorem. Theoretical population biology 9, 2 (1976), 129–136.
-[10] Michael D. Cooper. 1972. A cost model for evaluating information retrieval systems. Journal of the American Society for Information Science (1972), 306–312. [11] Norbert Fuhr. 2008. A probability ranking principle for interactive information
-retrieval. Information Retrieval 11, 3 (2008), 251–265.
-[12] Frederick S Hillier and Gerald J Lieberman. 2001. Introduction to operations
-research. NY, US (2001).
-[13] Kalervo Järvelin and Jaana Kekäläinen. 2002. Cumulated Gain-based Evaluation
-of IR Techniques. ACM Trans. Inf. Syst. 20, 4 (Oct. 2002), 422–446.
-[14] AlistairMoffat,PeterBailey,FalkScholer,andPaulThomas.2015.INST:AnAdap- tive Metric for Information Retrieval Evaluation. In Proc. Australasian Document
-Computing Symposium. Article 5, 4 pages.
-[15] Alistair Moffat, Peter Bailey, Falk Scholer, and Paul Thomas. 2017. Incorporating
-User Expectations and Behavior into the Measurement of Search Effectiveness.
-ACM Trans. Inf. Syst. 35, 3, Article 24 (2017), 38 pages.
-[16] AlistairMoffat,PaulThomas,andFalkScholer.2013.UsersVersusModels:What
-Observation Tells Us About Effectiveness Metrics. In Proc. CIKM. 659–668.
-[17] Alistair Moffat and Justin Zobel. 2008. Rank-Biased Precision for Measurement of Retrieval Effectiveness. ACM Trans. on Information Systems 27, 1 (2008), 2:1–2:27. [18] Katta G Murty. 2003. Optimization Models For Decision Making: Volume. Uni-
-versity of Michigan, Ann Arbor (2003).
-[19] Peter Pirolli and Stuart Card. 1999. Information Foraging. Psychological Review
-106 (1999), 643–675. Issue 4.
-[20] HowardLResnikoff,HLResenikoff,andHLResnikoff.1989.Theillusionofreality.
-Springer-Verlag New York.
-[21] Stephen E Robertson. 1977. The probability ranking principle in IR. Journal of
-documentation 33, 4 (1977), 294–304.
-[22] Tuukka Ruotsalo, Kumaripaba Athukorala, Dorota Glowacka, Ksenia
-Konyushkova, Antti Oulasvirta, Samuli Kaipiainen, Samuel Kaski, and Giulio Jacucci. 2013. Supporting Exploratory Search Tasks with Interactive User Modeling. In Proceedings of the 76th ASIS&T Annual Meeting (ASIST ’13). Article 39, 10 pages.
-[23] Daniel M. Russell, Mark J. Stefik, Peter Pirolli, and Stuart K. Card. 1993. The cost structure of sensemaking. In Proceedings of the INTERACT and SIGCHI Conference. 269–276.
-[24] Pamela Effrein Sandstrom. 1994. An optimal foraging approach to information seeking and use. The library quarterly (1994), 414–449.
-[25] DWStephensandJRKrebs.1986.ForagingTheory.Princeton:PrincetonUniversity Press 1, 10 (1986), 100.
-[26] Jun Wang and Jianhan Zhu. 2009. Portfolio theory of information retrieval. In Proceedings of the 32nd international ACM SIGIR conference. ACM, 115–122.
-[27] ChengXiangZhai.2015.Towardsagame-theoreticframeworkforinformationre-
-trieval. In Proceedings of the 38th International ACM SIGIR Conference on Research
-and Development in Information Retrieval. ACM, 543–543.
-[28] YinanZhangandChengxiangZhai.2015.InformationRetrievalAsCardPlaying:
-A Formal Model for Optimizing Interactive Retrieval Interface. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’15). 685–694.
-[29] Guido Zuccon, Leif Azzopardi, Dell Zhang, and Jun Wang. 2012. Top-k retrieval using facility location analysis. In Proc. of ECIR. 305–316.
+    - [1] Kumaripaba Athukorala, Antti Oulasvirta, Dorota Glowacka, Jilles Vreeken, and Giulio Jacucci. 2014. Narrow or Broad?: Estimating Subjective Specificity in Exploratory Search. In Proc. of the 23rd ACM CIKM. 819–828.
+    - [2] Leif Azzopardi. 2011. The Economics in Interactive Information Retrieval. In Proc. SIGIR. 15–24.
+    - [3] Leif Azzopardi. 2014. Modelling Interaction with Economic Models of Search. In Proc. SIGIR. 3–12.
+    - [4] Leif Azzopardi, Paul Thomas, and Nick Craswell. 2018. Measuring the Utility of Search Engine Result Pages: An Information Foraging Based Measure. In The 41st International ACM SIGIR Conference on Research &#38; Development in Information Retrieval (SIGIR ’18). 605–614.
+    - [5] Leif Azzopardi and Guido Zuccon. 2015. An Analysis of Theories of Search and Search Behavior. In Proceedings of the 2015 International Conference on The Theory of Information Retrieval (ICTIR ’15). 81–90.
+    - [6] Leif Azzopardi and Guido Zuccon. 2016. An Analysis of the Cost and Benefit of Search Interactions. In Proceedings of the 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR ’16). 59–68.
+    - [7] Leif Azzopardi and Guido Zuccon. 2016. Two Scrolls or One Click: A Cost Model for Browsing Search Results.
+    - [8] Leif Azzopardi and Guido Zuccon. 2018. Computational Interaction. Oxford University Press, Chapter Economics models of interaction: a tutorial on modeling interaction using economics.
+    - [9] Eric L Charnov. 1976. Optimal Foraging, the Marginal Value Theorem. Theoretical population biology 9, 2 (1976), 129–136.
+    - [10] Michael D. Cooper. 1972. A cost model for evaluating information retrieval systems. Journal of the American Society for Information Science (1972), 306–312. 
+    - [11] Norbert Fuhr. 2008. A probability ranking principle for interactive information retrieval. Information Retrieval 11, 3 (2008), 251–265.
+    - [12] Frederick S Hillier and Gerald J Lieberman. 2001. Introduction to operations research. NY, US (2001).
+    - [13] Kalervo Järvelin and Jaana Kekäläinen. 2002. Cumulated Gain-based Evaluation of IR Techniques. ACM Trans. Inf. Syst. 20, 4 (Oct. 2002), 422–446.
+    - [14] Alistair Moffat, Peter Bailey,Falk Scholer,and Paul Thomas. 2015. INST:An Adaptive Metric for Information Retrieval Evaluation. In Proc. Australasian Document Computing Symposium. Article 5, 4 pages.
+    - [15] Alistair Moffat, Peter Bailey, Falk Scholer, and Paul Thomas. 2017. Incorporating User Expectations and Behavior into the Measurement of Search Effectiveness. ACM Trans. Inf. Syst. 35, 3, Article 24 (2017), 38 pages.
+    - [16] Alistair Moffat, Paul Thomas, and Falk Scholer.2013.UsersVersusModels:What Observation Tells Us About Effectiveness Metrics. In Proc. CIKM. 659–668.
+    - [17] Alistair Moffat and Justin Zobel. 2008. Rank-Biased Precision for Measurement of Retrieval Effectiveness. ACM Trans. on Information Systems 27, 1 (2008), 2:1–2:27. [18] Katta G Murty. 2003. Optimization Models For Decision Making: Volume. Uni- versity of Michigan, Ann Arbor (2003).
+    - [19] Peter Pirolli and Stuart Card. 1999. Information Foraging. Psychological Review 106 (1999), 643–675. Issue 4.
+    - [20] Howard L Resnikoff. 1989. The illusion of reality. Springer-Verlag New York.
+    - [21] Stephen E Robertson. 1977. The probability ranking principle in IR. Journal of documentation 33, 4 (1977), 294–304.
+    - [22] Tuukka Ruotsalo, Kumaripaba Athukorala, Dorota Glowacka, Ksenia Konyushkova, Antti Oulasvirta, Samuli Kaipiainen, Samuel Kaski, and Giulio Jacucci. 2013. Supporting Exploratory Search Tasks with Interactive User Modeling. In Proceedings of the 76th ASIS&T Annual Meeting (ASIST ’13). Article 39, 10 pages.
+    - [23] Daniel M. Russell, Mark J. Stefik, Peter Pirolli, and Stuart K. Card. 1993. The cost structure of sensemaking. In Proceedings of the INTERACT and SIGCHI Conference. 269–276.
+    - [24] Pamela Effrein Sandstrom. 1994. An optimal foraging approach to information seeking and use. The library quarterly (1994), 414–449.
+    - [25] D W Stephens and J R Krebs. 1986. Foraging Theory. Princeton University Press 1, 10 (1986), 100.
+    - [26] Jun Wang and Jianhan Zhu. 2009. Portfolio theory of information retrieval. In Proceedings of the 32nd international ACM SIGIR conference. ACM, 115–122.
+    - [27] ChengXiang Zhai. 2015. Towards a game-theoretic framework for information retrieval. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval. ACM, 543–543.
+    - [28] Yinan Zhang and Chengxiang Zhai. 2015. Information Retrieval As Card Playing: A Formal Model for Optimizing Interactive Retrieval Interface. In Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ’15). 685–694.
+    - [29] Guido Zuccon, Leif Azzopardi, Dell Zhang, and Jun Wang. 2012. Top-k retrieval using facility location analysis. In Proc. of ECIR. 305–316.
 
