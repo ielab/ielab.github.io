@@ -4,9 +4,10 @@ venues: [CHI2019]
 people:
  - name: guido-zuccon
  - name: leif-azzopardi
-description: Tutorials and resources on building economic models of how people interact with interfaces and systems.
+description: Course on building economic models of how people interact with interfaces and systems.
 ---
 
+<a href="/publications/pdfs/c19-building-economic-models-at-chi2019.pdf">CHI 2019 Course Notes</a>
 
 <h2>Course Overview</h2>
 <p>
