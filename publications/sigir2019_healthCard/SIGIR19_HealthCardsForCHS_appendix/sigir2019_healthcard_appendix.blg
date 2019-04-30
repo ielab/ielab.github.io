@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sigir2019_healthcard_appendix.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: health_card.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in Kelly2015
+Warning--empty address in Kelly2015
+You've used 1 entry,
+            5732 wiz_defined-function locations,
+            1300 strings with 14815 characters,
+and the built_in function-call counts, 1448 in all, are:
+= -- 142
+> -- 52
+< -- 0
++ -- 17
+- -- 16
+* -- 103
+:= -- 149
+add.period$ -- 5
+call.type$ -- 1
+change.case$ -- 8
+chr.to.int$ -- 1
+cite$ -- 3
+duplicate$ -- 129
+empty$ -- 89
+format.name$ -- 20
+if$ -- 317
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 5
+newline$ -- 47
+num.names$ -- 8
+pop$ -- 51
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 48
+stack$ -- 0
+substring$ -- 106
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 30
+warning$ -- 2
+while$ -- 7
+width$ -- 0
+write$ -- 57
+(There were 2 warnings)

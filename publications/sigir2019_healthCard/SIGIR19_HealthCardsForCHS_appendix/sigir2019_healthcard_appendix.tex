@@ -1,0 +1,166 @@
+\documentclass[sigconf]{acmart}
+
+\usepackage{booktabs} % For formal tables
+\usepackage{mathtools}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{arydshln}
+\usepackage{multirow}
+\usepackage{pbox}
+\usepackage{enumitem}
+
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+%\fancyhead{}
+
+%\settopmatter{printacmref=false, printfolios=false}
+
+\definecolor{ForestGreen}{rgb}{0.13, 0.55, 0.13}
+\newcommand{\revised}[1]{\textcolor{ForestGreen}{#1}}
+\renewcommand{\thetable}{\Alph{table}}
+% Copyright
+%\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+\newcommand\todo[1]{\textcolor{red}{#1}}
+\newcommand\todel[1]{\textcolor{gray}{#1}}
+
+%\newcommand{\todo}[1]{\textcolor{red}{#1}}
+%\newcommand{\model}[1]{\textit{#1}}
+\begin{document}
+
+% Copyright
+%\setcopyright{none}
+%\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+%\copyrightyear{2019} 
+%\acmYear{2018} 
+%\setcopyright{acmlicensed}
+%\acmConference[SIGIR '19]{The 42nd International ACM SIGIR Conference on Research \& Development in Information Retrieval}{July 21--25, 2019}{Paris, France}
+%\acmBooktitle{SIGIR '18: The 41st International ACM SIGIR Conference on Research \& Development in Information Retrieval, July 8--12, 2018, Ann Arbor, MI, USA}
+%\acmPrice{15.00}
+%\acmDOI{10.1145/3209978.3210088}
+%\acmISBN{978-1-4503-5657-2/18/07}
+
+\title[Health Card for CHS]{Appendix of Health Cards for Consumer Health Search}
+
+%\affiliation{%
+%  \institution{Queensland University of Technology}
+%%  \streetaddress{P.O. Box 1212}
+%  \city{Brisbane}
+%  \state{Australia}
+%%  \postcode{43017-6221}
+%}
+%\affiliation{%
+%	\institution{University of Surabaya (UBAYA)}
+%	%  \streetaddress{P.O. Box 1212}
+%	\city{Surabaya}
+%	\state{Indonesia}
+%	%  \postcode{43017-6221}
+%}
+%\email{jimmy@hdr.qut.edu.au}
+
+%\author{Jimmy}
+%\affiliation{%
+%  \institution{University of Queensland, Brisbane, Australia}
+%}
+%\affiliation{%
+%	\institution{University of Surabaya (UBAYA), Surabaya, Indonesia}
+%}
+%\email{jimmy@uqconnect.edu.au}
+%
+%\author{Guido Zuccon}
+%\affiliation{%
+%  \institution{University of Queensland}
+%  \city{Brisbane}
+%  \state{Australia}
+%}
+%\email{g.zuccon@uq.edu.au}
+%
+%\author{Bevan Koopman}
+%\affiliation{%
+%	\institution{Australian E-Health Research Center, CSIRO}
+%	\city{Brisbane}
+%	\state{Australia}
+%}
+%\email{bevan.koopman@csiro.au}
+%
+%\author{Gianluca Demartini}
+%\affiliation{%
+%  \institution{University of Queensland}
+%  \city{Brisbane}
+%  \state{Australia}
+%}
+%\email{g.demartini@uq.edu.au}
+
+
+% The default list of authors is too long for headers.
+%\renewcommand{\shortauthors}{Jimmy, Zuccon, Demartini, \& Koopman}
+
+
+%\settopmatter{printacmref=true}
+
+%\input{1_Abstract.tex}
+\maketitle
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN BODY %%%%%%%%%%%%%%%%%%%%%%
+%
+%\input{2_introduction.tex}
+%\input{3_RelatedWork.tex}
+%\input{4_Experiments.tex}
+%\input{5_Results.tex}
+%%\input{6_Discussion.tex}
+%\input{7_Conclusion.tex}
+
+
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{health_card.bib} 
+
+\appendix
+\begin{table}[tb]
+	\centering
+	\small
+	\caption{Perception questionnaire items, from Kelly et al.~\citep{Kelly2015}. Unless specified, options for each item ranged from 1 (very [neg]) to 5 (very [pos]). Where the [neg], [pos] labels were contextualised to the items, e.g. for item 1, [neg]=uninterested, [pos]=interested.}\label{table: pre questionnaire}
+	\vspace{-10px}
+	\begin{tabular}{p{8cm}}
+		\toprule
+		\textbf{Items}  \\
+		\toprule
+		
+		\textbf{Interest \& knowledge} \\
+		\begin{enumerate}[leftmargin=*,  topsep=0pt, labelsep=1pt]
+			\item How interested are you to learn more about the topic of this scenario?
+			\item How many times have you searched for information about the topic of this scenario? (1= never, 2= 1-2 times, 3= 3-4 times, 4= >5 times )
+			\item How much do you know about the topic of this scenario? (1=nothing, 2=little, 3=some, 4=great deal)
+		\end{enumerate} \\
+		
+		\toprule
+		\textbf{Perceived Task Understandability} \\
+		\begin{enumerate}[leftmargin=*,  topsep=0pt, labelsep=1pt]
+			\setcounter{enumi}{4}
+			\item How defined is the task in terms of the types of information needed to complete it?
+			\item How defined is the task in terms of its expected solution?
+		\end{enumerate} \\
+		\bottomrule
+	\end{tabular} 
+\end{table}
+
+\end{document}
