@@ -21,14 +21,17 @@ The first session focused on providing a grounding in economic and optimization 
 
 [Slides Part 1](../files/1-bemchi-tutorial-introduction.pdf)
 
-<h2>Session 2 – Information Foraging Theory</h2> 
-Following on from Economic Models, we introduced concepts from Information Foraging Theory [13, 14, 16, 17] (IFT), which applies economics to how people find and forage for information (based on Optimal Foraging Theory [18] from Ecology). We explained how IFT can more generally be used to model how people attempt to maximize the benefit they receive from their interactions with the system over time (e.g., maximize the rate of gain over time). While IFT has been used to motivate experimentation at the high level, we explained how formal models can be built using IFT, and how they can be used to derive testable hypotheses about how people will interact with a given system (using Charnov’s Marginal Value Theorem [9]), and how their behavior will adapt to varying circumstances. To ground the session, we described examples based on exploratory search [1, 15].
+
+<h2>Session 2 – Models: Theory to Practice</h2>
+In this second session, we work through different models that have been developed to formally model different interfaces, features and scenarios. This session puts the theory into practice and shows participants a series of models that provide insights into the trade-off between interactions and the choices between interactions (i.e.
+when users will select one option over another). To this end, we provided a series of models relating to search interfaces and search functionality, for example, we presented: (a) the trade-off between querying and assessing [3] and (b) the trade-off between how much time a user should invest in the system vs. the system or another user (in a collaborative setting) [10]. Then showed how different functionalities can be analyzed to decide when and how people should give recommender systems feedback, when they should take query suggestions, and how long their queries should be [6, 7]. These examples showed how formal models lead to actionable insights regarding how to improve the system’s features and functionalities, by identifying how the different costs and benefits impact usage, behavior and performance.
 
 [Slides Part 2](../files/2-bemchi-tutorial-models.pdf)
 
-<h2>Session 3 – Models: Theory to Practice</h2>
-In this third session, we continued working through different economic models that have been developed to formally model different interfaces, features and scenarios. This session put the theory into practice and showed participants a series of models that provide insights into the trade-off between interactions and the choices between interactions (i.e.
-when users will select one option over another). To this end, we provided a series of models relating to search interfaces and search functionality, for example, we presented: (a) the trade-off between querying and assessing [3] and (b) the trade-off between how much time a user should invest in the system vs. the system or another user (in a collaborative setting) [10]. Then showed how different functionalities can be analyzed to decide when and how people should give recommender systems feedback, when they should take query suggestions, and how long their queries should be [6, 7]. These examples showed how formal models lead to actionable insights regarding how to improve the system’s features and functionalities, by identifying how the different costs and benefits impact usage, behavior and performance.
+
+<h2>Session 3 – Information Foraging Theory</h2> 
+We introduce concepts from Information Foraging Theory [13, 14, 16, 17] (IFT), which applies economics to how people find and forage for information (based on Optimal Foraging Theory [18] from Ecology). We explained how IFT can more generally be used to model how people attempt to maximize the benefit they receive from their interactions with the system over time (e.g., maximize the rate of gain over time). While IFT has been used to motivate experimentation at the high level, we explained how formal models can be built using IFT, and how they can be used to derive testable hypotheses about how people will interact with a given system (using Charnov’s Marginal Value Theorem [9]), and how their behavior will adapt to varying circumstances. To ground the session, we described examples based on exploratory search [1, 15].
+
 
 [Slides Part 3](../files/3-bemchi-tutorial-foraging-theory.pdf)
 
