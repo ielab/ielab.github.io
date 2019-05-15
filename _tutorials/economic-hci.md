@@ -43,15 +43,15 @@ Instructors background
 
 <h2>References</h2>
 <p>[1] Kumaripaba Athukorala, Antti Oulasvirta, Dorota Glowacka, Jilles Vreeken, and Giulio Jacucci. 2014. Narrow or Broad?: Estimating Subjective Specificity in Exploratory Search. In Proc. of the 23rd ACM CIKM. 819–828.
-<p>[2] Leif. Azzopardi. 2011. The economics in interactive information retrieval. In Proc. of SIGIR. ACM, 15–24.
-<p>[3] Leif. Azzopardi. 2014. Modelling Interaction with Economic Models of Search. In Proc. of SIGIR. 3–12.
+<p>[2] Leif. Azzopardi. 2011. <a href="/publications/pdfs/azzopardi2011economics.pdf">The economics in interactive information retrieval.</a> In Proc. of SIGIR. ACM, 15–24.
+<p>[3] Leif. Azzopardi. 2014. <a href="/publications/pdfs/azzopardi2014economics.pdf">Modelling Interaction with Economic Models of Search.</a> In Proc. of SIGIR. 3–12.
 <p>[4] Leif Azzopardi. 2017. Building Cost-Benefit Models of Information Interactions. In Proceedings of the 2017 Conference on
 Conference Human Information Interaction and Retrieval (CHIIR ’17). 425–428.
-<p>[5] Leif Azzopardi and Guido Zuccon. 2015. An Analysis of Theories of Search and Search Behavior. In Proceedings of the 2015
+<p>[5] Leif Azzopardi and Guido Zuccon. 2015. <a href="/publications/pdfs/azzopardi2015search_theory.pdf">An Analysis of Theories of Search and Search Behavior.</a> In Proceedings of the 2015
 International Conference on The Theory of Information Retrieval (ICTIR ’15). 81–90.
-<p>[6] Leif Azzopardi and Guido Zuccon. 2016. An Analysis of the Cost and Benefit of Search Interactions. In Proceedings of the
+<p>[6] Leif Azzopardi and Guido Zuccon. 2016. <a href="/publications/pdfs/azzopardi2016cost_benefit.pdf">An Analysis of the Cost and Benefit of Search Interactions.</a> In Proceedings of the
 2016 ACM International Conference on the Theory of Information Retrieval (ICTIR ’16). 59–68.
-<p>[7] Leif Azzopardi and Guido Zuccon. 2016. Two Scrolls or One Click: A Cost Model for Browsing Search Results.
+<p>[7] Leif Azzopardi and Guido Zuccon. 2016. <a href="/publications/pdfs/azzopardi2016scroll_cost_model.pdf">Two Scrolls or One Click: A Cost Model for Browsing Search Results.</a> European Conference of Information Retrieval	
 <p>[8] Leif Azzopardi and Guido Zuccon. 2018. Computational Interaction. Oxford University Press, Chapter Economics models
 of interaction: a tutorial on modeling interaction using economics.
 <p>[9] Eric L Charnov. 1976. Optimal foraging: attack strategy of a mantid. The American Naturalist 110, 971 (1976), 141–151.
