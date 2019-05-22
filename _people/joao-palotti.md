@@ -1,10 +1,10 @@
 ---
 name: Joao Palotti
-twitter: 
-github: 
-website: //joaopalotti.com/
+twitter: https://twitter.com/joaopalotti
+github: https://github.com/joaopalotti
+website: http://joaopalotti.com/
 image: /images/joaopalotti.jpeg
-scholar: 
+scholar: https://scholar.google.com/citations?user=ZEoF2A4AAAAJ&hl=en
 role: external
-description: PhD student, Vienna University of Technology & Researcher, Qatar Computing Research Institute. 
+description: Research Associate, Qatar Computing Research Institute (QCRI)
 ---
