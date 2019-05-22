@@ -7,7 +7,7 @@ redirect_from: /trectools
 ---
 
 <a class="button" href="https://github.com/joaopalotti/trectools">GitHub</a>
-<a class="button" href="#">Download Paper</a>
+<a class="button" href="/publications/pdfs/palotti2019trectools.pdf">Download Paper</a>
 
 TrecTools is an open-source Python library for assisting Information Retrieval (IR) practitioners with TREC-like campaigns.
 
