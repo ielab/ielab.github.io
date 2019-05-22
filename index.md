@@ -5,16 +5,18 @@ The ielab is a collaborative group of researchers working in the area of informa
 ## Highlighted Projects
 
 <div class="flex two four-600">
-{% for project in site.projects %}
-<div>
-    <article class="card">
-        <img src="{{ project.image }}">
-        <footer>
-            <a href="{{ project.url }}">{{ project.name }}</a>
-        </footer>
-    </article>
-</div>
-{% endfor %}
+{%- for project in site.projects -%}
+    {%- if project.featured == true -%}
+    <div>
+        <article class="card">
+            <img src="{{- project.image -}}">
+            <footer>
+                <a href="{{- project.url -}}">{{- project.name -}}</a>
+            </footer>
+        </article>
+    </div>
+    {%- endif -%}
+{%- endfor -%}
 </div>
 
 A full list of projects is available at the [projects page](/projects), including associated resources (software, data).

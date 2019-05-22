@@ -1,6 +1,7 @@
 ---
 name: Consumer Health Search
 image: /images/projects/chs.jpg
+featured: true
 people: [jimmy, guido-zuccon, bevan-koopman, joao-palotti]
 ---
 

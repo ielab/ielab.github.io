@@ -8,17 +8,19 @@ The ielab works on a diversity of research projects in the fields of information
 
 ## Current highlighted projects
 
-<div class="flex four">
-{% for project in site.projects %}
-<div>
-    <article class="card">
-        <img src="{{ project.image }}">
-        <footer>
-            <a href="{{ project.url }}">{{ project.name }}</a>
-        </footer>
-    </article>
-</div>
-{% endfor %}
+<div class="flex two four-600">
+{%- for project in site.projects -%}
+    {%- if project.featured == true -%}
+    <div>
+        <article class="card">
+            <img src="{{- project.image -}}">
+            <footer>
+                <a href="{{- project.url -}}">{{- project.name -}}</a>
+            </footer>
+        </article>
+    </div>
+    {%- endif -%}
+{%- endfor -%}
 </div>
 
 ### GitHub repositories associated to ielab projects and initiatives
