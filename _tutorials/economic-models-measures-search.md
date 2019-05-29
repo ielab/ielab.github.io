@@ -12,6 +12,9 @@ description: Material for the Building Economic Models and Measures of Search tu
 links: 
  - url: https://github.com/ielab/bemms2019
    name: GitHub
+ - url: /publications/pdfs/azzopardi2019economic.pdf
+   name: Download Paper
+
 ---
 
 

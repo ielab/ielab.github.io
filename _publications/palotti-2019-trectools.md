@@ -1,7 +1,7 @@
 ---
 authors: [joao-palotti, harry-scells, guido-zuccon]
 title: "TrecTools: an open-source Python library for Information Retrieval practitioners involved in TREC-like campaigns"
-venue: Proceedings of the 42nd annual international ACM SIGIR conference on Research and development in Information Retrieval.
+venue: Proceedings of the 42nd annual international ACM SIGIR conference on Research and development in Information Retrieval
 year: 2019
 pdf: /publications/pdfs/palotti2019trectools.pdf
 ---

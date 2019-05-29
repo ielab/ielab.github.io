@@ -7,9 +7,9 @@ layout: default
 <span class="label" style="background-color: #aaaaaa">{{- venue -}}</span>
 {%- endfor -%}
 <br/>
-{%- for link in page.links -%}
+{% for link in page.links %}
 <a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
-{%- endfor -%}
+{% endfor %}
 <br/>
 <br/>
 {{- page.description -}}
