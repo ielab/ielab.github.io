@@ -23,14 +23,18 @@
 \newcommand{\revised}[1]{\textcolor{ForestGreen}{#1}}
 \renewcommand{\thetable}{\Alph{table}}
 % Copyright
-%\setcopyright{none}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
 %\setcopyright{acmcopyright}
 %\setcopyright{acmlicensed}
-\setcopyright{rightsretained}
+%\setcopyright{rightsretained}
 %\setcopyright{usgov}
 %\setcopyright{usgovmixed}
 %\setcopyright{cagov}
 %\setcopyright{cagovmixed}
+
 
 \newcommand\todo[1]{\textcolor{red}{#1}}
 \newcommand\todel[1]{\textcolor{gray}{#1}}
@@ -39,6 +43,14 @@
 %\newcommand{\model}[1]{\textit{#1}}
 \begin{document}
 
+%\copyrightyear{2019} 
+%\acmYear{2019} 
+%\setcopyright{licensedothergov}
+%\acmConference[SIGIR '19]{Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval}{July 21--25, 2019}{Paris, France}
+%\acmBooktitle{Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '19), July 21--25, 2019, Paris, France}
+%\acmPrice{15.00}
+%\acmDOI{10.1145/3331184.3331194}
+%\acmISBN{978-1-4503-6172-9/19/07}
 % Copyright
 %\setcopyright{none}
 %\setcopyright{acmcopyright}
@@ -138,7 +150,7 @@
 \begin{table}[tb]
 	\centering
 	\small
-	\caption{Perception questionnaire items, from Kelly et al.~\citep{Kelly2015}. Unless specified, options for each item ranged from 1 (very [neg]) to 5 (very [pos]). Where the [neg], [pos] labels were contextualised to the items, e.g. for item 1, [neg]=uninterested, [pos]=interested.}\label{table: pre questionnaire}
+	\caption{Perception questionnaire items, from Kelly et al.~\citep{Kelly2015}. Unless specified, options for each item ranged from 1 (very [neg]) to 5 (very [pos]). Where the [neg], [pos] labels were contextualised to the items, e.g. for item 1, [neg]=uninterested, [pos]=interested.} \label{table: pre questionnaire}
 	\vspace{-10px}
 	\begin{tabular}{p{8cm}}
 		\toprule
@@ -158,6 +170,81 @@
 			\setcounter{enumi}{4}
 			\item How defined is the task in terms of the types of information needed to complete it?
 			\item How defined is the task in terms of its expected solution?
+		\end{enumerate} \\
+		\bottomrule
+	\end{tabular} 
+\end{table}
+
+
+
+\begin{table}[t]
+	\centering
+	\small
+	\caption{User experience questionnaire items, adopted from Kelly et al.~\citep{Kelly2015}. Options for item 1 to 7 ranged from 1 (very [neg]) to 5 (very [pos]). Where the [neg], [pos] labels were contextualised to the items, e.g., for item 1, [neg]=difficult, [pos]=easy.} \label{table: user experience questionnaire}
+	\vspace{-10pt}
+	\begin{tabular}{p{8cm}}
+		\toprule 
+		\textbf{Items}  \\
+		\toprule
+		\textbf{Experienced Task Difficulty} \\
+		\begin{enumerate}[leftmargin=*,  topsep=0pt, labelsep=1pt]
+			\item How difficult was it to \textit{understand} the information the system presents?
+			\item How difficult was it to determine when you \textit{have enough information} to finish the task?				  
+			\item Overall, how \textit{difficult} was this task?
+		\end{enumerate} \\
+		
+		\midrule
+		\textbf{System Effectiveness Assessment} \\
+		\begin{enumerate}[leftmargin=*,  topsep=0pt, labelsep=1pt]
+			\setcounter{enumi}{4}
+			\item Did the system provide \textit{sufficient information} to help me complete the task?
+			\item How effective was the system in helping you to \textit{find the right information}?
+		\end{enumerate} \\
+		
+		\midrule
+		\textbf{Satisfaction \& Workload Assessment} \\
+		\begin{enumerate}[leftmargin=*,  topsep=0pt, labelsep=1pt]
+			\setcounter{enumi}{6}
+			\item Overall, how \textit{satisfied} are you with your solution to this task?
+			\item How would you describe the work you have done to complete this task? (1=very hard, 2=hard, 3=neutral, 4=easy, 5=very easy)
+		\end{enumerate} \\
+		\bottomrule%\hline 	
+	\end{tabular} 
+\end{table}
+
+
+
+\begin{table}[tb]
+	\centering
+	\small
+	\caption{Exit questionnaire. Options for each items 1 to 4 ranged from 1 (strongly disagree) to 5 (strongly agree).}\label{table: exit questionnaire}
+	\vspace{-10pt}
+	\begin{tabular}{p{8cm}}
+		\toprule 
+		\textbf{Items} \\
+		\toprule
+		\begin{enumerate}[leftmargin=*,  topsep=0pt, labelsep=1pt]
+			\item The system was easy to use. 
+			\item The system provided me with useful information.
+			\item Overall, the quality of the results displayed by the system is similar to those I experienced in my everyday interaction with general-purpose search engines like Google and Bing.
+			\item Overall, I am satisfied with the system.
+			
+			\item Did you notice the health card when completing the tasks for which the card was displayed? (Yes or No)
+			\item Did you use the health card when completing the tasks for which the card was displayed? (Yes or No)
+			
+			\item If you have searched for health information before, have you seen a health card before? 
+			\begin{itemize}
+				\item I never used a search engine to search for health information before, 
+				\item I never seen a health card before, or
+				\item Yes, I have seen a health card before
+			\end{itemize}
+			
+			\item If you have seen a health card before, based on your previous experience, you consider health card as being: 
+			\begin{itemize}
+				\item NOT relevant to my query or Relevant to my query
+				\item Difficult to understand or Easy to understand
+				\item NOT trustworthy or Trustworthy
+			\end{itemize} 
 		\end{enumerate} \\
 		\bottomrule
 	\end{tabular} 
