@@ -1,7 +1,7 @@
 ---
 authors: ["Supattanawaree Thipchareon",sitthichoke-subpaiboonkit, "Jeerayut Chaijaruwanich"]
 title: "Biomedical named entity recognition (NER) using second-order the conditional random fields model"
-venue:   International Conference on Computer Technology and Development, 3rd
+venue: The 3rd International Conference on Computer Technology and Development.
 year: 2011
 pdf: https://www.researchgate.net/profile/Sitthichoke_Subpaiboonkit/publication/261403934_BIOMEDICAL_NAMED_ENTITY_RECOGNITION_USING_SECOND-_ORDER_CONDITIONAL_RANDOM_FIELDS/links/00b4953437d4bdad2e000000/BIOMEDICAL-NAMED-ENTITY-RECOGNITION-USING-SECOND-ORDER-CONDITIONAL-RANDOM-FIELDS.pdf
 ---

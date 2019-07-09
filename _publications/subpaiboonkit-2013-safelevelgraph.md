@@ -1,7 +1,7 @@
 ---
 authors: ["Chumphol Bunkhumpornpat", sitthichoke-subpaiboonkit]
 title: "Safe Level Graph for Synthetic Minority Over-sampling Techniques"
-venue:  International Symposium on Communications and Information Technologies (ISCIT)
+venue: The 13th International Symposium on Communications and Information Technologies (ISCIT)
 year: 2013
 pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6645923
 ---

@@ -1,7 +1,7 @@
 ---
 authors: [sitthichoke-subpaiboonkit, "Chinae Thammarongtham", "Robert W. Cutler", "Jeerayut Chaijaruwanich"]
 title: "RNA secondary structure prediction using conditional random fields model"
-venue:  Int. J. Data Mining and Bioinformatics
+venue:  International Journal of Data Mining and Bioinformatics
 year: 2013
 pdf: https://pdfs.semanticscholar.org/e774/2efa48f40e4be526d282eb8337eea65ed821.pdf
 ---
