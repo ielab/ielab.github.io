@@ -1,10 +1,10 @@
 ---
 name: Sitthichoke Subpaiboonkit
-image:
+image: /images/Sith.bmp
 twitter:
-github: //github.com/https://github.com/subpaiboonkit
+github: https://github.com/subpaiboonkit
 website:
-scholar:
+scholar: https://scholar.google.com.au/citations?hl=en&user=c5hTea0AAAAJ
 role: Phd
-description: PhD student, UQ, Causality Discovery in drug-drug interaction.
+description: PhD student, U,UQ, Causality Discovery in drug-drug interaction.
 ---
