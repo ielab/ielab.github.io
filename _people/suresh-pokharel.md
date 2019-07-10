@@ -1,6 +1,6 @@
 ---
 name: Suresh Pokaharel
-image: /images/suresh.jpeg 
+image: /images/suresh.jpg 
 twitter: 
 github: //github.com/mesuresh
 website: 
