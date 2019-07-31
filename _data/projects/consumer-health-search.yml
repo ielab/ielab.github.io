@@ -5,6 +5,7 @@ categories:
       - jimmy-2018-volatility
   - name: Health Queries Formulation
     publications:
+      - zuccon-2015-diagnose
       - jimmy-2018-choices
       - jimmy-2018-payoffs
   - name: Health Cards
