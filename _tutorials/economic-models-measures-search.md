@@ -43,6 +43,7 @@ In the third session, we will examine how economics can be used to evaluate the 
 
 We will then take a deeper dive into the C/W/L framework and explain the user model employed by different metrics and how these are encoded within the framework in order to measure performance (as well as how to design one’s own metric). Here we will describe the user models and basis for P@k, DCG, RBP, INST, etc. Finally, we will conclude the session by showing how models of search behaviour (i.e. IFT) can be used to develop an economics metric within the C/W/L framework - connecting the how we model search with how we measure search.
 
+[A link to the C/W/L demonstration tool](https://github.com/ireval/cwl-examples/blob/master/notebooks/SIGIR2019-Demo-CWL-PLots.ipynb)
 
 ## Session 4 – Practical Session
 

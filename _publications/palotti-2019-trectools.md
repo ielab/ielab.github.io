@@ -6,6 +6,8 @@ year: 2019
 pdf: /publications/pdfs/palotti2019trectools.pdf
 ---
 
+[Try it out!](https://hub.gke.mybinder.org/user/joaopalotti-trectools-rnlxhgdz/tree/examples)
+
 ## Abstract
 This paper introduces TrecTools, a Python library for assisting
 Information Retrieval (IR) practitioners with TREC-like campaigns.
