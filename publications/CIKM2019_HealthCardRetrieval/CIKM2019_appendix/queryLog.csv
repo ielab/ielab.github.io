@@ -1,0 +1,627 @@
+scenarioId,workerId,submitTime,userQuery
+1,A1VFR,2019-04-11 18:31:13, migraine headaches mental changes  disoriented and increasingly drowsy. 
+1,A3MTG,2019-04-15 07:01:54,500 mg acetaminophen disoriented
+1,A3MTG,2019-04-15 07:02:13,500 mg acetaminophen disoriented mental changes
+1,A3MTG,2019-04-15 07:03:29,500 mg acetaminophen pain killer interaction
+1,A1VFR,2019-04-11 18:34:46,Confusion, Disorientation, Forgetfulness and Headache
+1,A1VFR,2019-04-11 18:34:47,Confusion, Disorientation, Forgetfulness and Headache
+1,AJ6EH,2019-04-15 06:57:14,acetaminophen long term kidney
+1,AJ6EH,2019-04-15 06:58:28,acetaminophen long term lower back pain, drowsy, disoriented
+1,AVT79,2019-04-15 07:02:28,acetaminophen overdose
+1,AVT79,2019-04-15 07:05:13,disorientation, migraines
+1,A3Q9H,2019-04-15 07:20:43,disoriented, drowsy+on pain medication , high doses
+1,AVT79,2019-04-15 07:04:21,disoriented, drowsy, panadol
+1,A37CO,2019-04-15 07:03:43,flu
+1,AJ6EH,2019-04-15 06:49:43,lower back pain panadol mental changes
+1,A3EIV,2019-04-15 08:10:06,mental changes disorientation drowsy
+1,A3EIV,2019-04-15 08:09:45,mental changes disorientation drowsy migraine headache
+1,A3EIV,2019-04-15 08:08:55,mental changes disorientation drowsy migraine headache acetaminophen low back pain
+1,A3EIV,2019-04-15 08:11:44,mental changes disorientation drowsy panadol
+1,AVT79,2019-04-15 07:01:34,migraine disoriented, drowsy, acetaminophen overdose
+1,A3VLH,2019-04-15 07:15:07,migraine headaches drowsy, 500 mg acetaminophen pills (Panadol) several days ago for lower back pain. She had been taking acetaminophen medications in the past.
+1,A3VLH,2019-04-15 07:15:42,migraine headaches drowsy, lower back pain. 
+1,A3VLH,2019-04-15 07:14:27,migraine headaches experienced mental changes over the last several hours. She was found by her husband, earlier in the day, to be very disoriented and increasingly drowsy. Her husband said that she has consistently been taking pain medications and started taking additional 500 mg acetaminophen pills (Panadol) several days ago for lower back pain. She had been taking acetaminophen medications in the past.
+1,AQP74,2019-04-14 02:59:00,migraines mental changes, disoriented and drowsy acetaminophen use
+1,AQP74,2019-04-14 02:58:28,migraines mental changes, disoriented anf drowsy
+1,AJ6EH,2019-04-15 06:51:08,panadol disoriented drowsy
+1,AJ6EH,2019-04-15 06:55:36,panadol long term disoriented drowsy
+1,AJ6EH,2019-04-15 06:55:56,panadol long term disoriented drowsy lower back pain
+1,AJ6EH,2019-04-15 06:56:38,panadol long term kidney
+1,AJ6EH,2019-04-15 06:54:10,panadol long term side effects
+1,AJ6EH,2019-04-15 06:51:38,panadol lower back pain disoriented drowsy
+1,AJ6EH,2019-04-15 06:50:00,panadol mental changes
+1,AVT79,2019-04-15 07:06:03,panadol overdose
+2,A1VFR,2019-04-11 18:28:29, nausea, vomiting, and diarrhea belly feels tense and tender no sounds temperature is 104 F
+2,A3Q9H,2019-04-15 07:06:56,'teenager+stomach pain+nausea, vomitting+diarrhea+fever'
+2,A10Q4,2019-04-15 08:19:54,12 yo female, tense + tender + pain stomach with nausea, vomiting, diarrhea, temperature
+2,AQP74,2019-04-12 05:40:50,appendicitis symptoms
+2,A2C3X,2019-04-15 06:56:10,diarrhea disease emegency 
+2,AVT79,2019-04-15 07:31:28,diarrhea fever vomiting 104
+2,A37CO,2019-04-15 07:05:38,flu
+2,A10Q4,2019-04-15 08:21:03,how to treat appendicitis
+2,A3MTG,2019-04-15 06:45:07,stomach ache fever nausea diarrhea 
+2,A3VLH,2019-04-15 07:11:03,stomach pain, vomit, nausea, diarrhea, 40C
+3,A1VFR,2019-04-11 11:51:00, shortness of breath, wheezing, and cough over 3 days
+3,A1VFR,2019-04-11 11:51:01, shortness of breath, wheezing, and cough over 3 days
+3,A15SJ,2019-04-15 06:48:41,27-year-old asthma shortness of breath, wheezing, and cough over 3 days.
+3,A15SJ,2019-04-15 06:49:52,27-year-old asthma shortness of breath, wheezing, and cough over 3 days. inhaler not working
+3,A15SJ,2019-04-15 06:53:10,27-year-old asthma shortness of breath, wheezing, and cough over 3 days. inhaler not working. exposed to someone sick
+3,A15SJ,2019-04-15 06:47:26,27-year-old asthma shortness of breath, wheezing, and cough over 3 days.cannot sleep well 
+3,A15SJ,2019-04-15 06:45:53,27-year-old asthma worsening shortness of breath, wheezing, and cough over 3 days.
+3,A3UCA,2019-04-15 07:56:12,Treatment for shortness of breath,wheezing and  persistent cough
+3,AQP74,2019-04-12 05:31:00,asthma dry cough, sob
+3,A3VLH,2019-04-15 07:46:25,asthma experienced a worsening shortness of breath, wheezing, and cough
+3,A3MTG,2019-04-15 06:47:34,asthma risk runny nose cough
+3,A2C3X,2019-04-15 07:01:33,asthma treatment
+3,A3MTG,2019-04-15 06:48:02,asthma worsening shortness of breath
+3,A3MTG,2019-04-15 06:48:18,asthma worsening shortness of breath wheezing 
+3,A37CO,2019-04-15 07:00:57,flu
+3,ANYY4,2019-04-15 07:46:15,runny nose dry cough athsma
+3,ANYY4,2019-04-15 07:47:21,runny nose dry cough athsma 3 days
+3,ARR3U,2019-04-15 06:58:20,shortness of breath, wheezing, cough
+4,A2C3X,2019-04-15 07:08:17, Chronic Obstructive Pulmonary Disease treatment
+4,A3Q9H,2019-04-15 06:58:32,'COPD+cough, green mucus+smoker+fever, loss of appetite, breathing difficulty'
+4,A3Q9H,2019-04-15 07:00:49,'COPD+cough, green mucus, smoker, poor appetite, breathing problem'
+4,AVT79,2019-04-15 06:57:29,COPD green mucus fever low appetite
+4,ARR3U,2019-04-15 07:03:55,COPD with green mucus
+4,ARR3U,2019-04-15 07:04:39,COPD with green mucus and fever
+4,A3MTG,2019-04-15 06:59:19,copd green thick mucus
+4,A3MTG,2019-04-15 07:00:00,copd green thick mucus bronchitis
+4,A1VFR,2019-04-11 11:53:37,cough  green thick mucus mild fever of 100F
+4,A1VFR,2019-04-11 11:53:04,cough is now producing green thick mucus mild fever of 100F
+4,AQP74,2019-04-11 23:31:47,cough, green mucus, 100f fever
+4,AJMCQ,2019-04-15 06:56:08,pneumonia
+4,A1OAP,2019-04-15 07:39:24,shortness of breath and an increasing frequency of coughing over the last 3 days. Her cough is now producing green thick mucus.. She has had a mild fever of 100F
+4,A37CO,2019-04-15 06:57:14,sinus infection
+5,A1VFR,2019-04-11 18:46:36, dvt symptoms
+5,A1VFR,2019-04-11 18:39:26, right leg became painful, tender, and swollen veins in the right leg are enlarged and her right leg is slightly redder than her left The back of her knee also fells tender.
+5,A1VFR,2019-04-11 18:46:01, veins in the right leg are enlarged and her right leg is slightly redder than her left. The back of her knee also fells tender.
+5,A3Q9H,2019-04-15 07:16:58,'65 year old,pain and swelling of leg, BP, hospitalizatio, enlarged veins in the leg, red, pain behind the knee'
+5,A1PUY,2019-04-15 08:08:43,differential diagnosis for unilateral leg pain following period of bedrest
+5,AJMCQ,2019-04-15 06:47:06,dvt
+5,AQP74,2019-04-12 03:11:59,edema
+5,A37CO,2019-04-15 06:59:20,leg edema
+5,A2C3X,2019-04-15 06:44:11,leg pain health problem
+5,A2C3X,2019-04-15 06:44:12,leg pain health problem
+5,A2C3X,2019-04-15 06:44:35,leg pain health problem solution
+5,AQP74,2019-04-12 03:10:20,leg pain swelling in 65 year old with chf and high blood pressure
+5,AQP74,2019-04-12 02:56:23,leg pain swelling in 65 year old woman with high blood pressure
+5,AQP74,2019-04-12 02:57:09,leg pain swelling in 65 year old woman with high blood pressure and chf
+5,A3MTG,2019-04-15 07:06:17,leg pain swelling right red tender
+5,A3MTG,2019-04-15 07:06:50,leg pain swelling right red tender pneumonia
+5,A1ICW,2019-04-15 08:09:19,painful, swollen and tender legs 
+5,AVT79,2019-04-15 07:38:33,right leg swollen veins enlarged and red
+6,A1VFR,2019-04-11 11:09:11, chest pressure excessive sweating and shortness of breath
+6,A1VFR,2019-04-11 11:06:54, chest pressure followed with excessive sweating and shortness of breath
+6,ARR3U,2019-04-15 06:48:07,24-hour chest pain with pressure and sweating
+6,A2RVK,2019-04-15 06:44:42,CHEST PAIN EXCESSIE SWEATING SHORTNESS OF BREATH
+6,AQP74,2019-04-12 06:02:10,chest pain followed by chest pressure sob and sweating
+6,A18W4,2019-04-15 06:56:37,chest pain for two days
+6,AY5OS,2019-04-15 06:50:58,chest pain sweating 
+6,A2C3X,2019-04-15 06:46:43,chest pain treatment
+6,AVT79,2019-04-15 07:34:46,chest pain, excessive sweating, shortness of breath 64 year old
+6,A3MTG,2019-04-15 06:51:13,chest pressure 24 hours chest pain  sweating
+6,A37CO,2019-04-15 07:01:29,flu
+6,A18W4,2019-04-15 06:57:39,unstable angina
+6,A18W4,2019-04-15 06:58:42,unstable angina harvard
+7,A2C3X,2019-04-15 07:06:01, watery diarrhea treatment
+7,A1P1Y,2019-04-15 06:54:34,4 year old diarrhea and vomiting after eating hamburger
+7,AVT79,2019-04-15 07:33:29,4 year old watery diarrhea bloody meat contamination
+7,A11FR,2019-04-15 08:16:05,Bloody Diarrhea
+7,AQP74,2019-04-12 06:56:31,bloody diarrea, stomach ache
+7,A3TMB,2019-04-11 20:01:43,child stomach ache and bloody diarrhea
+7,A3TMB,2019-04-11 20:01:35,child stomach ache and diarrhea
+7,A3MTG,2019-04-15 06:53:58,e coli infection how to treat
+7,A3MTG,2019-04-15 06:54:30,e coli infection symptoms
+7,A3MTG,2019-04-15 06:53:10,e coli infection symtpoms
+7,A3MTG,2019-04-15 06:52:46,food poisoning bloody diarrhea
+7,A3MUR,2019-04-15 06:49:14,food poisoning signs and symptoms 
+7,A3VLH,2019-04-15 06:56:55,stomach ache and watery diarrhea  that became bloody 
+7,A3VLH,2019-04-15 06:55:57,stomach ache and watery diarrhea for the past 7 days that became bloody after the first day
+7,A37CO,2019-04-15 07:04:55,stomach flu
+7,A1VFR,2019-04-11 18:59:29,watery diarrhea for the past 7 days that became bloody after the first day
+7,A1VFR,2019-04-11 18:59:31,watery diarrhea for the past 7 days that became bloody after the first day
+7,A1VFR,2019-04-11 18:59:42,watery diarrhea for the past 7 days that became bloody after the first day
+8,A1VFR,2019-04-11 11:47:19, left-sided flank pain down toward his groin nausea and vomiting.
+8,A1VFR,2019-04-11 11:47:20, left-sided flank pain down toward his groin nausea and vomiting.
+8,AE8B7,2019-04-15 07:59:50,HEALTH SCENARIO
+8,A2C3X,2019-04-15 07:04:41,flank pain treatment
+8,AMZ59,2019-04-15 07:15:21,kidney stone pain location
+8,A3MTG,2019-04-15 06:58:01,kidney stone treatment
+8,AMZ59,2019-04-15 07:14:53,kidney stones pain movement
+8,A3MTG,2019-04-15 06:56:35,left side flank pain progress to groin
+8,A3MTG,2019-04-15 06:58:20,left side flank pain progress to groin
+8,AVT79,2019-04-15 07:36:55,left side flank pain towards groin vomitting
+8,AVT79,2019-04-15 07:36:31,left side flank pain towards ground vomitting
+8,A1VFR,2019-04-11 11:40:23,left-sided flank pain down toward his groin nausea and vomiting
+8,A3VLH,2019-04-15 07:03:35,left-sided flank pain nausea andvomiting
+8,A3VLH,2019-04-15 07:02:40,left-sided flank pain, nausea and vomiting
+8,AQP74,2019-04-12 06:33:40,mam has pain down side to groin, nausea and vomiting
+8,AMZ59,2019-04-15 07:11:02,nausea vomiting
+8,AMZ59,2019-04-15 07:11:19,nausea vomiting flank pain
+8,AMZ59,2019-04-15 07:11:30,nausea vomiting flank pain causes
+8,AMZ59,2019-04-15 07:10:06,nausea vomiting flank pain groin
+9,A1VFR,2019-04-11 11:27:15, mosquitoes illnesses in central america
+9,A1VFR,2019-04-11 11:30:13, mosquitoes illnesses in central america diarrhea
+9,ANN16,2019-04-15 06:52:40,central america sickness with diarrhea, mosquito bites
+9,A2C3X,2019-04-15 06:53:49,diarrhea and malaria treatment
+9,AQP74,2019-04-12 02:42:31,fever after central american trip bitten by mosquitos
+9,A2OBN,2019-04-15 06:42:07,fever and diarrhea after travel to central america
+9,A1VFR,2019-04-11 11:16:30,fever diarrhea bitten by  mosquitoes in central america
+9,AVT79,2019-04-15 06:51:12,fever shiver diarrhea central america
+9,A2OBN,2019-04-15 06:43:12,fever, chills and diarrhea after travel
+9,A2OBN,2019-04-15 06:43:07,fever, chills and diarrhea after travel to central america
+9,ARR3U,2019-04-15 06:52:27,fever, chills, diarrhea, mosquito bites
+9,A37CO,2019-04-15 07:02:22,flu
+9,A3MTG,2019-04-15 06:55:17,malaria symtpoms
+9,ANN16,2019-04-15 06:56:20,potential health risks from Central America causing fever, diarrhea from mosquito bites
+9,A3Q9H,2019-04-15 06:53:11,south america trave+mosquito bites+fever, chills, shiver+diarrhea
+9,AVT79,2019-04-15 06:44:34,traveled to central america, mosquito bite, fever, chills
+10,A1VFR,2019-04-11 19:03:49,bad headache and fever  light sensitivity and neck stiffness
+10,ALAOE,2019-04-11 11:02:34,bad headache with fever cause
+10,A2C3X,2019-04-15 06:49:29,headache and fever self treatment
+10,AQP74,2019-04-12 05:56:46,headache and fever, light sensitivity
+10,A3EIV,2019-04-15 08:02:27,headache fever light sensitive stiff neck
+10,AMZ59,2019-04-15 07:19:58,headache fever light sensitivity neck stiffness
+10,AMZ59,2019-04-15 07:20:05,headache fever light sensitivity neck stiffness feber
+10,AMZ59,2019-04-15 07:20:09,headache fever light sensitivity neck stiffness fever
+10,A3VLH,2019-04-15 07:07:40,headache. fever, neck stiffness
+10,AMZ59,2019-04-15 07:20:24,how often do migraines cause fevers
+10,A3MTG,2019-04-15 07:04:31,light sensitivity neck stiffness headache
+10,ALAOE,2019-04-11 11:04:10,light sensitivity neck stiffness is it the flu
+10,AVT79,2019-04-15 06:42:17,light sensitivity, headache, stiff neck, fever 
+10,AJMCQ,2019-04-15 07:00:42,migraine
+10,AJMCQ,2019-04-15 07:01:07,migraine
+10,AMZ59,2019-04-15 07:20:52,migraine symptoms fever
+10,A37CO,2019-04-15 07:00:15,migraines
+11,A3VLH,2019-04-16 07:10:26, Pneumonia had high blood pressure and degenerative joint disease has had productive cough and fever 
+11,A1VFR,2019-04-13 11:38:56, flu symptoms
+11,A1VFR,2019-04-13 11:38:57, flu symptoms
+11,A3VLH,2019-04-16 07:09:46, had high blood pressure and degenerative joint disease has had productive cough and fever 
+11,A1VFR,2019-04-13 11:29:02, high blood pressure and degenerative joint disease has had productive cough and fever
+11,A1VFR,2019-04-13 11:28:29, high blood pressure and degenerative joint disease has had productive cough and fever over the last three days. His temperature is 38.3C 
+11,A10Q4,2019-04-16 03:36:34,65 yo m high blood pressure, temperature, productive cough, degenerative joint disease
+11,A3Q9H,2019-04-16 20:48:37,BP+productive cough and fever in 65 year old
+11,A2C3X,2019-04-16 04:46:55,blood pressure and joint diseases treatment
+11,AQP74,2019-04-15 03:26:54,cough fever high blood pressure
+11,A3Q9H,2019-04-16 20:49:07,cough, fever, productive cough
+11,AVT79,2019-04-16 03:28:28,degenerative joint disease productive cough and fever
+11,A3MTG,2019-04-16 04:17:46,high blood pressure osteoperosis cough and fever
+11,A10Q4,2019-04-16 03:38:09,pneumonia treatment
+11,A10Q4,2019-04-16 03:38:16,pneumonia treatment
+11,A1VFR,2019-04-13 11:39:28,productive cough fever
+11,A3MTG,2019-04-16 04:18:12,productive cough fever 
+11,A3EIV,2019-04-16 04:43:45,productive cough fever 101
+12,A3VLH,2019-04-16 07:07:43, pericarditis a shortness of breath.left-sided chest pain that worsens on deep breathing
+12,A3VLH,2019-04-16 07:06:20,a shortness of breath.left-sided chest pain that worsens on deep breathing
+12,AVT79,2019-04-16 04:08:45,left side chest pain  left calf swelling after surgery
+12,AVT79,2019-04-16 04:08:26,left side chest pain worsens breathing left calf swelling after surgery
+12,A3MTG,2019-04-16 04:48:25,left side pain faintness swelling calf surgery
+12,A3MTG,2019-04-16 04:48:38,left side pain faintness swelling surgery
+12,A3MTG,2019-04-16 04:49:49,left side pain worsens with deep breath
+12,AQP74,2019-04-13 04:14:00,leg swelling fever chest pain after surgery
+12,A3EIV,2019-04-16 06:14:38,shortness of breath chest pain 
+12,A3EIV,2019-04-16 06:15:47,shortness of breath chest pain calf pain swelling after surgery
+12,A3EIV,2019-04-16 06:15:06,shortness of breath chest pain hurts on breathing in calf pain swelling
+12,A2C3X,2019-04-17 06:14:07,shortness of breath remedies
+12,ARR3U,2019-04-17 04:59:59,shortness of breath, faintness, left side chest pain
+12,A1PUY,2019-04-16 06:30:46,signs and symptoms of pulmonary embolus
+12,A1PUY,2019-04-16 06:31:05,signs and symptoms of pulmonary embolus after bed rest
+12,A1VFR,2019-04-14 04:13:55,swelling in his left calf shortness of breath surgery  His current temperature is 100.4F
+12,A1VFR,2019-04-14 04:12:52,swelling in his left calf, which is felt tender. His current temperature is 100.4F
+12,A3Q9H,2019-04-16 22:23:04,swelling in left calf, post hip surgery, chest pain, faint
+13,A1VFR,2019-04-13 11:46:50, joint pain Maculopapular rash
+13,A1VFR,2019-04-13 11:46:24, measles
+13,A1VFR,2019-04-13 11:46:25, measles
+13,A1VFR,2019-04-13 11:44:42, rash with a flat, red area on the skin that is covered with small bumps 
+13,A3EIV,2019-04-16 04:59:17,"flat red area bumpy rash" ankles wrists
+13,A3EIV,2019-04-16 04:59:23,"flat red area bumpy rash" ankles wrists
+13,A3EIV,2019-04-16 04:58:45,"flat red area bumpy rash" ankles wrists fever joint pain headache
+13,A3EIV,2019-04-16 04:57:17,"flat red rash" ankles wrists fever joint pain headache
+13,A3Q9H,2019-04-16 20:40:43,'fever, chill, malaise, joint pain, headache, skin rashes'
+13,A1VFR,2019-04-13 11:48:07,chicken pox symptoms
+13,A1VFR,2019-04-13 11:48:41,chicken pox symptoms , joint pain
+13,A1VFR,2019-04-13 11:47:56,chicken pox symtoms
+13,A3MTG,2019-04-16 04:21:14,fever malaise joint pain rash
+13,A2C3X,2019-04-17 06:16:14,fever, chills, malaise, joint pain treatments
+13,A1VFR,2019-04-13 11:43:34,fever, chills, malaise, joint pain, and a headache  rash with a flat, red area on the skin that is covered with small bumps 
+13,A3VLH,2019-04-16 06:58:32,fever, chills, malaise, joint pain, and a headache. His mom discovers a rash with a flat, red area on the skin that is covered with small bumps which is mostly appear on his wrists and ankles.
+13,A3EIV,2019-04-16 04:59:34,flat red area bumpy rash ankles wrists
+13,A3EIV,2019-04-16 04:56:25,flat red rash ankles wrists fever joint pain headache
+13,A2RVK,2019-04-16 13:07:02,rash around wrists and ankles
+13,A2RVK,2019-04-16 13:07:13,rash around wrists and ankles fever chills
+13,A1PUY,2019-04-16 06:04:47,symptoms of rocky mountain spotted fever in children
+13,AVT79,2019-04-16 03:39:26,wrist and ankle bumps fever child
+13,AVT79,2019-04-16 03:40:01,wrist and ankle bumps fever malaise
+13,AVT79,2019-04-16 03:38:30,wrist and ankle rash on child joint pain fever
+14,A3Q9H,2019-04-17 23:48:22,hypertension, nausea, vomiting, weakness in the right side, slurred speech
+14,A2C3X,2019-04-16 04:48:35,irregular heart rate causes and treatment
+14,A1VFR,2019-04-13 20:36:54,mild slurred speech before progressing over several minutes to severe 
+14,A3EIV,2019-04-16 04:52:34,right side weakness difficulty speaking slurred speech right arm paralysis
+14,A2RVK,2019-04-16 13:14:50,right sided weakness and difficulty speaking
+14,AVT79,2019-04-16 04:16:45,slurred speech right arm paralysis 
+14,ARR3U,2019-04-16 04:02:20,stroke symptoms
+14,A3MTG,2019-04-16 04:54:24,stroke symtpoms
+15,A3EIV,2019-04-16 08:10:45,Opisthotonos after cut 
+15,AVT79,2019-04-16 04:19:03,cut on hand leading to spasms 
+15,A3Q9H,2019-04-16 22:32:25,cut while gardening, spasms caused by noise, light
+15,A3EIV,2019-04-16 08:05:12,seizures arched back extends legs clenched fists after cut
+15,A3EIV,2019-04-16 08:05:32,seizures arched back extends legs clenched fists after cut tetnus
+15,AVT79,2019-04-16 04:19:18,spasms after wound on hand
+15,A3EIV,2019-04-16 08:08:15,spasms arched back extends legs clenched fists after cut 
+15,A3MTG,2019-04-16 04:06:19,spasms following cut 
+15,A3MTG,2019-04-16 04:06:34,spasms following cut metal
+15,A2C3X,2019-04-16 04:54:16,spasms treatment
+15,A1PUY,2019-04-16 06:21:06,symptoms of tetanus from a cut
+15,A1VFR,2019-04-13 18:06:10,tetanus
+15,A3MTG,2019-04-16 04:06:45,tetanus symptoms
+15,ARR3U,2019-04-16 04:09:54,tetanus symptoms
+16,A3Q9H,2019-04-16 21:05:06,'18 month old, runny nose, cough, congestion, attends day care+parents smoke
+16,A1VFR,2019-04-13 03:11:48,18 month old cold not eating well.
+16,A3MTG,2019-04-16 04:08:57,18 month old runny nose cough congestion
+16,A1VFR,2019-04-13 03:09:36,18 month old runny nose, cough, and congestion  not eating well.
+16,A3MTG,2019-04-16 04:10:00,18 month old sinus infection
+16,AMZ59,2019-04-18 05:10:39,18-month-old runny nose congestion cough fever parents smoke
+16,A1VFR,2019-04-13 03:05:06,18-month-old runny nose, cough, and congestion
+16,A1VFR,2019-04-13 03:05:26,18-month-old runny nose, cough, and congestion  irritable, sleeping restlessly, and not eating well.
+16,A1VFR,2019-04-13 03:08:01,18-month-old runny nose, cough, and congestion  not eating well.
+16,A2C3X,2019-04-17 06:05:07,runny nose cough treatment
+16,A3VLH,2019-04-16 06:31:59,runny nose, cough, and congestion,irritable, sleeping restlessly
+16,AVT79,2019-04-16 04:33:59,toddler congestion not eating fever coughing 
+16,A3EIV,2019-04-16 05:34:27,toddler runny nose cough conjestion fever
+16,AQP74,2019-04-14 06:22:11,toddler with cough congestion and parents smoke
+17,A1VFR,2019-04-13 21:14:45, fever, nausea, vomiting, and sore throat.
+17,A3Q9H,2019-04-16 20:31:33,'sudden fever, nausea, vomiting, sore throat+8 year old'
+17,A3Q9H,2019-04-16 20:31:34,'sudden fever, nausea, vomiting, sore throat+8 year old'
+17,A2RVK,2019-04-16 14:39:29,7-year-old  fever, nausea, vomiting, and sore throat
+17,A2RVK,2019-04-16 14:40:28,7-year-old  fever, nausea, vomiting, and sore throat no cough
+17,A2RVK,2019-04-16 14:33:03,7-year-old niece experiences a sudden and quickly progressing fever, nausea, vomiting, and sore throat
+17,A2C3X,2019-04-16 04:50:18,fever and nausea treatment
+17,A3MTG,2019-04-16 04:34:46,fever nausea sore throat
+17,ARR3U,2019-04-16 18:22:43,fever, nausea, vomiting
+17,AQP74,2019-04-15 00:18:39,fever, vomiting, sore throat. 101 temp
+17,AQP74,2019-04-15 00:19:36,fever, vomiting, sore throat. 101 temp, no cough
+17,AQP74,2019-04-15 00:20:20,fever, vomiting, sore throat. 101 temp, no cough, no congestion
+17,A3VLH,2019-04-16 06:18:31,quickly progressing fever, nausea, vomiting, and sore throat
+17,A1VFR,2019-04-13 21:12:51,quickly progressing fever, nausea, vomiting, and sore throat. She had no cough
+17,A3EIV,2019-04-16 06:56:14,sudden fever 101 vomiting sore throat 
+17,AVT79,2019-04-16 03:40:56,sudden fever vomiting sore throat 
+17,A3EIV,2019-04-16 06:55:43,sudden fever vomiting sore throat 
+18,A2C3X,2019-04-17 06:14:36,sore throat fever and headache treatment
+18,A3MTG,2019-04-16 03:42:29,sore throat fever headache 
+18,AVT79,2019-04-16 04:38:24,sore throat fever headache sudden
+18,A3EIV,2019-04-16 05:38:13,sore throat headache fever 102.2
+18,A1VFR,2019-04-14 03:33:07,strep throat symptoms
+19,A2C3X,2019-04-16 04:48:03, nasal congestion 
+19,AVT79,2019-04-16 04:37:48,face pain congestion green mucus 
+19,A3MTG,2019-04-16 04:33:14,nasal congesting 15 days green mucus
+19,AY5OS,2019-04-16 06:22:51,nasal congestion pain green mucus
+19,A3VLH,2019-04-16 06:23:08,nasal congestion,nose is producing green mucus
+19,A3EIV,2019-04-16 05:20:37,nose green mucus pain in face 
+19,A3EIV,2019-04-16 05:20:51,nose green mucus pain in face 
+19,A1VFR,2019-04-13 21:29:06,sinus infection
+19,ARR3U,2019-04-16 04:18:53,sinus infection symptoms
+19,A1PUY,2019-04-16 04:09:48,symptoms of bacterial sinus infection
+19,A1PUY,2019-04-16 04:08:40,symptoms of sinusitis
+20,A1VFR,2019-04-13 11:25:29,Sciatica low back pain  difficulty in lifting the front part of his left foot
+20,A1VFR,2019-04-13 11:25:42,Sciatica low back pain  difficulty left foot
+20,AQP74,2019-04-13 02:19:57,back pain difficulty lifting foot
+20,A3MTG,2019-04-16 04:55:36,back pain lifting foot
+20,A1VFR,2019-04-13 11:23:45,low back pain  difficulty in lifting the front part of his left foot
+20,A3VLH,2019-04-16 06:44:39,low back pain after shovelling snow
+20,A1PUY,2019-04-16 06:10:16,low back pain and difficulty lifting front of foot same side
+20,A1PUY,2019-04-16 06:08:35,low back pain and sciatica
+20,A3EIV,2019-04-16 06:48:21,low back pain difficulty lifting front part of left foot
+20,A3EIV,2019-04-16 06:49:45,low back pain foot drop
+20,A2C3X,2019-04-16 04:43:26,low back pain problem
+20,AVT79,2019-04-16 04:07:35,lower back pain difficulty lifting foot
+21,A3Q9H,2019-04-16 22:10:30,'swollen, red, tender shins+fever, pain'
+21,A3VLH,2019-04-16 06:56:45,Cellulitis painful and redness of the skin of his lower body part. He currently has a mild fever and his shins has redness in skin, swollen, and tender.
+21,AQP74,2019-04-13 03:10:58,fever redness in lower body swelling
+21,A1VFR,2019-04-13 18:44:36,mild fever and  shins has redness in skin, swollen, and tender.
+21,A1VFR,2019-04-13 18:44:38,mild fever and  shins has redness in skin, swollen, and tender.
+21,A3VLH,2019-04-16 06:56:04,painful and redness of the skin of his lower body part. He currently has a mild fever and his shins has redness in skin, swollen, and tender.
+21,A2C3X,2019-04-16 04:52:03,painful and redness of the skin treatments
+21,A3EIV,2019-04-16 05:24:37,painful red swollen skin shins fever
+21,AVT79,2019-04-16 03:35:20,painful redness of skin shins swollen
+21,A3MTG,2019-04-16 03:43:49,red swollen tender shins
+21,A3MTG,2019-04-16 03:43:58,red swollen tender shins fever
+21,ARR3U,2019-04-16 04:36:06,shingles symptoms fever
+21,A2RVK,2019-04-16 13:17:25,shins has redness in skin, swollen, and tender AND FEVER
+21,AVT79,2019-04-16 03:35:39,sudden redness skin, fever, shins red and tender
+22,ARR3U,2019-04-16 04:07:25,bronchitis
+22,A2RVK,2019-04-16 14:17:05,cough productive of white sputum
+22,A2RVK,2019-04-16 14:17:43,cough productive of white sputum, shortness of breath
+22,A2RVK,2019-04-16 14:19:47,cough productive of white sputum, shortness of breath, runny nose
+22,ARR3U,2019-04-16 04:05:03,cough with white sputum
+22,AVT79,2019-04-16 04:20:17,recurring morning cough smoker white sputum 
+22,ARR3U,2019-04-16 04:06:33,respiratory infection
+22,A2C3X,2019-04-16 04:51:06,runny nose treatment
+22,A3EIV,2019-04-16 05:53:16,shortness of breath cough runny nose recurrs each winter
+22,A3Q9H,2019-04-16 22:18:34,smoker, cough, shortness of breath 56 years
+22,AQP74,2019-04-13 02:54:12,sob cough with white sputum
+22,A1PUY,2019-04-16 07:40:20,symptoms of viral bronchitis in a smoker
+22,A1VFR,2019-04-13 20:54:52,white sputum
+22,A3MTG,2019-04-16 04:14:27,white sputum cough smoking
+23,A2C3X,2019-04-16 04:45:16, viral sicknesses problem
+23,A10Q4,2019-04-19 03:00:33,30 yo f fever cough headache feeling weakness 2-days
+23,A3EIV,2019-04-16 05:04:10,fever cough headache feeling weak
+23,AVT79,2019-04-16 03:37:34,fever cough weakness 
+23,A1VFR,2019-04-13 02:17:32,fever, cough, headache, and feeling weakness for 2 day
+23,A1VFR,2019-04-13 02:17:33,fever, cough, headache, and feeling weakness for 2 day
+23,A1VFR,2019-04-13 02:17:34,fever, cough, headache, and feeling weakness for 2 day
+23,A3Q9H,2019-04-17 22:17:41,fever, cough, headache, works with sick people
+23,A3MTG,2019-04-16 04:41:49,flu symptoms
+23,A10Q4,2019-04-19 03:02:56,influenza
+23,ARR3U,2019-04-16 03:35:06,influenza symptoms
+24,AVT79,2019-04-16 04:01:01,difficulty swallowing, fever rash on trunk and arms
+24,A3Q9H,2019-04-16 22:27:20,difficulty swallowing,fever,bumpy red skin rash
+24,AVT79,2019-04-16 04:02:23,fever sore throat rash trunk and arms bumps
+24,ARR3U,2019-04-16 03:28:11,fever, sore throat with rash
+24,A2RVK,2019-04-17 11:09:47,fever, sore throat, fatigue, rash
+24,A1PUY,2019-04-16 05:03:53,how to distinguish between the rash of scarlet fever and the rash of mononucleosis
+24,A3MTG,2019-04-16 04:11:46,rash flat red small bumps trunk and arms fever sore throat
+24,A3EIV,2019-04-16 07:25:57,rash flat, red area small bumps trunk arms sore throat fever fatigue
+24,A3EIV,2019-04-16 07:26:21,rash small bumps trunk arms sore throat fever fatigue 
+24,A3EIV,2019-04-16 07:26:23,rash small bumps trunk arms sore throat fever fatigue 
+24,A3EIV,2019-04-16 07:27:25,rash small bumps trunk arms sore throat fever fatigue mono
+24,A3EIV,2019-04-16 07:28:19,rash small bumps trunk arms sore throat fever fatigue teenGER
+24,A3EIV,2019-04-16 07:35:45,rash trunk arms sore throat fever fatigue 
+24,A3EIV,2019-04-16 07:30:20,rash trunk arms sore throat fever fatigue scarlet fever
+24,A2C3X,2019-04-16 04:54:44,sore throat and fatigue treatment
+24,A1VFR,2019-04-14 03:39:01,sore throat, and fatigue  rash with flat, red area
+25,A2C3X,2019-04-17 06:18:12, irregular pain on upper stomach treatment
+25,A3Q9H,2019-04-16 22:15:47,'dull, gnawing pain in upper stomach'
+25,A1PUY,2019-04-16 05:36:09,Common cause of epigastric pain relieved by eating, milk and omeprazole
+25,A1PUY,2019-04-16 05:29:38,differential diagnosis of epigastric pain in 40 year old man 
+25,A3EIV,2019-04-16 07:19:06,dull gnawing stomach ache at night peptic ulcer
+25,A3EIV,2019-04-16 07:14:54,dull gnawing stomach ache at night relieved by food and milk
+25,A3EIV,2019-04-16 07:20:41,dull gnawing stomach ache worse at night
+25,A3MTG,2019-04-16 04:24:45,dull pain upper stomach 
+25,ARR3U,2019-04-16 03:56:46,dull upper stomach pain
+25,A1VFR,2019-04-13 05:53:43,heartburn symptoms
+25,A1VFR,2019-04-13 05:53:53,heartburn symptoms dull, gnawing ache
+25,A3VLH,2019-04-16 06:01:31,irregular dull, gnawing ache pain on his upper stomach
+25,A3VLH,2019-04-16 05:49:30,irregular pain on his upper stomach
+25,AVT79,2019-04-16 04:13:09,irregular upper stomach pain wakes up at night milk helps
+25,AVT79,2019-04-16 04:12:27,pain wakes up at night ranitidine
+25,A3EIV,2019-04-16 07:19:45,rantidine
+25,AVT79,2019-04-16 04:13:51,stomach pain milk helps
+25,AVT79,2019-04-16 04:14:06,stomach pain milk helps at night
+25,AVT79,2019-04-16 04:12:37,stomach pain wakes up at night ranitidine
+25,ARR3U,2019-04-16 03:58:05,ulcer symptoms
+25,ARR3U,2019-04-16 03:56:33,upper stomach pain
+26,A1VFR,2019-04-13 02:20:36, cough fever  yellowish sputum  101.6F (38.7C).
+26,A1VFR,2019-04-13 02:25:07, pneumonia in kids
+26,A2RVK,2019-04-17 11:17:57,6 year old boy, fever, cough, 
+26,A2C3X,2019-04-17 06:07:55,asthma treatments
+26,AVT79,2019-04-16 03:23:45,child fever coughing acetaminophen doesn't help
+26,AVT79,2019-04-16 03:24:00,child pneumonia symptoms
+26,A3EIV,2019-04-16 06:39:16,cough fever yellow sputum pneumonia
+26,A3Q9H,2019-04-16 22:29:33,cough, fever,yellowish sputum, 101.6
+26,A2RVK,2019-04-17 11:18:34,fever and cough
+26,A1VFR,2019-04-13 02:26:28,kid yellow mucus cough 
+26,A1VFR,2019-04-13 02:26:33,kid yellow mucus cough 
+26,A1VFR,2019-04-13 02:26:45,kid yellow mucus cough 
+26,A2RVK,2019-04-17 11:21:43,long fever
+26,A2RVK,2019-04-17 11:21:54,long fever and cough
+26,A3MTG,2019-04-16 03:48:55,pneumonia with asthma
+27,A3VLH,2019-04-16 06:36:00,Gastroenteritis nausea, vomiting, and diarrhea, mild stomach tenderness and mild increased bowel sounds
+27,AQP74,2019-04-13 23:36:33,diarrea vomiting from undercooked chicken
+27,ARR3U,2019-04-16 08:18:30,food poisoning symptoms
+27,ARR3U,2019-04-16 08:18:26,food poisoning symptooms
+27,A3MTG,2019-04-16 03:59:02,food posioning 
+27,A3EIV,2019-04-16 07:03:30,nausea diarrhea vomiting undercooked chicken 
+27,A3EIV,2019-04-16 07:05:49,nausea diarrhea vomiting undercooked chicken Viral gastroenteritis
+27,A2C3X,2019-04-17 06:03:14,nausea, vomiting
+27,A3VLH,2019-04-16 06:34:13,nausea, vomiting, and diarrhea, mild stomach tenderness and mild increased bowel sounds
+27,A3Q9H,2019-04-17 23:53:13,nausea, vomiting, diarrhea, stomach cramps, eaten undercooked chicken
+27,A1PUY,2019-04-16 06:58:24,symptoms of salmonella from undercooked chicken
+27,AVT79,2019-04-16 03:43:06,undercooked chicken fever vomitting diarrhea
+27,A1VFR,2019-04-13 21:30:10,undercooked chicken vomiting, and diarrhea
+28,A1PUY,2019-04-16 06:34:39,Signs and symptoms of herpes zoster on the chest
+28,AVT79,2019-04-16 03:45:09,burning aching right side chest rash with fluid filled sacs
+28,A3VLH,2019-04-16 06:08:41,burning and aching pain on the right side of his chestredness on skin and a rash with flat, red area on the skin that is covered with small bumps in this painful area
+28,A3EIV,2019-04-16 06:33:18,burning, aching pain rash, flat area clear fluid filled sacs
+28,A2C3X,2019-04-16 04:52:38,chest pain treatment
+28,A1VFR,2019-04-14 03:43:16,lyme disease
+28,AMZ59,2019-04-18 05:00:40,pain rash bumps headache malaise
+28,AQP74,2019-04-13 05:30:50,rash, headache, malaise chest pain
+28,AQP74,2019-04-13 05:32:01,rash, headache, malaise chest pain clear liquid filled sacs on skin
+28,A3MTG,2019-04-16 04:38:08,right side chest pain clear filled sacs
+28,AMZ59,2019-04-18 05:03:07,shingles
+28,AMZ59,2019-04-18 05:03:16,shingles 5 days
+28,A3EIV,2019-04-16 06:35:09,shingles headaches
+28,ARR3U,2019-04-16 04:21:26,shingles symptoms
+28,AMZ59,2019-04-18 05:02:12,vasculitis 5 days
+28,AMZ59,2019-04-18 05:02:01,vasculitis presentation
+29,A3VLH,2019-04-16 06:29:11, Urinary tract infection
+29,A3VLH,2019-04-16 06:29:41, Urinary tract infection, painful peeing
+29,A3Q9H,2019-04-16 21:10:34,newlywed, painful peeing
+29,A3Q9H,2019-04-16 21:11:40,newlywed, painful peeing
+29,A2C3X,2019-04-17 06:09:58,painful peeing treatments
+29,A1VFR,2019-04-13 05:52:25,painful peeing, feeling of urgent need to pee
+29,A3VLH,2019-04-16 06:27:04,painful peeing, feeling of urgent need to pee, and more frequent peeing
+29,A3VLH,2019-04-16 06:28:15,painful peeing, feeling of urgent need to pee, and more frequent peeing in women
+29,A3Q9H,2019-04-16 21:13:47,painful urination
+29,AVT79,2019-04-16 04:14:54,painful urination, frequent peeing 
+29,AVT79,2019-04-16 04:15:51,painful urination, frequent peeing female
+29,A3EIV,2019-04-16 05:59:10,painful urination, often urge to urinate frequent
+29,ARR3U,2019-04-16 03:32:09,painful, urgent urination
+29,A1PUY,2019-04-16 06:25:09,symptoms of honeymoon cystitis
+29,A3MTG,2019-04-16 04:45:13,uti symptoms
+31,A3EIV,2019-04-16 07:49:47, cough 12 days productive
+31,A3Q9H,2019-04-16 21:18:40,34 year old cough, nose block sore throat
+31,A2RVK,2019-04-16 14:13:39,4-year-old woman who never known to have any lung related problem has been coughing for the last 12 days.
+31,A1VFR,2019-04-13 03:29:26,allergy symptoms
+31,A3MTG,2019-04-16 04:16:47,cough 12 days nose blockage productive
+31,AQP74,2019-04-13 05:08:34,cough sore throat no fever
+31,AVT79,2019-04-16 04:35:14,coughing for 12 days
+31,A1VFR,2019-04-13 03:26:59,coughing for the last 12 days. It all started with her nose blocked and a mild sore throat, and now she had a productive cough. 
+31,A1VFR,2019-04-13 03:30:00,hay fever symptoms
+31,A1VFR,2019-04-13 03:31:13,hay fever symptoms ose blocked and a mild sore throat, and now she had a productive cough
+31,A1VFR,2019-04-13 03:31:15,hay fever symptoms ose blocked and a mild sore throat, and now she had a productive cough
+31,A2C3X,2019-04-16 04:43:33,lungs related problems
+31,A1VFR,2019-04-13 03:28:54,nose blocked and a mild sore throat,  productive cough
+31,A1VFR,2019-04-13 03:28:43,nose blocked and a mild sore throat, and now she had a productive cough
+31,A3EIV,2019-04-16 07:51:34,productive cough 12 days
+32,A1VFR,2019-04-12 12:57:20, upper respiratory infection symptoms
+32,A1VFR,2019-04-12 12:31:13, yellow sputum runny nose and productive cough fever 101F (38C) for 2 days, 
+32,A2C3X,2019-04-16 04:49:10, yellow sputum treatment
+32,A2C3X,2019-04-16 04:49:42,cough and fever treatment
+32,A3EIV,2019-04-16 05:15:13,cough productive yellow sputum 
+32,A1VFR,2019-04-12 12:29:51,cough productive yellow sputum runny nose and productive cough fever 101F (38C) for 2 days, 
+32,A1VFR,2019-04-12 12:55:04,flu symptoms 
+32,A1VFR,2019-04-12 12:55:32,flu symptoms yellow sputum runny nose and productive cough
+32,A1VFR,2019-04-12 12:55:57,flu symptoms yellow sputum runny nose and productive cough fever 101F (38C) for 2 days
+32,A3Q9H,2019-04-17 22:14:25,productive cough, yellow sputum, cold fever
+32,A3Q9H,2019-04-17 22:14:26,productive cough, yellow sputum, cold fever
+32,A3MTG,2019-04-16 04:44:20,yellow sputum fever  2 days
+32,AVT79,2019-04-16 04:06:22,yellow sputum fevers cough
+33,A1VFR,2019-04-13 03:37:30,a red, irritated right eye for 3 days and has spread to the left eye
+33,A1PUY,2019-04-16 06:17:49,differential diagnosis of conjunctivitis in teenager
+33,A2C3X,2019-04-17 06:06:06,irritated eye treatments
+33,AQP74,2019-04-13 04:54:39,pink eye
+33,ARR3U,2019-04-16 03:25:07,pink eye
+33,A3Q9H,2019-04-16 21:09:28,pink eye
+33,A3MTG,2019-04-16 03:53:57,pink eye symptoms
+33,A3Q9H,2019-04-16 21:08:13,pink eye, light sensitivity
+33,A3Q9H,2019-04-16 21:08:15,pink eye, light sensitivity
+33,A3Q9H,2019-04-16 21:08:47,pink eye, light sensitivity
+33,AVT79,2019-04-16 04:10:10,red eye spread to both eyes 
+33,A3EIV,2019-04-16 05:07:34,red eyes stuck shut in morning, watery irritation
+33,A3VLH,2019-04-16 06:05:08,red, irritated right eyeeyes are watery and they are stuck shut in the morning
+34,A1VFR,2019-04-13 19:42:26,Strep Throat
+34,A1VFR,2019-04-13 19:42:29,Strep Throat
+34,A3VLH,2019-04-16 07:14:14,acute bronchitissore throat, headache, and non-productive cough
+34,A1VFR,2019-04-13 19:41:51,bad sore throat headache, and non-productive cough
+34,A2C3X,2019-04-17 06:11:40,sore throat and non productive cough treatments
+34,A3MTG,2019-04-16 04:30:49,sore throat headache cough
+34,AVT79,2019-04-16 04:21:20,sore throat headache no phlegm 
+34,A3EIV,2019-04-16 05:49:21,sore throat headache non-productive cough 
+34,A3VLH,2019-04-16 07:13:49,sore throat, headache, and non-productive cough
+34,A2RVK,2019-04-16 13:26:49,sore throat, headache, and non-productive cough which started 2 days ago with sudden and very bad sore throat. He has no fever. 
+34,ARR3U,2019-04-17 04:57:11,sore throat, headache, cough
+34,A1PUY,2019-04-16 07:05:29,symptoms of sore throat, headache and dry cough in adult
+35,AMZ59,2019-04-18 05:06:31,allergy symptoms
+35,AMZ59,2019-04-18 05:07:16,allergy symptoms itching congestion sneezing tearing eczema
+35,ARR3U,2019-04-16 03:40:22,atopic dermatitis
+35,A3MTG,2019-04-16 04:57:45,atopic dermatitis hay fever
+35,A3MTG,2019-04-16 04:58:11,atopy symptoms
+35,AVT79,2019-04-16 04:10:52,nasal congestion eye itching atopic dermatitis
+35,A2C3X,2019-04-16 05:22:42,nasal congestion treatment
+35,A3Q9H,2019-04-16 21:21:32,nasal congestion,nasal itching, sneezing,
+35,A3EIV,2019-04-16 05:43:47,nasal conjestion nasal itching all year worse during spring 
+35,A3EIV,2019-04-16 05:42:48,nasal conjestion nasal itching worse during spring 
+35,A1VFR,2019-04-13 19:47:59,seasonal allergies
+35,A1VFR,2019-04-13 19:48:49,seasonal allergies symptoms
+35,A1VFR,2019-04-13 19:49:03,seasonal allergies symptoms
+36,A1VFR,2019-04-13 03:19:40, intense low back pain when lifting boxes  left lower part of the back area, and followed with spasms.
+36,A1VFR,2019-04-13 03:20:57, left lower part of the back spasms.
+36,A1VFR,2019-04-13 03:25:16,aching back pain followed by spasma
+36,AMZ59,2019-04-18 05:20:11,back injury lower left pain
+36,A1VFR,2019-04-13 03:23:49,back pain from lifting 
+36,A1VFR,2019-04-13 03:24:05,back pain from lifting and spasms
+36,A1PUY,2019-04-16 05:12:54,differential diagnosis of unilateral low back pain
+36,A3MTG,2019-04-16 04:02:13,hernia spasms back
+36,A1VFR,2019-04-13 03:18:09,hing in nature, located in the left lower part of the back area, and followed with spasms.
+36,A3EIV,2019-04-16 08:17:17,intense low back pain left side spasms
+36,AVT79,2019-04-16 03:31:14,intense lower back pain spasms
+36,AVT79,2019-04-16 03:32:25,intense lower back pain spasms after lifting
+36,A2RVK,2019-04-16 05:09:02,low back pain left side
+36,A2RVK,2019-04-16 05:11:25,low back pain left side spasm
+36,AQP74,2019-04-14 05:58:15,lower back pain after lifting something heavy
+36,ARR3U,2019-04-16 04:12:49,lower back pain with spasms
+36,A3MTG,2019-04-16 04:00:35,lower left back pain spasms
+36,A1VFR,2019-04-13 03:21:24,sciatica .
+36,A1VFR,2019-04-13 03:22:15,sciatica from lifting 
+36,A2C3X,2019-04-16 04:59:14,spasms treatment
+37,AVT79,2019-04-16 03:33:09,bee sting conditions
+37,A1VFR,2019-04-13 21:17:34,bee sting reaction
+37,A1VFR,2019-04-13 21:16:46,bee sting swollen tender upper lip
+37,A3EIV,2019-04-16 05:28:42,bee sting swollen upper lip
+37,ARR3U,2019-04-17 05:09:39,bee sting with swollen upper lip
+37,A3Q9H,2019-04-17 22:08:53,bee sting, swollen upper lip
+37,AMZ59,2019-04-18 05:17:45,beesting lip swelling
+37,AMZ59,2019-04-18 05:16:22,beesting reaction
+37,AQP74,2019-04-14 05:40:16,swollen lips after bee sting
+37,A2C3X,2019-04-16 05:04:51,swollen tender upper lip
+37,A3MTG,2019-04-16 04:19:12,swollen upper lip bee sting
+38,A3VLH,2019-04-16 07:01:58,aphthous stomatitis
+38,A1VFR,2019-04-13 02:59:17,canker sore
+38,A3MTG,2019-04-16 04:51:52,chronic mouth ulcers
+38,A1PUY,2019-04-16 07:36:10,differential diagnosis of recurrent mouth ulcers
+38,A1VFR,2019-04-13 02:58:01,mouth herpes
+38,A1VFR,2019-04-13 02:58:15,mouth herpes ulcer
+38,A1VFR,2019-04-13 02:57:24,mouth ulceration
+38,AVT79,2019-04-16 03:44:04,mouth ulceration causes
+38,A3Q9H,2019-04-17 22:24:52,mouth ulcers
+38,A3Q9H,2019-04-17 22:24:53,mouth ulcers
+38,ARR3U,2019-04-16 08:31:40,recurrent mouth ulceration
+38,A2C3X,2019-04-17 06:06:58,recurrent mouth ulceration
+38,A3EIV,2019-04-16 08:23:55,recurring mouth ulcers
+39,A1PUY,2019-04-16 07:13:17,differential diagnosis of vaginal discharge in middle age women
+39,A3Q9H,2019-04-18 00:05:05,vaginal itching , thick white discharge
+39,A3VLH,2019-04-16 06:15:42,vaginal itching and thick white discharge
+39,A1VFR,2019-04-13 21:32:16,vaginal itching and thick white discharge 
+39,A2C3X,2019-04-17 06:15:50,vaginal itching treatment
+39,A3MTG,2019-04-16 04:03:49,vaginal itching white discharge
+39,AVT79,2019-04-16 03:26:15,vaginal itching white discharge no fever
+39,ARR3U,2019-04-16 03:36:49,vaginal itching with white discharge
+39,A3EIV,2019-04-16 04:37:13,vaginal itching, thick white discharge
+40,A2RVK,2019-04-16 13:22:48,5-month-old has had difficulty and delay in passing hard stools
+40,A3MTG,2019-04-16 03:57:56,baby constipated bloody
+40,AY5OS,2019-04-17 01:00:14,baby constipation bleeding formula
+40,AVT79,2019-04-16 04:18:05,blood in diaper stool cows milk
+40,A1PUY,2019-04-16 04:16:11,cause of painful bloody bowel movement after weaning off breast milk
+40,A3EIV,2019-04-16 08:30:21,consitpation 5 month old blood on diaper cow milk formula
+40,A3EIV,2019-04-16 08:29:15,consitpation 5 month old cow milk formula
+40,ARR3U,2019-04-16 04:24:29,constipation in babies
+40,AQP74,2019-04-13 22:00:26,constipation in breastfeeding babies
+40,ARR3U,2019-04-16 04:25:33,constipation with blood in babies
+40,A3MTG,2019-04-16 03:56:01,cows milk hard stool blood
+40,A3MTG,2019-04-16 03:56:13,cows milk hard stool blood infant
+40,A1VFR,2019-04-12 13:02:59,hard stools fresh blood on the stool or diaper weaned from breastfeeding to cows' milk 
+40,A1VFR,2019-04-12 13:01:33,hard stools resh blood on the stool or diaper
+40,A1PUY,2019-04-16 04:28:40,intessucption in 5 month old baby
+40,A1PUY,2019-04-16 04:28:44,intessucption in 5 month old baby
+40,A2C3X,2019-04-17 06:11:56,passing stool 
+40,A1PUY,2019-04-16 04:26:07,sudden constipation and blood in stool of 5 month old when changed to cows milk formula
+40,A1PUY,2019-04-16 04:17:22,sudden constipation in 5 month old when changed to cows milk formula
+40,A1PUY,2019-04-16 04:17:29,sudden constipation in 5 month old when changed to cows milk formula
+40,A1PUY,2019-04-16 04:31:02,sudden constipation in infant started on cow's mild formula
+40,A1PUY,2019-04-16 04:31:11,sudden constipation in infant started on cow's milk formula
+41,A2C3X,2019-04-16 04:46:35, itchy skin in body treatment
+41,A3Q9H,2019-04-16 20:37:06,'itchy skin, +egg, milk allergy'
+41,A1VFR,2019-04-13 03:33:28,Eczema milk allergy
+41,A3EIV,2019-04-16 07:10:34,dry itchy skin body folds elbows "behind knees" ankles cheeks 
+41,A3EIV,2019-04-16 07:09:10,dry itchy skin body folds elbows knees ankles cheeks 
+41,A3MTG,2019-04-16 04:26:35,dry itchy skin folds elbows 
+41,A3VLH,2019-04-16 06:42:15,dry, itchy skin around the body folds in front of her elbows, behind her esand in front of her ankles .cheeks also have patches of dry, scaly skin.
+41,ARR3U,2019-04-17 05:06:41,dry, itchy skin behind knees
+41,AVT79,2019-04-16 04:04:53,enut milk allergy itchy skin inflammation elbows knees ankles
+41,AQP74,2019-04-13 00:01:41,excema
+41,A1VFR,2019-04-13 03:33:08,excema milk allergy
+41,AVT79,2019-04-16 04:05:44,scaly patches cheeks knees elbows 
+41,A1PUY,2019-04-16 05:51:38,signs and symptoms of eczema
+42,A1VFR,2019-04-13 05:48:59,STYE painful, swollen right eye slight pain on the eyelid
+42,A1PUY,2019-04-16 07:23:50,blepharitis
+42,A1PUY,2019-04-16 07:24:53,blepharitis versus stye
+42,A1PUY,2019-04-16 07:25:50,painful swelling periorbitally
+42,AQP74,2019-04-15 04:55:36,painful swollen eye
+42,A1PUY,2019-04-16 07:27:07,painful swollen eye
+42,A3EIV,2019-04-16 07:56:15,painful swollen eye
+42,AMZ59,2019-04-20 13:18:02,painful swollen eye
+42,A1PUY,2019-04-16 07:29:14,painful swollen eye due to stye
+42,A3EIV,2019-04-16 07:56:36,painful swollen eye pain eyelid
+42,A3EIV,2019-04-16 07:59:14,painful swollen eye pain eyelid Periorbital cellulitis
+42,A3MTG,2019-04-16 04:46:48,painful swollen right eye
+42,ARR3U,2019-04-16 04:40:27,painful, swollen eye
+42,A1VFR,2019-04-13 05:48:26,painful, swollen right eye slight pain on the eyelid
+42,A1VFR,2019-04-13 05:48:10,slight pain on the eyelid
+42,A3Q9H,2019-04-18 00:12:22,slight pain on the right eyelid
+42,A1VFR,2019-04-13 05:50:59,sty symptoms
+42,A1VFR,2019-04-13 05:49:42,stye symptoms
+42,AVT79,2019-04-16 03:30:16,swollen painful eye
+42,AVT79,2019-04-16 03:29:51,swollen right eye eyelid pain
+42,A2C3X,2019-04-16 04:59:31,swollen right eye treatments
