@@ -3,7 +3,7 @@ layout: post
 title:  "'Consumer Health Search on the Web: Study of Web Page Understandability and Its Integration in Ranking Algorithms' accepted at JMIR"
 date:   2019-01-30
 categories: posts
-author: ielab team
+author: ielab
 tags: [publications]
 ---
 
@@ -22,4 +22,3 @@ The abstract of the journal article is made available below.
 
 <p>Conclusions: The findings reported in this paper are important for specialized search services tailored to support the general public in seeking health advice on the Web, as they document and empirically validate state-of-the-art techniques and settings for this domain application.</p>
 </blockquote>
-_abstract of the article_

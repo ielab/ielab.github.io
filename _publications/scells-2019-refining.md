@@ -7,8 +7,6 @@ pdf: /publications/pdfs/scells2019refining.pdf
 projects: [systematic-reviews] 
 ---
 
-*This is a pre-print version of the accepted paper.*
-
 ## Abstract
 
 In the medical domain, systematic reviews are a highly trustworthy evidence source used to inform clinical diagnosis and treatment, and governmental policy making. Systematic reviews must be complete in that _all relevant_ literature for the research question of the review must be synthesised in order to produce a recommendation. To identify the literature to screen for inclusion in systematic reviews, information specialists construct complex Boolean queries that capture the information needs defined by the research questions of the systemic review. 

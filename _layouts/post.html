@@ -11,4 +11,30 @@ layout: default
 </div>
 <hr/>
 {{ content }}
-<p>Posted at {{ page.date | date: "%b %d, %y"  }} by <em>{{ page.author }}</em></p>
+<small>Posted at {{ page.date | date: "%b %d, %y" }} by <em>{{ page.author }}</em></small>
+<div>
+    <a class="button" href="https://twitter.com/intent/tweet?source=https://ielab.io{{ page.url }}&text={{ page.title }} - https://ielab.io{{ page.url }}" target="_blank" title="Tweet">Share via twitter</a>
+    <a class="button" href="mailto:?subject={{ page.title }}&body=https://ielab.io{{ page.url }}" target="_blank" title="Send email">Share via email</a>
+    {% if page.pdf != nil %}
+    <a class="button" href="{{ page.pdf }}">Download PDF</a>
+    {% endif %}
+</div>
+<hr/>
+<div class="flex two">
+    <div>
+        {% if page.previous %}
+        <article class="card">
+            <header>Previous post</header>
+            <footer><a href="{{page.previous.url}}">{{page.previous.title}}</a></footer>
+        </article>
+    </div>
+    <div>
+        {% endif %}
+        {% if page.next %}
+        <div class="card">
+            <header>Next post</header>
+            <footer><a href="{{page.next.url}}">{{page.next.title}}</a></footer>
+        </div>
+        {% endif %}
+    </div>
+</div>

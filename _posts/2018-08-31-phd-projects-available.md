@@ -3,7 +3,7 @@ layout: post
 title:  "PhD Projects Available"
 date:   2018-08-31
 categories: posts
-author: ielab team
+author: ielab
 tags: [students]
 ---
 

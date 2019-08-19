@@ -3,7 +3,7 @@ layout: post
 title:  "3 Fully Funded PhD Scholarships in Health Data Science at UQ"
 date:   2019-02-06
 categories: posts
-author: ielab team
+author: ielab
 tags: [students]
 ---
 

@@ -1,5 +1,5 @@
 ---
-authors: [jimmy, guido-zuccon, gianluca-demartini, bevan-koopman]
+authors: [jimmy, guido-zuccon, "Gianluca Demartini", bevan-koopman]
 title: "Health Cards to Assist Decision Making in Consumer Health Search"
 venue: Proceedings of AMIA 2019 Annual Symposium
 year: 2019

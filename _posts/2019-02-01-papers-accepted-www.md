@@ -3,7 +3,7 @@ layout: post
 title:  "'Automatic Boolean Query Refinement for Systematic Review Literature Search' accepted at WWW'19"
 date:   2019-01-21
 categories: posts
-author: ielab team
+author: ielab
 tags: [publications]
 ---
 

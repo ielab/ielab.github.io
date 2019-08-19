@@ -1,0 +1,33 @@
+{%- assign publications = include.publications  -%}
+<ul>
+{%- for publication in site.publications -%}
+    {%- assign path = publication.id | split: "/" -%}
+    {%- if publications contains path[2] -%}
+        <li>
+        {%- assign i = 0 -%}
+        {%- for involved in publication.authors -%}
+            {%- assign found = false -%}
+            {%- for person in site.people -%}
+                {%- assign path = person.id | split: "/" -%}
+                {%- assign id = path[2] -%}
+                {%- if id == involved -%}
+                    <a href="{{- person.id -}}">{{- person.name -}}{{- "</a>" -}}
+                    {% assign found = true -%}
+                {%- endif -%}
+            {%- endfor -%}
+            {%- if found == false -%}
+                {{- involved -}}
+            {%- endif -%}
+            {%- assign i = i | plus: 1 -%}
+            {%- assign l = publication.authors | size -%}
+            {%- if i < l -%}
+            {{- " and " -}}
+            {%- else -%}
+            {{- ". " -}}
+            {%- endif -%}
+       {%- endfor -%}
+       {{- publication.year -}}. <a href="{{- publication.id -}}">{{- publication.title -}}</a>. In <em>{{- publication.venue -}}</em>.
+       </li>
+    {%- endif -%}
+{%- endfor -%}
+</ul>
