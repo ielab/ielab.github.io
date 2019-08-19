@@ -1,6 +1,6 @@
 ---
 authors: [harry-scells, guido-zuccon]
-title: ielab at the Open-Source IR Replicability Challenge 2019s
+title: ielab at the Open-Source IR Replicability Challenge 2019
 venue: Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '19)
 year: 2019
 pdf: /publications/pdfs/scells2019osirrc.pdf
