@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<h1>Posts</h1>
+<div>
+    <a class="button" href="/feed.xml">RSS Feed</a>
+</div>
+<hr/>
+
+<div>
+    {% for post in paginator.posts limit:paginator.per_page %}
+    <a href="{{ post.url }}"><h2>{{- post.title -}}</h2></a>
+    <small>{{ post.date | date_to_long_string }}</small>
+    <p>{{- post.excerpt -}}<a href="{{-post.url-}}">Read more...</a></p>
+    {% endfor %}
+</div>
+
+<hr/>
+<h3>Navigation</h3>
+<div class="flex two">
+    <div>
+        {%- if paginator.previous_page != nil -%}
+        <a href="{{- paginator.previous_page_path -}}">&larr; Previous page</a>
+        {%- endif -%}
+    </div>
+    <div>
+        {%- if paginator.next_page != nil -%}
+        <a href="{{- paginator.next_page_path -}}">Next page &rarr;</a>
+        {%- endif -%}
+    </div>
+</div>

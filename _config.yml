@@ -4,6 +4,9 @@ google_analytics:
 show_downloads: false
 logo: /images/ielab-page001.png
 
+paginate: 5
+paginate_path: "/posts/page-:num/"
+
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
