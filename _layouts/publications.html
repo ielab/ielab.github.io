@@ -11,6 +11,9 @@ layout: default
     {% if page.pdf != nil %}
     <a class="button" href="{{ page.pdf }}">Download PDF</a>
     {% endif %}
+    {% for link in page.links %}
+    <a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
+    {% endfor %}
 </div>
 <hr/>
 <b>Authors:</b>
