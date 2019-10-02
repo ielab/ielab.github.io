@@ -1,7 +1,7 @@
 ---
 layout: post
 draft: true
-title:  "Three publications accepted from the ielab research group at SIGIR'19"
+title:  "Three publications accepted from the ielab research group at CIKM'19"
 date:   2019-07-21
 categories: posts
 author: ielab
