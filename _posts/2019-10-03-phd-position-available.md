@@ -41,7 +41,7 @@ Computer Science, Information Retrieval, Artificial Intelligence, Machine Learni
 
 **How do I express my interest to apply?** 
 
-Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuccon) by email at [g.zuccon@uq.edu.au](mailto:g.zuccon@uq.edu.au). In your email, include:
+Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuccon) by email at [g.zuccon@uq.edu.au](mailto:g.zuccon@uq.edu.au) by October 10, 2019 to express your interest. In your email, include:
 
 * your date of graduation, and confirmation you would ber able to start in RQ1, 2020.
 * transcripts, including grades, documenting your previous studies
