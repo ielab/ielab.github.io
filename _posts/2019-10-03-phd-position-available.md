@@ -47,6 +47,10 @@ Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuc
 * a copy of previous research papers you have published, if any
 * a copy of your Honours/Masters thesis, or final project report, if any.
 
+
+
+More information about the application process once preliminary selection has taken place can be found at https://scholarships.uq.edu.au/scholarship/grant-aligned-priority-phd-scholarships.
+
 ---
 
 
