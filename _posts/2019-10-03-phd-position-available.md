@@ -24,9 +24,12 @@ Directions for research in this project include, but are not limited to:
 
 
 
-The successful applicant will enrol through the School of Information Technology and Electrical Engineering, and will be a member of the ielab team, within the UQ Data Science group.
+The successful applicant will enrol through the School of Information Technology and Electrical Engineering at The University of Queensland (UQ), and will be a member of the ielab team (www.ielab.io), within the UQ Data Science group.
+The Data Science group researches and develops innovative and practical solutions for business, scientific and social applications in the realm of big data. The group encompasses a variety of research strengths including: Data and knowledge engineering, Information Retrieval, Computer Vision, and Complex and Intelligent Systems. You will join a world-leading research group currently composed of 13 academic staff members (including 4 full professors, two DECRA fellows and an Advanced Queensland Fellow), 7 research fellows and over 40 PhD students.  Members of the group have a successful track record of publishing in top conferences and journals such as ACM SIGIR, ACM CIKM, The Web Conference (WWW), SIGMOD, VLDB, ICDE, ICDM, KDD and various ACM and IEEE transactions.
+The research environment available to the project is world-class. The University of Queensland (UQ) has a strong and internationally focused research culture. It is ranked in the top 1% of world universities in three widely publicized international University rankings. The areas of research in these PhD projects have a strategic fit within UQ’s existing research strengths in Data Science.
+Brisbane is a liveable, capital city with great weather, vibrant green spaces, lively bars and restaurants, world-class art galleries and premier events. It is the third most populous city in Australia and is closed to premier recreational locations such as the Sunshine Coast and the Gold Coast.
 
-The successful candidate must commence by Research Quarter 1, 2020 (January).
+**The successful candidate must commence by Research Quarter 1, 2020 (January).**
 
 
 
