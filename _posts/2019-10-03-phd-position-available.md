@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Health Search PhD Position Available"
+title:  "Consumer Health Search PhD Position Available"
 date:   2019-10-03
 categories: posts
 author: ielab
