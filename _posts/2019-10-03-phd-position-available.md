@@ -17,9 +17,19 @@ This project aims to help people make better health decisions from search engine
 
 This project expects to provide new understanding about why and how people fail to find useful health information. Expected outcomes of this project are new models and methods for evaluating high-stakes search and new search technologies to help people find and recognise high quality information to make better health decisions. This should provide significant benefits to Australian health consumers and the healthcare system. 
 
-The successful applicant will enrol through the School of Information Technology and Electrical Engineering, and will be a member of the ielab team, within the UQ Data Science group.
+Directions for research in this project include, but are not limited to:
 
-The successful candidate must commence by Research Quarter 1, 2020 (January).
+* Computational methods that automatically identify the credibility of online health information, and use integrate this within retrieval and ranking functions.
+* Evaluation frameworks and methods that account for the decisions users make based on the health information retrieved by search engines. This will be developed in the context of the [TREC Decisions Track](https://trec-decision.github.io/), which is co-organised by the ielab.
+
+
+
+The successful applicant will enrol through the School of Information Technology and Electrical Engineering at The University of Queensland (UQ), and will be a member of the ielab team (www.ielab.io), within the UQ Data Science group.
+The Data Science group researches and develops innovative and practical solutions for business, scientific and social applications in the realm of big data. The group encompasses a variety of research strengths including: Data and knowledge engineering, Information Retrieval, Computer Vision, and Complex and Intelligent Systems. You will join a world-leading research group currently composed of 13 academic staff members (including 4 full professors, two DECRA fellows and an Advanced Queensland Fellow), 7 research fellows and over 40 PhD students.  Members of the group have a successful track record of publishing in top conferences and journals such as ACM SIGIR, ACM CIKM, The Web Conference (WWW), SIGMOD, VLDB, ICDE, ICDM, KDD and various ACM and IEEE transactions.
+The research environment available to the project is world-class. The University of Queensland (UQ) has a strong and internationally focused research culture. It is ranked in the top 1% of world universities in three widely publicized international University rankings. The areas of research in these PhD projects have a strategic fit within UQ’s existing research strengths in Data Science.
+Brisbane is a liveable, capital city with great weather, vibrant green spaces, lively bars and restaurants, world-class art galleries and premier events. It is the third most populous city in Australia and is closed to premier recreational locations such as the Sunshine Coast and the Gold Coast.
+
+**The successful candidate must commence by Research Quarter 1, 2020 (January).**
 
 
 
@@ -31,7 +41,7 @@ Computer Science, Information Retrieval, Artificial Intelligence, Machine Learni
 
 **How do I express my interest to apply?** 
 
-Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuccon) by email at [g.zuccon@uq.edu.au](mailto:g.zuccon@uq.edu.au). In your email, include:
+Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuccon) by email at [g.zuccon@uq.edu.au](mailto:g.zuccon@uq.edu.au) by October 10, 2019 to express your interest. In your email, include:
 
 * your date of graduation, and confirmation you would be able to start in RQ1, 2020.
 * transcripts, including grades, documenting your previous studies
@@ -39,6 +49,10 @@ Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuc
 * a statement motivating your interest in the project and the directions that you may take in your research within the context of this project. You could examine the previous work on Consumer Health Search the ielab team has done (see http://ielab.io/projects/consumer-health-search.html). 
 * a copy of previous research papers you have published, if any
 * a copy of your Honours/Masters thesis, or final project report, if any.
+
+
+
+More information about the application process once preliminary selection has taken place can be found at https://scholarships.uq.edu.au/scholarship/grant-aligned-priority-phd-scholarships.
 
 ---
 
