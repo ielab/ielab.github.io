@@ -17,6 +17,13 @@ This project aims to help people make better health decisions from search engine
 
 This project expects to provide new understanding about why and how people fail to find useful health information. Expected outcomes of this project are new models and methods for evaluating high-stakes search and new search technologies to help people find and recognise high quality information to make better health decisions. This should provide significant benefits to Australian health consumers and the healthcare system. 
 
+Directions for research in this project include, but are not limited to:
+
+* Computational methods that automatically identify the credibility of online health information, and use integrate this within retrieval and ranking functions.
+* Evaluation frameworks and methods that account for the decisions users make based on the health information retrieved by search engines. This will be developed in the context of the [TREC Decisions Track](https://trec-decision.github.io/), which is co-organised by the ielab.
+
+
+
 The successful applicant will enrol through the School of Information Technology and Electrical Engineering, and will be a member of the ielab team, within the UQ Data Science group.
 
 The successful candidate must commence by Research Quarter 1, 2020 (January).
