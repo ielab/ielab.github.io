@@ -43,7 +43,7 @@ Computer Science, Information Retrieval, Artificial Intelligence, Machine Learni
 
 Interested? Contact the Chief Investigator, [Dr. Guido Zuccon](/people/guido-zuccon) by email at [g.zuccon@uq.edu.au](mailto:g.zuccon@uq.edu.au) by October 10, 2019 to express your interest. In your email, include:
 
-* your date of graduation, and confirmation you would ber able to start in RQ1, 2020.
+* your date of graduation, and confirmation you would be able to start in RQ1, 2020.
 * transcripts, including grades, documenting your previous studies
 * a CV, including a statement of your expertise in Computer Science, Information Retrieval, Artificial Intelligence, Machine Learning, Natural Language Processing.
 * a statement motivating your interest in the project and the directions that you may take in your research within the context of this project. You could examine the previous work on Consumer Health Search the ielab team has done (see http://ielab.io/projects/consumer-health-search.html). 
