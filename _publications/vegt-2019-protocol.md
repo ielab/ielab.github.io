@@ -3,7 +3,7 @@ authors: [anton-van-der-vegt, guido-zuccon, bevan-koopman,"Anthony Deacon"]
 title: "Impact of a Search Engine on Clinical Decisions Under Time and System Effectiveness Constraints: Research Protocol"
 venue: JMIR research protocols
 year: 2019
-pdf: /publications/pdfs/vandervegt-2019-protocol.pdf
+pdf: https://www.researchprotocols.org/2019/5/e12803/
 
 ---
 
