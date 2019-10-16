@@ -3,7 +3,7 @@ authors: [anton-van-der-vegt, guido-zuccon, bevan-koopman]
 title: "Learning Inter-Sentence, Disorder-Centric, Biomedical Relationships from Medical Literature"
 venue: AMIA'19 Proceedings
 year: 2019
-pdf: /publications/pdfs/vandervegt-2019-amia.pdf
+pdf: /publications/pdfs/vandervegt-2019-AMIA.pdf
 
 ---
 
