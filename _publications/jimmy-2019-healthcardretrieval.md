@@ -6,9 +6,9 @@ year: 2019
 pdf: /publications/pdfs/jimmy2019healthcardRetrieval.pdf
 links: 
  - url: /publications/pdfs/jimmy2019healthcardRetrieval_poster.pdf
-   name: CIKM Poster
+   name: Poster
  - url: /publications/pdfs/health_card_retrieval_slides.pdf
-   name: CIKM Slides
+   name: Slides
  - url: https://github.com/ielab/ielab.github.io/tree/master/publications/CIKM2019_HealthCardRetrieval
    name: Resources
 ---
