@@ -18,6 +18,7 @@ layout: default
 <hr/>
 <b>Authors:</b>
 <!-- @formatter:off -->
+{% assign authors = "" %}
 {% assign author = site.people | where:'group', post.authors %}
 <div class="flex four">
     {% for involved in page.authors %}
@@ -27,6 +28,7 @@ layout: default
         {% assign id = path[2] %}
         {% if id == involved %}
             {% assign found = true %}
+            {% assign authors = authors | append: person.name %}
             <div>
                 <article class="card">
                     <div style="height: 120px; margin:auto; display:block">
@@ -44,6 +46,7 @@ layout: default
         {% endif %}
         {% endfor %}
         {% if found == false %}
+            {% assign authors = authors | append: involved %}
             <div>
                 <article class="card">
                     <div style="height: 120px; margin:auto; display:block">
@@ -55,7 +58,40 @@ layout: default
                 </article>
             </div>
         {% endif %}
+        {% assign authors = authors | append: " and " %}
     {% endfor %}
 </div>
 {{ content }}
+<pre>
+@{{ page.type }}{ {{ page.authors[0] | split: "-" | last }}{{ page.year }}{{ page.title | split: " " | first | downcase }}
+    Author = { {{ authors | strip | split: "" | reverse |  join: "" | remove_first: "dna" | split: "" | reverse | join: "" }} }
+}
+</pre>
 <!-- @formatter:on -->
+
+
+<!--@inproceedings{scells2018searchrefiner,-->
+<!--Author = {Scells, Harrisen and Zuccon, Guido},-->
+<!--Booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},-->
+<!--Date-Added = {2019-11-07 17:41:51 +1000},-->
+<!--Date-Modified = {2019-11-07 17:41:51 +1000},-->
+<!--Organization = {ACM},-->
+<!--Pages = {1939&#45;&#45;1942},-->
+<!--Title = {searchrefiner: A Query Visualisation and Understanding Tool for Systematic Reviews},-->
+<!--Year = {2018}}-->
+
+
+<!--@article{cohen2006reducing,-->
+<!--Author = {Cohen, A.M. and Hersh, W.R. and Peterson, K. and Yen, P.Y.},-->
+<!--Date-Added = {2019-10-16 11:06:58 +1000},-->
+<!--Date-Modified = {2019-10-16 11:06:58 +1000},-->
+<!--Journal = {JAMIA},-->
+<!--Keywords = {med, workload, active learning, wss},-->
+<!--Number = {2},-->
+<!--Pages = {206&#45;&#45;219},-->
+<!--Publisher = {The Oxford University Press},-->
+<!--Title = {Reducing workload in systematic review preparation using automated citation classification},-->
+<!--Volume = {13},-->
+<!--Year = {2006},-->
+<!--Bdsk-File-1 = {YnBsaXN0MDDSAQIDBFxyZWxhdGl2ZVBhdGhZYWxpYXNEYXRhXxCYLi4vLi4vLi4vRHJvcGJveC9SZXNlYXJjaC9TeXN0ZW1hdGljIFJldmlld3MvYmlibGlvZ3JhcGh5L1JlZHVjaW5nIHdvcmtsb2FkIGluIHN5c3RlbWF0aWMgcmV2aWV3IHByZXBhcmF0aW9uIHVzaW5nIGF1dG9tYXRlZCBjaXRhdGlvbiBjbGFzc2lmaWNhdGlvbi5wZGZPEQLkAAAAAALkAAIAAAxNYWNpbnRvc2ggSEQAAAAAAAAAAAAAAAAAAAAAAAAAQkQAAf////8fUmVkdWNpbmcgd29ya2xvYWQgI0ZGRkZGRkZGLnBkZgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAAAAAAAAADAAUAAAogY3UAAAAAAAAAAAAAAAAADGJpYmxpb2dyYXBoeQACAKMvOlVzZXJzOmhhcnJ5c2NlbGxzOkRyb3Bib3g6UmVzZWFyY2g6U3lzdGVtYXRpYyBSZXZpZXdzOmJpYmxpb2dyYXBoeTpSZWR1Y2luZyB3b3JrbG9hZCBpbiBzeXN0ZW1hdGljIHJldmlldyBwcmVwYXJhdGlvbiB1c2luZyBhdXRvbWF0ZWQgY2l0YXRpb24gY2xhc3NpZmljYXRpb24ucGRmAAAOAL4AXgBSAGUAZAB1AGMAaQBuAGcAIAB3AG8AcgBrAGwAbwBhAGQAIABpAG4AIABzAHkAcwB0AGUAbQBhAHQAaQBjACAAcgBlAHYAaQBlAHcAIABwAHIAZQBwAGEAcgBhAHQAaQBvAG4AIAB1AHMAaQBuAGcAIABhAHUAdABvAG0AYQB0AGUAZAAgAGMAaQB0AGEAdABpAG8AbgAgAGMAbABhAHMAcwBpAGYAaQBjAGEAdABpAG8AbgAuAHAAZABmAA8AGgAMAE0AYQBjAGkAbgB0AG8AcwBoACAASABEABIAoVVzZXJzL2hhcnJ5c2NlbGxzL0Ryb3Bib3gvUmVzZWFyY2gvU3lzdGVtYXRpYyBSZXZpZXdzL2JpYmxpb2dyYXBoeS9SZWR1Y2luZyB3b3JrbG9hZCBpbiBzeXN0ZW1hdGljIHJldmlldyBwcmVwYXJhdGlvbiB1c2luZyBhdXRvbWF0ZWQgY2l0YXRpb24gY2xhc3NpZmljYXRpb24ucGRmAAATAAEvAAAVAAIAEv//AAAACAANABoAJAC/AAAAAAAAAgEAAAAAAAAABQAAAAAAAAAAAAAAAAAAA6c=}}-->
+

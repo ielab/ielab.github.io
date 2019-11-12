@@ -4,6 +4,7 @@ title: "Automatic Boolean Query Refinement for Systematic Review Literature Sear
 venue: Proceedings of The Web Conference 2019
 year: 2019
 pdf: /publications/pdfs/scells2019refining.pdf
+type: inproceedings
 projects: [systematic-reviews] 
 ---
 
