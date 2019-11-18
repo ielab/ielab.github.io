@@ -4,6 +4,9 @@ title: "Health Cards to Assist Decision Making in Consumer Health Search"
 venue: Proceedings of AMIA 2019 Annual Symposium
 year: 2019
 pdf: /publications/pdfs/jimmy2019assistDecision.pdf
+links: 
+ - url: /publications/pdfs/Jimmy_AMIA 2019_Health Cards.pdf
+   name: AMIA Slides
 ---
 
 ## Abstract
