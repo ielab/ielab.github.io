@@ -3,7 +3,14 @@ authors: [jimmy, guido-zuccon, bevan-koopman, "Gianluca Demartini"]
 title: "Health Card Retrieval for Consumer Health Search"
 venue: Proceedings of the 28th International ACM CIKM Conference on Information and Knowledge Management (CIKM '19)
 year: 2019
-pdf: 
+pdf: /publications/pdfs/jimmy2019healthcardRetrieval.pdf
+links: 
+ - url: /publications/pdfs/jimmy2019healthcardRetrieval_poster.pdf
+   name: Poster
+ - url: /publications/pdfs/health_card_retrieval_slides.pdf
+   name: Slides
+ - url: https://github.com/ielab/ielab.github.io/tree/master/publications/CIKM2019_HealthCardRetrieval
+   name: Resources
 ---
 
 ## Abstract
