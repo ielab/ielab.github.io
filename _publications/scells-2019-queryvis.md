@@ -6,8 +6,7 @@ year: 2019
 projects: [systematic-reviews] 
 ---
 
-<img src="/images/scells/tree.png" style="max-width:640px;" alt="Figure 1">
-<p><small><i>Figure 1</i></small></p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HPEQWCrMGWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Background:
 Searching for studies to include in systematic reviews involves the construction of complex search strategies. The effectiveness of these search strategies directly impacts the workload associated with conducting a systematic review. More efficient search strategies can reduce the time and resources required to screen studies therefore reducing the total time and cost of the review. Research in Information Retrieval (IR) shows that query visualisation improves the effectiveness of searching for information.
@@ -26,3 +25,7 @@ Improving the query formulation stage can have a significant impact on the rest 
 
 Patient or healthcare consumer involvement:
 This has no direct involvement with patients or consumers, although improved efficiency of systematic review searches could be beneficial to both groups.
+
+<img src="/images/scells/tree.png" style="max-width:640px;" alt="Figure 1">
+<p><small><i>Figure 1</i></small></p>
+s

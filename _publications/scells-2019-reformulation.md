@@ -6,6 +6,8 @@ year: 2019
 projects: [systematic-reviews] 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/A1GtoNFWN0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Background:
 Within the last decade the rise of digital publishing has become widespread, enabling publications to be edited and updated after-the-fact. In the medical domain, systematic reviews are one type of digital document that is often updated after initial publication. This is usually because new evidence has been discovered and must be re-synthesised into the existing review. A problem, however, is that the initial search strategy used to identify the originally relevant studies may not be sufficient in capturing new studies, or may capture too many irrelevant studies. This means that time and effort must be spent reformulating new or variant search strategies. While this problem may be particularly pronounced in “living systematic reviews”, the problem of finding all relevant studies while minimising irrelevant studies for typical systematic reviews is also difficult. This overarching problem signifies a gap to be filled with a system for automatic search strategy reformulation.
 

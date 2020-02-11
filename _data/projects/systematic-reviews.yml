@@ -3,11 +3,20 @@ categories:
     publications:
       - scells-2018-searchrefiner
       - scells-2018-querylab
+      - scells-2019-queryvis
+      - scells-2019-reformulation
 
   - name: Automatic Query Transformation
     publications:
       - scells-2018-generating
       - scells-2019-refining
+      - scells-2020-sampling
+      - scells-2018-qvpp
+
+  - name: Query Formulation
+    publications:
+      - scells-2020-objective
+      - scells-2020-conceptual
 
   - name: Test Collections
     publications:
@@ -16,3 +25,4 @@ categories:
   - name: Retrieval Models
     publications:
       - scells-2017-integrating
+      - scells-2020-clf
