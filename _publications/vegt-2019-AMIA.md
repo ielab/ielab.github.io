@@ -6,7 +6,7 @@ year: 2019
 pdf: /publications/pdfs/vandervegt-2019-AMIA.pdf
 links: 
  - url: http://ielab-data.uqcloud.net/dataset/2019-amia-learning-relationships
-   name: Download site for crowd-sourced biomedical relationship label data
+   name: resources
 ---
 
 ## Abstract
