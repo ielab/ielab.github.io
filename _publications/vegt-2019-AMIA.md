@@ -4,7 +4,9 @@ title: "Learning Inter-Sentence, Disorder-Centric, Biomedical Relationships from
 venue: AMIA'19 Proceedings
 year: 2019
 pdf: /publications/pdfs/vandervegt-2019-AMIA.pdf
-
+links: 
+ - url: http://ielab-data.uqcloud.net/dataset/2019-amia-learning-relationships
+   name: Download site for crowd-sourced biomedical relationship label data
 ---
 
 ## Abstract
