@@ -1,9 +1,14 @@
 ---
+redirect_from: /COLTR
 authors: [shengyao-zhuang, guido-zuccon]
 title: Counterfactual Online Learning to Rank
 venue: 42nd European Conference on IR Research
 year: 2020
 pdf: /publications/pdfs/arvin2020counterfactual.pdf
+links: 
+ - url: http://ielab.io/files/ECIR2020CounterfactualAppendix.pdf
+   name: Appendix
+---
 ---
 
 Exploiting users’ implicit feedback, such as clicks, to learn rankers is attractive as it does not require editorial labelling effort, and adapts to users’ changing preferences, among other benefits. However, directly learning a ranker from implicit data is challenging, as users’ implicit feedback usually contains bias (e.g., position bias, selection bias) and noise (e.g., clicking on irrelevant but attractive snippets, adversarial clicks). Two main methods have arisen for optimizing rankers based on implicit feedback: counterfactual learning to rank (CLTR), which learns a ranker from the historical click-through data collected from a deployed, logging ranker; and online learning to rank (OLTR), where a ranker is updated by recording user interaction with a result list produced by multiple rankers (usually via interleaving).
