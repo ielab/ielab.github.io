@@ -5,6 +5,7 @@ venue: Proceedings of The Web Conference 2020
 year: 2020
 pdf: /publications/pdfs/scells2020conceptual.pdf
 projects: [systematic-reviews] 
+redirect_from: /www-conceptual
 ---
 
 Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth  experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews' topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses.
