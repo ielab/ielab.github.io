@@ -1,3 +1,10 @@
-| name    | image               | twitter                | github                | website     | scholar | role | description                                                                                          |
-|---------|---------------------|------------------------|-----------------------|-------------|---------|------|------------------------------------------------------------------------------------------------------|
-| Hang Li | /images/hang-li.jpg | //twitter.com/hanglics | //github.com/hanglics | //hangli.me |         | phd  | PhD student, UQ, AgAsk: A Question-Answering Conversational Agent for Data-Driven Growing Decisions. |
+---
+name: Hang Li
+image: /images/hang-li.jpg
+twitter: //twitter.com/hanglics
+github: //github.com/hanglics
+website: //hangli.me
+scholar:
+role: phd
+description: PhD student, UQ, AgAsk: A Question-Answering Conversational Agent for Data-Driven Growing Decisions.
+---
