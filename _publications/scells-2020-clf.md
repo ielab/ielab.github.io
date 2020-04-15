@@ -4,8 +4,11 @@ title: You Can Teach an Old Dog New Tricks - Rank Fusion applied to Coordination
 venue: 42nd European Conference on IR Research
 year: 2020
 pdf: /publications/pdfs/scells2020clf.pdf
+redirect_from: ecir-clf
 projects: [systematic-reviews] 
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wp5SvapN7zs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Coordination level matching is a ranking method originally proposed to rank documents given Boolean queries that is now several decades old.
 Rank fusion is a relatively recent method for combining runs from multiple systems into a single ranking, and has been shown to significantly improve the ranking.
