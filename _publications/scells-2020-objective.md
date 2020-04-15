@@ -7,6 +7,8 @@ pdf: /publications/pdfs/scells2020objective.pdf
 projects: [systematic-reviews] 
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LCTI5yxWnVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Searching literature for a systematic review begins with a manually constructed search strategy by an expert information specialist.
 The typical process of constructing search strategies is often undocumented, ad-hoc, and subject to individual expertise, which may introduce bias in the systematic review.
 A new method for objectively deriving search strategies has arisen from information specialists attempting to address these shortcomings.
