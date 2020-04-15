@@ -4,6 +4,7 @@ title: A Computational Approach for Objectively Derived Systematic Review Search
 venue: 42nd European Conference on IR Research
 year: 2020
 pdf: /publications/pdfs/scells2020objective.pdf
+redirect_from: ecir-objective
 projects: [systematic-reviews] 
 ---
 
