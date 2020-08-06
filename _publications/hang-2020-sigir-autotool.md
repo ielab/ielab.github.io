@@ -1,10 +1,10 @@
 ---
-redirect_from: /AGASK
 authors: [hang-li, harry-scells, guido-zuccon]
 title: Systematic Review Automation Tools for End-to-End Query Formulation
 venue: Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)
 year: 2020
 pdf: /publications/pdfs/hang2020autotool.pdf
+projects: [systematic-reviews] 
 ---
 
 ## Links
