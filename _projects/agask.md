@@ -17,7 +17,7 @@ AgAsk can be deployed in the field, readily available across the wide growers se
 
 This project will deliver a prototype system that can be taken to the App-Store in partnership with GRDC and key influencers such as farming systems groups and other grower groups, farm advisers and agribusiness stakeholders.
 
-### Relevant Publications 
+## Relevant Publications 
 
 <!-- {% for category in site.data.projects.agask.categories %}
 
