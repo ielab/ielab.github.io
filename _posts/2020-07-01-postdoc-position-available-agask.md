@@ -4,7 +4,7 @@ title:  "PostDoc Position Available in Conversational Search"
 date:   2020-07-01
 categories: posts
 author: ielab
-tags: [students]
+tags: [postdoc]
 ---
 
 We are seeking a Postdoctoral Research Fellow that will contribute to innovative research developments within the scope of conversational search. The project the postdoc will be assigned to aims to identify how conversational agents might help answer grain growers and farmers' questions and make better farming decisions.  The position is part of the newly funded research project AgAsk that involves researchers at the University of Queensland, the CSIRO, and the Queensland Government Department of Agriculture and Fisheries. 

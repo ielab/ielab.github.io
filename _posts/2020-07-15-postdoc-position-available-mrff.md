@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "PostDoc Position Available in Digital Health"
-date:   2020-07-01
+date:   2020-07-15
 categories: posts
 author: ielab
-tags: [students]
+tags: [postdoc]
 ---
 
 We are seeking a Postdoctoral Research Fellow that will contribute to innovative research developments within the scope of digital health. The project aims to devise new method for the effective and efficient information extraction from electronic medical records. The position is part of a newly BDHP/MRFF funded research project that involves researchers at the University of Queensland, Metro North HHS and Metro South HHS (Queensland Health). The postdoc will be part of the ielab team (http://ielab.io), in the School of Information Technology and Electrical Engineering.
