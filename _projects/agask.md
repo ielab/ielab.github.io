@@ -2,7 +2,7 @@
 name: AgAsk
 image: /images/projects/agask.jpg
 featured: true
-people: [hang-li, guido-zuccon, bevan-koopman]
+people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt]
 ---
 
 ## About this project
