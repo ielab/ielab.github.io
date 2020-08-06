@@ -87,3 +87,5 @@ The research environment available to the project is world-class. The University
 Brisbane is a liveable, capital city with great weather, vibrant green spaces, lively bars and restaurants, world-class art galleries and premier events. It is the third most populous city in Australia and is closed to premier recreational locations such as the Sunshine Coast and the Gold Coast.
 
 Expected start for all projects: April or July 2019
+
+**POSITIONS NOW FILLED**
