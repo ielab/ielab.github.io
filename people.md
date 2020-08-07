@@ -22,7 +22,7 @@ layout: default
             {% if role == "phd" %}
                 <i>PhD Student</i><br/>
             {% elsif role == "staff" %}
-                <i>Researcher Staff</i><br/>
+                <i>Research Staff</i><br/>
             {% elsif role == "external" %}
                 <i>External Member</i><br/>
             {% elsif role == "alumni" %}
