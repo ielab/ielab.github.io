@@ -17,7 +17,20 @@ layout: default
         </div>
         <a href="{{ person.id }}" style="text-align:center; display:block">{{ person.name }}</a>
     </div>        
-    <div class="full half-600">{{ person.description }}</div>
+    <div class="full half-600">
+        {% for role in person.role %}
+            {% if role == "phd" %}
+                <i>PhD Student</i><br/>
+            {% elsif role == "staff" %}
+                <i>Researcher Staff</i><br/>
+            {% elsif role == "external" %}
+                <i>External Member</i><br/>
+            {% elsif role == "alumni" %}
+                <i>Alumni</i><br/>
+            {% endif %}            
+        {% endfor %}
+        <p>{{ person.description }}</p>
+    </div>
     <div>
         <ul>
             {% if person.website != nil %}
