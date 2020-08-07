@@ -7,5 +7,5 @@ image: /images/anton.jpg
 scholar: //scholar.google.com.au/citations?user=3aj36DkAAAAJ&hl=en
 role: [alumni, staff]
 alumni: true
-description: PhD graduate, UQ & CSIRO, Minimal interaction Information Retrieval - a theoretical framework with applications in clinical decision support.
+description: PhD graduate, UQ & CSIRO, Minimal interaction Information Retrieval - a theoretical framework with applications in clinical decision support. Thesis available at: https://espace.library.uq.edu.au/view/UQ:32bf50c 
 ---
