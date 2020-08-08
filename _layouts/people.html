@@ -25,6 +25,9 @@ layout: default
 {% if page.github != nil %}
 <a class="button" href="{{ page.github }}">GitHub</a>
 {% endif %}
+{% for link in page.links %}
+<a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
+{% endfor %}
 <p>{{ page.description }}</p>
 
 {% if page.twitter-timeline == true %}
