@@ -32,7 +32,7 @@ For advertised **student projects** (including PhD, masters, and undergraduate) 
 
 <div class="news flex one three-1000">
 <div class="two-third-1000">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:3 %}
 <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
 <small>{{ post.date | date_to_long_string }}</small>
 <p>{{ post.excerpt }}</p>
@@ -43,6 +43,7 @@ For advertised **student projects** (including PhD, masters, and undergraduate) 
 </div>
 </div>
 
+<a href="/posts/">News archive &rarr;</a>
 
 ---
 
