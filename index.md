@@ -4,7 +4,7 @@ The ielab is a collaborative group of researchers working in the area of informa
 
 ## Highlighted Projects
 
-<div class="flex two four-600">
+<div class="flex two three-600">
 {%- for project in site.projects -%}
     {%- if project.featured == true -%}
     <div>
