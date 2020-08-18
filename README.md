@@ -44,7 +44,7 @@ website: //example.com
 scholar: //scholar.google.com.au/citations?user=EXAMPLE
 ``` 
 
-The `name`, `image`, and `description` are used in most places in the website (e.g., home page and publications). The `role` determines where the person should fit in the home page. The values of `role` can either be `staff`, `phd`, or `external`. The `twitter-timeline` variable will place a timeline of tweets using the `twitter` variable on the profile page.
+The `name`, `image`, and `description` are used in most places in the website (e.g., home page and publications). The `role` determines where the person should fit in the home page. The values of `role` can either be `staff`, `phd`, `alumni`, or `external` (it is possible to have multiple roles by creatng a list, e.g. `[staff, alumni]`). The `twitter-timeline` variable will place a timeline of tweets using the `twitter` variable on the profile page.
 
 Content inside each person page can be anything that you wish to mention about yourself. Add content to your people page underneath the front matter. This content will appear after your name, links, and description, but before your publications.
  
