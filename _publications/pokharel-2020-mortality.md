@@ -1,5 +1,5 @@
 ---
-authors: [suresh-pokharel, "Zhenkun Shi", guido-zucocn, "Yu Li"]
+authors: [suresh-pokharel, "Zhenkun Shi", guido-zuccon, "Yu Li"]
 title: "Discriminative Features Generation for Mortality Prediction in ICU"
 venue: International Conference on Advanced Data Mining and Applications
 year: 2020
