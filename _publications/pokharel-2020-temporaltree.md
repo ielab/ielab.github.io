@@ -1,5 +1,5 @@
 ---
-authors: [suresh-pokharel, "Guido Zuccon", "Xue Li", "Chandra Prasetyo Utomo", "Yu Li"]
+authors: [suresh-pokharel, guido-zuccon, "Xue Li", "Chandra Prasetyo Utomo", "Yu Li"]
 title: "Temporal Tree Representation for Similarity Computation between Medical Patients"
 venue: Artificial Intelligence in Medicine
 year: 2020

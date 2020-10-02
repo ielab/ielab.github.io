@@ -1,5 +1,5 @@
 ---
-authors: [suresh-pokharel, "Guido Zuccon", "Yu Li"]
+authors: [suresh-pokharel, guido-zuccon, "Yu Li"]
 title: "Representing EHRs with Temporal Tree and Sequential Pattern Mining for Similarity Computing"
 venue: International Conference on Advanced Data Mining and Applications
 year: 2020
