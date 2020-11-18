@@ -9,8 +9,9 @@ layout: default
     <img src="{{ page.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
     {% endif %}
 </div>
-<h1>{{ page.name }}</h1>
-<p>{{ page.description }}</p>
+<h2>{{ page.name }}</h2>
+
+<h1>{{ page.description }}</h1>
 
 {% if page.twitter-timeline == true %}
 <div class="flex one five-1000">
@@ -20,5 +21,5 @@ layout: default
     </div>
 </div>
 {% else %}
-{{ content}}
+<p>{{ content}}</p>
 {% endif %}

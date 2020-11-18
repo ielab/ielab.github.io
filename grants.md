@@ -15,12 +15,12 @@ layout: default
             <img src="{{ grant.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
             {% endif %}
         </div>
-        <a href="{{ grant.id }}" style="text-align:center; display:block">{{ grant.name }}</a>
     </div>        
     <div class="full half-600">
-        <p>{{ grant.description }}</p>
-      	<p>{{ grant.value }}</p>
-     		<p>Funding years: {{ grant.years }}</p>
+    	<p>{{ grant.name }}</p>
+        <a href="{{ grant.id }}" style="display:block">{{ grant.description }}</a>
+      	<p>Value: {{ grant.value }}</p>
+     	<p>Funding years: {{ grant.years }}</p>
     </div>
 </div>
 {% endfor %}
