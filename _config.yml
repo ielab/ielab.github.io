@@ -43,3 +43,8 @@ defaults:
       type: "tutorials"
     values:
       layout: tutorials
+  - scope:
+      path: ""
+      type: "grants"
+    values:
+      layout: grants

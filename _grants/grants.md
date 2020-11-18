@@ -1,13 +1,9 @@
 ---
-name: ARC DP 21 
-description: AI-driven Effective Query Formulation for Better Systematic Reviews
-value: $203,771.00 (AUD)
-years: 2021-2023
-image: /images/projects/sysrevflow.pdf
-people: [guido-zuccon, bevan-koopman]
-redirect_from: /dp21
-
+name: grants
+image: /images/
 ---
+
+
 
 
 
@@ -19,9 +15,8 @@ This project aims to develop novel AI-based search engine methods to make the cr
 
 **Partner Investigator(s):** Bevan Koopman (CSIRO), Leif Azzopardi (University of Strathclyde, UK), Allan Hanbury (TU Wien, Austria)
 
-**Administering Organisation:** UQ
+**Administering Organisatin:** UQ
 
 **Value:** $203,771.00 (AUD)
 
-**Founding round:** 2021 (2021-2023)
-
+**Founding round:** 2021
