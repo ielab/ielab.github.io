@@ -21,6 +21,8 @@ collections:
     output: true
   tutorials:
     output: true
+  grants:
+    output: true
 
 defaults:
   - scope:
