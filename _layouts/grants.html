@@ -2,24 +2,23 @@
 layout: default
 ---
 <!-- @formatter:off -->
-<div style="width: 120px; height: 120px;">
-    {% if page.image == nil %}
-    <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: contain">
-    {% else %}
-    <img src="{{ page.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
-    {% endif %}
-</div>
+
 <h2>{{ page.name }}</h2>
 
 <h1>{{ page.description }}</h1>
 
-{% if page.twitter-timeline == true %}
-<div class="flex one five-1000">
-    <div class="four-fifth-1000">{{ content }}</div>
-    <div>
-        <a class="twitter-timeline" href="{{ page.twitter }}"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
+
+<div class="flex three">
+  <div class="two-third">
+  	<p>{{ content}}</p>
+  	</div>
+  <div>
+  </br>
+    	{% if page.image == nil %}
+    	<img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: contain">
+    	{% else %}
+    	<img src="{{ page.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
+    {% endif %}
+  </div>
 </div>
-{% else %}
-<p>{{ content}}</p>
-{% endif %}
+
