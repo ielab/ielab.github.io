@@ -1,5 +1,5 @@
 ---
-name: United Arab Emirates University (UAEU)
+name: United Arab Emirates University Start-up Grant
 description: Scalable Recommendation of Visual Analytics for High-Dimensional Data
 value: ~$106,729 (AUD)
 years: 2020-2021
