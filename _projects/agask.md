@@ -2,7 +2,7 @@
 name: AgAsk
 image: /images/projects/agask.jpg
 featured: true
-people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt]
+people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad]
 ---
 
 ## About this project
@@ -19,12 +19,11 @@ This project will deliver a prototype system that can be taken to the App-Store 
 
 ## Relevant Publications 
 
-<!-- {% for category in site.data.projects.agask.categories %}
+{% for category in site.data.projects.agask.categories %}
 
-#### {{ category.name }}
+### {{ category.name }}
 
 {% for pubid in category.publications %}
-
 <ul>
     {%- assign reference =  "/publications/" | append: pubid -%}
     {%- for publication in site.publications -%}
@@ -55,9 +54,8 @@ This project will deliver a prototype system that can be taken to the App-Store 
         {%- endif -%}
     {%- endfor -%}
 </ul>
-
 {% endfor %}
-{% endfor %} -->
+{% endfor %}
 
 ## Funding
 
