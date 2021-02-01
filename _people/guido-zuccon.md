@@ -12,7 +12,7 @@ role: staff
 description: Associate Professor, UQ.
 ---
 
-I am a associate professor at the University of Queensland Information Technology and  Electrical Engineering School, and an ARC DECRA Fellow (2018-2020). I am the research leader of the ielab. My research interests span a number of topics:
+I am an associate professor at the University of Queensland Information Technology and  Electrical Engineering School, and an ARC DECRA Fellow (2018-2020). I am the research leader of the ielab. My research interests span a number of topics:
 
 * __Formal models of Information Retrieval__; in particular I am interested in
 	- models of search, information seeking and interactions
