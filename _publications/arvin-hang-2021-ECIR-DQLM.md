@@ -2,7 +2,7 @@
 redirect_from: /DQLM
 authors: [shengyao-zhuang, hang-li, guido-zuccon]
 title: Deep Query Likelihood Model for Information Retrieval
-venue: 43nd European Conference on IR Research
+venue: 43rd European Conference on IR Research
 year: 2021
 pdf: /publications/pdfs/arvin_hang2021DQLM.pdf
 ---
