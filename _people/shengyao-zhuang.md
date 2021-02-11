@@ -1,10 +1,10 @@
 ---
 name: Shengyao Zhuang
 image: /images/arvin-zhuang.jpg
-twitter://twitter.com/ShengyaoZhuang
+twitter: //twitter.com/ShengyaoZhuang
 github: //github.com/ArvinZhuang
 website:
-scholar://scholar.google.com/citations?user=-7sbXNIAAAAJ&hl=en
+scholar: //scholar.google.com/citations?user=-7sbXNIAAAAJ&hl=en
 role: phd
 description: PhD student, UQ, Online Learning to Rank.
 ---
