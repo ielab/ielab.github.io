@@ -16,3 +16,7 @@ categories:
   - name: Evaluation
     publications:
       - zuccon-2016-understandability
+  - name: Search Engines vs Symptom Checkers
+    publications:
+      - cross-2021-search
+  
