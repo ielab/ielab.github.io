@@ -1,5 +1,5 @@
 ---
-name: User Models, Metrics and Measures of Search: A Tutorial on the CWL Evaluation Framework; ACM CHIIR UMMMS 2021
+name: User Models, Metrics and Measures of Search, A Tutorial on the CWL Evaluation Framework; ACM CHIIR UMMMS 2021
 venues: [CHIIR 2021]
 people:
  - name: leif-azzopardi
