@@ -8,7 +8,7 @@ people:
  - name: "Paul Thomas"
    image: /images/paul-thomas.jpg
  - name: guido-zuccon
-description: Material for the User Models, Metrics and Measures of Search: A Tutorial on the CWL Evaluation FrameworkACM CHIIR UMMMS 2021
+description: Material for the User Models, Metrics and Measures of Search, Tutorial on the CWL Evaluation Framework; ACM CHIIR UMMMS 2021
 links: 
  - url: https://github.com/ielab/ummms2021
    name: GitHub
