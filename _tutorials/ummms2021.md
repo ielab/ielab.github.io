@@ -12,7 +12,7 @@ description: Material for the User Models, Metrics and Measures of Search, Tutor
 links: 
  - url: https://dl.acm.org/doi/10.1145/3406522.3446049
    name: Download Paper
- - url: https://github.com/ireval/cwl-examples/blob/master/notebooks/SIGIR2019-Demo-CWL-PLots.ipynb
+ - url: https://colab.research.google.com/drive/1CseqG6G7k8falu5NHd2GGrEiOBZ-jT9D?usp=sharing
    name: cwl-eval demo
  - url: https://www.youtube.com/playlist?list=PLgrOo-AsKcmV3pzpvFbd5SUpUMWUv2fQr
    name: Online Videos
@@ -48,7 +48,5 @@ As a result of attending this tutorial, participants will be able to:
 - [Part 3: C/W/L Extensions and Future Research](3-ummms-extensions-and-research.pdf)
 - [Part 4: C/W/L in practice](4-ummms-cwl-demo.pdf)
 - [Online videos](https://www.youtube.com/playlist?list=PLgrOo-AsKcmV3pzpvFbd5SUpUMWUv2fQr)
-
-
-[A link to the C/W/L demonstration tool](https://github.com/ireval/cwl-examples/blob/master/notebooks/SIGIR2019-Demo-CWL-PLots.ipynb)
+- [C/W/L demonstration tool](https://colab.research.google.com/drive/1CseqG6G7k8falu5NHd2GGrEiOBZ-jT9D?usp=sharing)
 
