@@ -28,7 +28,7 @@ In this tutorial we introduce the C/W/L approach to user modeling and show how d
 presenters.
 
 
-## Lerning outcomes
+## Learning outcomes
 
 As a result of attending this tutorial, participants will be able to:
 
@@ -40,6 +40,13 @@ As a result of attending this tutorial, participants will be able to:
 - show how the C/W/L framework can be used to evaluate results and analyze Continuation functions, Weighting functions, and Last Likelihood functions;
 - use the “cwl_eval” toolkit to perform TREC-like evaluations on typical IR system experimental outputs.
 
+
+## Tutorial Slides:
+
+- [Part 1: Introduction to evaluation](files/1-ummms-introduction.pdf)
+- [Part 2: The C/W/L Framework](2-ummms-cwl.pdf)
+- [Part 3: C/W/L Extensions and Future Research](3-ummms-extensions-and-research.pdf)
+- [Part 4: C/W/L in practice](4-ummms-cwl-demo.pdf)
 
 
 [A link to the C/W/L demonstration tool](https://github.com/ireval/cwl-examples/blob/master/notebooks/SIGIR2019-Demo-CWL-PLots.ipynb)
