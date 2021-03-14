@@ -12,8 +12,12 @@ description: Material for the User Models, Metrics and Measures of Search, Tutor
 links: 
  - url: https://github.com/ielab/ummms2021
    name: GitHub
- - url: /publications/pdfs/xxx.pdf
+ - url: https://www.youtube.com/playlist?list=PLgrOo-AsKcmV3pzpvFbd5SUpUMWUv2fQr
+   name: Online Videos
+ - url: https://dl.acm.org/doi/10.1145/3406522.3446049
    name: Download Paper
+ - url: https://github.com/ireval/cwl-examples/blob/master/notebooks/SIGIR2019-Demo-CWL-PLots.ipynb
+ - name: cwl-eval demo
 
 ---
 
