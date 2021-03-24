@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<!-- @formatter:off -->
+
+<h2>{{ page.name }}</h2>
+
+<h1>{{ page.description }}</h1>
+
+
+<div class="flex three">
+  <div class="two-third">
+  	<p>{{ content}}</p>
+  	</div>
+  <div>
+  </br>
+    	{% if page.image == nil %}
+    	<img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: contain">
+    	{% else %}
+    	<img src="{{ page.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
+    {% endif %}
+  </div>
+</div>
+

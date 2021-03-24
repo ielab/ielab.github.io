@@ -1,7 +1,4 @@
 categories:
-  - name: Category Name
+  - name: Information Needs
     publications:
-      - Publication Name
-  - name: Category Name
-    publications:
-      - Publication Name
+      - koopman-2020-agask
