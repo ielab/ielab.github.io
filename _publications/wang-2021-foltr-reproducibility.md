@@ -3,11 +3,13 @@ authors: [shuyi-wang, shengyao-zhuang, guido-zuccon]
 title: "Federated Online Learning to Rank with Evolution Strategies: A Reproducibility Study"
 venue: Proceedings of the 43rd European Conference on Information Retrieval (ECIR 2021) 
 year: 2021
-pdf: /publications/pdfs/karly2021foltr-reproducibility.pdf
+pdf: /publications/pdfs/wang2021foltr-reproducibility.pdf
+links:
+ - url: https://github.com/ielab/foltr
+   name: Github
+ - url: https://
+   name: Presentation on Youtube 
 ---
-
-## Links
- - [FOLtR-ES-reproducibility on GitHub](https://github.com/ielab/foltr)
 
 ## Abstract
 
@@ -16,3 +18,11 @@ Online Learning to Rank (OLTR) optimizes ranking models using implicit users' fe
 Recently, the federated OLTR with evolution strategies (FOLtR-ES) method has been proposed to provide a solution that can meet a number of users' privacy requirements. Specifically, this method exploits the federated learning framework and $\epsilon$-local differential privacy. However, the original research study that introduced this method only evaluated it on a small Learning to Rank (LTR) dataset and with no conformity with respect to current OLTR evaluation practice. It further did not explore specific parameters of the method, such as the number of clients involved in the federated learning process, and did not compare FOLtR-ES with the current state-of-the-art OLTR method. This paper aims to remedy to this gap. 
 
 Our findings question whether FOLtR-ES is a mature method that can be considered in practice: its effectiveness largely varies across datasets, click types, ranker types and settings. Its performance is also far from that of current state-of-the-art OLTR, questioning whether the maintained of privacy guaranteed by FOLtR-ES is not achieved by seriously undermining search effectiveness and user experience. 
+
+
+
+## Resources
+
+ - [FOLtR-ES-reproducibility on GitHub](https://github.com/ielab/foltr), with code, experiment results and further analysis
+
+## 
