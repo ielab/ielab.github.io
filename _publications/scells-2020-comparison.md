@@ -4,7 +4,10 @@ title: A Comparison of Automatic Boolean Query Formulation for Systematic Review
 venue: Information Retrieval Journal
 year: 2020
 pdf: /publications/pdfs/scells2020comparison.pdf
-projects: [systematic-reviews] 
+projects: [systematic-reviews]
+links:
+ - url: https://www.youtube.com/watch?v=U9rwm6n_24U&feature=youtu.be 
+   name: Presentation on Youtube 
 ---
 
 Systematic reviews are comprehensive literature reviews that target a highly focused research question. In the medical domain, complex Boolean queries are used to identify studies. To ensure comprehensiveness, all studies retrieved are screened for inclusion or exclusion in the review.
