@@ -6,7 +6,6 @@ years: 2019-2023
 image: /images/H2020-Logo.jpg
 people: [guido-zuccon]
 redirect_from: /dossier20
-
 ---
 
 DoSSIER is an EU Horizon 2020 ITN/ETN on Domain Specific Systems for Information Extraction and Retrieval. DoSSIER will elucidate, model, and address the different information needs of professional users. It mobilizes an excellent and highly synergistic team of world-leading Information Retrieval (IR) experts from 5 EU States who, together with 3 academic partners (universities in the US, Japan, and Australia), and 11 industrial partners (dynamic SMEs and large corporations) will produce fundamental insights into how users comprehend, formulate, and access information in professional environments.

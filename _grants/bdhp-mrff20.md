@@ -6,7 +6,6 @@ years: 2020-2022
 image: /images/bdhp-logo.png
 people: [guido-zuccon]
 redirect_from: /bdhp-mrff20
-
 ---
 
 In the near future, all public hospitals affiliated with BDHP will share one integrated Electronic Medical Record (iEMR). It contains an extensive and rich repository of information that could be used to facilitate clinical practice improvement and clinical research. However, it is EXTREMELY DIFFICULT and LABOUR INTENSIVE to access this data in order to use it for these purposes. We propose a program of research to streamline this process that will not only be useful for BDHP but to all health care providers that use similar EMRs, worldwide.

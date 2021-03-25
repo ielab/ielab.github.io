@@ -6,7 +6,6 @@ years: 2020-2021
 image: /images/vis-rec.png
 people: [guido-zuccon]
 redirect_from: /uaeu20
-
 ---
 
 This project aims to investigate scalable techniques for recommending visual analytics to assist users in unearthing valuable insights from large high-dimensional databases. The project expects to develop novel algorithms and techniques that maximize the quality of insights, while minimizing the processing time needed to achieve reveal those insights. Outcomes of this project will enable visual analytics platforms to: 1) assist analysts in formulating effective exploratory queries to discover interesting, significant and diversified insights hidden in uncharted high-dimensional databases (i.e., maximize quality-of-insight), and 2) scale to big volumes of high-dimensional data, large number of users, and to unlock various forms of hidden insights (i.e., minimize time-to-insight). Hence, our work will provide significant benefits in improving the ability of analysts to engage with their data-driven applications and quickly understand what new insights it can reveal. These solutions equally emphasize optimizing performance and enhancing functionality, tackling some of the fundamental roadblocks in the uptake of the data-driven paradigm for the wider user community.

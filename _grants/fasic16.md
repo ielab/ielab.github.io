@@ -3,10 +3,9 @@ name: Australian Academy of Science, France-Australia Science Innovation Collabo
 description: Early Career Fellowships
 value: $4,800 (AUD)
 years: 2016
-image: /images/
+image: 
 people: [guido-zuccon]
 redirect_from: /fasic18
-
 ---
 
 This project aims to foster advances in search technologies directed to the general public searching the Web for information about their health. About 80% of Australians and 60% of French people rely on “Dr Google” to make health decisions despite strong evidence that this often results in irrelevant and unreliable health information. Incorrect information may increase the severity of health conditions, ultimately increasing the cost of healthcare delivery and delay appropriate care. 

@@ -9,9 +9,7 @@ layout: default
 <div class="flex one four-600 card" style="padding: 1em;">
     <div>
         <div style="width: 128px; height: 128x; margin:auto; display:block">
-            {% if grant.image == nil %}
-            <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-            {% else %}
+            {% if grant.image%}
             <img src="{{ grant.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
             {% endif %}
         </div>

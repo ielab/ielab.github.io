@@ -14,11 +14,9 @@ layout: default
   	</div>
   <div>
   </br>
-    	{% if page.image == nil %}
-    	<img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: contain">
-    	{% else %}
+    	{% if page.image %}
     	<img src="{{ page.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-    {% endif %}
+	    {% endif %}
   </div>
 </div>
 

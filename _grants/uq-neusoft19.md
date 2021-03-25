@@ -3,10 +3,9 @@ name: Neusoft Research of Intelligent Healthcare Technology
 description: Collaborative Lab of Health Informatics with Neusoft
 value: $1,058,252.00 (AUD)
 years: 2019-2022
-image: /images/
+image: 
 people: [guido-zuccon]
 redirect_from: /uq-neusoft19
-
 ---
 
 **Stream 1. Text Processing and Knowledge Graph Development** 

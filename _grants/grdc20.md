@@ -6,7 +6,6 @@ years: 2020-2022
 image: /images/agask.png
 people: [guido-zuccon, bevan-koopman]
 redirect_from: /grdc20
-
 ---
 
 Valuable grains R&D output is currently locked away into project reports, communications and scientific publications. This text-based information is not easily discoverable and synthesised. Thus growers are not able to put into practice these valuable insights.

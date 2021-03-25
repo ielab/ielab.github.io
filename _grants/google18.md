@@ -3,10 +3,9 @@ name: Google Faculty Fellowship
 description: Searching for Better Health
 value: $64,413 (AUD)
 years: 2018-2022
-image: /images/
+image: 
 people: [guido-zuccon]
 redirect_from: /google18
-
 ---
 
 Many of us have been in a situation where we, our child, or close relatives have been sick. Put yourself in the shoes of a parent. Your daughter is sick with a high fever and pain. What do you do? Bring her to the hospital? Give her Tylenol? Do nothing? Nowadays, the first port of call for many people is to go online and find answers to inform our health decisions [1]. If the condition is serious (e.g., meningitis) then it is imperative to go to the hospital immediately. If instead it is a common cold, then going to the hospital is of no benefit and puts a further burden on the healthcare system [2, 3, 4, 5]. When you go online, often information is not reliable, generally misleading, too technical, sometimes leading to unfounded escalation of the situation [3, 6, 7, 8]: The problem is that correct and useful information is hard to find amongst the noise, spam, and irrelevant articles.
