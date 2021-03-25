@@ -1,6 +1,6 @@
 ---
 authors: [shuyi-wang, shengyao-zhuang, guido-zuccon]
-title: Federated Online Learning to Rank with Evolution Strategies: A Reproducibility Study
+title: "Federated Online Learning to Rank with Evolution Strategies: A Reproducibility Study"
 venue: Proceedings of the 43rd European Conference on Information Retrieval (ECIR 2021) 
 year: 2021
 pdf: /publications/pdfs/karly2021foltr-reproducibility.pdf
