@@ -5,6 +5,12 @@ title: Deep Query Likelihood Model for Information Retrieval
 venue: 43rd European Conference on IR Research
 year: 2021
 pdf: /publications/pdfs/arvin_hang2021DQLM.pdf
+links:
+ - url: https://github.com/ArvinZhuang
+   name: Github
+ - url: https://www.youtube.com/watch?v=oSGbYaC0ur0
+   name: Presentation on Youtube 
+---
 ---
 ## Abstract
 
