@@ -1,5 +1,5 @@
 ---
-authors: [bing-liu, guido-zuccon, wen-hua, weitong-chen]
+authors: [bing-liu, guido-zuccon, "Wen Hua", "Weitong Chen"]
 title: "Diagnosis Ranking with Knowledge Graph Convolutional Networks"
 venue: Proceedings of the 43rd European Conference on Information Retrieval (ECIR 2021) 
 year: 2021
