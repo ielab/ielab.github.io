@@ -1,7 +1,7 @@
 ---
 redirect_from: /intent_change
 authors: [shengyao-zhuang, guido-zuccon]
-title: How do Online Learning to Rank Methods Adapt to Change of Intents?
+title: How do Online Learning to Rank Methods Adapt to Changes of Intent?
 venue: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '21)
 year: 2021
 ---
@@ -13,4 +13,4 @@ Our empirical experiments show that the adaptation to intent change does vary ac
 
 Investigating how OLTR algorithms adapt to intent change is challenging as current LTR datasets do not explicitly contain the required intent data. Along with the main findings reported in this paper related to intent change, we also contribute a methodology to investigate this aspect of OLTR methods. Specifically, we create a collection for OLTR with explicit intent change by adapting an existing TREC collection to this task. We further introduce methods to model and simulate click behaviour related to intent change. We further propose novel evaluation metrics tailored to study different aspects of how OLTR methods adapt to intent change.
 
-### (Camera-ready and codes will be coming soon.)
+### (Camera-ready, dataset and code will be coming soon.)
