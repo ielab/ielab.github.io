@@ -19,6 +19,7 @@ categories:
       - scells-2018-querylab
       - scells-2019-queryvis
       - scells-2019-reformulation
+      - hang-2020-sigir-autotool
       
   - name: Test Collections
     publications:
