@@ -6,5 +6,5 @@ github: //github.com/ArvinZhuang
 website: //arvinzhuang.github.io/
 scholar: //scholar.google.com/citations?user=-7sbXNIAAAAJ&hl=en
 role: phd
-description: PhD student, UQ, Online Learning to Rank.
+description: PhD student, UQ, Online Learning to Rank, Deep Language Model-based Rankers.
 ---
