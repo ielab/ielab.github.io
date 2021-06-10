@@ -5,6 +5,7 @@ venue: Proceedings of the 44th International ACM SIGIR Conference on Research an
 year: 2021
 pdf: 
 projects: []
+redirect_from: /pecan
 links:
  - url: https://github.com/ielab/pecan
    name: GitHub
