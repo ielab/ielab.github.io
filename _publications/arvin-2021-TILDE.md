@@ -1,5 +1,5 @@
 ---
-redirect_from: /arvin-2021-sigir-tilde
+redirect_from: /publications/arvin-2021-sigir-tilde
 authors: [shengyao-zhuang, guido-zuccon]
 title: 'TILDE: Term Independent Likelihood moDEl for Passage Re-ranking'
 venue: The 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '21)
