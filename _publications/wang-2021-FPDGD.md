@@ -1,4 +1,5 @@
 ---
+redirect_from: /FPDGD
 authors: [shuyi-wang, bing-liu, shengyao-zhuang, guido-zuccon]
 title: "Effective and Privacy-preserving Federated Online Learning to Rank"
 venue: The Proceedings of the 2021 ACM SIGIR on International Conference on Theory of Information Retrieval (ICTIR 2021)
