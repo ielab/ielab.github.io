@@ -1,9 +1,9 @@
 ---
 name: Bing Liu
-twitter: 
+twitter: //twitter.com/BingLiu1011
 github: 
 website: 
-image: 
+image: /images/bing-liu.jpeg
 scholar: 
 role: phd
 description: PhD student, UQ.  
