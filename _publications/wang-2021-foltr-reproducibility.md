@@ -24,5 +24,3 @@ Our findings question whether FOLtR-ES is a mature method that can be considered
 ## Resources
 
  - [FOLtR-ES-reproducibility on GitHub](https://github.com/ielab/foltr), with code, experiment results and further analysis
-
-## 
