@@ -1,5 +1,5 @@
 ---
-authors: [bevan-koopman, guidio-zuccon, "Scott Chapman", "Yash Dang", "David Lawrence"]
+authors: [bevan-koopman, guido-zuccon, "Scott Chapman", "Yash Dang", "David Lawrence"]
 title: "How a Conversational Agent Might Help Farmers in the Field"
 venue: Third International Workshop on Conversational Approaches to Information Retrieval (CAIR'20) Full-day Workshop at CHIIR 2020
 year: 2020
