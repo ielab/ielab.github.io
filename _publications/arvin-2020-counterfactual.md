@@ -8,6 +8,8 @@ pdf: /publications/pdfs/arvin2020counterfactual.pdf
 links: 
  - url: http://ielab.io/files/ECIR2020CounterfactualAppendix.pdf
    name: Appendix
+ - url: https://www.youtube.com/watch?v=nAJinBSJbeE
+   name: Presentation on Youtube 
 ---
 ---
 
