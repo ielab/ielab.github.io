@@ -6,9 +6,9 @@ venue: The Proceedings of the 2021 ACM SIGIR on International Conference on Theo
 year: 2021
 pdf:
 links:
- - url: https://github.com/ielab/FPDGD
+ - url: https://github.com/ielab/fpdgd-ictir2021
    name: Github
- - url: https://
+ - url: https://youtu.be/akT2EFBTs3g
    name: Presentation on Youtube 
 ---
 
