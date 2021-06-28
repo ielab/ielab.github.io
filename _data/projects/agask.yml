@@ -2,3 +2,6 @@ categories:
   - name: Information Needs
     publications:
       - koopman-2020-agask
+  - name: Neural Relevance Feedback
+    publications:
+      - hang-tois-2021
