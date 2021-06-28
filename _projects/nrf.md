@@ -1,6 +1,6 @@
 ---
 name: Neural Relevance Feedback
-image: /images/projects/nrf.png
+image: /images/projects/nrf.jpg
 featured: true
 people: [hang-li, ahmed-mourad, shengyao-zhuang, guido-zuccon, bevan-koopman]
 ---
