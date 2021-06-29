@@ -6,9 +6,15 @@ venue: WILL BE DISCLOSED LATER
 year: 2021
 links:
  - url: https://github.com/hanglics/Neural-Relevance-Feedback-Public/tree/master/Text_Based_PRF
-   name: Text-Based PRF Github
+   name: Code for Text-Based PRF
  - url: https://github.com/hanglics/Neural-Relevance-Feedback-Public/tree/master/Vector_Based_PRF
-   name: Vector-Based PRF Github
+   name: Code for Vector-Based PRF
+ - url: https://drive.google.com/drive/folders/1kOmNy5zZi34BZHEnRiGJmglyYIwvb7wH?usp=sharing
+   name: Datasets
+ - url: https://drive.google.com/drive/folders/1UdtGJpjdYQ8G6tzxhgnDsi2wU41Knv4x?usp=sharing
+   name: Models
+ - url: https://drive.google.com/drive/folders/1l7_P0T-HcloXwVZMvlM7jcnlmFk4itju?usp=sharing
+   name: Results
 ---
 ---
 ## Abstract
