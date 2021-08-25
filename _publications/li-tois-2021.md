@@ -1,7 +1,7 @@
 ---
 redirect_from: /publications/li-tois-2021
 authors: [hang-li, ahmed-mourad, shengyao-zhuang, bevan-koopman, guido-zuccon]
-title: Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls
+title: Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers - Successes and Pitfalls
 venue: Submitted to ACM Transactions on Information Systems (TOIS)
 year: 2021
 links:
