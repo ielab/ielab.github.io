@@ -2,7 +2,7 @@
 redirect_from: /publications/arvin-2021-emnlp-typo
 authors: [shengyao-zhuang, guido-zuccon]
 title: 'Dealing with Typos for BERT-based Passage Retrieval and Ranking'
-venue: In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP'21)
+venue: Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP'21)
 year: 2021
 pdf: /publications/pdfs/arvin2021typo.pdf
 links:
