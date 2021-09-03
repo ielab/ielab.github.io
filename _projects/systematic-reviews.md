@@ -2,7 +2,7 @@
 name: Systematic Review Literature Search
 image: /images/projects/sysrev.jpg
 featured: true
-people: [harry-scells, guido-zuccon, bevan-koopman]
+people: [harry-scells, shuai-wang, guido-zuccon, bevan-koopman]
 ---
 
 ## About this project
