@@ -6,7 +6,7 @@ venue: Arxiv preprint
 year: 2021
 links:
  - url: https://arxiv.org/pdf/2108.08513.pdf
-   name: Arvix
+   name: Arxiv
  - url: https://github.com/ielab/TILDE/tree/main/TILDEv2
    name: Github
 ---
