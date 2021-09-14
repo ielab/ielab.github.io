@@ -23,7 +23,7 @@ To be updated
 
 ## Relevant Publications 
 
-{% for category in site.data.projects.agask.categories %}
+{% for category in site.data.projects.foltr.categories %}
 
 ### {{ category.name }}
 

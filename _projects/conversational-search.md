@@ -21,7 +21,7 @@ To be updated
 
 
 
-####Domain Specific Conversational Search: Cconversational Consumer Health Search
+####Domain Specific Conversational Search: Conversational Consumer Health Search
 
 To be updated
 
@@ -29,7 +29,7 @@ To be updated
 
 ## Relevant Publications 
 
-{% for category in site.data.projects.agask.categories %}
+{% for category in site.data.projects.conversational-search.categories %}
 
 ### {{ category.name }}
 

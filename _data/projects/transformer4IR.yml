@@ -1,0 +1,13 @@
+categories:
+  - name: Transformer-based Rankers
+    publications:
+      - arvin-2021-TILDE
+      - arvin-2021-TILDEv2
+      - arvin-2021-Typo
+      - arvin-hang-2021-ECIR-DQLM
+  - name: Dense Retrievers
+    publications:
+      - shuai-ictir2021-InterpolateDR
+  - name: Relevance Feedback with Transformers
+    publications:
+      - li-tois-2021

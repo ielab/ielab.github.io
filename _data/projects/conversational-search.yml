@@ -1,0 +1,8 @@
+categories:
+   - name: Methods for Conversational Search
+    publications:
+      - cross-2020-treccast
+      - li-tois-2021
+  - name: Medical Conversational Agents
+    publications:
+      - cross-2021-search
