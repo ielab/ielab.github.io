@@ -51,7 +51,9 @@ For advertised **student projects** (including PhD, masters, and undergraduate) 
 
 ielab's core group includes Information Retrieval researchers at the [University of Queensland (UQ)](http://www.uq.edu.au) in Brisbane, Australia. However, the group has expanded to include researchers from the [CSIRO](http://csiro.au), [University of Strathclyde](https://www.strath.ac.uk/), [Qatar Computing Research Institute](http://www.qcri.com) and more. 
 
-<img src="/images/groupOct2019.jpeg" style="width:70%; margin-left: 15%" alt="ielab group members at The University of Queensland.">
+<img src="/images/group2020.png" style="width:70%; margin-left: 15%" alt="ielab group members at The University of Queensland in 2020.">
+
+[History archive &rarr;](/history)
 
 ### Research Staff
 
@@ -128,6 +130,7 @@ ielab's core group includes Information Retrieval researchers at the [University
 {% endif %}
 {% endfor %}
 </div>
+
 ### External members
 
 <div class="flex">
