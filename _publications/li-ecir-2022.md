@@ -1,6 +1,6 @@
 ---
 redirect_from: /publications/li-ecir-2022
-authors: [hang-li, shengyao-zhuang, ahmed-mourad, Xueguang-Ma, Jimmy-Lin, guido-zuccon]
+authors: [hang-li, shengyao-zhuang, ahmed-mourad, "Xueguang Ma", "Jimmy Lin", guido-zuccon]
 title: "Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study"
 venue: Proceedings of the 44th European Conference on Information Retrieval (ECIR 2022)
 year: 2022
