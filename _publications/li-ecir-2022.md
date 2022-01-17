@@ -4,9 +4,10 @@ authors: [hang-li, shengyao-zhuang, ahmed-mourad, "Xueguang Ma", "Jimmy Lin", gu
 title: "Improving Query Representations for Dense Retrieval with Pseudo Relevance Feedback: A Reproducibility Study"
 venue: Proceedings of the 44th European Conference on Information Retrieval (ECIR 2022)
 year: 2022
+pdf: /publications/pdfs/li2022ecir-ance-prf-reproduce.pdf
 links:
- - url: https://arxiv.org/pdf/2112.06400.pdf
-   name: Download Paper
+ - url: https://github.com/ielab/APR
+   name: Github
 ---
 ---
 ## Abstract
