@@ -1,7 +1,7 @@
 ---
 redirect_from: /publications/arvin-2022-sigir-CounterfactualDR
 authors: [shengyao-zhuang, hang-li, guido-zuccon]
-title: Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach
+title: 'Implicit Feedback for Dense Passage Retrieval: A Counterfactual Approach'
 venue: The 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '22)
 year: 2022
 links:
