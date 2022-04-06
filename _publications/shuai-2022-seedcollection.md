@@ -2,7 +2,7 @@
 redirect_from: /shuaiseedcollection
 authors: [shuai-wang, harry-scells, "Justin Clark", guido-zuccon, bevan-koopman]
 title: 'From Little Things Big Things Grow: A Collection with Seed Studies for Medical Systematic Review Literature Search'
-venue: Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022)
+venue: Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022) (To Appear)
 year: 2022
 projects: [systematic-reviews] 
 links:
