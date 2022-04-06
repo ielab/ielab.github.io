@@ -9,25 +9,25 @@ people: [shengyao-zhuang, hang-li, shuai-wang, guido-zuccon]
 
 To be updated
 
-####Methods for Effective Passage Ranking: TILDE and TILDEv2
+#### Methods for Effective Passage Ranking: TILDE and TILDEv2
 
 To be updated
 
 
 
-####Methods for Effective Passage Ranking: the QLM-T5
+#### Methods for Effective Passage Ranking: the QLM-T5
 
 To be updated
 
 
 
-####Exploit Relevance Feedback with Transformer-based pre-trained LMs
+#### Exploit Relevance Feedback with Transformer-based pre-trained LMs
 
 To be updated
 
 
 
-####Do Dense Retrievers Require Interpolation with bag-of-words?
+#### Do Dense Retrievers Require Interpolation with bag-of-words?
 
 To be updated
 
@@ -39,7 +39,7 @@ To be updated
 
 ## Relevant Publications 
 
-{% for category in site.data.projects.transformers4IR.categories %}
+{% for category in site.data.projects.transformer4IR.categories %}
 
 ### {{ category.name }}
 
