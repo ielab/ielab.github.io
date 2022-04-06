@@ -6,12 +6,14 @@ categories:
       - scells-2019-refining
       - scells-2020-sampling
       - scells-2018-qvpp
+      - shuai-2021-meshsuggest
 
   - name: Query Formulation
     publications:
       - scells-2020-objective
       - scells-2020-conceptual
       - scells-2020-comparison
+
 
   - name: Tools for Improving Literature Search
     publications:
@@ -24,9 +26,11 @@ categories:
   - name: Test Collections
     publications:
       - scells-2017-collection
+      - shuai-2022-seedcollection
 
   - name: Retrieval Models
     publications:
       - scells-2017-integrating
       - scells-2020-clf
       - scells-2017-ltrs
+      - shuai-2022-reproducesdr

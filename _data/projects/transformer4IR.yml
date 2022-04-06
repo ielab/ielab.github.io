@@ -8,6 +8,7 @@ categories:
   - name: Dense Retrievers
     publications:
       - shuai-ictir2021-InterpolateDR
+      - li-sigirvpi-2022
   - name: Relevance Feedback with Transformers
     publications:
       - li-tois-2021
