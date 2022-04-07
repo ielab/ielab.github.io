@@ -9,7 +9,7 @@ people: [shuyi-wang, shengyao-zhuang, guido-zuccon]
 
 To be updated
 
-####Methods for Effective Federated Online Learning to Rank: FPDGD
+#### Methods for Effective Federated Online Learning to Rank: FPDGD
 
 To be updated.
 

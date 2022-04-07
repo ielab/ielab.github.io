@@ -9,19 +9,19 @@ people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad,
 
 To be updated
 
-####Relevance Feedback in Conversational Search
+#### Relevance Feedback in Conversational Search
 
 To be updated
 
 
 
-####Domain Specific Conversational Search: Accessing Agricultural insights with AgAsk
+#### Domain Specific Conversational Search: Accessing Agricultural insights with AgAsk
 
 To be updated
 
 
 
-####Domain Specific Conversational Search: Conversational Consumer Health Search
+#### Domain Specific Conversational Search: Conversational Consumer Health Search
 
 To be updated
 

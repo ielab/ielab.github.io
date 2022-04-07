@@ -9,19 +9,19 @@ people: [shengyao-zhuang, guido-zuccon]
 
 To be updated
 
-####Methods for Effective Online Learning to Rank: Joining Counterfactual and Online Learning
+#### Methods for Effective Online Learning to Rank: Joining Counterfactual and Online Learning
 
 To be updated
 
 
 
-####Methods for Effective Online Learning to Rank: exploit Reinforcement Learning
+#### Methods for Effective Online Learning to Rank: exploit Reinforcement Learning
 
 To be updated
 
 
 
-####Does OLTR adapt to intent changes?
+#### Does OLTR adapt to intent changes?
 
 To be updated
 
