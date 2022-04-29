@@ -7,7 +7,7 @@ pdf: /publications/pdfs/scells2022greenir.pdf
 projects: [] 
 redirect_from: /green-ir
 links:
- - url: https://github.com/ielab-green-ir
+ - url: https://github.com/ielab/green-ir
    name: Code and Data
 ---
 
