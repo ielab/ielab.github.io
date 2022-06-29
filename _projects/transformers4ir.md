@@ -3,6 +3,7 @@ name: Transformers for Information Retrieval
 image: /images/projects/transformers-IR.jpeg
 featured: true
 people: [shengyao-zhuang, hang-li, shuai-wang, guido-zuccon]
+redirect_from: /neuralIR
 ---
 
 ## About this project
