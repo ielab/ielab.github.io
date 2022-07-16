@@ -2,8 +2,9 @@
 redirect_from: /publications/li-tois-2022
 authors: [hang-li, ahmed-mourad, shengyao-zhuang, bevan-koopman, guido-zuccon]
 title: "Pseudo Relevance Feedback with Deep Language Models and Dense Retrievers: Successes and Pitfalls"
-venue: Submitted to ACM Transactions on Information Systems (TOIS)
+venue: Accepted by the ACM Transactions on Information Systems (TOIS)
 year: 2022
+pdf: /publications/pdfs/li2022tois.pdf
 links:
  - url: https://github.com/hanglics/Neural-Relevance-Feedback-Public/tree/master/Text_Based_PRF
    name: Code for Text-Based PRF
@@ -15,8 +16,6 @@ links:
    name: Models
  - url: https://drive.google.com/drive/folders/1l7_P0T-HcloXwVZMvlM7jcnlmFk4itju?usp=sharing
    name: Results
- - url: https://arxiv.org/abs/2108.11044
-   name: Arxiv Paper
 ---
 ---
 ## Abstract
