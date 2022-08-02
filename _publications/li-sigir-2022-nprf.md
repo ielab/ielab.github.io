@@ -1,8 +1,8 @@
 ---
 redirect_from: /publications/li-sigir-2022-nprf
-authors: [Hang Li, Ahmed Mourad, Bevan Koopman, Guido Zuccon]
+authors: [hang-li, ahmed-mourad, bevan-koopman, guido-zuccon]
 title: How does Feedback Signal Quality Impact Effectiveness of Pseudo Relevance Feedback for Passage Retrieval?
-venue: the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR' 22)
+venue: Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR' 22)
 year: 2022
 links:
  - url: http://ielab.io/files/li-sigir-2022-nprf.pdf
