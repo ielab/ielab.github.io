@@ -9,6 +9,8 @@ projects: [systematic-reviews]
 links:
  - url: http://github.com/ielab/sysrev-seed-collection
    name: Github
+ - url: http://github.com/files/sigir2022/SIGIR2022-seed-collection.pdf
+   name: Paper Poster
 ---
 ---
 ## Abstract
