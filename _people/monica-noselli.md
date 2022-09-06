@@ -43,4 +43,4 @@ BSc in Web Technologies at the University of Udine, Italy.
 Graduated 2007.
 Thesis project: Developed a web-based software application for cancer patients to report toxicity levels.
 
-LinkedId: https://www.linkedin.com/in/monica-noselli-9212703b/
+LinkedIn: https://www.linkedin.com/in/monica-noselli-9212703b/
