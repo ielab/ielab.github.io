@@ -30,7 +30,7 @@ She enjoyed developer in Visual Studio .NET using C#, LINQ, JSON, XML in the con
 
 * __Skills__
 
-AngularJS, Vue.js, JSON, Python, C#, Blazor, Java, SQL
+AngularJS, Vue.js, JSON, D3.js, Python, C#, Blazor, Java, SQL
 
 * __Education__
 
