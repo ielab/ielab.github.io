@@ -27,6 +27,7 @@ The ielab works on a diversity of research projects in the fields of information
 
 #### Tools, software and demonstrators
 
+* [AgAsk](https://ielab.io/agask-agent): A Agricultural conversational search agent for answering comprehensive questions.
 * [searchrefiner](https://ielab.io/searchrefiner): A Query Visualisation and Understanding tool for Systematic Reviews.
 * [querylab](https://ielab.io/querylab): A Query Visualisation and Understanding tool for Systematic Reviews.
 * [INST eval](https://github.com/ielab/inst_eval): Python implementation of the INST evaluation measure from Moffat et al.
