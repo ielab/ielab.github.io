@@ -1,13 +1,9 @@
 ---
 title: "High-quality Task Division for Large-scale Entity Alignment"
-collection: publications
-excerpt: ''
-date: 2022-10-17
 year: 2022
 venue: 'CIKM 2022'
 authors: [bing-liu, "Wen Hua", guido-zuccon, "Genghong Zhao", "Xia Zhang"]
-track: 'Full Paper'
-pdf: "https://arxiv.org/pdf/2208.10366.pdf"
+pdf: https://arxiv.org/pdf/2208.10366.pdf
 links:
  - url: https://github.com/uqbingliu/DivEA
    name: Code

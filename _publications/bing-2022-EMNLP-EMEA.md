@@ -1,12 +1,9 @@
 ---
 title: "Guiding Neural Entity Alignment with Compatibility"
-collection: publications
-excerpt: ''
-date: 2022-12-07
 year: 2022
 venue: 'EMNLP 2022'
 authors: [bing-liu, harry-scells, "Wen Hua", guido-zuccon, "Genghong Zhao", "Xia Zhang"]
-track: 'Full Paper'
+pdf: 
 links:
  - url: https://github.com/uqbingliu/EMEA
    name: Code
