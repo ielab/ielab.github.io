@@ -1,7 +1,6 @@
 ---
 title: "High-quality Task Division for Large-scale Entity Alignment"
 collection: publications
-permalink: /publication/cikm2022-divea
 excerpt: ''
 date: 2022-10-17
 year: 2022

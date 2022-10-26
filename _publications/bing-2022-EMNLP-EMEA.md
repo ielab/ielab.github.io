@@ -1,7 +1,6 @@
 ---
 title: "Guiding Neural Entity Alignment with Compatibility"
 collection: publications
-permalink: /publication/emnlp2022-emea
 excerpt: ''
 date: 2022-12-07
 year: 2022

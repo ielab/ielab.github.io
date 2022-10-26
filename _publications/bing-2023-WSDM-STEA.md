@@ -1,7 +1,6 @@
 ---
 title: "Dependency-aware Self-training for Entity Alignment"
 collection: publications
-permalink: /publication/wsdm2022-stea
 excerpt: ''
 date: 2023-02-27
 year: 2023
