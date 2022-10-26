@@ -4,13 +4,14 @@ collection: publications
 permalink: /publication/cikm2022-divea
 excerpt: ''
 date: 2022-10-17
-venue: 'CIKM'
+year: 2022
+venue: 'CIKM 2022'
 authors: [bing-liu, "Wen Hua", guido-zuccon, "Genghong Zhao", "Xia Zhang"]
 track: 'Full Paper'
-pdf_url: "https://arxiv.org/pdf/2208.10366.pdf"
-code_url: "https://github.com/uqbingliu/DivEA"
-slides_url: "/files/CIKM22-DivEA-slides.pdf"
-video_url: "https://dl.acm.org/doi/10.1145/3511808.3557352"
+pdf: "https://arxiv.org/pdf/2208.10366.pdf"
+links:
+ - url: https://github.com/uqbingliu/DivEA
+   name: Code
 ---
 
 ## Abstract

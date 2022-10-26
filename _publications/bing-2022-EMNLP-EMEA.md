@@ -4,10 +4,13 @@ collection: publications
 permalink: /publication/emnlp2022-emea
 excerpt: ''
 date: 2022-12-07
-venue: 'EMNLP'
+year: 2022
+venue: 'EMNLP 2022'
 authors: [bing-liu, harry-scells, "Wen Hua", guido-zuccon, "Genghong Zhao", "Xia Zhang"]
 track: 'Full Paper'
-code_url: "https://github.com/uqbingliu/EMEA"
+links:
+ - url: https://github.com/uqbingliu/EMEA
+   name: Code
 ---
 
 ## Abstract

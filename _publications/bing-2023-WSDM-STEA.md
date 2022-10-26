@@ -4,10 +4,13 @@ collection: publications
 permalink: /publication/wsdm2022-stea
 excerpt: ''
 date: 2023-02-27
-venue: 'WSDM'
+year: 2023
+venue: 'WSDM 2023'
 authors: [bing-liu, "Tiancheng Lan", "Wen Hua", guido-zuccon]
 track: 'Full Paper'
-code_url: "https://github.com/uqbingliu/STEA"
+links:
+ - url: https://github.com/uqbingliu/STEA
+   name: Code
 ---
 
 ## Abstract
