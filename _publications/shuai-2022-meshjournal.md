@@ -1,10 +1,10 @@
 ---
-redirect_from: /shuaimeshjournal
 authors: [shuai-wang, harry-scells, bevan-koopman, guido-zuccon]
-title: 'Automated MeSH Term Suggestion for Effective Query Formulation in Systematic Reviews Literature Search'
-venue: Submitted to Intelligent Systems with Applications (ISWA) Technology-Assisted Review Systems Special Issue
+title: "Automated MeSH Term Suggestion for Effective Query Formulation in Systematic Reviews Literature Search"
+venue: "Intelligent Systems with Applications (ISWA) Technology-Assisted Review Systems Special Issue"
 year: 2022
 pdf: /publications/pdfs/shuai2022meshjournal.pdf
+redirect_from: /shuai2022meshjournal
 projects: [systematic-reviews]
 
 ## Abstract
