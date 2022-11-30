@@ -1,10 +1,10 @@
 ---
 name: Sebastian Cross
-twitter: 
-github: 
-website: 
-image:
-scholar: 
+twitter:
+github:
+website:
+image: /images/sebastian-cross.png
+scholar:
 role: phd
-description: PhD student, UQ, Evaluation of Medical Chatbots.  
+description: PhD student, UQ, Medical Chatbots.  
 ---
