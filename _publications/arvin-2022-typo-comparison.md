@@ -9,8 +9,6 @@ links:
    name: Arxiv
  - url: https://github.com/ielab/typo-comparative-study
    name: Github
-- url: /publications/adcs2022-typos/adcs2022-comparative-study.pdf
-   name: PDF
 ---
 ---
 ## Abstract
