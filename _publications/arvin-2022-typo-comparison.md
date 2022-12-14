@@ -1,5 +1,5 @@
 ---
-redirect_from: /publications/arvin-2022-adcs-typo-comparison
+redirect_from: /publications/adcs2022-typos/adcs2022-comparative-study.pdf
 authors: [shengyao-zhuang, xinyu-mao, guido-zuccon]
 title: 'Robustness of Neural Rankers to Typos: A Comparative Study'
 venue: The 26th Australasian Document Computing Symposium (ADCS '22)
