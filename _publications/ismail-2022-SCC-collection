@@ -7,10 +7,8 @@ year: 2022
 pdf: /publications/pdfs/SCC_test_collectiom.pdf
 links:
  - url: https://github.com/ielab/SCC
-   name: Github
+   name: Code and Data
 ---
----
-## Abstract
 We present SCC, a test collection for evaluating search in chat conversations. Chat applications such as Slack, WhatsApp and Wechat have become popular communication methods. 
 Typical search requirements in these applications revolve around the task of known item retrieval, i.e. find information that the user has previously experienced in their chats. 
 However, the search capabilities of these chat applications are often very basic. Our collection aims to support new research into building effective methods for chat conversations search.
