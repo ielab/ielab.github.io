@@ -5,7 +5,10 @@ title: 'SCC - A Test Collection for Search in Chat Conversations'
 venue: CIKM '22: Proceedings of the 31st ACM International Conference on Information & Knowledge Management October 2022
 year: 2022
 pdf: /publications/pdfs/SCC_test_collectiom.pdf
-
+links:
+ - url: https://github.com/ielab/SCC
+   name: Github
+---
 ---
 ## Abstract
 We present SCC, a test collection for evaluating search in chat conversations. Chat applications such as Slack, WhatsApp and Wechat have become popular communication methods. 
