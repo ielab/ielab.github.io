@@ -1,8 +1,8 @@
 ---
 redirect_from: /publications/ismail-2022-SCC
 authors: [ismail-sabei,ahmed-mourad, guido-zuccon]
-title: 'SCC - A Test Collection for Search in Chat Conversations'
-venue: CIKM '22: Proceedings of the 31st ACM International Conference on Information & Knowledge Management October 2022
+title: "SCC - A Test Collection for Search in Chat Conversations"
+venue: Proceedings of the 31st ACM International Conference on Information & Knowledge Management October 2022 (CIKM 22)
 year: 2022
 pdf: /publications/pdfs/ismail-2022-SCC.pdf
 links:
