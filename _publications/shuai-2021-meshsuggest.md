@@ -5,14 +5,7 @@ title: 'MeSH Term Suggestion for Systematic Review Literature Search'
 venue: Australasian Document Computing Symposium (ADCS 2021)
 year: 2021
 pdf: /publications/pdfs/shuai2021meshsuggest.pdf
-projects: [systematic-reviews] 
-links:
- - url: https://github.com/ielab/meshsuggestlib
-   name: Python Package
- - url: https://github.com/wshuai190/MeSH_Suggester_Server
-   name: Server Repo
- - url: https://www.youtube.com/channel/UC7mjnKA-liXtRJQegFmW4bA
-   name: Video
+projects: [systematic-reviews]
 ---
 
 ## Abstract
