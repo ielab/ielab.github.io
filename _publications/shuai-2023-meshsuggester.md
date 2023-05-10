@@ -1,7 +1,7 @@
 ---
 authors: [shuai-wang, hang-li, guido-zuccon]
 title: "MeSH Suggester: A Library and System for MeSH Term Suggestion for Systematic Review Boolean Query Construction"
-venue: "The 16th ACM International Conference on Web Search and Data Mining (WSDM 2023, to appear)"
+venue: "The 16th ACM International Conference on Web Search and Data Mining"
 year: 2023
 pdf: /publications/pdfs/shuai2023meshsuggester.pdf
 redirect_from: /shuai2023meshsuggester
@@ -11,8 +11,6 @@ links:
    name: Python Package
  - url: https://github.com/wshuai190/MeSH_Suggester_Server
    name: Server Repo
- - url: https://www.youtube.com/channel/UC7mjnKA-liXtRJQegFmW4bA
-   name: Video
 ---
 
 ## Abstract
