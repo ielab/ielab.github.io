@@ -6,7 +6,7 @@ venue: The Proceedings of the 2023 ACM SIGIR on International Conference on Theo
 year: 2023
 pdf: /publications/pdfs/joel2023splade.pdf
 links:
- - url: [https://github.com/ielab/asyncval](https://github.com/ielab/understanding-splade)
+ - url: https://github.com/ielab/understanding-splade
    name: Github
 ---
 ---
