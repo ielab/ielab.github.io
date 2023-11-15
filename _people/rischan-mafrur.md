@@ -11,5 +11,5 @@ alumni: true
 links: 
  - url: //doi.org/10.14264/812c680
    name: Download PhD Thesis
-description: Graduated from UQ; Thesis -- Recommending data visualizations: tackling diversification and data quality challenges.
+description: Graduated from UQ; Thesis -- Recommending data visualizations- tackling diversification and data quality challenges.
 ---
