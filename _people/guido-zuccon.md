@@ -9,10 +9,10 @@ website: //ielab.io/people/guido-zuccon
 image: /images/guido-zuccon-scaled.jpg
 scholar: //scholar.google.com.au/citations?user=aEVHhC8AAAAJ
 role: staff
-description: Associate Professor, UQ.
+description: Professor, UQ.
 ---
 
-I am an associate professor at the University of Queensland Information Technology and  Electrical Engineering School, and an ARC DECRA Fellow (2018-2020). I am the research leader of the ielab. My research interests span a number of topics:
+I am a Professor at the University of Queensland's Electrical Engineering and Computer Science School, and the Director of Artificial Intelligence for the Queensland Digital Health Center (QDHeC). I am the research leader of the ielab. I had been an ARC DECRA Fellow (2018-2020). My research interests span a number of topics:
 
 * __Formal models of Information Retrieval__; in particular I am interested in
 	- models of search, information seeking and interactions
