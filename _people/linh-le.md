@@ -1,6 +1,6 @@
 ---
 name: Linh Le
-image: /images/linh-le.jpg
+image: /images/linh-le.png
 twitter: //twitter.com/liz262023
 github: //github.com/linhlt-it-ee
 scholar: //scholar.google.com/citations?user=zlYcKiAAAAAJ
