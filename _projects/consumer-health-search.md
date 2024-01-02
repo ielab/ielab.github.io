@@ -71,7 +71,7 @@ Q: How would you define 'cyberchondria'?
 A: Cyberchondria is a term coined by [Dr Ryen White at Microsoft Research](http://research.microsoft.com/en-us/um/people/ryenw/); it indicates an escalation of concerns about common symptoms that are actually unfounded. You can find more examples, studies and discussions of cybercondria in White and Horvitz's ['Cyberchondria: Studies of the Escalation of Medical Concerns in Web Search'](http://research.microsoft.com/apps/pubs/?id=76529).
 
 #### Media Coverage
-This publication received wide media coverage; reports can be found [here](files/DiagnoseThis-MediaCoverage/DrGoogleMediaCoverage1.pdf) and [here](files/DiagnoseThis-MediaCoverage/DrGoogleMediaCoverage2.pdf).
+This publication received wide media coverage; reports can be found [here](../files/DiagnoseThis-MediaCoverage/DrGoogleMediaCoverage1.pdf) and [here](../files/DiagnoseThis-MediaCoverage/DrGoogleMediaCoverage2.pdf).
 
 
 ### Relevant Publications
