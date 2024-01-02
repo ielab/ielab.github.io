@@ -11,7 +11,7 @@ This project seeks to assist the general public in using search engines to make 
 
 This project specifically aims to assist the general public in formulating better health queries, understanding health search results and making well-informed health decisions. See below for a list of relevant publications.
 
-### On the effectiveness of search engines in finding medical self-diagnosis information
+### On the effectiveness of search engines in finding medical self-diagnosis information (ECIR 2015 paper)
 
 We have received substantial media attention for a work we have published in March 2015 at the European Conference on Information Retrieval (ECIR), titled "Diagnose this if you can: On the effectiveness of search engine in finding medical self-diagnosis information". The paper is available from the publisher (Springer), on QUT ePrints , and as a pre-print version. The QUT press release for this story can be found here.
 
