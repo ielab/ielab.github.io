@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unsupervised DenseQuest</title>
     <style>
-        /* Reset default styles */
         * {
             margin: 0;
             padding: 0;
@@ -13,14 +12,12 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Navigation bar - restored but simplified */
         .navbar {
             background-color: #4a235a;
             padding: 1rem;
             height: 50px;  /* Fixed height for the banner */
         }
 
-        /* Hero section */
         .hero {
             position: relative;
             width: 100%;
@@ -46,7 +43,6 @@
             padding: 2rem;
         }
 
-        /* Add a semi-transparent overlay for better text readability */
         .hero-content::before {
             content: '';
             position: absolute;
@@ -58,7 +54,6 @@
             z-index: 1;
         }
 
-        /* Ensure text appears above the overlay */
         .hero-content h1,
         .hero-content h2,
         .hero-content p {
@@ -80,7 +75,6 @@
             font-size: 1.2rem;
         }
 
-        /* Content section */
         .content {
             max-width: 800px;
             margin: 2rem auto;
@@ -108,7 +102,6 @@
             text-decoration: underline;
         }
 
-        /* Footer */
         .footer {
             background-color: #4a235a;
             color: white;
@@ -142,7 +135,6 @@
             height: 40px;  /* Make both logos the same height */
         }
 
-        /* Remove individual logo size classes since they're now the same size */
         .footer .logo-uq,
         .footer .logo-ielab {
             height: 40px;
@@ -152,7 +144,6 @@
             color: #4a235a;
         }
 
-        /* Add body and html styling for sticky footer */
         html, body {
             height: 100%;
             margin: 0;
@@ -164,20 +155,16 @@
             min-height: 100vh;  /* Minimum height of viewport */
         }
 
-        /* Main content wrapper */
         .main-content {
-            flex: 1;  /* Takes up remaining space */
+            flex: 1;
         }
     </style>
 </head>
 <body>
-    <!-- Wrap all content except footer in main-content div -->
     <div class="main-content">
-        <!-- Navigation -->
         <nav class="navbar">
         </nav>
 
-        <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
                 <h1>Unsupervised DenseQuest</h1>
@@ -186,7 +173,6 @@
             </div>
         </section>
 
-        <!-- Content -->
         <div class="content">
             <div class="section">
                 <p>DenseQuest offers unsupervised selection and ranking features to identify the most suitable pre-trained dense retriever from a pool, customized for a provided target collection.</p>
@@ -195,12 +181,11 @@
                 <p>To request access to the live system, please contact us at <a href="mailto:e.khramtsova@uq.edu.au">e.khramtsova@uq.edu.au</a>.</p>
             </div>
             <div class="section">
-                <p>The live system can be accessed at the scheduled time via <a href="https://live-densequest.ielab.io">live-densquest.ielab.io</a>.</p>
+                <p>The live system can be accessed at the scheduled time via <a href="https://live-densequest.ielab.io">live-densequest.ielab.io</a>.</p>
             </div>
         </div>
     </div>
 
-    <!-- Footer remains outside main-content -->
     <footer class="footer">
         <p>S. Khramtsova, T. Leelanupab, S. Zhuang, M. Baktashmotlagh and G. Zuccon; Embark on DenseQuest: A System for Selecting the Best Dense Retriever for a Custom Collection;
             In Proceedings of the 2024 ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2024, Washington D.C., USA (Accessible via the following <a href="#">link</a>)</p>
