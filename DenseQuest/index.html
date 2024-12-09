@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsupervised DenseQuest</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation bar - restored but simplified */
+        .navbar {
+            background-color: #4a235a;
+            padding: 1rem;
+            height: 50px;  /* Fixed height for the banner */
+        }
+
+        /* Hero section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 400px;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('quest-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+        }
+
+        /* Add a semi-transparent overlay for better text readability */
+        .hero-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        /* Ensure text appears above the overlay */
+        .hero-content h1,
+        .hero-content h2,
+        .hero-content p {
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        /* Content section */
+        .content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            text-align: center;
+            color: #000000;
+        }
+
+        .content .section {
+            margin-bottom: 2rem;
+        }
+
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .content a {
+            color: #0000FF;
+            text-decoration: underline;
+            white-space: nowrap;  /* Prevent link from breaking */
+        }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #4a235a;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;  /* Push footer to bottom */
+        }
+
+        .footer p {
+            font-size: 0.9rem;
+            max-width: 70%;  /* Limit text width to make room for logos */
+        }
+
+        .footer .logos {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer .logo-container {
+            background-color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 5px;  /* 5px separation between logos */
+        }
+
+        .footer img {
+            height: 40px;  /* Make both logos the same height */
+        }
+
+        /* Remove individual logo size classes since they're now the same size */
+        .footer .logo-uq,
+        .footer .logo-ielab {
+            height: 40px;
+        }
+
+        .sample-dataset a {
+            color: #4a235a;
+        }
+
+        /* Add body and html styling for sticky footer */
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;  /* Minimum height of viewport */
+        }
+
+        /* Main content wrapper */
+        .main-content {
+            flex: 1;  /* Takes up remaining space */
+        }
+    </style>
+</head>
+<body>
+    <!-- Wrap all content except footer in main-content div -->
+    <div class="main-content">
+        <!-- Navigation -->
+        <nav class="navbar">
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Unsupervised DenseQuest</h1>
+                <h2>Selection and Ranking</h2>
+                <p>Simply upload you dataset and find out which model is the best for you.</p>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="section">
+                <p>DenseQuest offers unsupervised selection and ranking features to identify the most suitable pre-trained dense retriever from a pool, customized for a provided target collection.</p>
+            </div>
+            <div class="section">
+                <p>To request access to the live system, please contact us at <a href="mailto:e.khramtsova@uq.edu.au">e.khramtsova@uq.edu.au</a>.</p>
+            </div>
+            <div class="section">
+                <p>The live system can be accessed at the scheduled time via <a href="https://live-densequest.ielab.io">live-densquest.ielab.io</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer remains outside main-content -->
+    <footer class="footer">
+        <p>S. Khramtsova, T. Leelanupab, S. Zhuang, M. Baktashmotlagh and G. Zuccon; Embark on DenseQuest: A System for Selecting the Best Dense Retriever for a Custom Collection;
+            In Proceedings of the 2024 ACM SIGIR Conference on Research and Development in Information Retrieval, SIGIR 2024, Washington D.C., USA (Accessible via the following <a href="#">link</a>)</p>
+        <div class="logos">
+            <div class="logo-container">
+                <img src="UQ-300x300-DJZ73o03.png" alt="UQ Logo" class="logo-uq">
+                <img src="ielab-page001-Y3flXrMX.png" alt="IE Lab Logo" class="logo-ielab">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
