@@ -9,7 +9,13 @@ people: [harry-scells, shuai-wang, xinyu-mao, guido-zuccon, bevan-koopman]
 
 This project seeks to develop methods and tools for improving how experts search for literature for systematic reviews. So far, research in this area by this team has provided useful tools for visually assisting Boolean query formulation, fully automatic methods for Boolean query refinement specifically in the systematic review domain, domain-specific retrieval models, and a test collection.
 
-See below for a list of relevant publications, description of the task, background information, and challenges.
+See below for a list of relevant publications, tools, description of the task, background information, and challenges.
+
+## In this page
+- [What are systematic reviews?](#what-are-systematic-reviews)
+- [Why bother with Boolean search?](#why-bother-with-boolean-search)
+- [Relevant Publications](#relevant-publications)
+- [Our Tools](#our-tools)
 
 ### Relevant Publications 
 
@@ -82,32 +88,37 @@ A Boolean query allows for the complete control over the search results. While i
 
 There are significant time and cost savings to be had by improving the effectiveness of Boolean queries. A more effective Boolean query retrieves less irrelevant studies while maintaining the number of relevant studies. Screening prioritisation only helps to bubble the most relevant studies to the top of the list; reviewers still must screen all studies systematically. A more effective query translates to less studies to screen overall. Even small decreases in numbers of irrelevant studies can significantly reduce cost and time factors of systematic review construction. Decreases in the time it takes to construct systematic reviews can lead to more accurate and up-to-date evidence based medicine; improving decisions by health care professionals.  
 
-### Our Tools
-
+## Our Tools
 We have developed a number of tools to assist with the construction of systematic reviews.
 
+<!-- {% for category in site.data.projects.systematic-reviews.categories %}
+  {% if category.name == "Tools for Improving Literature Search" and category.tools %}
+    {% for tool in category.tools %}
+#### {% if tool.url and tool.url != "" %}[{{ tool.name }}]({{ tool.url }}){% else %}{{ tool.name }}{% endif %}
+
+<div style="display: flex; gap: 20px; margin-bottom: 30px;">
+    <div style="flex: 0 0 400px;">
+        <img src="{{ tool.image }}" alt="{{ tool.name }} screenshot" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #eee;"/>
+    </div>
+    <div style="flex: 1;">
+        {{ tool.description | markdownify }}
+    </div>
+</div>
+
+    {% endfor %}
+  {% endif %}
+{% endfor %} -->
 {% for category in site.data.projects.systematic-reviews.categories %}
   {% if category.name == "Tools for Improving Literature Search" and category.tools %}
     {% for tool in category.tools %}
-    <div class="tool-card">
-        <h4>
-            {% if tool.url and tool.url != "" %}
-                <a href="{{ tool.url }}">{{ tool.name }}</a>
-            {% else %}
-                {{ tool.name }}
-            {% endif %}
-        </h4>
-        <div class="tool-content">
-            <div class="tool-image">
-                <img src="{{ tool.image }}" alt="{{ tool.name }} screenshot">
-            </div>
-            <div class="tool-description">
-                {{ tool.description | markdownify }}
-            </div>
-        </div>
-    </div>
+#### {% if tool.url and tool.url != "" %}[{{ tool.name }}]({{ tool.url }}){% else %}{{ tool.name }}{% endif %}
+
+<img src="{{ tool.image }}" alt="{{ tool.name }} screenshot" style="float: left; width: 400px; margin-right: 20px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #eee;"/>
+
+{{ tool.description }}
+
+<div style="clear: both; margin-bottom: 30px;"></div>
     {% endfor %}
   {% endif %}
 {% endfor %}
-
 [_back to top_](#main)
