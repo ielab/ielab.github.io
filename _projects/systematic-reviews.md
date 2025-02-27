@@ -87,16 +87,22 @@ There are significant time and cost savings to be had by improving the effective
 We have developed a number of tools to assist with the construction of systematic reviews.
 
 {% for category in site.data.projects.systematic-reviews.categories %}
-  {% if category.tools %}
+  {% if category.name == "Tools for Improving Literature Search" and category.tools %}
     {% for tool in category.tools %}
     <div class="tool-card">
-        <h4><a href="{{ tool.url }}">{{ tool.name }}</a></h4>
+        <h4>
+            {% if tool.url and tool.url != "" %}
+                <a href="{{ tool.url }}">{{ tool.name }}</a>
+            {% else %}
+                {{ tool.name }}
+            {% endif %}
+        </h4>
         <div class="tool-content">
             <div class="tool-image">
                 <img src="{{ tool.image }}" alt="{{ tool.name }} screenshot">
             </div>
             <div class="tool-description">
-                {{ tool.description }}
+                {{ tool.description | markdownify }}
             </div>
         </div>
     </div>
