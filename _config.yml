@@ -4,7 +4,7 @@ google_analytics:
 show_downloads: false
 logo: /images/ielab-logo.001.png
 
-paginate: 5
+paginate: 6
 paginate_path: "/posts/page-:num/"
 
 plugins:
