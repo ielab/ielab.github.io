@@ -1,5 +1,5 @@
 ---
-authors: [xinyu-mao, "Teerapong Leelanupab", harry-scells, guido-zuccon]
+authors: [xinyu-mao, teerapong-leelanupab, harry-scells, guido-zuccon]
 title: "DenseReviewer: A Screening Prioritisation Tool for Systematic Review based on Dense Retrieval"
 venue: Proceedings of the 47th European Conference on Information Retrieval (ECIR 2025)
 year: 2025
