@@ -1,6 +1,6 @@
 ---
 name: Teerapong Leelanupab
-image: /images/teerapong.jpeg
+image: /images/teerapong.jpg
 twitter: 
 github: //github.com/kimmlee
 website: 
