@@ -1,5 +1,5 @@
 ---
-name: Teerapong Leelanupab
+name: Teerapong Leelanupab (Kim)
 image: /images/teerapong.jpg
 twitter: //x.com/kimm_lee
 twitter-timeline: true
