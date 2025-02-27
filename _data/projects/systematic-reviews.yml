@@ -23,7 +23,8 @@ categories:
       - scells-2019-reformulation
       - li-2020-sigir-autotool
       - mao-2025-densereviewer
-    
+
+    tools:
       - name: searchrefiner
         url: https://ielab.io/searchrefiner/
         image: /images/tools/searchrefiner.png
@@ -33,7 +34,6 @@ categories:
         image: /images/tools/densereviewer.png
         description: DenseReviewer is a screening prioritization tool for systematic reviews, leveraging dense retrieval and relevance feedback to rank studies efficiently during title and abstract screening. It dynamically updates rankings based on user assessments, optimizing the screening process. The tool includes a web-based interface for interactive screening and a Python library for integration and experimentation. It supports structured PICO queries, allows self-hosting via Docker, and improves efficiency in identifying relevant studies.
       - name: AiReview
-        url: 
         image: /images/tools/aireview.png
         description: AiReview is an open platform designed to accelerate systematic reviews (SRs) using large language models (LLMs). It provides an extensible framework and a web-based interface for LLM-assisted title and abstract screening. AiReview enables researchers to leverage LLMs transparently by offering different roles for AI involvement—pre-reviewer, co-reviewer, and post-reviewer—to support decision-making, live collaboration, and quality control. The tool integrates open-source and commercial LLMs, allowing users to customize screening criteria, interaction levels, and model settings. It aims to improve efficiency, transparency, and accessibility in SRs.
 
