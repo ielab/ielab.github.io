@@ -82,4 +82,22 @@ A Boolean query allows for the complete control over the search results. While i
 
 There are significant time and cost savings to be had by improving the effectiveness of Boolean queries. A more effective Boolean query retrieves less irrelevant studies while maintaining the number of relevant studies. Screening prioritisation only helps to bubble the most relevant studies to the top of the list; reviewers still must screen all studies systematically. A more effective query translates to less studies to screen overall. Even small decreases in numbers of irrelevant studies can significantly reduce cost and time factors of systematic review construction. Decreases in the time it takes to construct systematic reviews can lead to more accurate and up-to-date evidence based medicine; improving decisions by health care professionals.  
 
+### Our Tools
+
+We have developed a number of tools to assist with the construction of systematic reviews.
+
+{% for tool in site.data.tools %}
+<div class="tool-card">
+    <h4><a href="{{ tool.url }}">{{ tool.name }}</a></h4>
+    <div class="tool-content">
+        <div class="tool-image">
+            <img src="{{ tool.image }}" alt="{{ tool.name }} screenshot">
+        </div>
+        <div class="tool-description">
+            {{ tool.description }}
+        </div>
+    </div>
+</div>
+{% endfor %}
+
 [_back to top_](#main)
