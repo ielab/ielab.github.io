@@ -91,23 +91,6 @@ There are significant time and cost savings to be had by improving the effective
 ## Our Tools
 We have developed a number of tools to assist with the construction of systematic reviews.
 
-<!-- {% for category in site.data.projects.systematic-reviews.categories %}
-  {% if category.name == "Tools for Improving Literature Search" and category.tools %}
-    {% for tool in category.tools %}
-#### {% if tool.url and tool.url != "" %}[{{ tool.name }}]({{ tool.url }}){% else %}{{ tool.name }}{% endif %}
-
-<div style="display: flex; gap: 20px; margin-bottom: 30px;">
-    <div style="flex: 0 0 400px;">
-        <img src="{{ tool.image }}" alt="{{ tool.name }} screenshot" style="width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #eee;"/>
-    </div>
-    <div style="flex: 1;">
-        {{ tool.description | markdownify }}
-    </div>
-</div>
-
-    {% endfor %}
-  {% endif %}
-{% endfor %} -->
 {% for category in site.data.projects.systematic-reviews.categories %}
   {% if category.name == "Tools for Improving Literature Search" and category.tools %}
     {% for tool in category.tools %}
