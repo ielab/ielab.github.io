@@ -8,7 +8,6 @@ categories:
       - scells-2018-qvpp
       - shuai-2021-meshsuggest
       - shuai-2022-meshjournal
-      - shuai-2023-meshsuggester
 
   - name: Query Formulation
     publications:
@@ -25,6 +24,7 @@ categories:
       - scells-2019-queryvis
       - scells-2019-reformulation
       - li-2020-sigir-autotool
+      - shuai-2023-meshsuggester
       - mao-2025-densereviewer
 
     tools:
