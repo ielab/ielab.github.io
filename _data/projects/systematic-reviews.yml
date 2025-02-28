@@ -56,6 +56,9 @@ categories:
       - scells-2020-clf
       - scells-2017-ltrs
       - shuai-2022-reproducesdr
+      - shuai-2022-neuralsr
+      - shuai-2024-ecirzsclassifer
+      - shuai-2024-sigirap_generating
       - mao-2024-goldilocks-reproduce
       - mao-2024-densescreen
 
