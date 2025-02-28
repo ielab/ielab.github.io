@@ -7,13 +7,15 @@ categories:
       - scells-2020-sampling
       - scells-2018-qvpp
       - shuai-2021-meshsuggest
+      - shuai-2022-meshjournal
+      - shuai-2023-meshsuggester
 
   - name: Query Formulation
     publications:
       - scells-2020-objective
       - scells-2020-conceptual
       - scells-2020-comparison
-      - shuai-2023-meshsuggester
+      - shuai-2023-sigir_chatgpt
 
 
   - name: Tools for Improving Literature Search
