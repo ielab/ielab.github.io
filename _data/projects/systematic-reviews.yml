@@ -13,6 +13,7 @@ categories:
       - scells-2020-objective
       - scells-2020-conceptual
       - scells-2020-comparison
+      - shuai-2023-meshsuggester
 
 
   - name: Tools for Improving Literature Search
@@ -29,6 +30,10 @@ categories:
         url: https://ielab.io/searchrefiner/
         image: /images/tools/searchrefiner.png
         description: searchrefiner is an interactive interface for visualising and understanding queries used to retrieve medical literature for systematic reviews. searchrefiner is an open source project; the source is made available on [GitHub](https://github.com/ielab/searchrefiner). It is currently in development, however you may preview the interface at this demo link (note that users must be approved prior to use).
+      - name: MeSHSuggester (MeshMate)
+        url: https://tera-tools.com/meshmate
+        image: /images/tools/meshmate.png
+        description: MeSHMate (MeshSuggester) is a Web-based MeSH term suggestion prototype system integrated in tera tools that allows users to obtain suggestions from a number of underlying methods, including BERT-based neural suggestion methods, suggestion can be conducted using Atomic-BERT, Semantic-BERT, and Fragment-BERT. You can create an account first at [tera-tools](https://tera-tools.com/) and then access the MeSHMate tool.
       - name: DenseReviewer
         url: https://densereviewer.ielab.io/
         image: /images/tools/densereviewer.png
