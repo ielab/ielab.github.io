@@ -7,12 +7,14 @@ categories:
       - scells-2020-sampling
       - scells-2018-qvpp
       - shuai-2021-meshsuggest
+      - shuai-2022-meshjournal
 
   - name: Query Formulation
     publications:
       - scells-2020-objective
       - scells-2020-conceptual
       - scells-2020-comparison
+      - shuai-2023-sigir_chatgpt
 
 
   - name: Tools for Improving Literature Search
@@ -22,6 +24,26 @@ categories:
       - scells-2019-queryvis
       - scells-2019-reformulation
       - li-2020-sigir-autotool
+      - shuai-2023-meshsuggester
+      - mao-2025-densereviewer
+
+    tools:
+      - name: searchrefiner
+        url: https://ielab.io/searchrefiner/
+        image: /images/tools/searchrefiner.png
+        description: searchrefiner is an interactive interface for visualising and understanding queries used to retrieve medical literature for systematic reviews. searchrefiner is an open source project; the source is made available on [GitHub](https://github.com/ielab/searchrefiner). It is currently in development, however you may preview the interface at this demo link (note that users must be approved prior to use).
+      - name: MeSHSuggester (MeshMate)
+        url: https://tera-tools.com/meshmate
+        image: /images/tools/meshmate.png
+        description: MeSHMate (MeshSuggester) is a Web-based MeSH term suggestion prototype system integrated in tera tools that allows users to obtain suggestions from a number of underlying methods, including BERT-based neural suggestion methods, suggestion can be conducted using Atomic-BERT, Semantic-BERT, and Fragment-BERT. You can create an account first at [tera-tools](https://tera-tools.com/) and then access the MeSHMate tool.
+      - name: DenseReviewer
+        url: https://densereviewer.ielab.io/
+        image: /images/tools/densereviewer.png
+        description: DenseReviewer is a screening prioritization tool for systematic reviews, leveraging dense retrieval and relevance feedback to rank studies efficiently during title and abstract screening. It dynamically updates rankings based on user assessments, optimizing the screening process. The tool includes a web-based interface for interactive screening and a Python library for integration and experimentation. It supports structured PICO queries, allows self-hosting via Docker, and improves efficiency in identifying relevant studies.
+      - name: AiReview
+        image: /images/tools/aireview.png
+        description: AiReview is an open platform designed to accelerate systematic reviews (SRs) using large language models (LLMs). It provides an extensible framework and a web-based interface for LLM-assisted title and abstract screening. AiReview enables researchers to leverage LLMs transparently by offering different roles for AI involvement—pre-reviewer, co-reviewer, and post-reviewer—to support decision-making, live collaboration, and quality control. The tool integrates open-source and commercial LLMs, allowing users to customize screening criteria, interaction levels, and model settings. It aims to improve efficiency, transparency, and accessibility in SRs.
+
       
   - name: Test Collections
     publications:
@@ -34,3 +56,9 @@ categories:
       - scells-2020-clf
       - scells-2017-ltrs
       - shuai-2022-reproducesdr
+      - shuai-2022-neuralsr
+      - shuai-2024-ecirzsclassifer
+      - shuai-2024-sigirap_generating
+      - mao-2024-goldilocks-reproduce
+      - mao-2024-densescreen
+
