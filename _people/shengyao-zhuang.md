@@ -6,5 +6,5 @@ github: //github.com/ArvinZhuang
 website: //arvinzhuang.github.io/
 scholar: //scholar.google.com/citations?user=-7sbXNIAAAAJ&hl=en
 role: alumni
-description: PhD student, UQ, Online Learning to Rank, Deep Language Model-based Rankers.
+description: PhD student (2019 - 2023), UQ, BERT and Large Language Model-based Rankers and Online Learning to Rank,
 ---

@@ -5,6 +5,6 @@ github: //github.com/Karlywang
 website: 
 image: /images/karly.jpeg
 scholar: 
-role: phd
-description: PhD student, UQ.  
+role: Postdoctoral Research Fellow
+description: PhD graduate, UQ. Thesis: Effective and secure federated online learning to rank.  
 ---

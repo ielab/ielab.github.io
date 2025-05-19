@@ -4,7 +4,7 @@ image: /images/teerapong.jpg
 twitter: //x.com/kimm_lee
 twitter-timeline: true
 github: //github.com/kimmlee
-website: teerapong.leelanupab.com
+website: https://teerapong.leelanupab.com
 scholar: //scholar.google.com.au/citations?user=a-O2cj8AAAAJ
 orcid: 0000-0002-8117-0612
 role: Staff
