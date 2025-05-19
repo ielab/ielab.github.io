@@ -1,5 +1,5 @@
 ---
-name: "Efficient In-Memory Inverted Indexes: Theory and Practice"
+name: "Efficient In-Memory Inverted Indexes - Theory and Practice"
 venues: [SIGIR2025]
 people:
  - name: joel-mackenzie
