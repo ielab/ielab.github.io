@@ -1,7 +1,7 @@
 ---
 name: Online Learning to Rank
 image: /images/projects/oltr.png
-featured: true
+featured: false
 people: [shengyao-zhuang, guido-zuccon]
 ---
 

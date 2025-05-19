@@ -1,7 +1,7 @@
 ---
 name: Federated Online Learning to Rank
 image: /images/projects/foltr.png
-featured: true
+featured: false
 people: [shuyi-wang, shengyao-zhuang, guido-zuccon]
 ---
 
