@@ -1,6 +1,6 @@
 ---
 name: Scalable Generative IR
-image: /images/projects/sysrev.jpg
+image: /images/projects/scalable-genir.png
 featured: true
 people: [shuai-wang, shengyao-zhuang, shuyi-wang, guido-zuccon, bevan-koopman]
 ---
