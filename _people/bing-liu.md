@@ -2,9 +2,10 @@
 name: Bing Liu
 twitter: //twitter.com/BingLiu1011
 github:
-website:
+website: //uqbingliu.github.io/
 image: /images/bing-liu.jpeg
 scholar: //scholar.google.com/citations?user=uYJIvCMAAAAJ&hl=en
-role: phd
-description: PhD student, UQ. Knowledge Graph.
+role: alumni
+alumni: true
+description: PhD student, UQ, 2020-2023
 ---
