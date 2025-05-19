@@ -5,7 +5,7 @@ github:
 website: 
 image: /images/ahmed-mourad.jpg
 scholar: https://scholar.google.com/citations?user=pcibYXwAAAAJ&hl=en&oi=sra
-role: staff
-description: Postdoctoral Research Fellow, UQ.
+role: alumni
+description: Alumni: Postdoctoral Research Fellow at UQ from 2021 to 2023
 ---
 
