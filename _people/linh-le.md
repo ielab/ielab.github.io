@@ -5,6 +5,6 @@ twitter: //twitter.com/liz262023
 github: //github.com/linhlt-it-ee
 website: 
 scholar: //scholar.google.com/citations?user=zlYcKiAAAAAJ
-role: Alumni
+role: alumni
 description: PhD student (2020 - 2024), UQ, Active Learning, Deep Learning, Machine Learning, NLP, CV, Multimodal.
 ---
