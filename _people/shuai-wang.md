@@ -1,7 +1,7 @@
 ---
 name: Shuai Wang
 image: /images/shuaiwang.jpg
-twitter: //twitter.com/Wangshu79517824
+twitter: //x.com/dylan_wangs
 github: //github.com/wshuai190
 website: https://wshuai190.github.io/
 scholar: //scholar.google.com/citations?hl=en&user=JDKYomkAAAAJ
