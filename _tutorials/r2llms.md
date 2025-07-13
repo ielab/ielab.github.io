@@ -17,3 +17,7 @@ Sunday 13th July 2025 @ Mantegna 1, floor 3
 * 10.30 - 11.00: Coffee break
 * 11.00 - 12.00: LLMs for ranking
 * 12.00 - 12.30: Challenges, Opportunities, and Resources
+
+## Slides
+* [Part1](https://github.com/ielab/ielab.github.io/blob/master/files/r2llm_part1.pdf)
+* [Part2](https://github.com/ielab/ielab.github.io/blob/master/files/r2llm_part2.pdf)
