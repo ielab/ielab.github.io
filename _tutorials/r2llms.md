@@ -22,8 +22,8 @@ Sunday 7th December 2025
 ## Slides
 * [Part1](https://github.com/ielab/ielab.github.io/blob/master/files/sigirap2025_r2llm_part1.pdf)
 * [Part2](https://github.com/ielab/ielab.github.io/blob/master/files/sigirap2025_r2llm_part2.pdf)
-* [Part3](https://github.com/ielab/ielab.github.io/blob/master/files/sigirap2025_r2llm_part3+part4.pdf)
-* [Part4](https://github.com/ielab/ielab.github.io/blob/master/files/sigirap2025_r2llm_part3+part4.pdf)
+* [Part3](https://github.com/ielab/ielab.github.io/blob/master/files/sigirap2025_r2llm_part3.pdf)
+* [Part4](https://github.com/ielab/ielab.github.io/blob/master/files/sigirap2025_r2llm_part4.pdf)
 
 ## Agenda @ SIGIR 2025
 
