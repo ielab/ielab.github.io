@@ -5,6 +5,6 @@ twitter: //https://x.com/Yinyupanda
 github: //github.com/yinyubb
 website: https://yinyubb.github.io/
 scholar: //scholar.google.com/citations?hl=en&user=3qegOXIAAAAJ
-role: PhD
+role: phd
 description: PhD student, UQ.
 ---
