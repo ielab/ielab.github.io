@@ -21,6 +21,8 @@ layout: default
         {% for role in person.role %}
             {% if role == "phd" %}
                 <i>PhD Student</i><br/>
+            {% elsif role == "mphil" %}
+                <i>MPhil Student</i><br/>
             {% elsif role == "staff" %}
                 <i>Research Staff</i><br/>
             {% elsif role == "external" %}
