@@ -5,6 +5,8 @@ github: //github.com/jmmackenzie
 website: //jmmackenzie.io
 image: /images/joel.jpeg
 scholar: //scholar.google.com/citations?user=3jQ1Zh4AAAAJ
+openalex: A5070739676
+openalex_filter: off
 role: staff
 description: Lecturer, UQ.
 ---

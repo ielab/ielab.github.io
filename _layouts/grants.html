@@ -1,22 +1,38 @@
 ---
 layout: default
 ---
-<!-- @formatter:off -->
-
-<h2>{{ page.name }}</h2>
-
-<h1>{{ page.description }}</h1>
-
-
-<div class="flex three">
-  <div class="two-third">
-  	<p>{{ content}}</p>
-  	</div>
-  <div>
-  </br>
-    	{% if page.image %}
-    	<img src="{{ page.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-	    {% endif %}
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Grant</span>
+    <h1 style="max-width: 26em;">{{ page.description }}</h1>
+    <p class="lead">{{ page.name }}</p>
   </div>
 </div>
 
+<div class="section" style="padding-top: 48px;">
+  <div class="container">
+
+    <div class="meta-chips">
+      {%- if page.value -%}<span class="chip">{% include icon.html name="award" size=13 %} {{ page.value }}</span>{%- endif -%}
+      {%- if page.years -%}<span class="chip chip-outline">{% include icon.html name="calendar" size=13 %} {{ page.years }}</span>{%- endif -%}
+    </div>
+
+    {%- if page.people and page.people.size > 0 -%}
+    <h2 style="font-size: 1.25rem; margin-top: 2rem;">ielab investigators</h2>
+    <div class="author-chips">
+      {%- for involved in page.people -%}
+      {% include author-chip.html slug=involved %}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if page.image and page.image != "" -%}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.name }}" style="max-width: 280px; margin: 1.5rem 0; border-radius: var(--radius-sm); background: #fff; padding: 12px; border: 1px solid var(--border);" data-reveal>
+    {%- endif -%}
+
+    <div class="prose" style="max-width: 56em; margin-top: 1.5rem;">
+      {{ content }}
+    </div>
+
+  </div>
+</div>

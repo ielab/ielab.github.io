@@ -1,0 +1,18 @@
+{%- assign slug = include.slug -%}
+{%- assign found_person = nil -%}
+{%- for person in site.people -%}
+  {%- assign pslug = person.id | split: "/" | last -%}
+  {%- if pslug == slug -%}{%- assign found_person = person -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{%- if found_person -%}
+<a class="author-chip linked" href="{{ found_person.url | relative_url }}">
+  {%- if found_person.image and found_person.image != "" -%}
+  <img src="{{ found_person.image | relative_url }}" alt="" loading="lazy">
+  {%- else -%}
+  <img src="{{ '/images/blank-profile-picture.png' | relative_url }}" alt="" loading="lazy">
+  {%- endif -%}
+  {{ found_person.name }}
+</a>
+{%- else -%}
+<span class="author-chip external">{{ slug }}</span>
+{%- endif -%}

@@ -6,7 +6,8 @@ orcid: 0009-0006-9007-3976
 github: //github.com/4mark4444
 website: //ielab.io/people/zheng-yao
 image: /images/zheng-yao.jpg
-description: Bachelor Student, UQ
+role: alumni
+description: Bachelor Student (intern) at ielab, UQ
 ---
 
 I am Zheng, currently pursuing a **Bachelor of Science in Computer Science** at the School of Computer Science, The University of Queensland (July 2022 – present). My research focuses on **Natural Language Processing (NLP)** and **Passage Retrieval**, with a particular emphasis on:  

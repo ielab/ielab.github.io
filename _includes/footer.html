@@ -1,0 +1,61 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="ielab home">
+          <img class="brand-logo" src="{{ '/images/ielab-page001.png' | relative_url }}" alt="ielab logo">
+          <span>ielab<span class="tld">.io</span></span>
+        </a>
+        <p style="margin-top: 1rem;">
+          The Information Engineering Lab researches information retrieval — search engine
+          technology, neural ranking, large language models, and health search — at
+          <a href="https://www.uq.edu.au" target="_blank" rel="noopener">The University of Queensland</a>,
+          Brisbane, Australia.
+        </p>
+        <div class="footer-social">
+          <a class="icon-btn" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" aria-label="GitHub">{% include icon.html name="github" size=17 %}</a>
+          <a class="icon-btn" href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener" aria-label="X (Twitter)">{% include icon.html name="twitter" size=16 %}</a>
+          <a class="icon-btn" href="{{ site.youtube_url }}" target="_blank" rel="noopener" aria-label="YouTube">{% include icon.html name="youtube" size=17 %}</a>
+          <a class="icon-btn" href="{{ '/feed.xml' | relative_url }}" aria-label="RSS feed">{% include icon.html name="rss" size=17 %}</a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Research</h4>
+        <ul class="footer-links">
+          <li><a href="/publications/">Publications</a></li>
+          <li><a href="/projects/">Projects</a></li>
+          <li><a href="/tutorials/">Tutorials</a></li>
+          <li><a href="/grants/">Grants</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Lab</h4>
+        <ul class="footer-links">
+          <li><a href="/people/">People</a></li>
+          <li><a href="/posts/">News</a></li>
+          <li><a href="/student-projects">Student projects</a></li>
+          <li><a href="/history">History</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="acknowledgement">
+      We acknowledge the Traditional Owners and their custodianship of the lands on which we
+      live, work, and study. We pay our respects to their Ancestors and their descendants, who
+      continue cultural and spiritual connections to Country.
+    </p>
+
+    <div class="footer-bottom">
+      <span>© {{ site.time | date: "%Y" }} ielab · The Information Engineering Lab</span>
+      <span>The University of Queensland, Brisbane, Australia</span>
+    </div>
+  </div>
+</footer>
+
+<button class="icon-btn back-top" type="button" aria-label="Back to top">
+  {% include icon.html name="arrow-up" size=18 %}
+</button>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>

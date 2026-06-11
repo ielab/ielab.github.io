@@ -1,10 +1,12 @@
 ---
 name: Sophia Althammer
 image: /images/sophia.jpeg
-twitter: //twitter.com/sophiaalthammer
+twitter: //x.com/sophiaalthammer
 github: //github.com/sophiaalthammer
 website: //sophiaalthammer.github.io
-scholar: //https://scholar.google.com.au/citations?user=tlb0xnMAAAAJ
-role: phd
+scholar: //scholar.google.com.au/citations?user=tlb0xnMAAAAJ
+openalex: A5005875282
+openalex_filter: off
+role: alumni
 description: Visiting PhD student,  TU Vienna.
 ---

@@ -1,63 +1,51 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
-<b>Presented at:</b>
-{%- for venue in page.venues -%}
-<span class="label" style="background-color: #aaaaaa">{{- venue -}}</span>
-{%- endfor -%}
-<br/>
-{% for link in page.links %}
-<a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
-{% endfor %}
-<br/>
-<br/>
-{{- page.description -}}
-<br/>
-<br/>
-<b>Instructors:</b>
-{% assign people = site.people | where:'group', post.people %}
-<div class="flex four">
-    {% for involved in page.people %}
-    {% assign found = false %}
-    {% for person in site.people %}
-    {% assign path = person.id | split: "/" %}
-    {% assign id = path[2] %}
-    {% if id == involved.name %}
-    {% assign found = true %}
-    <div>
-        <article class="card">
-            <div style="height: 120px; margin:auto; display:block">
-                {% if person.image == nil %}
-                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% else %}
-                <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% endif %}
-            </div>
-            <footer>
-                <a href="{{ person.url }}">{{ person.name }}</a>
-            </footer>
-        </article>
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Tutorial</span>
+    <h1 style="max-width: 24em;">{{ page.name }}</h1>
+    {%- if page.venues and page.venues.size > 0 -%}
+    <div class="meta-chips" style="margin-bottom: 0;">
+      {%- for venue in page.venues -%}
+      <span class="chip">{{ venue }}</span>
+      {%- endfor -%}
     </div>
-    {% endif %}
-    {% endfor %}
-    {% if found == false %}
-    <div>
-        <article class="card">
-            <div style="height: 120px; margin:auto; display:block">
-                {% if involved.image == nil %}
-                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% else %}
-                <img src="{{ involved.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% endif %}
-            </div>
-            <footer>
-            {{ involved.name }}
-            </footer>
-        </article>
-    </div>
-    {% endif %}
-    {% endfor %}
+    {%- endif -%}
+  </div>
 </div>
-<hr/>
-{{ content }}
+
+<div class="section" style="padding-top: 48px;">
+  <div class="container">
+
+    {%- if page.links and page.links.size > 0 -%}
+    <div class="action-row" style="margin-top: 0;">
+      {%- for link in page.links -%}
+      <a class="btn btn-ghost" href="{{ link.url }}" target="_blank" rel="noopener">{% include icon.html name="external" size=15 %} {{ link.name }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- if page.description -%}
+    <p class="lead" style="margin-bottom: 2rem;">{{ page.description }}</p>
+    {%- endif -%}
+
+    {%- if page.people and page.people.size > 0 -%}
+    <h2 style="font-size: 1.25rem;">Instructors</h2>
+    <div class="author-chips">
+      {%- for involved in page.people -%}
+        {%- if involved.name -%}
+          {% include author-chip.html slug=involved.name %}
+        {%- else -%}
+          {% include author-chip.html slug=involved %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    <div class="prose" style="max-width: 56em; margin-top: 2rem;">
+      {{ content }}
+    </div>
+
+  </div>
+</div>

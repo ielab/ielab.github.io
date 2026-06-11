@@ -1,40 +1,51 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<div>
-    <a class="button" href="https://twitter.com/intent/tweet?source=https://ielab.io{{ page.url }}&text={{ page.title }} - https://ielab.io{{ page.url }}" target="_blank" title="Tweet">Share via twitter</a>
-    <a class="button" href="mailto:?subject={{ page.title }}&body=https://ielab.io{{ page.url }}" target="_blank" title="Send email">Share via email</a>
-    {% if page.pdf != nil %}
-    <a class="button" href="{{ page.pdf }}">Download PDF</a>
-    {% endif %}
-</div>
-<hr/>
-{{ content }}
-<small>Posted at {{ page.date | date: "%b %d, %y" }} by <em>{{ page.author }}</em></small>
-<div>
-    <a class="button" href="https://twitter.com/intent/tweet?source=https://ielab.io{{ page.url }}&text={{ page.title }} - https://ielab.io{{ page.url }}" target="_blank" title="Tweet">Share via twitter</a>
-    <a class="button" href="mailto:?subject={{ page.title }}&body=https://ielab.io{{ page.url }}" target="_blank" title="Send email">Share via email</a>
-    {% if page.pdf != nil %}
-    <a class="button" href="{{ page.pdf }}">Download PDF</a>
-    {% endif %}
-</div>
-<hr/>
-<div class="flex two">
-    <div>
-        {% if page.previous %}
-        <article class="card">
-            <header>Previous post</header>
-            <footer><a href="{{page.previous.url}}">{{page.previous.title}}</a></footer>
-        </article>
+<div class="page-hero">
+  <div class="container-narrow">
+    <span class="eyebrow">News · {{ page.date | date: "%-d %B %Y" }}</span>
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta" style="margin-bottom: 0;">
+      {%- if page.author -%}<span>By {{ page.author }}</span>{%- endif -%}
+      {%- if page.tags and page.tags.size > 0 -%}
+      <span class="post-tags">
+        {%- for tag in page.tags -%}
+        <span class="chip chip-outline" style="font-size: 0.75rem;">{{ tag }}</span>
+        {%- endfor -%}
+      </span>
+      {%- endif -%}
     </div>
-    <div>
-        {% endif %}
-        {% if page.next %}
-        <div class="card">
-            <header>Next post</header>
-            <footer><a href="{{page.next.url}}">{{page.next.title}}</a></footer>
-        </div>
-        {% endif %}
+  </div>
+</div>
+
+<div class="section" style="padding-top: 48px;">
+  <div class="container-narrow">
+
+    <div class="prose">
+      {{ content }}
     </div>
+
+    <div class="action-row" style="margin-top: 2.5rem;">
+      <a class="btn btn-ghost btn-sm" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}%20-%20https://ielab.io{{ page.url }}" target="_blank" rel="noopener">{% include icon.html name="twitter" size=13 %} Share on X</a>
+      <a class="btn btn-ghost btn-sm" href="mailto:?subject={{ page.title | uri_escape }}&body=https://ielab.io{{ page.url }}">{% include icon.html name="mail" size=13 %} Share via email</a>
+    </div>
+
+    <nav class="post-nav">
+      {%- if page.previous -%}
+      <a href="{{ page.previous.url | relative_url }}">
+        <span class="dir">← Older</span>
+        {{ page.previous.title }}
+      </a>
+      {%- else -%}
+      <span></span>
+      {%- endif -%}
+      {%- if page.next -%}
+      <a class="next" href="{{ page.next.url | relative_url }}">
+        <span class="dir">Newer →</span>
+        {{ page.next.title }}
+      </a>
+      {%- endif -%}
+    </nav>
+
+  </div>
 </div>

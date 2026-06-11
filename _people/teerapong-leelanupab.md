@@ -4,10 +4,11 @@ image: /images/teerapong.jpg
 twitter: //x.com/kimm_lee
 twitter-timeline: true
 github: //github.com/kimmlee
-website: https://teerapong.leelanupab.com
+website: //teerapong.leelanupab.com
 scholar: //scholar.google.com.au/citations?user=a-O2cj8AAAAJ
+openalex: A5049764096
 orcid: 0000-0002-8117-0612
-role: Staff
+role: staff
 description: Senior Research Fellow, School of EECS, UQ. 
 ---
 

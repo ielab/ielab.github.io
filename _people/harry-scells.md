@@ -1,11 +1,12 @@
 ---
 name: Harry Scells
 image: /images/harry.jpeg
-twitter: //twitter.com/hscells
+twitter: //x.com/hscells
 github: //github.com/hscells
 website: //scells.me
 scholar: //scholar.google.com.au/citations?user=ltyPHacAAAAJ&hl=en
-role: [alumni, staff]
+openalex: A5075371460
+role: alumni
 alumni: true
 links: 
  - url: //espace.library.uq.edu.au/view/UQ:297b164

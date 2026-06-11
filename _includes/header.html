@@ -1,0 +1,32 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="ielab home">
+      <img class="brand-logo" src="{{ '/images/ielab-page001.png' | relative_url }}" alt="ielab logo">
+      <span>ielab<span class="tld">.io</span></span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/publications/" {% if page.url contains '/publications' %}class="active"{% endif %}>Publications</a>
+      <a href="/people/" {% if page.url contains '/people' %}class="active"{% endif %}>People</a>
+      <a href="/projects/" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a>
+      <a href="/tutorials/" {% if page.url contains '/tutorials' %}class="active"{% endif %}>Tutorials</a>
+      <a href="/grants/" {% if page.url contains '/grants' %}class="active"{% endif %}>Grants</a>
+      <a href="/posts/" {% if page.url contains '/posts' %}class="active"{% endif %}>News</a>
+      <a href="/student-projects" {% if page.url contains '/student-projects' %}class="active"{% endif %}>Join&nbsp;Us</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a class="icon-btn" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" aria-label="ielab on GitHub" title="GitHub">
+        {% include icon.html name="github" size=18 %}
+      </a>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+        {% include icon.html name="sun" size=18 %}
+        {% include icon.html name="moon" size=18 %}
+      </button>
+      <button class="icon-btn nav-burger" type="button" aria-label="Open menu" aria-expanded="false">
+        {% include icon.html name="menu" size=20 %}
+      </button>
+    </div>
+  </div>
+</header>
