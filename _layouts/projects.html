@@ -1,32 +1,58 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
-<b>People involved:</b>
-{% assign people = site.people | where:'group', post.people %}
-<div class="flex four">
-    {% for involved in page.people %}
-    {% for person in site.people %}
-    {% assign path = person.id | split: "/" %}
-    {% assign id = path[2] %}
-    {% if id == involved %}
-    <div>
-        <article class="card">
-            <div style="height: 120px; margin:auto; display:block">
-                {% if person.image == nil %}
-                <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% else %}
-                <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-                {% endif %}
-            </div>
-            <footer>
-                <a href="{{ person.url }}">{{ person.name }}</a>
-            </footer>
-        </article>
-    </div>
-    {% endif %}
-    {% endfor %}
-    {% endfor %}
+{%- assign slug = page.id | split: "/" | last -%}
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Research project</span>
+    <h1>{{ page.name }}</h1>
+  </div>
 </div>
-<hr/>
-{{ content }}
+
+<div class="section" style="padding-top: 48px;">
+  <div class="container">
+
+    {%- if page.image and page.image != "" -%}
+    <img class="detail-banner" src="{{ page.image | relative_url }}" alt="{{ page.name }}" data-reveal>
+    {%- endif -%}
+
+    {%- if page.people and page.people.size > 0 -%}
+    <h2 style="font-size: 1.25rem;">Team</h2>
+    <div class="author-chips">
+      {%- for involved in page.people -%}
+      {% include author-chip.html slug=involved %}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    <div class="prose" style="max-width: 56em; margin-top: 2rem;">
+      {{ content }}
+    </div>
+
+    {%- comment -%} Publications tagged with this project {%- endcomment -%}
+    {%- assign related = "" | split: "" -%}
+    {%- for pub in site.publications -%}
+      {%- if pub.projects contains slug -%}
+        {%- assign related = related | push: pub -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if related.size > 0 -%}
+    <h2 style="margin-top: 3rem;">Related publications</h2>
+    {%- assign by_year = related | sort: "year" | reverse | group_by: "year" -%}
+    {%- for year in by_year -%}
+    <div class="pub-year-group">
+      <div class="pub-year-head">
+        <h2 style="font-size: 1.25rem;">{{ year.name }}</h2>
+      </div>
+      <ul class="pub-list">
+        {%- for pub in year.items -%}
+        {% include pub-item.html pub=pub %}
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endfor -%}
+    {%- endif -%}
+
+  </div>
+</div>

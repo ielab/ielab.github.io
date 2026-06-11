@@ -1,79 +1,121 @@
 ---
 layout: default
 ---
-<!-- @formatter:off -->
-<div style="width: 120px; height: 120px;">
-    {% if page.image == nil %}
-    <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: contain">
-    {% else %}
-    <img src="{{ page.image }}" style="max-height: 100%; width: 100%; border-radius:50%; object-fit: cover">
-    {% endif %}
-</div>
-<h1>{{ page.name }}</h1>
-{% if page.website != nil %}
-<a class="button" href="{{ page.website }}">Personal Website</a>
-{% endif %}
-{% if page.orcid != nil %}
-<a class="button" href="https://orcid.org/{{ page.orcid }}">ORCID</a>
-{% endif %}
-{% if page.scholar != nil %}
-<a class="button" href="{{ page.scholar }}">Google Scholar</a>
-{% endif %}
-{% if page.twitter != nil %}
-<a class="button" href="{{ page.twitter }}">Twitter</a>
-{% endif %}
-{% if page.github != nil %}
-<a class="button" href="{{ page.github }}">GitHub</a>
-{% endif %}
-{% for link in page.links %}
-<a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
-{% endfor %}
-<p>{{ page.description }}</p>
+{%- assign slug = page.id | split: "/" | last -%}
+<div class="section" style="padding-top: 64px;">
+  <div class="container">
 
-{% if page.twitter-timeline == true %}
-<div class="flex one five-1000">
-    <div class="four-fifth-1000">{{ content }}</div>
-    <div>
-        <a class="twitter-timeline" href="{{ page.twitter }}"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="profile-head" data-reveal>
+      {%- if page.image and page.image != "" -%}
+      <img class="avatar" src="{{ page.image | relative_url }}" alt="{{ page.name }}">
+      {%- else -%}
+      <img class="avatar" src="{{ '/images/blank-profile-picture.png' | relative_url }}" alt="{{ page.name }}">
+      {%- endif -%}
+      <div>
+        <span class="eyebrow">ielab member</span>
+        <h1>{{ page.name }}</h1>
+        <div class="role-badges">
+          {%- if page.role contains "staff" -%}<span class="chip">Research Staff</span>{%- endif -%}
+          {%- if page.role contains "phd" -%}<span class="chip">PhD Student</span>{%- endif -%}
+          {%- if page.role contains "mphil" -%}<span class="chip">MPhil Student</span>{%- endif -%}
+          {%- if page.role contains "external" -%}<span class="chip">External Member</span>{%- endif -%}
+          {%- if page.role contains "alumni" or page.alumni -%}<span class="chip chip-outline">Alumni</span>{%- endif -%}
+        </div>
+        {%- if page.description -%}
+        <p class="profile-desc">{{ page.description }}</p>
+        {%- endif -%}
+        {% include person-links.html person=page %}
+      </div>
     </div>
-</div>
-{% else %}
-{{ content}}
-{% endif %}
 
-<h2>Publications</h2>
-{% assign publications = site.publications | sort:"year" | reverse %}
-<ul>
-{% for publication in publications %}
-    {% assign author = site.people | where:'group', publication.authors %}
-    {% assign path = page.id | split: "/" %}
-    {% assign id = path[2] %}
-    {% if publication.authors contains id %}
-    <li>
-        {%- assign i = 0 -%}
-        {%- for involved in publication.authors -%}
-            {%- assign found = false -%}
-            {%- for person in site.people -%}
-                {%- assign path = person.id | split: "/" -%}
-                {%- assign id = path[2] -%}
-                {%- if id == involved -%}
-                    <a href="{{ person.id }}">{{ person.name }}</a>
-                    {%- assign found = true -%}
-                {%- endif -%}
-            {%- endfor -%}
-            {%- if found == false -%}
-                {{ involved }}
-            {%- endif -%}
-            {%- assign i = i | plus: 1 -%}
-            {%- assign l = publication.authors | size -%}
-            {%- if i < l -%}
-                {{- " and " -}}
-            {%- endif -%}
-        {%- endfor -%}.
-        {{ publication.year }}.
-        <a href="{{ publication.id }}">{{ publication.title }}</a>.
-        In <em>{{ publication.venue }}</em>.
-    </li>
-    {% endif %}
-{% endfor %}
-</ul>
+    {%- assign body = content | strip -%}
+    {%- if body != "" and body != "<hr />" -%}
+    <div class="prose" style="max-width: 56em; margin-bottom: 2.5rem;">
+      {{ content }}
+    </div>
+    {%- endif -%}
+
+    {%- comment -%} Projects this person is involved in {%- endcomment -%}
+    {%- assign my_projects = "" | split: "" -%}
+    {%- for proj in site.projects -%}
+      {%- if proj.people contains slug -%}
+        {%- assign my_projects = my_projects | push: proj -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if my_projects.size > 0 -%}
+    <h2 style="margin-top: 2rem; font-size: 1.35rem;">Projects</h2>
+    <div class="meta-chips">
+      {%- for proj in my_projects -%}
+      <a class="chip" href="{{ proj.url | relative_url }}">{{ proj.name }}</a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    {%- comment -%}
+      Publications: the member's Google Scholar profile is the ground truth
+      (snapshot in _data/scholar_profiles.json), enriched with OpenAlex
+      metadata — see _scripts/update_publications.py. Members without a
+      Scholar snapshot use their filtered OpenAlex record; members with
+      neither fall back to the curated local _publications list.
+    {%- endcomment -%}
+    {%- assign oa = site.data.openalex[slug] -%}
+    {%- if oa and oa.works.size > 0 -%}
+
+    <h2 style="margin-top: 2.5rem;">Publications <span style="font-size: 0.95rem; color: var(--text-muted); font-weight: 500;">({{ oa.count }})</span></h2>
+    <div class="post-meta" style="margin-bottom: 1.6rem;">
+      {%- if oa.ground_truth == "scholar" -%}
+      <span>As listed on Google Scholar (since {{ site.data.openalex["_meta"].min_year | default: 2019 }}) · metadata via OpenAlex · updated {{ oa.updated }}</span>
+      {%- else -%}
+      <span>Synced automatically from OpenAlex · updated {{ oa.updated }}</span>
+      {%- endif -%}
+      {%- if page.scholar and page.scholar != "" -%}
+      <a class="btn btn-ghost btn-sm" href="{{ page.scholar }}" target="_blank" rel="noopener">{% include icon.html name="scholar" size=13 %} Google Scholar</a>
+      {%- endif -%}
+      {%- if oa.id and oa.id != "" -%}
+      <a class="btn btn-ghost btn-sm" href="https://openalex.org/{{ oa.id }}" target="_blank" rel="noopener">{% include icon.html name="external" size=13 %} OpenAlex</a>
+      {%- endif -%}
+    </div>
+    {%- assign by_year = oa.works | group_by: "year" -%}
+    {%- for year in by_year -%}
+    <div class="pub-year-group">
+      <div class="pub-year-head">
+        <h2 style="font-size: 1.25rem;">{{ year.name }}</h2>
+        <span class="count">{{ year.items | size }} publication{% if year.items.size != 1 %}s{% endif %}</span>
+      </div>
+      <ul class="pub-list">
+        {%- for work in year.items -%}
+        {% include oa-pub-item.html work=work member_name=oa.name %}
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endfor -%}
+
+    {%- else -%}
+
+    {%- assign my_pubs = "" | split: "" -%}
+    {%- for pub in site.publications -%}
+      {%- if pub.authors contains slug -%}
+        {%- assign my_pubs = my_pubs | push: pub -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if my_pubs.size > 0 -%}
+    <h2 style="margin-top: 2.5rem;">Publications <span style="font-size: 0.95rem; color: var(--text-muted); font-weight: 500;">({{ my_pubs.size }})</span></h2>
+    {%- assign by_year = my_pubs | sort: "year" | reverse | group_by: "year" -%}
+    {%- for year in by_year -%}
+    <div class="pub-year-group">
+      <div class="pub-year-head">
+        <h2 style="font-size: 1.25rem;">{{ year.name }}</h2>
+      </div>
+      <ul class="pub-list">
+        {%- for pub in year.items -%}
+        {% include pub-item.html pub=pub %}
+        {%- endfor -%}
+      </ul>
+    </div>
+    {%- endfor -%}
+    {%- endif -%}
+
+    {%- endif -%}
+
+  </div>
+</div>

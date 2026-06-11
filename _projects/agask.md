@@ -1,7 +1,7 @@
 ---
 name: AgAsk
 image: /images/projects/agask.jpg
-featured: true
+featured: false
 people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad]
 ---
 

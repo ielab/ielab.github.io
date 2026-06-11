@@ -1,0 +1,25 @@
+{%- assign w = include.work -%}
+{%- assign member_name = include.member_name -%}
+{%- capture authors_text -%}{{ w.authors | join: ", " }}{% if w.etal %} et al.{% endif %}{%- endcapture -%}
+{%- capture citation -%}{{ authors_text }}. {{ w.year }}. {{ w.title }}.{% if w.venue != "" %} {{ w.venue }}.{% endif %}{%- endcapture -%}
+<li class="pub-item" data-year="{{ w.year }}" data-core="{{ w.core | default: 1 }}" data-search="{{ w.title | escape }} {{ authors_text | escape }} {{ w.venue | escape }} {{ w.year }}">
+  {%- if w.url and w.url != "" -%}
+  <a class="pub-title" href="{{ w.url }}" target="_blank" rel="noopener">{{ w.title }}</a>
+  {%- else -%}
+  <span class="pub-title">{{ w.title }}</span>
+  {%- endif -%}
+  <div class="pub-authors">
+    {%- for author in w.authors -%}
+      {%- if author == member_name -%}<strong>{{ author }}</strong>{%- else -%}{{ author }}{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor -%}
+    {%- if w.etal %} et al.{% endif -%}
+  </div>
+  <div class="pub-venue">{% if w.venue != "" %}{{ w.venue }} · {% endif %}{{ w.year }}</div>
+  <div class="pub-actions">
+    {%- if w.pdf and w.pdf != "" -%}
+    <a class="btn btn-ghost btn-sm" href="{{ w.pdf }}" target="_blank" rel="noopener">{% include icon.html name="file" size=13 %} PDF</a>
+    {%- endif -%}
+    <button class="btn btn-ghost btn-sm" type="button" data-cite="{{ citation | escape }}">{% include icon.html name="copy" size=13 %} <span class="cite-label">Cite</span></button>
+  </div>
+</li>

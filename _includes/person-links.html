@@ -1,0 +1,21 @@
+{%- assign p = include.person -%}
+<div class="person-links">
+  {%- if p.website and p.website != "" -%}
+  <a href="{{ p.website }}" target="_blank" rel="noopener" aria-label="Personal website" title="Personal website">{% include icon.html name="globe" size=16 %}</a>
+  {%- endif -%}
+  {%- if p.scholar and p.scholar != "" -%}
+  <a href="{{ p.scholar }}" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar">{% include icon.html name="scholar" size=16 %}</a>
+  {%- endif -%}
+  {%- if p.orcid and p.orcid != "" -%}
+  <a href="https://orcid.org/{{ p.orcid }}" target="_blank" rel="noopener" aria-label="ORCID" title="ORCID">{% include icon.html name="orcid" size=16 %}</a>
+  {%- endif -%}
+  {%- if p.github and p.github != "" -%}
+  <a href="{{ p.github }}" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">{% include icon.html name="github" size=16 %}</a>
+  {%- endif -%}
+  {%- if p.twitter and p.twitter != "" -%}
+  <a href="{{ p.twitter }}" target="_blank" rel="noopener" aria-label="X (Twitter)" title="X (Twitter)">{% include icon.html name="twitter" size=15 %}</a>
+  {%- endif -%}
+  {%- for link in p.links -%}
+  <a href="{{ link.url }}" target="_blank" rel="noopener" aria-label="{{ link.name }}" title="{{ link.name }}">{% include icon.html name="link" size=16 %}</a>
+  {%- endfor -%}
+</div>

@@ -1,32 +1,36 @@
 ---
 layout: default
+title: News
 ---
+{% include page-hero.html
+   eyebrow="Lab updates"
+   title="News"
+   lead="Paper acceptances, open positions, awards, and lab announcements." %}
 
-<h1>News Archive</h1>
-<div>
-    <a class="button" href="/feed.xml">RSS Feed</a>
-</div>
-<hr/>
+<div class="section" style="padding-top: 56px;">
+  <div class="container">
 
-<div>
-    {% for post in paginator.posts limit:paginator.per_page %}
-    <a href="{{ post.url }}"><h2>{{- post.title -}}</h2></a>
-    <small>{{ post.date | date_to_long_string }}</small>
-    <p>{{- post.excerpt -}}<a href="{{-post.url-}}">Read more...</a></p>
-    {% endfor %}
-</div>
-
-<hr/>
-<h3>Navigation</h3>
-<div class="flex two">
-    <div>
-        {%- if paginator.previous_page != nil -%}
-        <a href="{{- paginator.previous_page_path -}}">&larr; Previous page</a>
-        {%- endif -%}
+    <div class="action-row" style="margin-top: 0;">
+      <a class="btn btn-ghost btn-sm" href="{{ '/feed.xml' | relative_url }}">{% include icon.html name="rss" size=13 %} RSS feed</a>
     </div>
-    <div>
-        {%- if paginator.next_page != nil -%}
-        <a href="{{- paginator.next_page_path -}}">Next page &rarr;</a>
-        {%- endif -%}
+
+    <div class="grid grid-3">
+      {%- for post in paginator.posts -%}
+      {% include post-card.html post=post %}
+      {%- endfor -%}
     </div>
+
+    {%- if paginator.total_pages > 1 -%}
+    <nav class="pagination" aria-label="News pages">
+      {%- if paginator.previous_page -%}
+      <a class="btn btn-ghost btn-sm" href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+      {%- endif -%}
+      <span class="results-count">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {%- if paginator.next_page -%}
+      <a class="btn btn-ghost btn-sm" href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+      {%- endif -%}
+    </nav>
+    {%- endif -%}
+
+  </div>
 </div>

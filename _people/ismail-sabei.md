@@ -1,10 +1,11 @@
 ---
 name: Ismail Sabei
-twitter: //twitter.com/ismail_sabei
+twitter: //x.com/ismail_sabei
 github: //github.com/IsmailSabei
 website:
 image: /images/ismail.png
 scholar:
+openalex: A5016177532
 role: phd
 description: PhD student, UQ, Searching through Conversations.  
 ---

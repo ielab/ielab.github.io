@@ -5,6 +5,8 @@ twitter:
 github: //github.com/rischanlab
 website: //rischanlab.github.io
 scholar: //scholar.google.com.au/citations?user=2_Za2fYAAAAJ&hl=en
+openalex: A5081195078
+openalex_filter: off
 orcid: 0000-0003-4424-3736
 role: alumni
 alumni: true

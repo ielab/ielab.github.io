@@ -1,0 +1,169 @@
+---
+layout: default
+title: Home
+---
+{%- comment -%} ---------- Stats ---------- {%- endcomment -%}
+{%- assign n_pubs = site.publications | size -%}
+{%- assign n_projects = site.projects | size -%}
+{%- assign n_grants = site.grants | size -%}
+{%- assign n_active = 0 -%}
+{%- for person in site.people -%}
+  {%- unless person.role contains "alumni" or person.alumni -%}
+    {%- assign n_active = n_active | plus: 1 -%}
+  {%- endunless -%}
+{%- endfor -%}
+{%- comment -%}
+  Publication stats come from the auto-synced OpenAlex data (_data/openalex.json,
+  see _scripts/update_publications.py): the deduplicated union of every member's
+  publication record. Falls back to the curated _publications count.
+{%- endcomment -%}
+{%- assign oa_meta = site.data.openalex["_meta"] -%}
+{%- if oa_meta -%}
+  {%- assign pubs_stat = oa_meta.unique_works_display -%}
+{%- else -%}
+  {%- assign pubs_stat = n_pubs -%}
+{%- endif -%}
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="container">
+    <span class="eyebrow">Information Engineering Lab · The University of Queensland</span>
+    <h1>Engineering the future of <span class="grad-text">search</span></h1>
+    <p class="lead">
+      We research information retrieval — from formal models and neural ranking to large
+      language models and health search — building search technologies that help people
+      find better answers and make better decisions.
+    </p>
+
+    <form class="hero-search" role="search" aria-label="Search ielab publications">
+      {% include icon.html name="search" size=19 %}
+      <input type="text" aria-label="Search our publications" autocomplete="off">
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="/publications/">Explore our research {% include icon.html name="arrow-right" size=15 %}</a>
+      <a class="btn btn-ghost" href="/student-projects">Join the lab</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat"><div class="num">{{ pubs_stat }}</div><div class="label">Publications by current members</div></div>
+      <div class="stat"><div class="num">{{ n_active }}</div><div class="label">Active members</div></div>
+      <div class="stat"><div class="num">{{ n_projects }}</div><div class="label">Research projects</div></div>
+      <div class="stat"><div class="num">{{ n_grants }}</div><div class="label">Funded grants</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Research areas ============ -->
+<section class="section section-soft">
+  <div class="container">
+    <span class="eyebrow">What we work on</span>
+    <div class="section-head">
+      <h2>Research areas</h2>
+      <a class="more-link" href="/projects/">All projects {% include icon.html name="arrow-right" size=15 %}</a>
+    </div>
+    <div class="grid grid-3">
+      <div class="card feature-card" data-reveal>
+        <div class="icon-tile">{% include icon.html name="function" size=24 %}</div>
+        <h3>Formal Models of IR</h3>
+        <p>Retrieval models, learning to rank, dense and neural retrieval, user models, and
+        the rigorous evaluation of information retrieval systems.</p>
+      </div>
+      <div class="card feature-card" data-reveal>
+        <div class="icon-tile">{% include icon.html name="heart-pulse" size=24 %}</div>
+        <h3>Health Search &amp; Data Science</h3>
+        <p>Consumer health search, clinical decision support, precision medicine, search for
+        systematic review compilation, and cohort selection for clinical trials.</p>
+      </div>
+      <div class="card feature-card" data-reveal>
+        <div class="icon-tile">{% include icon.html name="sparkles" size=24 %}</div>
+        <h3>Generative &amp; Domain-Specific IR</h3>
+        <p>Large language models for retrieval and ranking, safe and reliable generative IR,
+        conversational search, and domain-specific search such as case law retrieval.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Featured projects ============ -->
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">Highlighted work</span>
+    <div class="section-head">
+      <h2>Featured projects</h2>
+      <a class="more-link" href="/projects/">All projects {% include icon.html name="arrow-right" size=15 %}</a>
+    </div>
+    <div class="grid grid-3">
+      {%- assign shown = 0 -%}
+      {%- for project in site.projects -%}
+        {%- if project.featured == true and shown < 6 -%}
+          {%- assign shown = shown | plus: 1 -%}
+          {% include project-card.html project=project %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- ============ Recent publications ============ -->
+<section class="section section-soft">
+  <div class="container">
+    <span class="eyebrow">Fresh off the press</span>
+    <div class="section-head">
+      <h2>Recent publications</h2>
+      <a class="more-link" href="/publications/">Highlighted lab publications {% include icon.html name="arrow-right" size=15 %}</a>
+    </div>
+    <ul class="pub-list">
+      {%- if oa_meta and oa_meta.recent.size > 0 -%}
+        {%- for work in oa_meta.recent limit: 5 -%}
+        {% include oa-pub-item.html work=work %}
+        {%- endfor -%}
+      {%- else -%}
+        {%- assign recent = site.publications | sort: "year" | reverse -%}
+        {%- for pub in recent limit: 5 -%}
+        {% include pub-item.html pub=pub %}
+        {%- endfor -%}
+      {%- endif -%}
+    </ul>
+  </div>
+</section>
+
+<!-- ============ News ============ -->
+<section class="section">
+  <div class="container">
+    <span class="eyebrow">What's happening</span>
+    <div class="section-head">
+      <h2>Latest news</h2>
+      <a class="more-link" href="/posts/">News archive {% include icon.html name="arrow-right" size=15 %}</a>
+    </div>
+    <div class="grid grid-3">
+      {%- for post in site.posts limit: 3 -%}
+      {% include post-card.html post=post %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<!-- ============ Team band ============ -->
+<section class="section" style="padding-top: 0;">
+  <div class="container">
+    <div class="team-band" data-reveal>
+      <div class="band-inner">
+        <div>
+          <span class="eyebrow" style="color: rgba(255,255,255,0.85);">Our people</span>
+          <h2>We work hard, and we play hard.</h2>
+          <p>
+            ielab brings together {{ n_active }} researchers at The University of Queensland and
+            collaborators at CSIRO, the University of Strathclyde, and beyond. If you are
+            interested in information retrieval, come and have a chat!
+          </p>
+        </div>
+        <div class="hero-ctas" style="margin: 0;">
+          <a class="btn btn-ghost" href="/people/">Meet the team</a>
+          <a class="btn btn-primary" href="/student-projects">Open student projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

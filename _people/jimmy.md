@@ -5,6 +5,7 @@ github: //github.com/jimmyoentung
 website: 
 image: /images/jimmy-finish-gc-crop.jpg
 scholar: //scholar.google.com.au/citations?user=jCAGJSsAAAAJ&hl=en
+openalex: A5024499115
 role: alumni
 description: PhD student, UQ & UBAYA, Search Engines that Help People Make Better Health Decisions.
 ---
