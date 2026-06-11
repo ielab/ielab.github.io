@@ -1,41 +1,52 @@
-# Projects
+---
+layout: default
+title: Projects
+permalink: /projects/
+redirect_from:
+  - /projects.html
+---
+{% include page-hero.html
+   eyebrow="What we build"
+   title="Projects"
+   lead="The ielab works on a diversity of research projects in information retrieval, data science, and health informatics — many with associated open-source software and datasets." %}
 
-The ielab works on a diversity of research projects in the fields of information retrieval, data science, and health informatics. Research strengths include:
+<div class="section" style="padding-top: 56px;">
+  <div class="container">
 
-* **Formal models of Information Retrieval:** retrieval models, learning to rank, deep learning, user models, evaluation of information retrieval systems. 
-* **Health Search and Health Data Science:** models, systems, evaluation for tasks in consumer health search, clinical decision support, precision medicine, search for systematic review compilation, cohort selection for clinical trials.
-* **Domain-specific search:** case law retrieval.
-
-## Current highlighted projects
-
-<div class="flex two four-600">
-{%- for project in site.projects -%}
-    {%- if project.featured == true -%}
-    <div>
-        <article class="card">
-            <img src="{{- project.image -}}">
-            <footer>
-                <a href="{{- project.url -}}">{{- project.name -}}</a>
-            </footer>
-        </article>
+    <div class="grid grid-3">
+      {%- for project in site.projects -%}
+        {%- if project.featured == true -%}
+          {% include project-card.html project=project %}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for project in site.projects -%}
+        {%- unless project.featured == true -%}
+          {% include project-card.html project=project %}
+        {%- endunless -%}
+      {%- endfor -%}
     </div>
-    {%- endif -%}
-{%- endfor -%}
+
+    <div class="prose" style="margin-top: 4rem;">
+      <h2>Open-source software &amp; demonstrators</h2>
+      <p>GitHub repositories associated with ielab projects and initiatives:</p>
+      <ul>
+        <li><a href="https://ielab.io/publications/agask-agent">AgAsk</a>: An agricultural conversational search agent for answering comprehensive questions.</li>
+        <li><a href="https://ielab.io/searchrefiner">searchrefiner</a>: A query visualisation and understanding tool for systematic reviews.</li>
+        <li><a href="https://ielab.io/querylab">querylab</a>: A query visualisation and understanding tool for systematic reviews.</li>
+        <li><a href="https://github.com/ielab/inst_eval">INST eval</a>: Python implementation of the INST evaluation measure from Moffat et al.</li>
+        <li><a href="https://github.com/ielab/relevation">Relevation</a>: Information retrieval relevance judging system.</li>
+        <li><a href="https://github.com/ielab/query_generation">query generation</a>: An annotator toolkit for creating manual queries from clinical decision support scenarios.</li>
+        <li><a href="https://github.com/ielab/adcs2015-NTLM">NLTM</a>: Implementation of Neural Translation Language Models, along with embeddings and experimental data/results, associated with the article by <a href="/people/guido-zuccon">G. Zuccon</a>, <a href="/people/bevan-koopman">B. Koopman</a>, P. Bruza, <a href="/people/leif-azzopardi">L. Azzopardi</a>, "Integrating and Evaluating Neural Word Embeddings in Information Retrieval", ADCS 2015.</li>
+      </ul>
+
+      <h2>Collections &amp; datasets</h2>
+      <ul>
+        <li><a href="https://github.com/ielab/ussc-caselaw-collection">USSC Caselaw Collection</a>: A collection for evaluating case law IR systems.</li>
+        <li><a href="https://github.com/ielab/SIGIR2017-PICO-Collection">SIGIR2017 Systematic Reviews Collection</a>: A collection for evaluating IR systems for systematic reviews, with PICO annotations.</li>
+      </ul>
+
+      <p>Find more on the <a href="https://github.com/ielab">ielab GitHub organisation →</a></p>
+    </div>
+
+  </div>
 </div>
-
-### GitHub repositories associated to ielab projects and initiatives
-
-#### Tools, software and demonstrators
-
-* [AgAsk](https://ielab.io/publications/agask-agent): An Agricultural conversational search agent for answering comprehensive questions.
-* [searchrefiner](https://ielab.io/searchrefiner): A Query Visualisation and Understanding tool for Systematic Reviews.
-* [querylab](https://ielab.io/querylab): A Query Visualisation and Understanding tool for Systematic Reviews.
-* [INST eval](https://github.com/ielab/inst_eval): Python implementation of the INST evaluation measure from Moffat et al.
-* [Relevation](https://github.com/ielab/relevation): Information Retrieval Relevance Judging System
-* [query generation](https://github.com/ielab/query_generation): An annotator toolkit for creating manual queries from clinical decision support scenarios.
-* [NLTM](https://github.com/ielab/adcs2015-NTLM): Implementation of Neural Translation Language Models, along with embeddings and experimental data/results, associated with the article by [G. Zuccon](/people/guido-zuccon), [B. Koopman](/people/bevan-koopman), P. Bruza, [L. Azzopardi](/people/leif-azzopardi), "Integrating and Evaluating Neural Word Embeddings in Information Retrieval", ADCS 2015.
-
-#### Collections and datasets
-
-* [USSC Caselaw Collection](https://github.com/ielab/ussc-caselaw-collection): A collection for evaluating Case Law IR systems
-* [SIGIR2017 Systematic Reviews Collection](https://github.com/ielab/SIGIR2017-PICO-Collection): A collection for evaluating IR systems for Systematic Reviews, with PICO annotations

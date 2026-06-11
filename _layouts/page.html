@@ -1,0 +1,11 @@
+---
+layout: default
+---
+{% if page.title %}
+{% include page-hero.html eyebrow=page.eyebrow title=page.title lead=page.lead %}
+{% endif %}
+<div class="section" style="padding-top: 56px;">
+  <div class="{% if page.wide %}container{% else %}container-narrow{% endif %} prose">
+    {{ content }}
+  </div>
+</div>

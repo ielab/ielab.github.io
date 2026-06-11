@@ -1,0 +1,15 @@
+{%- assign proj = include.project -%}
+<div class="card project-card" data-reveal>
+  <a class="thumb" href="{{ proj.url | relative_url }}" aria-label="{{ proj.name }}">
+    {%- if proj.image and proj.image != "" -%}
+    <img src="{{ proj.image | relative_url }}" alt="{{ proj.name }}" loading="lazy">
+    {%- endif -%}
+  </a>
+  <div class="card-body">
+    <h3><a href="{{ proj.url | relative_url }}">{{ proj.name }}</a></h3>
+    <div class="meta">
+      {%- assign n = proj.people | size -%}
+      {{ n }} member{% if n != 1 %}s{% endif %} involved
+    </div>
+  </div>
+</div>

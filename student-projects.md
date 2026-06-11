@@ -1,5 +1,8 @@
-# Available Student Projects
-
+---
+layout: page
+title: Student Projects
+eyebrow: Join us
+lead: "Open PhD, Masters, Honours, and undergraduate research projects at ielab. Interested? Get in touch — we welcome motivated students who want to work on information retrieval."
 ---
 
 ## PhD Projects

@@ -1,0 +1,39 @@
+{%- assign pub = include.pub -%}
+{%- assign n_authors = pub.authors | size -%}
+{%- capture authors_html -%}
+  {%- for involved in pub.authors -%}
+    {%- assign found_person = nil -%}
+    {%- for person in site.people -%}
+      {%- assign pslug = person.id | split: "/" | last -%}
+      {%- if pslug == involved -%}{%- assign found_person = person -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if found_person -%}<a href="{{ found_person.url | relative_url }}">{{ found_person.name }}</a>{%- else -%}{{ involved }}{%- endif -%}
+    {%- unless forloop.last -%}{%- if forloop.rindex == 2 %} and {% else %}, {% endif -%}{%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- capture authors_text -%}
+  {%- for involved in pub.authors -%}
+    {%- assign found_person = nil -%}
+    {%- for person in site.people -%}
+      {%- assign pslug = person.id | split: "/" | last -%}
+      {%- if pslug == involved -%}{%- assign found_person = person -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if found_person -%}{{ found_person.name }}{%- else -%}{{ involved }}{%- endif -%}
+    {%- unless forloop.last -%}{%- if forloop.rindex == 2 %} and {% else %}, {% endif -%}{%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- capture citation -%}{{ authors_text | strip }}. {{ pub.year }}. {{ pub.title }}. In {{ pub.venue }}.{%- endcapture -%}
+<li class="pub-item" data-year="{{ pub.year }}" data-search="{{ pub.title | escape }} {{ authors_text | strip | escape }} {{ pub.venue | escape }} {{ pub.year }}">
+  <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+  <div class="pub-authors">{{ authors_html }}</div>
+  <div class="pub-venue">{{ pub.venue }} · {{ pub.year }}</div>
+  <div class="pub-actions">
+    {%- if pub.pdf and pub.pdf != "" -%}
+    <a class="btn btn-ghost btn-sm" href="{{ pub.pdf | relative_url }}">{% include icon.html name="file" size=13 %} PDF</a>
+    {%- endif -%}
+    {%- for link in pub.links -%}
+    <a class="btn btn-ghost btn-sm" href="{{ link.url }}" target="_blank" rel="noopener">{% include icon.html name="external" size=13 %} {{ link.name }}</a>
+    {%- endfor -%}
+    <button class="btn btn-ghost btn-sm" type="button" data-cite="{{ citation | escape }}">{% include icon.html name="copy" size=13 %} <span class="cite-label">Cite</span></button>
+  </div>
+</li>

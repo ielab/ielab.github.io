@@ -1,4 +1,8 @@
-# Payoffs and Pitfalls in using Knowledge-Bases for Consumer Health Search
+---
+layout: page
+title: "Payoffs and Pitfalls in using Knowledge-Bases for Consumer Health Search"
+eyebrow: Paper appendix
+---
 
 Appendix for Jimmy, G. Zuccon, B. Koopman, Payoffs and Pitfalls in using Knowledge-Bases for Consumer Health Search, submitted to Information Retrieval Journal, May 2018.
 

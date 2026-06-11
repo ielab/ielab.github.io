@@ -1,4 +1,8 @@
-# On the Volatility of Commercial Search Engines and its Impact on Information Retrieval Research
+---
+layout: page
+title: "On the Volatility of Commercial Search Engines and its Impact on Information Retrieval Research"
+eyebrow: Paper appendix
+---
 #### Jimmy, Guido Zuccon, and Gianluca Demartini
 
 

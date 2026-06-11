@@ -4,7 +4,8 @@ twitter:
 github: 
 website: 
 image: /images/monica-noselli.jpg
-scholar: https://scholar.google.co.uk/citations?user=p_FdT_YAAAAJ&hl=en
+scholar: //scholar.google.co.uk/citations?user=p_FdT_YAAAAJ&hl=en
+openalex: A5039797000
 role: staff
 description: Research Assistant with interest in Visual Data Analytics
 ---

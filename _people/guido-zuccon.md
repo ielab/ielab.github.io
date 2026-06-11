@@ -1,13 +1,15 @@
 ---
 name: Guido Zuccon
 redirect_from: /guido
-twitter: //twitter.com/guidozuc
+twitter: //x.com/guidozuc
 twitter-timeline: true
 orcid: 0000-0003-0271-5563
 github: //github.com/guidozuc
 website: //ielab.io/people/guido-zuccon
 image: /images/guido-zuccon-scaled.jpg
 scholar: //scholar.google.com.au/citations?user=aEVHhC8AAAAJ
+openalex: A5076031002
+openalex_filter: off
 role: staff
 description: Professor, UQ.
 ---

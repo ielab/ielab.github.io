@@ -1,0 +1,15 @@
+{%- assign p = include.person -%}
+<div class="card person-card" data-reveal>
+  <a href="{{ p.url | relative_url }}" aria-label="{{ p.name }}">
+    {%- if p.image and p.image != "" -%}
+    <img class="avatar" src="{{ p.image | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    {%- else -%}
+    <img class="avatar" src="{{ '/images/blank-profile-picture.png' | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    {%- endif -%}
+  </a>
+  <h3><a href="{{ p.url | relative_url }}">{{ p.name }}</a></h3>
+  {%- if p.description -%}
+  <div class="role-line">{{ p.description }}</div>
+  {%- endif -%}
+  {% include person-links.html person=p %}
+</div>

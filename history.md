@@ -1,13 +1,25 @@
-# ielab History
+---
+layout: page
+title: Lab History
+eyebrow: Through the years
+lead: A photo archive of the ielab group at The University of Queensland.
+---
 
-## 2021
+<div class="history-grid">
 
-<img src="/images/group2021.png" style="width:70%; margin-left: 15%" alt="ielab group members at The University of Queensland in 2021.">
+<figure>
+  <img src="/images/group2021.png" alt="ielab group members at The University of Queensland in 2021.">
+  <figcaption>The ielab group in 2021</figcaption>
+</figure>
 
-## 2020
+<figure>
+  <img src="/images/group2020.jpg" alt="ielab group members at The University of Queensland in 2020.">
+  <figcaption>The ielab group in 2020</figcaption>
+</figure>
 
-<img src="/images/group2020.jpg" style="width:70%; margin-left: 15%" alt="ielab group members at The University of Queensland in 2020.">
+<figure>
+  <img src="/images/groupOct2019.jpeg" alt="ielab group members at The University of Queensland in 2019.">
+  <figcaption>The ielab group in October 2019</figcaption>
+</figure>
 
-## 2019
-
-<img src="/images/groupOct2019.jpeg" style="width:70%; margin-left: 15%" alt="ielab group members at The University of Queensland in 2019.">
+</div>

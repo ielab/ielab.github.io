@@ -1,10 +1,11 @@
 ---
 name: Shuyi Wang
-twitter: //twitter.com/shuyiwang_karly
+image: /images/karly.jpeg
+twitter: //x.com/shuyiwang_karly
 github: //github.com/Karlywang
 website: 
-image: /images/karly.jpeg
-scholar: 
-role: phd
-description: PhD student, UQ.  
+scholar:
+openalex: A5100734860
+role: alumni
+description: Postdoctoral Research Fellow and PhD graduate, UQ.
 ---

@@ -1,0 +1,11 @@
+<div class="page-hero">
+  <div class="container">
+    {%- if include.eyebrow -%}
+    <span class="eyebrow">{{ include.eyebrow }}</span>
+    {%- endif -%}
+    <h1>{{ include.title }}</h1>
+    {%- if include.lead -%}
+    <p class="lead">{{ include.lead }}</p>
+    {%- endif -%}
+  </div>
+</div>
