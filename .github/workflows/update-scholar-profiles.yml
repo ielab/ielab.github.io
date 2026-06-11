@@ -1,0 +1,59 @@
+name: Refresh Scholar ground truth
+
+# Refreshes _data/scholar_profiles.json — the snapshot of every member's
+# Google Scholar profile that serves as the ground truth for their
+# publication list — then rebuilds _data/openalex.json against it.
+#
+# Uses SerpApi (https://serpapi.com, google_scholar_author engine) because
+# Google blocks direct Scholar requests from datacenter IPs. A full refresh
+# of ~30 profiles costs ~45-55 API searches; SerpApi's free tier allows 100
+# per month, which is why this runs MONTHLY (weekly would exceed the quota).
+#
+# Setup (once): create a free SerpApi account, then add its API key as the
+# repository secret SERPAPI_KEY (Settings → Secrets and variables → Actions).
+# Without the secret this workflow fails fast with a clear message — you can
+# always refresh locally instead: `python3 _scripts/update_publications.py
+# --scholar` (no key needed from a residential IP), then commit.
+
+on:
+  schedule:
+    # 1st of every month, 03:00 Brisbane time (17:00 UTC the previous day)
+    - cron: "0 17 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh Scholar profile snapshots (SerpApi)
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python3 _scripts/update_publications.py --scholar
+
+      - name: Rebuild publication records against the new ground truth
+        env:
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+        run: python3 _scripts/update_publications.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar_profiles.json _data/openalex.json
+          if git diff --cached --quiet; then
+            echo "No Scholar profile changes this month."
+          else
+            git commit -m "chore: refresh Scholar ground truth and publication records"
+            git push
+          fi

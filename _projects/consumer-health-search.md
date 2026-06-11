@@ -1,7 +1,7 @@
 ---
 name: Consumer Health Search
 image: /images/projects/chs.jpg
-featured: true
+featured: false
 people: [sebastian-cross, jimmy, guido-zuccon, bevan-koopman, joao-palotti]
 ---
 

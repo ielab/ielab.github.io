@@ -1,0 +1,46 @@
+name: Update member publications
+
+# Refreshes _data/openalex.json from the free OpenAlex API and commits the
+# result. The commit lands on master, which triggers the normal GitHub Pages
+# build — so member publication lists stay current without manual edits.
+
+on:
+  schedule:
+    # Every Monday 04:00 Brisbane time (Sunday 18:00 UTC)
+    - cron: "0 18 * * 0"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch publication records from OpenAlex
+        env:
+          # Optional: set an OPENALEX_MAILTO repository variable (Settings →
+          # Secrets and variables → Actions → Variables) with a contact email
+          # to use OpenAlex's faster "polite pool".
+          OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
+        run: python3 _scripts/update_publications.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/openalex.json
+          if git diff --cached --quiet; then
+            echo "No publication changes this week."
+          else
+            git commit -m "chore: refresh member publications from OpenAlex"
+            git push
+          fi

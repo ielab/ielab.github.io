@@ -1,25 +1,35 @@
 ---
 layout: default
+title: Grants
+permalink: /grants/
+redirect_from:
+  - /grants.html
 ---
+{% include page-hero.html
+   eyebrow="Funding"
+   title="Grants"
+   lead="Our research is supported by competitive national and international funding schemes, industry partnerships, and philanthropic programs." %}
 
-# Grants
+<div class="section" style="padding-top: 56px;">
+  <div class="container">
 
-<div class="flex">
-{% for grant in site.grants %}
-<div class="flex one four-600 card" style="padding: 1em;">
-    <div>
-        <div style="width: 128px; height: 128x; margin:auto; display:block">
-            {% if grant.image%}
-            <img src="{{ grant.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-            {% endif %}
+    <div class="grid grid-2">
+      {%- for grant in site.grants -%}
+      <div class="card grant-card" data-reveal>
+        {%- if grant.image and grant.image != "" -%}
+        <img class="grant-logo" src="{{ grant.image | relative_url }}" alt="" loading="lazy">
+        {%- endif -%}
+        <div>
+          <h3><a href="{{ grant.url | relative_url }}">{{ grant.description }}</a></h3>
+          <div class="scheme">{{ grant.name }}</div>
+          <div class="grant-meta">
+            {%- if grant.value -%}<span class="chip">{{ grant.value }}</span>{%- endif -%}
+            {%- if grant.years -%}<span class="chip chip-outline">{{ grant.years }}</span>{%- endif -%}
+          </div>
         </div>
-    </div>        
-    <div class="two-third">
-    	<p>{{ grant.name }}</p>
-        <a href="{{ grant.id }}" style="display:block">{{ grant.description }}</a>
-      	<p>Value: {{ grant.value }}</p>
-     	<p>Funding years: {{ grant.years }}</p>
+      </div>
+      {%- endfor -%}
     </div>
-</div>
-{% endfor %}
+
+  </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 name: QUIET
 image: /images/projects/quiet.jpg
-featured: true
+featured: false
 people: [anton-van-der-vegt, guido-zuccon, daniel-locke, monica-noselli]
 ---

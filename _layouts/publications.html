@@ -1,61 +1,65 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
-<div>
-    <small>{{ page.year }} | {{ page.venue }}</small>
+{%- assign slug = page.id | split: "/" | last -%}
+{%- assign n_authors = page.authors | size -%}
+{%- capture authors_text -%}
+  {%- for involved in page.authors -%}
+    {%- assign found_person = nil -%}
+    {%- for person in site.people -%}
+      {%- assign pslug = person.id | split: "/" | last -%}
+      {%- if pslug == involved -%}{%- assign found_person = person -%}{%- break -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if found_person -%}{{ found_person.name }}{%- else -%}{{ involved }}{%- endif -%}
+    {%- unless forloop.last -%}{%- if forloop.rindex == 2 %} and {% else %}, {% endif -%}{%- endunless -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- capture citation -%}{{ authors_text | strip }}. {{ page.year }}. {{ page.title }}. In {{ page.venue }}.{%- endcapture -%}
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Publication · {{ page.year }}</span>
+    <h1 style="max-width: 24em;">{{ page.title }}</h1>
+    <p class="lead" style="font-style: italic;">{{ page.venue }}</p>
+  </div>
 </div>
-<div>
-    <a class="button" href="https://twitter.com/intent/tweet?source=https://ielab.io{{ page.url }}&text={{ page.title }} - https://ielab.io{{ page.url }}" target="_blank" title="Tweet">Share via twitter</a>
-    <a class="button" href="mailto:?subject={{ page.title }}&body=https://ielab.io{{ page.url }}" target="_blank" title="Send email">Share via email</a>
-    {% if page.pdf != nil %}
-    <a class="button" href="{{ page.pdf }}">Download PDF</a>
-    {% endif %}
-    {% for link in page.links %}
-    <a class="button" href="{{- link.url -}}">{{- link.name -}}</a>
-    {% endfor %}
+
+<div class="section" style="padding-top: 48px;">
+  <div class="container">
+
+    <div class="author-chips" data-reveal>
+      {%- for involved in page.authors -%}
+      {% include author-chip.html slug=involved %}
+      {%- endfor -%}
+    </div>
+
+    <div class="action-row">
+      {%- if page.pdf and page.pdf != "" -%}
+      <a class="btn btn-primary" href="{{ page.pdf | relative_url }}">{% include icon.html name="file" size=16 %} Download PDF</a>
+      {%- endif -%}
+      {%- for link in page.links -%}
+      <a class="btn btn-ghost" href="{{ link.url }}" target="_blank" rel="noopener">{% include icon.html name="external" size=15 %} {{ link.name }}</a>
+      {%- endfor -%}
+      <button class="btn btn-ghost" type="button" data-cite="{{ citation | escape }}">{% include icon.html name="copy" size=15 %} <span class="cite-label">Copy citation</span></button>
+      <a class="btn btn-ghost" href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}%20-%20https://ielab.io{{ page.url }}" target="_blank" rel="noopener">{% include icon.html name="twitter" size=14 %} Share</a>
+    </div>
+
+    {%- if page.projects -%}
+    <div class="meta-chips">
+      {%- for proj_slug in page.projects -%}
+        {%- for proj in site.projects -%}
+          {%- assign ps = proj.id | split: "/" | last -%}
+          {%- if ps == proj_slug -%}
+          <a class="chip" href="{{ proj.url | relative_url }}">{{ proj.name }}</a>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+
+    <div class="prose" style="max-width: 56em;">
+      {{ content }}
+    </div>
+
+  </div>
 </div>
-<hr/>
-<b>Authors:</b>
-<!-- @formatter:off -->
-{% assign author = site.people | where:'group', post.authors %}
-<div class="flex four">
-    {% for involved in page.authors %}
-    {% assign found = false %}
-    {% for person in site.people %}
-        {% assign path = person.id | split: "/" %}
-        {% assign id = path[2] %}
-        {% if id == involved %}
-            {% assign found = true %}
-            <div>
-                <article class="card">
-                    <div style="height: 120px; margin:auto; display:block">
-                        {% if person.image == nil %}
-                        <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-                        {% else %}
-                        <img src="{{ person.image }}" style="max-height: 100%; width: 100%; object-fit: cover">
-                        {% endif %}
-                    </div>
-                    <footer>
-                        <a href="{{ person.url }}">{{ person.name }}</a>
-                    </footer>
-                </article>
-            </div>
-        {% endif %}
-        {% endfor %}
-        {% if found == false %}
-            <div>
-                <article class="card">
-                    <div style="height: 120px; margin:auto; display:block">
-                        <img src="/images/blank-profile-picture.png" style="max-height: 100%; width: 100%; object-fit: cover">
-                    </div>
-                    <footer>
-                        {{ involved }}
-                    </footer>
-                </article>
-            </div>
-        {% endif %}
-    {% endfor %}
-</div>
-{{ content }}
-<!-- @formatter:on -->

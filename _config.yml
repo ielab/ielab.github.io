@@ -1,15 +1,34 @@
 title: ielab
-description: Information Engineering Lab
-google_analytics:
-show_downloads: false
+tagline: The Information Engineering Lab
+description: >-
+  The Information Engineering Lab (ielab) at The University of Queensland researches
+  information retrieval — search engine technology, neural ranking, large language models,
+  and health search — building search technologies that help people make better decisions.
+url: "https://ielab.io"
 logo: /images/ielab-logo.001.png
+timezone: Australia/Brisbane
 
-paginate: 5
+# Set to a GA4 measurement ID (G-XXXXXXX) to enable Google Analytics.
+google_analytics:
+
+# Social / external profiles
+github_username: ielab
+twitter_username: ielabgroup
+youtube_url: https://www.youtube.com/channel/UC7mjnKA-liXtRJQegFmW4bA/
+
+show_downloads: false
+
+paginate: 6
 paginate_path: "/posts/page-:num/"
 
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
 
 collections:
   projects:
