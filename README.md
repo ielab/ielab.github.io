@@ -225,7 +225,7 @@ e.g. `/people/firstname-lastname`):
 ---
 name: Person Display Name
 image: /images/firstname-lastname.jpg   # add the photo to images/ (square crop looks best)
-role: phd                # staff | phd | mphil | external | alumni — or a list: [staff, alumni]
+role: phd                # staff | research-fellow | phd | mphil | external | alumni — or a list: [staff, alumni]
 alumni: true             # optional, marks the person as alumni regardless of role
 description: PhD student, UQ. One-line bio shown on cards and the profile page.
 website: //example.com

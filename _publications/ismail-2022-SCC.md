@@ -4,7 +4,7 @@ authors: [ismail-sabei,ahmed-mourad, guido-zuccon]
 title: "SCC - A Test Collection for Search in Chat Conversations"
 venue: Proceedings of the 31st ACM International Conference on Information & Knowledge Management October 2022 (CIKM 22)
 year: 2022
-pdf: /publications/pdfs/ismail-2022-SCC.pdf
+pdf: /publications/pdfs/SCC_test_collectiom.pdf
 links:
  - url: https://github.com/ielab/SCC
    name: Code and Data

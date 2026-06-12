@@ -3,7 +3,7 @@ authors: [bevan-koopman, guido-zuccon]
 title: "A Test Collection for Matching Patients to Clinical Trials"
 venue: "The 39th International ACM SIGIR Conference on Research & Development in Information Retrieval"
 year: 2016
-pdf: /publications/pdfs/zuccon2016matching.pdf
+pdf: /publications/pdfs/koopman2016matching.pdf
 ---
 
 ## Abstract 

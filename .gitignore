@@ -1,4 +1,22 @@
-.sass-cache
-_site
+# Jekyll/Ruby build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local dependencies
+.bundle/
+vendor/bundle/
+node_modules/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS/editor files
 .DS_Store
 .idea/
+.vscode/
+*.swp
+*.swo

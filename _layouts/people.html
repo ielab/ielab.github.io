@@ -15,7 +15,7 @@ layout: default
         <span class="eyebrow">ielab member</span>
         <h1>{{ page.name }}</h1>
         <div class="role-badges">
-          {%- if page.role contains "staff" -%}<span class="chip">Research Staff</span>{%- endif -%}
+          {%- if page.role contains "research-fellow" -%}<span class="chip">Research Fellow</span>{%- elsif page.role contains "staff" -%}<span class="chip">Research Staff</span>{%- endif -%}
           {%- if page.role contains "phd" -%}<span class="chip">PhD Student</span>{%- endif -%}
           {%- if page.role contains "mphil" -%}<span class="chip">MPhil Student</span>{%- endif -%}
           {%- if page.role contains "external" -%}<span class="chip">External Member</span>{%- endif -%}
