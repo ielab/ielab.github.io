@@ -2,7 +2,7 @@
 name: Conversational Search
 image: /images/projects/conversational-search.jpeg
 featured: false
-people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad, Sebastian-cross]
+people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad, sebastian-cross]
 ---
 
 ## About This Project

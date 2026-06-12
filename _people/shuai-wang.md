@@ -6,6 +6,6 @@ github: //github.com/wshuai190
 website: //wshuai190.github.io/
 scholar: //scholar.google.com/citations?hl=en&user=JDKYomkAAAAJ
 openalex: A5100328263
-role: staff
-description: Postdoc, UQ, Domain-specific Search, Information Retrieval, and NLP.
+role: [staff, research-fellow]
+description: Research Fellow, UQ, Domain-specific Search, Information Retrieval, and NLP.
 ---

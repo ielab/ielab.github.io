@@ -1,6 +1,6 @@
 ---
 redirect_from: /outcome-evaluation
-authors: [wojciech-kusa, guido-zuccon, petr-knoth, allan-hanbury]
+authors: [wojciech-kusa, guido-zuccon, "Petr Knoth", "Allan Hanbury"]
 title: "Outcome-based Evaluation of Systematic Review Automation?"
 venue: Proceedings of the the 13th International Conference on the Theory of Information Retrieval (ICTIR '23)
 year: 2023
