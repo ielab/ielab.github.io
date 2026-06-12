@@ -5,7 +5,7 @@ featured: false
 people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad, Sebastian-cross]
 ---
 
-## About this project
+## About This Project
 
 To be updated
 

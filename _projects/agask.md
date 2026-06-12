@@ -5,7 +5,7 @@ featured: false
 people: [hang-li, guido-zuccon, bevan-koopman, anton-van-der-vegt, ahmed-mourad]
 ---
 
-## About this project
+## About This Project
 
 Valuable grains R&D output is currently locked away into project reports, communications and scientific publications. This text-based information is not easily discoverable and synthesised. Thus growers are not able to put into practice these valuable insights.
 

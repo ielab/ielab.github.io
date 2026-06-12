@@ -5,7 +5,7 @@ featured: true
 people: [shuai-wang, shengyao-zhuang, shuyi-wang, guido-zuccon, bevan-koopman]
 ---
 
-## About this project
+## About This Project
 
 The **Scalable Generative Information Retrieval (IR)** project investigates how generative models can be applied to information retrieval tasks in a scalable and efficient manner. Our goal is to develop retrieval systems that leverage large language models (LLMs) while remaining practical for real-world applications, such as domain-specific search and systematic reviews.
 

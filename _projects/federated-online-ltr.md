@@ -5,7 +5,7 @@ featured: false
 people: [shuyi-wang, shengyao-zhuang, guido-zuccon]
 ---
 
-## About this project
+## About This Project
 
 To be updated
 

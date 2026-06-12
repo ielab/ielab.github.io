@@ -27,7 +27,7 @@ redirect_from:
     </div>
 
     <div class="prose" style="margin-top: 4rem;">
-      <h2>Open-source software &amp; demonstrators</h2>
+      <h2>Open-Source Software &amp; Demonstrators</h2>
       <p>GitHub repositories associated with ielab projects and initiatives:</p>
       <ul>
         <li><a href="https://ielab.io/publications/agask-agent">AgAsk</a>: An agricultural conversational search agent for answering comprehensive questions.</li>
@@ -39,7 +39,7 @@ redirect_from:
         <li><a href="https://github.com/ielab/adcs2015-NTLM">NLTM</a>: Implementation of Neural Translation Language Models, along with embeddings and experimental data/results, associated with the article by <a href="/people/guido-zuccon">G. Zuccon</a>, <a href="/people/bevan-koopman">B. Koopman</a>, P. Bruza, <a href="/people/leif-azzopardi">L. Azzopardi</a>, "Integrating and Evaluating Neural Word Embeddings in Information Retrieval", ADCS 2015.</li>
       </ul>
 
-      <h2>Collections &amp; datasets</h2>
+      <h2>Collections &amp; Datasets</h2>
       <ul>
         <li><a href="https://github.com/ielab/ussc-caselaw-collection">USSC Caselaw Collection</a>: A collection for evaluating case law IR systems.</li>
         <li><a href="https://github.com/ielab/SIGIR2017-PICO-Collection">SIGIR2017 Systematic Reviews Collection</a>: A collection for evaluating IR systems for systematic reviews, with PICO annotations.</li>

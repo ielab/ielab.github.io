@@ -6,7 +6,7 @@ people: [shengyao-zhuang, hang-li, shuai-wang, guido-zuccon]
 redirect_from: /neuralIR
 ---
 
-## About this project
+## About This Project
 
 To be updated
 
@@ -22,13 +22,13 @@ To be updated
 
 
 
-#### Exploit Relevance Feedback with Transformer-based pre-trained LMs
+#### Exploit Relevance Feedback with Transformer-Based Pre-Trained LMs
 
 To be updated
 
 
 
-#### Do Dense Retrievers Require Interpolation with bag-of-words?
+#### Do Dense Retrievers Require Interpolation with Bag-of-Words?
 
 To be updated
 

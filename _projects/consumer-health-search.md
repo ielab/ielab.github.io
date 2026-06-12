@@ -5,22 +5,22 @@ featured: false
 people: [sebastian-cross, jimmy, guido-zuccon, bevan-koopman, joao-palotti]
 ---
 
-## About this project
+## About This Project
 
 This project seeks to assist the general public in using search engines to make well-informed health decisions. While the general public belief that they were being effective in searching for health information online, they were, in fact, relying on incorrect health advise.
 
 This project specifically aims to assist the general public in formulating better health queries, understanding health search results and making well-informed health decisions. See below for a list of relevant publications.
 
-### On the effectiveness of search engines in finding medical self-diagnosis information (ECIR 2015 paper)
+### On the Effectiveness of Search Engines in Finding Medical Self-Diagnosis Information (ECIR 2015 paper)
 
 We have received substantial media attention for a work we have published in March 2015 at the European Conference on Information Retrieval (ECIR), titled "Diagnose this if you can: On the effectiveness of search engine in finding medical self-diagnosis information". The paper is available from the publisher (Springer), on QUT ePrints , and as a pre-print version. The QUT press release for this story can be found here.
 
 The work described in the paper was developed by Dr Guido Zuccon (at the time at QUT), Dr Bevan Koopman (at the time at CSIRO), and Mr Joao Palotti (at the time at TUW)
 
-#### What this study says, in few words...
+#### What This Study Says, In Few Words...
 In this work, we examined poorly formulated self-diagnosis queries and we found that major search engines were providing irrelevant information that could lead to incorrect self-diagnosis, self-treatment and ultimately possible harm.
 
-#### The long story: More details
+#### The Long Story: More Details
 Surveys have shown people actively use search engines for finding health information online. Search engines provide a wealth of useful information about diseases and illnesses when a person query is well articulated. However, the research we present in this paper shows that for other queries that are poorly formulated and ambiguous, e.g. when a person is trying to describe their own symptoms, then search engines may fail in providing relevant, correct and understandable information. In particular the table below shows the average effectiveness of the two commercial search engines we considered for answering poorly formulated self-diagnosis queries.
 
 The following table reports the effectiveness of two widely used commercial search engines when prompted with (circumlocutory) medical queries aimed at self-diagnosis purposes. Results are averaged over 26 queries. P@k stands for precision at rank k; ndcg@k stands for normalised discounted cumulative gain at rank k.
