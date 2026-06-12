@@ -393,12 +393,23 @@ def scholar_mode():
 # ---------------------------------------------------------------- fetch
 
 
+_GRAPHIC_MARKER = re.compile(r"\[inline-graphic[^\]]*\]", re.IGNORECASE)
+_EMOJI = re.compile("[\U0001F000-\U0001FAFF\U00002600-\U000027BF"
+                    "\U00002B00-\U00002BFF\U0000FE00-\U0000FE0F\U0001F1E6-\U0001F1FF]+")
+
+
 def clean_title(title):
-    """Strip figure alt-text that OpenAlex sometimes prepends to titles of
-    Springer chapters (e.g. 'A sketch of a coffee cup ... minimal detail.
-    Starbucks: Improved Training…'). Real titles this long with multiple
-    sentences are vanishingly rare, so for very long multi-sentence titles
-    keep only the final sentence."""
+    """Normalise messy titles from OpenAlex and Google Scholar:
+    - drop "[inline-graphic …]" placeholders and emoji (a paper with an emoji
+      in its title renders differently on every source - alt text, a
+      placeholder, or the raw emoji - creating spurious variants of one work);
+    - for very long multi-sentence titles (figure alt-text that OpenAlex and
+      Scholar sometimes prepend, e.g. 'A sketch of a coffee cup ... detail.
+      Starbucks: Improved Training…') keep only the final sentence, since
+      real titles of that shape are vanishingly rare."""
+    title = _GRAPHIC_MARKER.sub(" ", title)
+    title = _EMOJI.sub(" ", title)
+    title = re.sub(r"\s+", " ", title).strip()
     if len(title) > 160 and ". " in title:
         candidate = title.rsplit(". ", 1)[-1].lstrip("—–- ").strip()
         if len(candidate) >= 15:
@@ -520,8 +531,15 @@ def match_scholar(scholar_pubs, raw_works):
     """Build a member's publication list with their Google Scholar profile as
     ground truth: every Scholar entry from MIN_YEAR onwards appears exactly
     once - enriched with OpenAlex metadata when a title match exists,
-    otherwise as a stub from the Scholar data itself."""
-    cleaned = [w for w in (clean_work(r) for r in raw_works) if w]
+    otherwise as a stub from the Scholar data itself. Scholar profiles
+    occasionally list the same work twice (typically emoji-in-title variants);
+    rows that resolve to an already-matched work are dropped as duplicates."""
+    cleaned, raw_index = [], []
+    for raw in raw_works:
+        work = clean_work(raw)
+        if work:
+            cleaned.append(work)
+            raw_index.append((norm_title(raw.get("display_name") or ""), work))
     buckets = {}
     for work in cleaned:
         buckets.setdefault(norm_title(work["title"]), []).append(work)
@@ -529,14 +547,28 @@ def match_scholar(scholar_pubs, raw_works):
 
     out, used = [], set()
     for pub in scholar_pubs:
-        if not pub.get("title") or pub.get("year", 0) < MIN_YEAR:
+        raw_title = (pub.get("title") or "").strip()
+        title = clean_title(raw_title)
+        if not title or pub.get("year", 0) < MIN_YEAR:
             continue
-        key = norm_title(pub["title"])
+        pub = dict(pub)
+        pub["title"] = title
+        key = norm_title(title)
         cands = buckets.get(key)
         if not cands:
             close = difflib.get_close_matches(key, keys, n=1, cutoff=0.9)
-            cands = buckets.get(close[0]) if close else None
+            # digit guard: "… Lab 2019" must never fuzzy-match "… Lab 2020"
+            # (series papers differ only in the year digit)
+            if close and re.findall(r"\d+", close[0]) == re.findall(r"\d+", key):
+                cands = buckets.get(close[0])
+        if not cands and raw_title.endswith(("…", "...")):
+            # Scholar truncated the title mid-way; match it as a prefix of
+            # the raw (pre-cleaning) OpenAlex titles instead.
+            prefix = norm_title(raw_title)
+            if len(prefix) >= 30:
+                cands = [w for nraw, w in raw_index if nraw.startswith(prefix)] or None
         pick = None
+        scholar_dupe = False
         if cands:
             avail = [w for w in cands if id(w) not in used]
             if avail:
@@ -544,10 +576,16 @@ def match_scholar(scholar_pubs, raw_works):
                                           w["venue"].lower().startswith("arxiv"),
                                           -w["cited"]))
                 pick = avail[0]
+            else:
+                scholar_dupe = True  # profile lists the same work again
         if pick is not None:
             used.add(id(pick))
+            # keep a meaningfully different Scholar title searchable
+            # (e.g. "Evalugator — …" matched to the OpenAlex "Rapid, Agile …")
+            if norm_title(pick["title"]) != key and not pick.get("alt"):
+                pick["alt"] = title
             out.append(pick)
-        else:
+        elif not scholar_dupe:
             out.append(scholar_stub(pub))
     return out
 
@@ -629,27 +667,79 @@ def fetch():
         print(f"  {member['slug']:28} {len(works):>4} works{note}")
 
     # Site-wide metadata: the deduplicated union of every member's works.
-    # Each union work carries core=1 if at least one CURRENT (non-alumni,
-    # non-external) member authored it. Default listings and headline counts
-    # use core works only; non-core works are still rendered on the lab-wide
-    # /publications page but hidden until a visitor searches.
-    union = {}
+    # Members legitimately share papers, and the same paper can arrive in
+    # different shapes per member (arXiv vs published year, Scholar title
+    # variants), so the union clusters works: same paper = within one year
+    # AND titles that are identical, contained in one another, or >= 93%
+    # similar - with matching digit sequences, so series papers such as
+    # "TREC 2023 …" / "TREC 2024 …" never merge. The best copy represents
+    # the cluster (enriched > Scholar stub, published > arXiv, most cited);
+    # core=1 if ANY contributing member is current (non-alumni/external).
+    # Default listings and headline counts use core works only; the rest
+    # stay hidden on /publications until a visitor searches.
+    candidates = []
     for slug, record in out.items():
         member_core = 1 if core_by_slug.get(slug) else 0
         for work in record["works"]:
-            key = (norm_title(work["title"]), work["year"])
-            entry = union.get(key)
-            if entry is None:
-                entry = dict(work)
-                entry["core"] = member_core
-                union[key] = entry
-            else:
-                core = entry["core"] or member_core
-                if work["cited"] > entry["cited"]:
-                    entry = dict(work)
-                    union[key] = entry
-                entry["core"] = core
-    all_works = sorted(union.values(), key=lambda w: (-w["year"], -w["cited"], w["title"]))
+            entry = dict(work)
+            entry["core"] = member_core
+            entry["_norm"] = norm_title(work["title"])
+            entry["_digits"] = "/".join(re.findall(r"\d+", entry["_norm"]))
+            candidates.append(entry)
+
+    def quality(work):
+        return (work["type"] != "scholar",
+                not (work["venue"] or "").lower().startswith("arxiv"),
+                work["cited"], work["year"])
+
+    def same_paper(a, b):
+        # arXiv year vs published year can drift by up to two years
+        if abs(a["year"] - b["year"]) > 2:
+            return False
+        na, nb = a["_norm"], b["_norm"]
+        if na == nb:
+            return True
+        short, longer = (a, b) if len(na) <= len(nb) else (b, a)
+        if len(short["_norm"]) >= 25 and short["_norm"] in longer["_norm"]:
+            if short["_digits"] == longer["_digits"] or not short["_digits"]:
+                return True
+        if a["_digits"] == b["_digits"] and min(len(na), len(nb)) >= 25:
+            # long shared prefix: the same paper with a renamed subtitle
+            # or different separator ("- Tutorial" vs ": A Tutorial")
+            shared = 0
+            limit = min(len(na), len(nb))
+            while shared < limit and na[shared] == nb[shared]:
+                shared += 1
+            if shared >= 40:
+                return True
+            matcher = difflib.SequenceMatcher(None, na, nb)
+            if matcher.quick_ratio() >= 0.93 and matcher.ratio() >= 0.93:
+                return True
+        return False
+
+    candidates.sort(key=quality, reverse=True)  # best copy becomes the representative
+    clusters, reps_by_year = [], {}
+    for cand in candidates:
+        rep_found = None
+        for year in range(cand["year"] - 2, cand["year"] + 3):
+            for rep in reps_by_year.get(year, ()):
+                if same_paper(rep, cand):
+                    rep_found = rep
+                    break
+            if rep_found:
+                break
+        if rep_found:
+            rep_found["core"] = rep_found["core"] or cand["core"]
+            # keep a differing variant title searchable on the merged entry
+            if cand["_norm"] != rep_found["_norm"] and not rep_found.get("alt"):
+                rep_found["alt"] = cand.get("alt") or cand["title"]
+        else:
+            clusters.append(cand)
+            reps_by_year.setdefault(cand["year"], []).append(cand)
+
+    for cluster in clusters:
+        del cluster["_norm"], cluster["_digits"]
+    all_works = sorted(clusters, key=lambda w: (-w["year"], -w["cited"], w["title"]))
     core_works = [w for w in all_works if w["core"]]
     n_extended = len(all_works) - len(core_works)
     out["_meta"] = {

@@ -2,7 +2,7 @@
 {%- assign member_name = include.member_name -%}
 {%- capture authors_text -%}{{ w.authors | join: ", " }}{% if w.etal %} et al.{% endif %}{%- endcapture -%}
 {%- capture citation -%}{{ authors_text }}. {{ w.year }}. {{ w.title }}.{% if w.venue != "" %} {{ w.venue }}.{% endif %}{%- endcapture -%}
-<li class="pub-item" data-year="{{ w.year }}" data-core="{{ w.core | default: 1 }}" data-search="{{ w.title | escape }} {{ authors_text | escape }} {{ w.venue | escape }} {{ w.year }}">
+<li class="pub-item" data-year="{{ w.year }}" data-core="{{ w.core | default: 1 }}" data-search="{{ w.title | escape }} {% if w.alt %}{{ w.alt | escape }} {% endif %}{{ authors_text | escape }} {{ w.venue | escape }} {{ w.year }}">
   {%- if w.url and w.url != "" -%}
   <a class="pub-title" href="{{ w.url }}" target="_blank" rel="noopener">{{ w.title }}</a>
   {%- else -%}
