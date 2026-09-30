@@ -1,5 +1,5 @@
 ---
-name: Ekaterina Khramtsova
+name: Ekaterina Khramtsova (Katya)
 image: /images/katya.jpeg
 twitter: 
 github: //github.com/khramtsova

@@ -1,5 +1,5 @@
 ---
-name: Haodong Chen
+name: Haodong Chen (Donovan)
 image: /images/haodong-chen.jpg
 role: phd
 description: PhD student, UQ, RAG, Agentic Search.

@@ -1,5 +1,5 @@
 ---
-name: Shengyao Zhuang
+name: Shengyao Zhuang (Arvin)
 image: /images/arvin-zhuang.jpg
 twitter: //x.com/ShengyaoZhuang
 github: //github.com/ArvinZhuang

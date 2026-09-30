@@ -1,5 +1,5 @@
 ---
-name: Yongjie Zhou
+name: Yongjie Zhou (Lucas)
 image: /images/yongjie-zhou.png
 twitter: //x.com/lucaszhouyj
 github: //github.com/zhouyongjie

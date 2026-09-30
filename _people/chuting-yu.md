@@ -1,5 +1,5 @@
 ---
-name: Chuting (Veronica) Yu
+name: Chuting Yu (Veronica)
 image: /images/chuting-yu.jpg
 github: //github.com/chutingyu
 twitter: //x.com/chuting_yu74807

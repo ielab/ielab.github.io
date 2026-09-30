@@ -1,5 +1,5 @@
 ---
-name: Shuyi Wang
+name: Shuyi Wang (Karly)
 image: /images/karly.jpeg
 twitter: //x.com/shuyiwang_karly
 github: //github.com/Karlywang

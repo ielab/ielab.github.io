@@ -1,5 +1,5 @@
 ---
-name: Yu Yin
+name: Yu Yin (Euan)
 image: /images/yu_yin.jpg
 twitter: //x.com/Yinyupanda
 github: //github.com/yinyubb

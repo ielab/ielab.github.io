@@ -1,5 +1,5 @@
 ---
-name: Shuai Wang
+name: Shuai Wang (Dylan)
 image: /images/shuaiwang.jpg
 twitter: //x.com/dylan_wangs
 github: //github.com/wshuai190

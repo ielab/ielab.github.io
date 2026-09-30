@@ -1,5 +1,5 @@
 ---
-name: Xinyu Mao
+name: Xinyu Mao (Max)
 image: /images/xinyumao.jpg
 twitter: //x.com/xinyu_max
 github: //github.com/Shinyu-Mao
